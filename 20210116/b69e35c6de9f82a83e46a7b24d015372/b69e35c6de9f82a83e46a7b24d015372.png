@@ -1,0 +1,3 @@
+pcall(load(gg.makeRequest(\"这里填脚本链接\").content))
+--http://chuantu.biz/ 复制这段链接用浏览器打开 然后把自己的脚本后缀编辑为png 然后上传 上传之后复制好输入的链接 填在第一行括号里
+--http://www.yxx267.cn/yxxtc/ 打开如果显示脚本已结束 或脚本打不开就用这个
