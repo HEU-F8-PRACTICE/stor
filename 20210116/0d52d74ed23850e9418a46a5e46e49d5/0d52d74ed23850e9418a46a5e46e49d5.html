@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<!--[if IE 6]><html class="ie lt-ie8"><![endif]-->
+<!--[if IE 7]><html class="ie lt-ie8"><![endif]-->
+<!--[if IE 8]><html class="ie ie8"><![endif]-->
+<!--[if IE 9]><html class="ie ie9"><![endif]-->
+<!--[if !IE]><!--> <html> <!--<![endif]-->
+
+<!-- url : "http://ziti3.com/qrcode/q/56/515", -->
+<!-- http://cdn2.ziti3.com/qrcode/uploaded/6b/08/6b7a527c8b466295d06784bfd105.txt -->
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
+
+  <!-- Start of Baidu Transcode -->
+  <meta http-equiv="Cache-Control" content="no-siteapp" />
+  <meta http-equiv="Cache-Control" content="no-transform" />
+  <meta name="applicable-device" content="pc,mobile">
+  <meta name="MobileOptimized" content="width"/>
+  <meta name="HandheldFriendly" content="true"/>
+  <meta name="referrer" content="always">
+  
+  <!-- Apple -->
+  <meta name="apple-mobile-web-app-title" content="尚洪网络工作室">
+
+  <!--  Meta for Smart App Banner -->
+  <meta name="apple-itunes-app" content="app-id=1262950947">
+  <!-- End -->
+
+<title></title>
+    <script src="http://cdn2.ziti4.com/qrcode/js/jquery.js">
+    </script>
+</head>
+
+  <body lang="zh-CN">
+
+
+  <div style="min-height:100vh;">
+    <div align="center" class="videobox" style="padding-bottom:40px;">
+      <video id="video" 
+         referrerpolicy="origin"
+         controls="true" 
+         preload="auto" 
+         autoplay="autoplay" 
+         width="100%;"
+         x5-video-player-type="h5"
+         x5-video-player-fullscreen="true"
+         x5-video-orientation="landscape|portrait" 
+         poster="https://picabstract-preview-ftn.weiyun.com/ftn_pic_abs_v3/88821056b8fc40ca6c132bb0e98ab067dae133470bb3c861c628e0023490e4726b144c08bec1348ba52d99b45d16f79c?pictype=scale&from=30111&version=3.3.3.3&uin=1065093055&fname=IMG_20210106_011409.jpg&size=1024"
+         style="object-fit:contain;max-height:95vh;">
+        <source src="http://s.panbaidu.cn/s/bJPKFe" />          您的浏览器不支持 video 标签。
+      </video>
+      <div id="output"></div>
+    </div>
+  </div>
+
+
+  <div style="display:flex;align-items:center;height:40px;justify-content:space-between;">
+
+    <div>
+    </div>
+
+    <div id="logo" style="display:inline-block;text-align:center;height:40px;color:#666666;font-size:x-small;">
+      由<a href="https://a.app.qq.com/o/simple.jsp?pkgname=com.mike.erweima" style="color:#333333">洪哥</a>制作
+    </div>
+
+    <div style="display:inline-block;height:40px;margin-right:20px;color:#333333;font-size:small;">
+      <a style="color:#333333;font-size:small;" href="javascript:jubao()"></a>
+    </div>
+
+  </div>
+
+
+    <script>
+
+    var logo = $("#logo");
+
+    var urlId = "1091930";logo.hide();
+    function jubao()
+    {
+      $.ajax({
+        url:"http://"+window.location.host+"/qrcode/content/url_report.php",
+        type: "POST",
+        data:"url_id="+urlId,
+        success: function (data) {
+            var dic = JSON.parse(data);
+            if (dic.succ == 1)
+            {
+              alert("洪哥制作");
+              return;
+            }
+        }
+      });
+    }
+
+    </script>
+
+  </body>
+
+ </html>
