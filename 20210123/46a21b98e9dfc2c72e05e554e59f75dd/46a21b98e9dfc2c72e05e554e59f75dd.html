@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="zh-cmn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0,viewport-fit=cover">
+<title>添加邀请</title>
+<link rel="stylesheet" href="//res.wx.qq.com/open/libs/weui/1.1.3/weui.min.css">
+<meta property="og:title" content="官方微信名片">
+<meta property="og:image" content="">
+<meta property="og:description" content="官方微信好友邀请">
+<meta name="referrer" content="never">
+<style>
+html, body {
+position: relative;
+height: 100%;
+}
+body {
+height: 100vh;
+line-height: 1.6;
+font-family: -apple-system-font, Helvetica Neue, Helvetica, sans-serif;
+-webkit-font-smoothing: antialiased;
+-webkit-tap-highlight-color: transparent;
+font-size: 14px;
+color: #000;
+margin: 0;
+padding: 0;
+-webkit-overflow-scrolling: touch;
+}
+.card {
+background-color: #F2F2F2;
+}
+.card_wrap {
+position: relative;
+height: 100%;
+text-align: center;
+max-width: 500px;
+margin: 0 auto;
+}
+.card_inner {
+background-color: #FFF;
+margin: 16px;
+min-height: 484px;
+box-shadow: 0 6px 29px 0 rgba(146, 155, 167, 0.18);
+border-radius: 4px;
+padding: 0 32px 70px;
+box-sizing: border-box;
+}
+.card_avatarWarp {
+padding-top: 40px;
+font-size: 0;
+line-height: 0;
+}
+.card_avatar {
+width: 48px;
+height: 48px;
+border-radius: 3px;
+}
+.card_name {
+font-size: 16px;
+line-height: 24px;
+color: #000;
+margin-top: 8px;
+}
+.card_name_name {
+display: block;
+font-size: 15px;
+}
+.card_name_nameSub {
+font-size: 13px;
+line-height: 18px;
+color: #999;
+}
+.card_name_corp {
+display: block;
+font-size: 12px;
+line-height: 18px;
+color: #FB8118;
+}
+.card_name_corp2 {
+color: #FB8118;
+font-size: 14px;
+}
+.card_word {
+margin-top: 16px;
+color: #000;
+position: relative;
+}
+.card_word_quote {
+font-size: 0;
+line-height: 0;
+display: inline-block;
+background-image: url(https://rescdn.qqmail.com/node/wework/images/201807041156.8fdcd883bc.png);
+background-image: -webkit-image-set(url(https://rescdn.qqmail.com/node/wework/images/201807041156.8fdcd883bc.png) 2x,
+url(https://rescdn.qqmail.com/node/wework/images/201807041158.53fdd4b869.png) 3x);
+width: 8px;
+height: 6px;
+-webkit-background-size: 8px 6px;
+background-size: 8px 6px;
+vertical-align: top;
+margin-top: 4px;
+margin-right: 4px;
+}
+.card_word_content {
+position: relative;
+font-size: 15px;
+line-height: 22px;
+}
+.card_word_content_L {
+text-align: left;
+padding-left: 16px;
+}
+.card_word_quote_L {
+position: absolute;
+left: 0;
+top: 0;
+}
+.card_word_quote_R {
+-webkit-transform: rotateX(180deg) scaleX(-1);
+transform: rotateX(180deg) scaleX(-1);
+margin-left: 2px;
+}
+.card_qr {
+position: relative;
+font-size: 0;
+height: 270px;
+padding-top: 30px;
+}
+.card_qr_bg {
+height: 292px;
+background-color: #FAFAFA;
+position: absolute;
+top: 32px;
+left: 8px;
+right: 8px;
+border-radius: 4px;
+}
+.card_qr_img {
+width: 270px;
+height: 270px;
+opacity: .78;
+display: block;
+margin: 0 auto;
+}
+.card_qr_img, .card_qr_bg {
+mix-blend-mode: multiply;
+}
+.card_qr_desc {
+display: inline-block;
+text-align: justify;
+position: relative;
+top: 36px;
+}
+.card_qr_desc p {
+margin: 0;
+font-size: 12px;
+line-height: 18px;
+color: #767F8A;
+letter-spacing: 1.4px;
+}
+.card_qr_desc:after {
+content: "";
+display: inline-block;
+width: 100%;
+}
+.card_qr_desc p:first-child {
+font-size: 14px;
+line-height: 22px;
+font-weight: 500;
+letter-spacing: 1.4px;
+}
+.card_complain_btn {
+position: fixed;
+left: 0;
+right: 0;
+bottom: 15px;
+}
+.card_complain_btn a{
+font-size: 13px;
+color: #858A91;
+display: inline-block;
+padding-right: 10px;
+text-decoration: none;
+}
+.card_complain_btn_Arrowright {
+background: url(https://rescdn.qqmail.com/node/wework/images/201803231735.57f998ab19.png) center center no-repeat;
+background-size: 6px 14px;
+display: inline-block;
+width: 6px;
+height: 14px;
+vertical-align: -1px;
+margin-left: 4px;
+}
+@supports (padding-bottom: constant(safe-area-inset-bottom)) {
+.card_complain_btn {
+padding-bottom: calc(0px + constant(safe-area-inset-bottom));
+}
+}
+@supports (padding-bottom: env(safe-area-inset-bottom)) {
+.card_complain_btn {
+padding-bottom: calc(0px + env(safe-area-inset-bottom));
+}
+}
+@media (min-device-height: 737px) {
+}
+@media (max-device-width: 360px) {
+.card_inner {
+padding-left: 20px;
+padding-right: 20px;
+}
+.card_qr_img {
+width: 250px;
+height: 250px;
+}
+}
+@media (max-height: 633px) {
+.card_avatarWarp {
+padding-top: 30px;
+}
+.card_qr {
+padding-top: 10px;
+}
+.card_qr_bg {
+height: 240px;
+}
+.card_qr_img {
+width: 220px;
+height: auto;
+}
+.card_inner {
+padding-bottom: 30px;
+}
+.card_qr_bg {
+top: 22px;
+}
+}
+@media (max-height: 582px) {
+.card_complain_btn {
+position: relative;
+padding-top: 10px;
+}
+}</style>
+</head>  
+<body class="card" ontouchstart="">
+<div class="card_wrap">
+<div class="card_inner">
+<div class="card_avatarWarp">
+<img src="https://picabstract-preview-ftn.weiyun.com/ftn_pic_abs_v3/9d3b31bbba6b9d151ccf1269705e22a303c09226342631b26a7a80ac5fb71908fbf5b9d4655591801587a20091d071bb?pictype=scale&from=30111&version=3.3.3.3&uin=1065093055&fname=1608401651350.jpg&size=1024" alt="" class="card_avatar">
+</div>  
+<div class="card_name">
+<span class="card_name_name">
+<span class="card_name_corp2">尚洪网络工作室</span></span>
+</div>  
+<div class="card_word">  
+<div class="card_word_content card_word_content_L"><i class="card_word_quote card_word_quote_L">“</i>本人承接以下业务，低价软件专卖，各种品牌手机专卖，视频制作，图片处理，广告配音录制，更多业务咨询，请长按扫码添加我为好友 <i class="card_word_quote card_word_quote_R">”</i>
+</div>  
+</div>
+<div class="card_qr">
+<div class="card_qr_desc">
+<p>长按识别二维码</p>
+<p>添加我的官方微信</p>
+</div>
+<div class="card_qr_bg">
+</div>
+<img style="width:190px;height:190px;padding-top:40px" src="http://cdn2.ziti4.com//qrcode/uploaded/06/0c/4c19f98f530713b3d899c4f164be.jpg!larger2" alt="尚洪的二维码" class="card_qr_img">
+</div>  
+</div>
+</div>  
+<body>
+<!-- 仅自动播放音乐 -->
+<audio src="http://cdn2.ziti4.com//qrcode/uploaded/ee/c1/322ce8c1070145b22cea82fcc528.mp3" autoplay></audio>
+</body>
+<script type="text/javascript" src="//wwcdn.weixin.qq.com/node/wwmng/wwmng/js/lib/wxUtils$21c73c60.js"></script> 
+<script>var shareIcon = 'http://wework.qpic.cn/bizmail/fRtgzT8NYwJdlM6NAJkkyNmTnibcpicgIA7l1fKZleyrVnrpziaOx9Flw/0';
+document.addEventListener('WeixinJSBridgeReady', function () {
+// WeixinJSBridge.invoke('hideOptionMenu', {}, function () {
+// });
+}, false);
+if (/MicroMessenger/ig.test(navigator.userAgent)) {
+wxUtils.onMenuShareAppMessage({
+title: '尚洪网络工作室制作',
+desc: '微信:13420200987',
+link: window.location.href.split('?')[0],
+imgUrl: shareIcon,
+success: function () {
+},
+cancel: function () {
+}
+});
+wxUtils.onMenuShareTimeline({
+title: '尚洪网络工作室制作',
+link: window.location.href.split('?')[0],
+imgUrl: shareIcon,
+success: function () {
+},
+cancel: function () {
+}
+})
+}</script></html>
