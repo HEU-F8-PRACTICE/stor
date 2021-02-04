@@ -1,0 +1,15 @@
+监控寄存器 MPU
+SMU管控
+
+倍频 分频
+100M-300M ~ 20M
+锁相环
+
+GEEA2.0 FPL 200MHZ
+
+目录aurix
+MCU_family.c
+SCU_CCUCON0
+
+SX11
+btl 30ms
