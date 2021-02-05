@@ -1,0 +1,26 @@
+proxies:
+  - {name: TG@freeyule☜一键连test, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: "400038560352174080", password: 3c3e05f0-54be-49af-a81b-f54a69bbfda7, tls: true}
+  - {name: TG@freeyule☜一键连1, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: "400038560352174080", password: 3c3e05f0-54be-49af-a81b-f54a69bbfda7, tls: true}
+  - {name: TG@freeyule☜一键连2, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: "400038560352174080", password: 3c3e05f0-54be-49af-a81b-f54a69bbfda7, tls: true}
+  - {name: TG@freeyule☜一键连3, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: "400038560352174080", password: 3c3e05f0-54be-49af-a81b-f54a69bbfda7, tls: true}
+  - {name: TG@freeyule☜一键连4, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: "400038560352174080", password: 3c3e05f0-54be-49af-a81b-f54a69bbfda7, tls: true}
+  - {name: TG@freeyule☜一键连5, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: "400038560352174080", password: 3c3e05f0-54be-49af-a81b-f54a69bbfda7, tls: true}
+  - {name: TG@freeyule☜一键连6, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: "359719451865645056", password: 3de38b27-6a38-4c7a-be77-54921b019921, tls: true}
+  - {name: TG@freeyule☜一键连7, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: "359719451865645056", password: 3de38b27-6a38-4c7a-be77-54921b019921, tls: true}
+  - {name: TG@freeyule☜一键连8, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: "359719451865645056", password: 3de38b27-6a38-4c7a-be77-54921b019921, tls: true}
+  - {name: TG@freeyule☜一键连9, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: "359719451865645056", password: 3de38b27-6a38-4c7a-be77-54921b019921, tls: true}
+  - {name: TG@freeyule☜一键连10, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: "359719451865645056", password: 3de38b27-6a38-4c7a-be77-54921b019921, tls: true}
+  - {name: TG@freeyule☜一键连11, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: "401364591457599488", password: a2afdf3c-f828-4cb5-aa47-bc87601f9d05, tls: true}
+  - {name: TG@freeyule☜一键连12, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: "401364591457599488", password: a2afdf3c-f828-4cb5-aa47-bc87601f9d05, tls: true}
+  - {name: TG@freeyule☜一键连13, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: "401364591457599488", password: a2afdf3c-f828-4cb5-aa47-bc87601f9d05, tls: true}
+  - {name: TG@freeyule☜一键连14, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: "401364591457599488", password: a2afdf3c-f828-4cb5-aa47-bc87601f9d05, tls: true}
+  - {name: TG@freeyule☜一键连15, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: "401364591457599488", password: a2afdf3c-f828-4cb5-aa47-bc87601f9d05, tls: true}
+  - {name: TG@freeyule☜一键连16, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: "365036939641880576", password: 1114a99d-df04-4951-a5e0-ca617916d09e, tls: true}
+  - {name: TG@freeyule☜一键连17, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: "365036939641880576", password: 1114a99d-df04-4951-a5e0-ca617916d09e, tls: true}
+  - {name: TG@freeyule☜一键连18, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: "365036939641880576", password: 1114a99d-df04-4951-a5e0-ca617916d09e, tls: true}
+  - {name: TG@freeyule☜一键连19, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: "365036939641880576", password: 1114a99d-df04-4951-a5e0-ca617916d09e, tls: true}
+  - {name: TG@freeyule☜一键连20, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: "365036939641880576", password: 1114a99d-df04-4951-a5e0-ca617916d09e, tls: true}
+  - {name: TG@freeyule☜一键连21, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: "374927645923606528", password: 68efb158-7e74-4199-985b-0f618eed571, tls: true}
+  - {name: TG@freeyule☜一键连22, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: "374927645923606528", password: 68efb158-7e74-4199-985b-0f618eed571, tls: true}
+  - {name: TG@freeyule☜一键连23, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: "374927645923606528", password: 68efb158-7e74-4199-985b-0f618eed571, tls: true}
+  - {name: TG@freeyule☜一键连24, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: "374927645923606528", password: 
