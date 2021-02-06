@@ -1,0 +1,5 @@
+proxies:
+  - {name: 一键连A01☞t.me/freeyule, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: "400038560352174080", password: 3c3e05f0-54be-49af-a81b-f54a69bbfda7, tls: true}}
+  - {name: 一键连A02☞t.me/freeyule, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: "361959008229130240", password: ca1aa348-a878-4dd7-a193-04d8af2c722d, tls: true}}
+  - {name: 一键连A03☞t.me/freeyule, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: "404588903215923200", password: c112c273-d08a-4e87-87b2-d3a876a19765 tls: true}}
+
