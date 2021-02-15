@@ -1,0 +1,551 @@
+{\rtf1\ansi\deff0\nouicompat{\fonttbl{\f0\fswiss\fprq2\fcharset0 Verdana;}{\f1\fnil\fprq2\fcharset134 \'b5\'c8\'cf\'df;}{\f2\fswiss\fprq2\fcharset134 \'cb\'ce\'cc\'e5;}{\f3\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;\red8\green42\blue78;\red255\green255\blue255;}
+{\*\generator Riched20 10.0.19041}\viewkind4\uc1 
+\pard\cbpat4\widctlpar\cf1\f0\fs21\lang1033 hostname = mp.weixin.qq.com, api.bilibili.com, app.bilibili.com, api.gamer.com.tw, trade-acs.m.taobao.com, api.m.jd.com, ios.prod.ftl.netflix.com, api.weibo.cn, mapi.weibo.com, *.uve.weibo.com,\~{\cf0\kerning2\f1{\field{\*\fldinst{HYPERLINK "\\t "}}{\fldrslt{\ul\cf2\cf3\kerning0\ul\f0 www.zhihu.com,}}}}\f0\fs21\~api.zhihu.com, homepage-api.smzdm.com, haojia-api.smzdm.com, article-api.smzdm.com, haojia.m.smzdm.com, app-api.smzdm.com, s-api.smzdm.com,\~{\cf0\kerning2\f1{\field{\*\fldinst{HYPERLINK "\\t "}}{\fldrslt{\ul\cf2\cf3\kerning0\ul\f0 www.52pojie.cn,}}}}\f0\fs21\~c.tieba.baidu.com, manga.bilibili.com, ifac*.iqiyi.com, api.kkmh.com, wapside.189.cn, act.10010.com, m.client.10010.com, clientaccess.10086.cn, *.acfun.cn, apk.tw, group.baicizhan.com, *.bilibili.com, sapi.beingfine.cn, *.csdn.net, frodo.douban.com,\~{\cf0\kerning2\f1{\field{\*\fldinst{HYPERLINK "\\t "}}{\fldrslt{\ul\cf2\cf3\kerning0\ul\f0 www.duokan.com,}}}}\f0\fs21\~api.dongqiudi.com, api.everphoto.cn, api.dushu.io, *.feng.com, pm.m.fenqile.com,\~{\cf0\kerning2\f1{\field{\*\fldinst{HYPERLINK "\\t "}}{\fldrslt{\ul\cf2\cf3\kerning0\ul\f0 www.flyertea.com,}}}}\f0\fs21\~m.gdoil.cn, activity-1.m.duiba.com.cn, gameapi.hellobike.com, wxprdapplet.gac-nio.com, daojia.jd.com,\~{\cf0\kerning2\f1{\field{\*\fldinst{HYPERLINK "\\t "}}{\fldrslt{\ul\cf2\cf3\kerning0\ul\f0 www.maomicd.com,}}}}\f0\fs21\~maicai.api.ddxq.mobi, i.meituan.com, credits.bz.mgtv.com, apiwz.midukanshu.com, api-takumi.mihoyo.com, music.163.com, *.m.163.com, app.nio.com, note.youdao.com, xiaoshuo.qm989.com, node.kg.qq.com, *.y.qq.com, api.1sapp.com, user.qunar.com, *.rr.tv, sf-integral-sign-in.weixinjia.net, mcs-mimp-web.sf-express.com, *.smzdm.com, passport.suning.com, luckman.suning.com, sign.suning.com, gameapi.suning.com, tieba.baidu.com, tncj.hortorgames.com, *.v2ex.com, user-api-prd-mx.wandafilm.com, *.video.qq.com, promotion.waimai.meituan.com, 110.43.90.61, zt.wps.cn, m-bean.kaola.com, mobwsa.ximalaya.com, *.you.163.com, iphone.myzaker.com, *.rrys2019.com, ios.zmzapi.com, wx-mini.pagoda.com.cn, api.infzm.com, my.ruanmei.com, mwegame.qq.com, m.ctrip.com, proapi.115.com, h5.bianlifeng.com, as.xiaojukeji.com, superapp.kiwa-tech.com, activity-1.m.duiba.com.cn, webapi.qmai.cn, teacherapi.zmlearn.com, mall.oclean.com, api.xiaoheihe.cn, h5.ele.me, *.xmcimg.com, api.weibo.cn, nebula.kuaishou.com, draw.jdfcloud.com, newsapi.sina.cn, e.189.cn, api.inews.qq.com, pay.sc.weibo.com, *.youth.cn,\~{\cf0\kerning2\f1{\field{\*\fldinst{HYPERLINK "\\t "}}{\fldrslt{\ul\cf2\cf3\kerning0\ul\f0 www.mydigit.cn,}}}}\f0\fs21\~ios.baertt.com, maicai.api.ddxq.mobi, proxy.vac.qq.com, app*.jegotrip.com.cn, task.jegotrip.com.cn, api.umer.com.cn, exp.angelalign.com, ngabbs.com, h5.youzan.com, weibo.com, yuba.douyu.com, dominos0724.shjimang.com, frodo.douban.com, e.189.cn, huiyuan.163.com, app.kxp.com, geekhub.com, cxdng.cpic.com.cn, weather-data.apple.com, api.weather.com, mobile01.91quzou.com, mk.immomo.com, api.cashtoutiao.com, appv8.qukantianxia.com, appv7.qukantx.com, m.xiaomiyoupin.com, qqpet.jwetech.com, sports.lifesense.com, studygolang.com, cloud.umetrip.com,\~{\cf0\kerning2\f1{\field{\*\fldinst{HYPERLINK "\\t "}}{\fldrslt{\ul\cf2\cf3\kerning0\ul\f0 www.2xtj7.cn,www.baimaa.com,www.hnmiaosu.cc,}}}}\f0\fs21\~m.ctrp.com, *.ctrp.com, m.elong.com, activity.m.duiba.com.cn, icbc1.wlphp.com:8444, wx.17u.cn, ios-fenqu11.lxsjgo.com, i.snssdk.com, is.snssdk.com, wq.jd.com, ph0001.hezyq.com, wq.02gk.com, m.weibo.cn, jdread-api.jd.com, mobile.app.autohome.com.cn, hongbao.youzikuaibao.com, getconfig-globalapi.zymk.cn, marketappapi.biyao.com, app.ymatou.com, appsmall.rtmap.com, wox2019.woxshare.com, api.momosyb.com, *.zhuishushenqi.com, youhui.95516.com, operation-api.jimistore.com, api.tuhu.cn, commontgw6.reader.qq.com, eventv3.reader.qq.com, api.sdbao.com, app.oscaches.com, hongbao.youzikuaibao.com, now.qq.com, daojia.jd.com, yuba.douyu.com, j1.pupuapi.com, club.yili.com, wxavip-up.ezrpro.cn, common.diditaxi.com.cn,\~{\cf0\kerning2\f1{\field{\*\fldinst{HYPERLINK "\\t "}}{\fldrslt{\ul\cf2\cf3\kerning0\ul\f0 www.xiaodouzhuan.cn,}}}}\f0\fs21\~huodong.fanli.com, passport.fanli.com, biz.caiyunapp.com, non-existed-domain.com, *.non-connected-domain.com, mqqapi.reader.qq.com, greasyfork.org, openuserjs.org, *.*apps.com, bea.sportq.com, api.meiyan.com, *.gao1gps.cn, avoscloud.com, app.flashdown365.com, m.samh.xndm.tech, mob2015.kekenet.com, vipapi.jxedt.com, api.interpreter.caiyunai.com, pocketlists.com, dida365.com, ticktick.com, book.haitunwallet.com, mubu.com, app.xunjiepdf.com, miaow.yiyongcad.com, api.lennou.com, api.gkocr.com, vira.llsapp.com, commerce-.*api.faceu.mobi, commerce-api.faceu.mobi, pan.baidu.com, api.rr.tv, editorapi.115.com, api.lakecoloring.com, ctrl.playcvn.com, dict.eudic.net, api.wakamoment.ga, *.bh3.com, api.diyidan.net, api.flexibits.com, api.jiaonizuocai.com, api.sololearn.com, bkcd.b-cdn.net, souhu.mett.me, ayk.tmdidi.com, m.pearkin.com,\~{\cf0\kerning2\f1{\field{\*\fldinst{HYPERLINK "\\t "}}{\fldrslt{\ul\cf2\cf3\kerning0\ul\f0 www.baidu.com2.club,}}}}\f0\fs21\~claritywallpaper.com, bookapi.ihuman.com, rest.zhibo.tv, billing.peakcloud.org, api.ithome.com,\~{\cf0\kerning2\f1{\field{\*\fldinst{HYPERLINK "\\t "}}{\fldrslt{\ul\cf2\cf3\kerning0\ul\f0 www.xmind.cn,}}}}\f0\fs21\~*.arten.cn, api.weiqire.com, api.shimo.im, pay.wecut.com, *.videostarapp.com, app.api.versa-ai.com, *.bjxkhc.com, api.591master.com, jdytv.cn, user.shywck.com, *.xunjie*.com, api.psy-1.com, snailsleep.net, api.bilibili.com, link.zhihu.com, aweme*.snssdk.com, *.kuwo.cn, vip1.kuwo.cn, *.xiao*.com, *.xiaoxiao*.com, *.musical.ly, p.du.163.com, getuserinfo.321mh.com, getuserinfo-globalapi.zymk.cn, ios.fuliapps.com, vsco.co, api.vnision.com, *.my10api.com, sp.kaola.com, r.inews.qq.com, apple.fuliapps.com, newdrugs.dxy.cn, app101.avictown.cc, api.hlo.xyz, api.ijo.xyz,\~{\cf0\kerning2\f1{\field{\*\fldinst{HYPERLINK "\\t "}}{\fldrslt{\ul\cf2\cf3\kerning0\ul\f0 www.luqijianggushi.com,}}}}\f0\fs21\~account.wps.*, u.kanghuayun.com, api.gyrosco.pe, api1.dobenge.cn, api.mvmtv.com, mitaoapp.yeduapp.com, origin-prod-phoenix.jibjab.com,\~{\cf0\kerning2\f1{\field{\*\fldinst{HYPERLINK "\\t "}}{\fldrslt{\ul\cf2\cf3\kerning0\ul\f0 www.3ivf.com,}}}}\f0\fs21\~pay.guoing.com, api.termius.com, api.bjxkhc.com, viva.v21xy.com, api.gotokeep.com, ap*.intsig.net, mp.bybutter.com, api.vuevideo.net, api.picsart.c*, api.meiease.c*, splice.oracle.*.com, ios.xiangjiaoapps.com, apple.xiangjiaoapps.com, *.lagoapps.com, *.xiangxiangapps.com, avatar-nct.nixcdn.com, spclient.wg.spotify.com, oa.zalo.me, origin-prod-phoenix.jibjab.com, api.meiease.c*, api.unfold.app, viva-asia1.vvbrd.com, graph.nhaccuatui.com, api.memrise.com, api.sync.me, pool.elsanow.io, lambda.us-east-1.amazonaws.com, api.mondlylanguages.com, api.busuu.com, owa.videoshowiosglobalserver.com:0, accounts.elevateapp.net, purchases.ws.pho.to, api-intl.mr.meitu.com, bmall.camera360.com, api.tv.zing.vn, api.calm.com,\~{\cf0\kerning2\f1{\field{\*\fldinst{HYPERLINK "\\t "}}{\fldrslt{\ul\cf2\cf3\kerning0\ul\f0 www.calm.com,}}}}\f0\fs21\~api.global.mp3.zing.vn, apimboom2.globaldelight.net, photos.adobe.io, license.pdfexpert.com, subs.platforms.team, apic.musixmatch.com, api.getmimo.com, api.revenuecat.com, engbright.com, api.lingokids.com,\~{\cf0\kerning2\f1{\field{\*\fldinst{HYPERLINK "\\t "}}{\fldrslt{\ul\cf2\cf3\kerning0\ul\f0 www.peacefulsoundsapp.com,}}}}\f0\fs21\~duolingo-leaderboards-prod.duolingo.com, mobile-api.adguard.com, api.blinkist.com, api-kinemaster-assetstore.*, api.pushover.net, ap*.intsig.net, api.overhq.com, receipt-validator.herewetest.com, lcs-mobile-cops.adobe.io, education.github.com, backend.getdrafts.com, ssl-api.itranslateapp.com, sk.ulysses.app, dayone.me, license.enpass.io, mp.bybutter.com, *.grammarly.com, splice.oracle.*.com, api.keepkeep.com, planner5d.com, secure.istreamer.com,\~{\cf0\kerning2\f1{\field{\*\fldinst{HYPERLINK "\\t "}}{\fldrslt{\ul\cf2\cf3\kerning0\ul\f0 www.api.monkeyuni.net,}}}}\f0\fs21\~api.textnow.me, weather-data.apple.com, api.weather.com, *.youth.cn, ios.baertt.com, veishop.iboxpay.com, j1.pupuapi.com, *.huaerdadi.com, *.xjxjappss.com, sub.store, buy.itunes.apple.com, *.amemv.com, testflight.apple.com\par
+#-*.amemv.com,\par
+\par
+#\f2\'c7\'d7\'b2\'e2\'d3\'d0\'d0\'a7\f0\par
+\par
+#\f2\'b9\'fa\'c7\'f8\f0 TF\f2\'ce\'de\'b7\'a8\'cf\'c2\'d4\'d8\'d2\'d1\'cf\'c2\'bc\'dc\f0 app\f2\'b9\'e6\'d4\'f2\f0\par
+^https?:\\/\\/testflight\\.apple\\.com\\/v2\\/accounts\\/.*\\/apps\\/\\d*/builds/\\d*/install url request-body storefrontId" : ".*", request-body storefrontId" : "143441-1,29",\par
+\par
+#picsew\par
+https:\\/\\/buy\\.itunes\\.apple\\.com\\/verifyReceipt url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/mandxy/ziyong/main/picsew.js }}{\fldrslt{https://raw.githubusercontent.com/mandxy/ziyong/main/picsew.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#\~\f2\'be\'a9\'b6\'ab\'b1\'c8\'bc\'db\f0\par
+^https?://api\\.m\\.jd\\.com/client\\.action\\?functionId=(wareBusiness|serverConfig|basicConfig) url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/yichahucha/surge/master/jd_price.js }}{\fldrslt{https://raw.githubusercontent.com/yichahucha/surge/master/jd_price.js\ul0\cf0}}}}\f0\fs21\par
+#\~\f2\'cc\'d4\'b1\'a6\'b1\'c8\'bc\'db\f0\par
+^\cf0 http://.+/amdc/mobileDispatch\cf1\~url script-request-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/yichahucha/surge/master/tb_price.js }}{\fldrslt{https://raw.githubusercontent.com/yichahucha/surge/master/tb_price.js\ul0\cf0}}}}\f0\fs21\par
+^https?://trade-acs\\.m\\.taobao\\.com/gw/mtop\\.taobao\\.detail\\.getdetail url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/yichahucha/surge/master/tb_price.js }}{\fldrslt{https://raw.githubusercontent.com/yichahucha/surge/master/tb_price.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#\~\f2\'d6\'aa\'d2\'f4\'c2\'fe\'bf\'cd\f0 VIP (By mieqq)\par
+^{\cf0\kerning2\f1{\field{\*\fldinst{HYPERLINK "https://getuserinfo-globalapi.zymk.cn/app_api/v5/(getuserinfo%7Ccoin_account%7Cgetuserinfo_ticket%7Cgetcomicinfo"}}{\fldrslt{\ul\cf2\cf3\kerning0\ul\f0 https://getuserinfo-globalapi.zymk.cn/app_api/v5/(getuserinfo|coin_account|getuserinfo_ticket|getcomicinfo}}}}\f0\fs21 )/ url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/Zymh.js }}{\fldrslt{https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/Zymh.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#\~\f2\'c9\'a8\'c3\'e8\'c8\'ab\'c4\'dc\'cd\'f5\f0\~pro\par
+^https:\\/\\/(api|api-cs)\\.intsig\\.net\\/purchase\\/cs\\/query_property\\? url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/CamScanner.js }}{\fldrslt{https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/CamScanner.js\ul0\cf0}}}}\f0\fs21\par
+\par
+# PicsArt\f2\'c3\'c0\'d2\'d7\f0\~pro\par
+^https:\\/\\/api\\.(picsart|meiease)\\.c(n|om)\\/users\\/show\\/me\\.json url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/PicsArt.js }}{\fldrslt{https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/PicsArt.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#PicsArt\par
+^https:\\/\\/api\\.(picsart|meiease)\\.c(n|om)\\/users\\/show\\/me\\.json url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/langkhach270389/Scripting/master/picsArt.vip.js }}{\fldrslt{https://raw.githubusercontent.com/langkhach270389/Scripting/master/picsArt.vip.js\ul0\cf0}}}}\f0\fs21\par
+\par
+# VSCO\f2\'c2\'cb\'be\'b5\f0 VIP\par
+^https?:\\/\\/vsco\\.co\\/api\\/subscriptions\\/2.1\\/user-subscriptions\\/ url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/vsco.js }}{\fldrslt{https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/vsco.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#\~\f2\'cd\'f8\'d2\'d7\'ce\'cf\'c5\'a3\'b6\'c1\'ca\'e9\f0 VIP (By yxiaocai and JO2EY)\par
+^https?://p\\.du\\.163\\.com/readtime/info.json url reject\par
+^https?:\\/\\/p\\.du\\.163\\.com\\/gain\\/readtime\\/info\\.json url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/wnyd.js }}{\fldrslt{https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/wnyd.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#\~\f2\'bf\'e1\'ce\'d2\'d2\'f4\'c0\'d6\f0 SVIP (By yxiaocai)\par
+^https?:\\/\\/vip1\\.kuwo\\.cn\\/(vip\\/v2\\/user\\/vip|vip\\/spi/mservice) url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Kuwo.js }}{\fldrslt{https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Kuwo.js\ul0\cf0}}}}\f0\fs21\par
+^https?:\\/\\/musicpay\\.kuwo\\.cn\\/music\\.pay\\?uid\\=\\d+ url 302\~{\cf0{\field{\*\fldinst{HYPERLINK http://musicpay.kuwo.cn/music.pay?uid=1 }}{\fldrslt{http://musicpay.kuwo.cn/music.pay?uid=1\ul0\cf0}}}}\f0\fs21\par
+#\f2\'bf\'e1\'ce\'d2\'bb\'bb\'b7\'f4\f0 (\f2\'d2\'d1\'be\'ad\'d3\'d0\'b5\'c4\'c6\'a4\'b7\'f4\'d0\'e8\'d2\'aa\'cf\'c8\'b4\'d3\'b1\'be\'b5\'d8\'c6\'a4\'b7\'f4\'c9\'be\'b3\'fd\'d4\'d9\'bb\'bb\f0 )\par
+^https?:\\/\\/vip1\\.kuwo\\.cn\\/(vip\\/v2\\/theme)\~\~url script-response-body\~\~\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/themekuwo.js }}{\fldrslt{https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/themekuwo.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#\~\f2\'b6\'b6\'d2\'f4\'c8\'a5\'b9\'e3\'b8\'e6\'c8\'a5\'cb\'ae\'d3\'a1\f0\par
+^https?:\\/\\/.+?\\.amemv\\.com\\/aweme\\/v\\d\\/(feed|aweme\\/post|follow\\/feed|nearby\\/feed|search\\/item|general\\/search\\/single|hot\\/search\\/video\\/list)\\/ url script-request-header\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/zwf234/rules/master/douyin.js }}{\fldrslt{https://raw.githubusercontent.com/zwf234/rules/master/douyin.js\ul0\cf0}}}}\f0\fs21\par
+^https?:\\/\\/.+?\\.amemv\\.com\\/aweme\\/v\\d\\/(feed|aweme\\/post|follow\\/feed|nearby\\/feed|search\\/item|general\\/search\\/single|hot\\/search\\/video\\/list)\\/ url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/zwf234/rules/master/douyin.js }}{\fldrslt{https://raw.githubusercontent.com/zwf234/rules/master/douyin.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#\~\f2\'c8\'a5\'ce\'a2\'d0\'c5\'b9\'ab\'d6\'da\'ba\'c5\'b9\'e3\'b8\'e6\f0\~(By Choler)\par
+^https?:\\/\\/mp\\.weixin\\.qq\\.com\\/mp\\/getappmsgad url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/Wechat.js }}{\fldrslt{https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/Wechat.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#\~\f2\'ce\'a2\'b2\'a9\'c8\'a5\'b9\'e3\'b8\'e6\f0 (By yichahucha)\par
+^https?://(sdk|wb)app\\.uve\\.weibo\\.com(/interface/sdk/sdkad.php|/wbapplua/wbpullad.lua) url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/yichahucha/surge/master/wb_launch.js }}{\fldrslt{https://raw.githubusercontent.com/yichahucha/surge/master/wb_launch.js\ul0\cf0}}}}\f0\fs21\par
+^https?://m?api\\.weibo\\.c(n|om)/2/(statuses/(unread|extend|positives/get|(friends|video)(/|_)(mix)?timeline)|stories/(video_stream|home_list)|(groups|fangle)/timeline|profile/statuses|comments/build_comments|photo/recommend_list|service/picfeed|searchall|cardlist|page|!/photos/pic_recommend_status|video/tiny_stream_video_list|photo/info) url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/yichahucha/surge/master/wb_ad.js }}{\fldrslt{https://raw.githubusercontent.com/yichahucha/surge/master/wb_ad.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#\~\f2\'df\'d9\'c1\'a8\'df\'d9\'c1\'a8\'b6\'af\'bb\'ad\'c8\'a5\'b9\'e3\'b8\'e6\f0\~(By onewayticket255)\par
+{\cf0\kerning2\f1{\field{\*\fldinst{HYPERLINK "https://app.bilibili.com/x/v2/(splash%7Csearch/(defaultword%7Csquare"}}{\fldrslt{\ul\cf2\cf3\kerning0\ul\f0 https://app.bilibili.com/x/v2/(splash|search/(defaultword|square}}}}\f0\fs21 )) url reject-200\par
+{\cf0{\field{\*\fldinst{HYPERLINK https://api.bilibili.com/x/v2/dm/ad }}{\fldrslt{https://api.bilibili.com/x/v2/dm/ad\ul0\cf0}}}}\f0\fs21\~url reject-200\par
+#\cf0 https://app.bilibili.com/x/v2/space?access_key\cf1\~url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/onewayticket255/Surge-Script/master/surge%20bilibili%20space.js }}{\fldrslt{https://raw.githubusercontent.com/onewayticket255/Surge-Script/master/surge%20bilibili%20space.js\ul0\cf0}}}}\f0\fs21\par
+{\cf0{\field{\*\fldinst{HYPERLINK https://app.bilibili.com/x/resource/show/tab?access_key }}{\fldrslt{https://app.bilibili.com/x/resource/show/tab?access_key\ul0\cf0}}}}\f0\fs21\~url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/onewayticket255/Surge-Script/master/surge%20bilibili%20tab.js }}{\fldrslt{https://raw.githubusercontent.com/onewayticket255/Surge-Script/master/surge%20bilibili%20tab.js\ul0\cf0}}}}\f0\fs21\par
+{\cf0{\field{\*\fldinst{HYPERLINK https://app.bilibili.com/x/v2/feed/index?access_key }}{\fldrslt{https://app.bilibili.com/x/v2/feed/index?access_key\ul0\cf0}}}}\f0\fs21\~url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/onewayticket255/Surge-Script/master/surge%20bilibili%20feed.js }}{\fldrslt{https://raw.githubusercontent.com/onewayticket255/Surge-Script/master/surge%20bilibili%20feed.js\ul0\cf0}}}}\f0\fs21\par
+{\cf0{\field{\*\fldinst{HYPERLINK https://app.bilibili.com/x/v2/account/mine?access_key }}{\fldrslt{https://app.bilibili.com/x/v2/account/mine?access_key\ul0\cf0}}}}\f0\fs21\~url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/onewayticket255/Surge-Script/master/surge%20bilibili%20account.js }}{\fldrslt{https://raw.githubusercontent.com/onewayticket255/Surge-Script/master/surge%20bilibili%20account.js\ul0\cf0}}}}\f0\fs21\par
+{\cf0{\field{\*\fldinst{HYPERLINK https://app.bilibili.com/x/v2/view?access_key }}{\fldrslt{https://app.bilibili.com/x/v2/view?access_key\ul0\cf0}}}}\f0\fs21\~url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/onewayticket255/Surge-Script/master/surge%20bilibili%20view%20relate.js }}{\fldrslt{https://raw.githubusercontent.com/onewayticket255/Surge-Script/master/surge%20bilibili%20view%20relate.js\ul0\cf0}}}}\f0\fs21\par
+{\cf0{\field{\*\fldinst{HYPERLINK https://api.bilibili.com/x/v2/reply/main?access_key }}{\fldrslt{https://api.bilibili.com/x/v2/reply/main?access_key\ul0\cf0}}}}\f0\fs21\~url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/onewayticket255/Surge-Script/master/surge%20bilibili%20reply.js }}{\fldrslt{https://raw.githubusercontent.com/onewayticket255/Surge-Script/master/surge%20bilibili%20reply.js\ul0\cf0}}}}\f0\fs21\par
+{\cf0{\field{\*\fldinst{HYPERLINK https://api.live.bilibili.com/xlive/app-room/v1/index/getInfoByRoom?access_key }}{\fldrslt{https://api.live.bilibili.com/xlive/app-room/v1/index/getInfoByRoom?access_key\ul0\cf0}}}}\f0\fs21\~url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/onewayticket255/Surge-Script/master/surge%20bilibili%20live.js }}{\fldrslt{https://raw.githubusercontent.com/onewayticket255/Surge-Script/master/surge%20bilibili%20live.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#\~\f2\'c8\'a5\'b9\'e3\'b8\'e6\f0\par
+^https?:\\/\\/.*\\.*apps\\.com\\/(ucp\\/index|getGlobalData|.+\\/reqplay\\/) url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/xjsp.js }}{\fldrslt{https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/xjsp.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#\~\f2\'d6\'aa\'ba\'f5\'c8\'a5\'b9\'e3\'b8\'e6\f0\~(By onewayticket255)\par
+{\cf0\kerning2\f1{\field{\*\fldinst{HYPERLINK "https://api.zhihu.com/(ad%7Cdrama%7Cfringe%7Ccommercial%7Cmarket/popover%7Csearch/(top%7Cpreset%7Ctab"}}{\fldrslt{\ul\cf2\cf3\kerning0\ul\f0 https://api.zhihu.com/(ad|drama|fringe|commercial|market/popover|search/(top|preset|tab}}}}\f0\fs21 )|.*featured-comment-ad) url reject-200\par
+{\cf0{\field{\*\fldinst{HYPERLINK https://api.zhihu.com/people/ }}{\fldrslt{https://api.zhihu.com/people/\ul0\cf0}}}}\f0\fs21\~url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/onewayticket255/Surge-Script/master/surge%20zhihu%20people.js }}{\fldrslt{https://raw.githubusercontent.com/onewayticket255/Surge-Script/master/surge%20zhihu%20people.js\ul0\cf0}}}}\f0\fs21\par
+{\cf0{\field{\*\fldinst{HYPERLINK https://api.zhihu.com/moments/recommend }}{\fldrslt{https://api.zhihu.com/moments/recommend\ul0\cf0}}}}\f0\fs21\~url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/onewayticket255/Surge-Script/master/surge%20zhihu%20feed.js }}{\fldrslt{https://raw.githubusercontent.com/onewayticket255/Surge-Script/master/surge%20zhihu%20feed.js\ul0\cf0}}}}\f0\fs21\par
+{\cf0{\field{\*\fldinst{HYPERLINK https://api.zhihu.com/topstory/recommend }}{\fldrslt{https://api.zhihu.com/topstory/recommend\ul0\cf0}}}}\f0\fs21\~url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/onewayticket255/Surge-Script/master/surge%20zhihu%20recommend.js }}{\fldrslt{https://raw.githubusercontent.com/onewayticket255/Surge-Script/master/surge%20zhihu%20recommend.js\ul0\cf0}}}}\f0\fs21\par
+{\cf0{\field{\*\fldinst{HYPERLINK https://api.zhihu.com/v4/questions }}{\fldrslt{https://api.zhihu.com/v4/questions\ul0\cf0}}}}\f0\fs21\~url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/onewayticket255/Surge-Script/master/surge%20zhihu%20answer.js }}{\fldrslt{https://raw.githubusercontent.com/onewayticket255/Surge-Script/master/surge%20zhihu%20answer.js\ul0\cf0}}}}\f0\fs21\par
+https?://{\cf0\kerning2\f1{\field{\*\fldinst{HYPERLINK "http://link.zhihu.com/?target="}}{\fldrslt{\ul\cf2\cf3\kerning0\ul\f0 link.zhihu.com/?target=}}}}\f0\fs21\~url script-request-header\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/onewayticket255/Surge-Script/master/surge%20zhihu%20link.js }}{\fldrslt{https://raw.githubusercontent.com/onewayticket255/Surge-Script/master/surge%20zhihu%20link.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#\f2\'d0\'a1\'d0\'a1\'d3\'b0\'ca\'d3\f0\~\~\~\f2\'ce\'de\'cf\'de\'b9\'db\'bf\'b4\f0 &\f2\'c3\'e2\'b9\'e3\'b8\'e6\f0\~\~\f2\'b9\'d9\'cd\'f8\'a3\'ba{\cf0\kerning2\f1{\field{\*\fldinst{HYPERLINK "http://www.xiao1.app/"}}{\fldrslt{\ul\cf2\cf3\kerning0\ul\f0 www.xiao1.app}}}}\f0\fs21\par
+https:\\/\\/.*\\..*\\.com\\/(ssp-svr\\/ssp\\/list3|ucp/index) url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/xxys.js }}{\fldrslt{https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/xxys.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#substore\~ \~\~\f2\'e4\'af\'c0\'c0\'c6\'f7\'b7\'c3\'ce\'ca{\cf0\f0{\field{\*\fldinst{HYPERLINK https://sub-store.vercel.app/#/ }}{\fldrslt{https://sub-store.vercel.app/#/\ul0\cf0}}}}\f0\fs21\par
+^https?:\\/\\/sub\\.store url script-analyze-echo-response\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/Peng-YM/Sub-Store/master/backend/sub-store.min.js }}{\fldrslt{https://raw.githubusercontent.com/Peng-YM/Sub-Store/master/backend/sub-store.min.js\ul0\cf0}}}}\f0\fs21\par
+\par
+\par
+\par
+\par
+\par
+\par
+#\f2\'d2\'d4\'cf\'c2\'d3\'d0\'d0\'a7\'d0\'d4\'ce\'b4\'b2\'e2\'ca\'d4\'a3\'ac\'c7\'eb\'d7\'d4\'d0\'d0\'b2\'e2\'ca\'d4\f0\par
+\par
+#\~\f2\'b0\'ae\'c3\'c0\'be\'e7\f0 Vip (by huihui\f2\'a3\'a9\f0 (\f2\'b9\'d9\'cd\'f8\'a3\'ba\f0 app.meiju2018.com)\par
+#ads\par
+^http(s)://{\cf0\kerning2\f1{\field{\*\fldinst{HYPERLINK "http://api.bjxkhc.com/index.php/app/ios/ads/index"}}{\fldrslt{\ul\cf2\cf3\kerning0\ul\f0 api.bjxkhc.com/index.php/app/ios/ads/index}}}}\f0\fs21\~url reject-dict\par
+^http(s)://{\cf0\kerning2\f1{\field{\*\fldinst{HYPERLINK "http://api.bjxkhc.com/index.php/app/ios/ver/index_ios$"}}{\fldrslt{\ul\cf2\cf3\kerning0\ul\f0 api.bjxkhc.com/index.php/app/ios/ver/index_ios$}}}}\f0\fs21\~url reject\par
+^http(s)://{\cf0\kerning2\f1{\field{\*\fldinst{HYPERLINK "http://api.bjxkhc.com/index.php/app/ios/pay/ok$"}}{\fldrslt{\ul\cf2\cf3\kerning0\ul\f0 api.bjxkhc.com/index.php/app/ios/pay/ok$}}}}\f0\fs21\~url reject-dict\par
+#VIP&ads\par
+^http(s)://{\cf0\kerning2\f1{\field{\*\fldinst{HYPERLINK "http://api.bjxkhc.com/index.php/app/ios/(vod/show%7C(user%7Cvod%7Ctopic%7Ctype"}}{\fldrslt{\ul\cf2\cf3\kerning0\ul\f0 api.bjxkhc.com/index.php/app/ios/(vod/show|(user|vod|topic|type}}}}\f0\fs21 )/index) url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/wf021325/qx/master/js/aimeiju.js }}{\fldrslt{https://raw.githubusercontent.com/wf021325/qx/master/js/aimeiju.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#\~\f2\'bf\'b4\'c2\'fe\'bb\'ad\'bc\'ab\'cb\'d9\'b0\'e6\f0 vip (By HoGer)\par
+^https?:\\/\\/getuserinfo\\.321mh\\.com\\/app_api\\/v5\\/getuserinfo\\/ url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/kmh.js }}{\fldrslt{https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/kmh.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#\~\f2\'b5\'ce\'b4\'f0\'c7\'e5\'b5\'a5\f0\~pro\par
+^https:\\/\\/(ticktick|dida365)\\.com\\/api\\/v2\\/user\\/status url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/nzw9314/QuantumultX/master/NobyDa/QuantumultX/File/DiDaQingDan.js }}{\fldrslt{https://raw.githubusercontent.com/nzw9314/QuantumultX/master/NobyDa/QuantumultX/File/DiDaQingDan.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#\~\f2\'b4\'f3\'c6\'ac\f0 -\f2\'ca\'d3\'c6\'b5\'b1\'e0\'bc\'ad\'c6\'f7\f0\~VIP\par
+^https?:\\/\\/api\\.vnision\\.com\\/v1\\/(users\\/|banners) url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/dapian.js }}{\fldrslt{https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/dapian.js\ul0\cf0}}}}\f0\fs21\par
+\par
+# 91\f2\'b6\'cc\'ca\'d3\'c6\'b5\f0\par
+^https?:\\/\\/.+\\.(my10api|(.*91.*))\\.(com|tips|app|xyz)(:\\d\{2,5\})?\\/api.php$ url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/91.js }}{\fldrslt{https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/91.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#\~\f2\'cf\'e3\'bd\'b6\'ca\'d3\'c6\'b5\f0\par
+# VIP (By Gx3dong)\par
+https:\\/\\/.*\\.*apps.com url request-header Cookie:.+ request-header Cookie: xxx_api_auth=3433346533343130636136363935363132383864623761323737363464376233\par
+\par
+#\~\f2\'d3\'c3\'d2\'a9\'d6\'fa\'ca\'d6\'bd\'e2\'cb\'f8\'d7\'a8\'d2\'b5\'b0\'e6\f0\~(By Primovist)\par
+^https?:\\/\\/(i|newdrugs)\\.dxy\\.cn\\/(snsapi\\/username\\/|app\\/user\\/(pro\\/stat\\?|init\\?timestamp=)) url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/yyzs.js }}{\fldrslt{https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/yyzs.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#\~\f2\'c2\'bd\'e7\'f7\'bd\'b2\'b9\'ca\'ca\'c2\f0\par
+^https:\\/\\/www\\.luqijianggushi\\.com\\/api\\/v2\\/user\\/get url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/luqi.js }}{\fldrslt{https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/luqi.js\ul0\cf0}}}}\f0\fs21\par
+\par
+# WPS\f2\'bd\'e2\'cb\'f8\f0\~\~\f2\'b3\'ac\'bc\'b6\'bb\'e1\'d4\'b1\'a1\'a2\f0 wps\f2\'bb\'e1\'d4\'b1\'a1\'a2\'b5\'be\'bf\'c7\'bb\'e1\'d4\'b1\f0\~(By eHpo)\par
+^{\cf0\kerning2\f1{\field{\*\fldinst{HYPERLINK "\\t "}}{\fldrslt{\ul\cf2\cf3\kerning0\ul\f0 https://account.wps.*/api/users/}}}}\f0\fs21\~url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Wps.js }}{\fldrslt{https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Wps.js\ul0\cf0}}}}\f0\fs21\par
+\par
+# Gyroscope\~\f2\'bd\'e2\'cb\'f8\f0\~pro (By Maasea)\par
+^https:\\/\\/api\\.gyrosco\\.pe\\/v1\\/account\\/$ url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/nzw9314/QuantumultX/master/NobyDa/Surge/JS/gyroscope.js }}{\fldrslt{https://raw.githubusercontent.com/nzw9314/QuantumultX/master/NobyDa/Surge/JS/gyroscope.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#\~\f2\'cb\'ae\'d3\'a1\'be\'ab\'c1\'e9\f0\~vip (By Alex0510)\par
+^https:\\/\\/api1\\.dobenge\\.cn\\/api\\/user\\/getuserinfo url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/syjl.js }}{\fldrslt{https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/syjl.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#\~\f2\'b4\'f3\'c7\'a7\'ca\'d3\'bd\'e7\f0\par
+^https:\\/\\/api\\.mvmtv\\.com\\/index\\.php.*(c=user.*a=info|a=addr.*vid=.*) url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/dqsj.js }}{\fldrslt{https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/dqsj.js\ul0\cf0}}}}\f0\fs21\par
+\par
+# JibJab\f2\'bd\'e2\'cb\'f8\f0 pro\par
+^https:\\/\\/origin-prod-phoenix\\.jibjab\\.com\\/v1\\/user url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/jibjab.js }}{\fldrslt{https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/jibjab.js\ul0\cf0}}}}\f0\fs21\par
+\par
+# Termius\~\f2\'bd\'e2\'cb\'f8\'b1\'be\'b5\'d8\f0 pro\~\~(By Maasea)\par
+https:\\/\\/api\\.termius\\.com\\/api\\/v3\\/bulk\\/account\\/ url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/nzw9314/QuantumultX/master/NobyDa/Surge/JS/Termius.js }}{\fldrslt{https://raw.githubusercontent.com/nzw9314/QuantumultX/master/NobyDa/Surge/JS/Termius.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#\~\f2\'d0\'a1\'d3\'b0\f0\~\f2\'bd\'e2\'cb\'f8\f0 Vip (By @hiepkimcdtk55)\par
+^https:\\/\\/viva\\.v21xy\\.com\\/api\\/rest\\/u\\/vip url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/vivavideo.js }}{\fldrslt{https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/vivavideo.js\ul0\cf0}}}}\f0\fs21\par
+\par
+# Keep\~\f2\'bd\'e2\'cb\'f8\'cb\'bd\'c8\'cb\'bf\'ce\'b3\'cc\'ba\'cd\'b6\'af\'d7\'f7\'bf\'e2\f0\~(QX\f2\'b4\'e6\'d4\'da\f0 bug\~\f2\'b8\'c3\'bd\'c5\'b1\'be\'bf\'c9\'c4\'dc\'ce\'de\'b7\'a8\'c9\'fa\'d0\'a7\f0 )\par
+^https:\\/\\/api\\.gotokeep\\.com\\/(.+\\/subject|.+\\/dynamic) url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/nzw9314/QuantumultX/master/NobyDa/Surge/JS/Keep.js }}{\fldrslt{https://raw.githubusercontent.com/nzw9314/QuantumultX/master/NobyDa/Surge/JS/Keep.js\ul0\cf0}}}}\f0\fs21\par
+\par
+# VUE pro\par
+^https:\\/\\/api\\.vuevideo\\.net\\/api\\/v1\\/(users\\/.+\\/profile|subtitle\\/prepare) url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/VUE.js }}{\fldrslt{https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/VUE.js\ul0\cf0}}}}\f0\fs21\par
+\par
+# NiChi\~\f2\'bd\'e2\'cb\'f8\'cb\'d8\'b2\'c4\f0\par
+^https?:\\/\\/mp\\.bybutter\\.com\\/mood\\/(official-templates|privileges) url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/NiChi.js }}{\fldrslt{https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/NiChi.js\ul0\cf0}}}}\f0\fs21\par
+\par
+# Splice\~\f2\'ca\'d3\'c6\'b5\'b1\'e0\'bc\'ad\'c6\'f7\f0\~pro\par
+^https:\\/\\/splice\\.oracle\\.\\w+\\.com\\/devices\\/me url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/nzw9314/QuantumultX/master/NobyDa/Surge/JS/Splice.js }}{\fldrslt{https://raw.githubusercontent.com/nzw9314/QuantumultX/master/NobyDa/Surge/JS/Splice.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#\f2\'b0\'d9\'b6\'c8\'d4\'c6\'b1\'b6\'cb\'d9\'b2\'a5\'b7\'c5\f0\par
+https:\\/\\/pan\\.baidu\\.com\\/rest\\/2\\.0\\/membership\\/user url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/BaiduCloud.js }}{\fldrslt{https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/BaiduCloud.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#\f2\'c6\'a4\'c6\'a4\'cf\'ba\f0\~\f2\'c8\'a5\'b9\'e3\'b8\'e6\'c8\'a5\'cb\'ae\'d3\'a1\f0\par
+^https?://.*\\.snssdk\\.com/bds/(feed/stream|comment/cell_reply|cell/cell_comment|cell/detail|ward/list|user/favorite|user/cell_coment|user/cell_userfeed|user/publish_list) url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/Liquor030/Sub_Ruleset/master/Script/Super.js }}{\fldrslt{https://raw.githubusercontent.com/Liquor030/Sub_Ruleset/master/Script/Super.js\ul0\cf0}}}}\f0\fs21\par
+\par
+##\f2\'d4\'bd\'c4\'cf\'c0\'cf\'b8\'e7\f0 langkhach270389\par
+#vsco\par
+^https?:\\/\\/vsco\\.co\\/api\\/subscriptions\\/2.1\\/user-subscriptions\\/ url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/langkhach270389/Scripting/master/vsco.js }}{\fldrslt{https://raw.githubusercontent.com/langkhach270389/Scripting/master/vsco.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#gyroscope\par
+^https:\\/\\/api\\.gyrosco\\.pe\\/v1\\/account\\/$ url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/langkhach270389/Scripting/master/Gyroscope.vip.js }}{\fldrslt{https://raw.githubusercontent.com/langkhach270389/Scripting/master/Gyroscope.vip.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#Termius\par
+https:\\/\\/api\\.termius\\.com\\/api\\/v3\\/bulk\\/account\\/ url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/langkhach270389/Scripting/master/Terminus.js }}{\fldrslt{https://raw.githubusercontent.com/langkhach270389/Scripting/master/Terminus.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#Vivavideo\par
+^https:\\/\\/viva-asia1\\.vvbrd\\.com\\/api\\/rest\\/u\\/vip* url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/langkhach270389/Scripting/master/vivavideo.vip.js }}{\fldrslt{https://raw.githubusercontent.com/langkhach270389/Scripting/master/vivavideo.vip.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#Undfold\par
+^https:\\/\\/api\\.unfold\\.app\\/v1\\/ios\\/receipts$ url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/langkhach270389/Scripting/master/Unfold.vip.js }}{\fldrslt{https://raw.githubusercontent.com/langkhach270389/Scripting/master/Unfold.vip.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#Nhaccuatui\par
+^https:\\/\\/graph\\.nhaccuatui\\.com\\/.*\\/users\\/info* url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/langkhach270389/Scripting/master/nhaccuatui.js }}{\fldrslt{https://raw.githubusercontent.com/langkhach270389/Scripting/master/nhaccuatui.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#Memrise\par
+^https:\\/\\/api\\.memrise\\.com\\/.+\\/(me\\/$|dashboard\\/$|leaderboards\\/following\\/) url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/langkhach270389/Scripting/master/memrise.vip.js }}{\fldrslt{https://raw.githubusercontent.com/langkhach270389/Scripting/master/memrise.vip.js\ul0\cf0}}}}\f0\fs21\par
+\par
+# Jibjab\par
+^https:\\/\\/origin-prod-phoenix\\.jibjab\\.com\\/v1\\/user$ url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/langkhach270389/Scripting/master/jibjab.vip.js }}{\fldrslt{https://raw.githubusercontent.com/langkhach270389/Scripting/master/jibjab.vip.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#buyhack\par
+^https:\\/\\/buy\\.itunes\\.apple\\.com\\/verifyReceipt$ url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/langkhach270389/Scripting/master/verify_receipt.js }}{\fldrslt{https://raw.githubusercontent.com/langkhach270389/Scripting/master/verify_receipt.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#sync\par
+^https:\\/\\/api\\.sync\\.me\\/api\\/purchases\\/(report_purchases|get_purchases)\~\~url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/langkhach270389/Scripting/master/syn.me.js }}{\fldrslt{https://raw.githubusercontent.com/langkhach270389/Scripting/master/syn.me.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#elsaresponse\par
+^https:\\/\\/pool\\.elsanow\\.io\\/user\\/api\\/v1\\/purchase$ url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/langkhach270389/Scripting/master/elsa-response.js }}{\fldrslt{https://raw.githubusercontent.com/langkhach270389/Scripting/master/elsa-response.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#elsarewrite\par
+^https:\\/\\/pool\\.elsanow\\.io\\/content\\/api\\/v1\\/modules\\/download$\~\~url request-header (\\r\\n)x-session-token:.+(\\r\\n) request-header $1x-session-token: F3S0w0bysBQFdbjtxpFurrFv2ItBBcBkVQxUddQW+9vjt2JXM751ksqq5GAWpkl+kk9nhig9BGh9JhYHQaokmendY6zLZDscHiRkZD2HrdJclKVCLordAARJhYIrf5C+5OSK6ax2TA45CKi8S09FEtYXN4noXO7gt42NT6WPIv6DKhdIwVxQuIAMLU5abmpMTDlyWeI4ulBWcOQbuZWWZg==\par
+\par
+#drops\par
+^https:\\/\\/lambda\\.us-east-1\\.amazonaws\\.com/.*/functions\\/prod-4-syncPurchases\\/invocations$ url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/langkhach270389/Scripting/master/drops.js }}{\fldrslt{https://raw.githubusercontent.com/langkhach270389/Scripting/master/drops.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#mondly\par
+^https:\\/\\/api\\.mondlylanguages\\.com\\/v1\\/ios\\/user\\/sync$ url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/langkhach270389/Scripting/master/mondly.vip.js }}{\fldrslt{https://raw.githubusercontent.com/langkhach270389/Scripting/master/mondly.vip.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#busuu\par
+^https:\\/\\/api\\.busuu\\.com\\/users\\/me* url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/langkhach270389/Scripting/master/busuu.vip.js }}{\fldrslt{https://raw.githubusercontent.com/langkhach270389/Scripting/master/busuu.vip.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#Videoshow\par
+^https:\\/\\/owa\\.videoshowiosglobalserver\\.com\\/.*\\/iosPayClient url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/langkhach270389/Scripting/master/videoshow.vip.js }}{\fldrslt{https://raw.githubusercontent.com/langkhach270389/Scripting/master/videoshow.vip.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#elevate\par
+^https:\\/\\/accounts\\.elevateapp\\.net\\/api\\/users\\?user%5Bauthentication_token* url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/langkhach270389/Scripting/master/elevate.vip.js }}{\fldrslt{https://raw.githubusercontent.com/langkhach270389/Scripting/master/elevate.vip.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#beautyplus\par
+^https:\\/\\/api-intl\\.mr\\.meitu\\.com/.*/subs_offer_elg$ url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/langkhach270389/Scripting/master/beautyplusvip.js }}{\fldrslt{https://raw.githubusercontent.com/langkhach270389/Scripting/master/beautyplusvip.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#camera360\par
+^https:\\/\\/bmall\\.camera360\\.com\\/api\\/(iap\\/check-receipt$|mix\\/getinfo$) url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/langkhach270389/Scripting/master/camera360.vip.js }}{\fldrslt{https://raw.githubusercontent.com/langkhach270389/Scripting/master/camera360.vip.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#zingtv\par
+^https?:\\/\\/api\\.tv\\.zing\\.vn\\/.*/user* url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/langkhach270389/Scripting/master/zingtvvipv1.js }}{\fldrslt{https://raw.githubusercontent.com/langkhach270389/Scripting/master/zingtvvipv1.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#calm\par
+^https:\\/\\/api\\.calm\\.com\\/me$ url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/langkhach270389/Scripting/master/calm.vip.js }}{\fldrslt{https://raw.githubusercontent.com/langkhach270389/Scripting/master/calm.vip.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#remove_manage\par
+^https:\\/\\/www\\.calm\\.com\\/mobile\\/manage-subscription\\?token=*\~\~url reject-img\par
+\par
+#lightroom\par
+^https:\\/\\/photos\\.adobe\\.io\\/v2\\/accounts* url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/langkhach270389/Scripting/master/Lightroom.js }}{\fldrslt{https://raw.githubusercontent.com/langkhach270389/Scripting/master/Lightroom.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#Pdfexpert\par
+^https:\\/\\/license\\.pdfexpert\\.com\\/api\\/1\\.0\\/pdfexpert6\\/subscription\\/(refresh$|check$) url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/langkhach270389/Scripting/master/Pdfexpert.vip.js }}{\fldrslt{https://raw.githubusercontent.com/langkhach270389/Scripting/master/Pdfexpert.vip.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#productive&sleepzy&weather live\par
+^https:\\/\\/subs\\.platforms\\.team\\/.+\\/apple\\/verify$ url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/langkhach270389/Scripting/master/productive.js }}{\fldrslt{https://raw.githubusercontent.com/langkhach270389/Scripting/master/productive.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#Musixmatch\par
+^https:\\/\\/apic\\.musixmatch\\.com\\/ws\\/.*\\/config\\.get url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/langkhach270389/Scripting/master/musixmatch.miao.js }}{\fldrslt{https://raw.githubusercontent.com/langkhach270389/Scripting/master/musixmatch.miao.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#boom\par
+^https:\\/\\/apimboom2\\.globaldelight\\.net\\/itunesreceipt_v2\\.php$ url 302\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/langkhach270389/Scripting/master/boom.vip.rsp }}{\fldrslt{https://raw.githubusercontent.com/langkhach270389/Scripting/master/boom.vip.rsp\ul0\cf0}}}}\f0\fs21\par
+\par
+#mimo\par
+^https:\\/\\/api\\.getmimo\\.com\\/v1\\/subscriptions$ url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/langkhach270389/Scripting/master/mimo.vip.js }}{\fldrslt{https://raw.githubusercontent.com/langkhach270389/Scripting/master/mimo.vip.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#mojo&noto\par
+^https:\\/\\/api\\.revenuecat\\.com\\/.+\\/(receipts$|subscribers\\/[a-zA-Z0-9_-]*$) url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/langkhach270389/Scripting/master/revenuecat.js }}{\fldrslt{https://raw.githubusercontent.com/langkhach270389/Scripting/master/revenuecat.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#Bright\par
+^https:\\/\\/engbright\\.com\\/app-portal\\/apple\\/receipt$ url 302\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/langkhach270389/Scripting/master/Bright.rsp }}{\fldrslt{https://raw.githubusercontent.com/langkhach270389/Scripting/master/Bright.rsp\ul0\cf0}}}}\f0\fs21\par
+\par
+#lingokids\par
+^https:\\/\\/api\\.lingokids\\.com\\/v1\\/renovate_session$ url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/langkhach270389/Scripting/master/lingokids.vip.js }}{\fldrslt{https://raw.githubusercontent.com/langkhach270389/Scripting/master/lingokids.vip.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#musicalm\par
+^https:\\/\\/www\\.peacefulsoundsapp\\.com\\/api\\/v1\\/init$ url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/langkhach270389/Scripting/master/musicalm.js }}{\fldrslt{https://raw.githubusercontent.com/langkhach270389/Scripting/master/musicalm.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#duolingo_test\par
+^https:\\/\\/duolingo-leaderboards-prod\\.duolingo\\.com\\/leaderboards* url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/langkhach270389/Scripting/master/duolingo.js }}{\fldrslt{https://raw.githubusercontent.com/langkhach270389/Scripting/master/duolingo.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#ulike\par
+^https:\\/\\/commerce-i18n-api\\.faceu\\.mobi\\/commerce\\/v1\\/subscription\\/user_info$ url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/langkhach270389/Scripting/master/ulike.js }}{\fldrslt{https://raw.githubusercontent.com/langkhach270389/Scripting/master/ulike.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#adguardpremium\par
+^https:\\/\\/mobile-api\\.adguard\\.com\\/api\\/1\\.0\\/ios_validate_receipt$ url 302\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/langkhach270389/Scripting/master/Adguard.rsp }}{\fldrslt{https://raw.githubusercontent.com/langkhach270389/Scripting/master/Adguard.rsp\ul0\cf0}}}}\f0\fs21\par
+\par
+#zingmp3\par
+^https:\\/\\/api\\.global\\.mp3\\.zing\\.vn\\/1\\.0\\/getUserInfo\\?data=* url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/langkhach270389/Scripting/master/zingmp3.js }}{\fldrslt{https://raw.githubusercontent.com/langkhach270389/Scripting/master/zingmp3.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#Blinkist\par
+^https:\\/\\/api\\.blinkist\\.com\\/v4\\/(me$|me.json$|me\\/access$) url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/langkhach270389/Scripting/master/blinkist.js }}{\fldrslt{https://raw.githubusercontent.com/langkhach270389/Scripting/master/blinkist.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#sololearn\par
+^https:\\/\\/api\\.sololearn\\.com\\/(Profile\\/GetProfile$|authenticateDevice$) url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/langkhach270389/Scripting/master/sololearn.js }}{\fldrslt{https://raw.githubusercontent.com/langkhach270389/Scripting/master/sololearn.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#kinemaster\par
+^https:\\/\\/api-kinemaster-assetstore\\.(nexstreaming|kinemasters)\\.com\\/.*\\/product\\/verifyReceipt$ url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/langkhach270389/Scripting/master/kinemaster.js }}{\fldrslt{https://raw.githubusercontent.com/langkhach270389/Scripting/master/kinemaster.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#pushover\par
+^https:\\/\\/api\\.pushover\\.net\\/1\\/messages\\.json* url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/langkhach270389/Scripting/master/pushover.js }}{\fldrslt{https://raw.githubusercontent.com/langkhach270389/Scripting/master/pushover.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#CamScanner\par
+^https:\\/\\/(api|api-cs)\\.intsig\\.net\\/purchase\\/cs\\/query_property\\? url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/langkhach270389/Scripting/master/CamScaner.js }}{\fldrslt{https://raw.githubusercontent.com/langkhach270389/Scripting/master/CamScaner.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#over\par
+^https:\\/\\/api\\.overhq\\.com\\/(user\\/token\\/refresh$|subscription\\/verifyReceipt$) url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/langkhach270389/Scripting/master/over.vip.js }}{\fldrslt{https://raw.githubusercontent.com/langkhach270389/Scripting/master/over.vip.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#speak&translate\par
+^https:\\/\\/receipt-validator\\.herewetest\\.com\\/apple\\/verifyTransaction$ url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/langkhach270389/Scripting/master/speak&translate.js }}{\fldrslt{https://raw.githubusercontent.com/langkhach270389/Scripting/master/speak&translate.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#document\par
+^https:\\/\\/license\\.pdfexpert\\.com\\/api\\/.*\\/documents\\/subscription\\/(refresh$|check$) url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/langkhach270389/Scripting/master/documents.js }}{\fldrslt{https://raw.githubusercontent.com/langkhach270389/Scripting/master/documents.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#workingcopy\par
+^https:\\/\\/education\\.github\\.com\\/api\\/user$ url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/langkhach270389/Scripting/master/workingcopy.js }}{\fldrslt{https://raw.githubusercontent.com/langkhach270389/Scripting/master/workingcopy.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#draft\par
+^https:\\/\\/backend\\.getdrafts\\.com\\/api\\/.*\\/verification* url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/langkhach270389/Scripting/master/draft.js }}{\fldrslt{https://raw.githubusercontent.com/langkhach270389/Scripting/master/draft.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#phothop&PSexpress\par
+^https:\\/\\/lcs-mobile-cops\\.adobe\\.io\\/mobile_profile url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/langkhach270389/Scripting/master/photoshop.js }}{\fldrslt{https://raw.githubusercontent.com/langkhach270389/Scripting/master/photoshop.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#itranslate&lingo&voice&converse\par
+^https:\\/\\/ssl-api\\.itranslateapp\\.com\\/.*\\/subscriptions\\/.*\\/ios$ url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/langkhach270389/Scripting/master/itranslate.js }}{\fldrslt{https://raw.githubusercontent.com/langkhach270389/Scripting/master/itranslate.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#ulysses\par
+^https:\\/\\/sk\\.ulysses\\.app\\/api\\/v1\\/user_offers$ url request-header (\\r\\n)If-None-Match:.+(\\r\\n) request-header $1\par
+\par
+^https:\\/\\/sk\\.ulysses\\.app\\/api\\/v1\\/itunes_receipt_verify$ url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/langkhach270389/Scripting/master/ulysses.js }}{\fldrslt{https://raw.githubusercontent.com/langkhach270389/Scripting/master/ulysses.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#pre_dayone\par
+;^https:\\/\\/dayone\\.me\\/api\\/users$ url request-header (\\r\\n)If-None-Match:.+(\\r\\n) request-header $1\par
+\par
+#dayone\par
+^https:\\/\\/dayone\\.me\\/api\\/(users|v2\\/users\\/account-status)$ url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/langkhach270389/Scripting/master/dayone.js }}{\fldrslt{https://raw.githubusercontent.com/langkhach270389/Scripting/master/dayone.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#endel\par
+^https:\\/\\/api-production\\.endel\\.io\\/.*\\/user$ url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/langkhach270389/Scripting/master/endel.js }}{\fldrslt{https://raw.githubusercontent.com/langkhach270389/Scripting/master/endel.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#shred\par
+^https:\\/\\/api\\.shred\\.app\\/verifyReceipt$ url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/langkhach270389/Scripting/master/shred.js }}{\fldrslt{https://raw.githubusercontent.com/langkhach270389/Scripting/master/shred.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#nichi\par
+^https?:\\/\\/mp\\.bybutter\\.com\\/mood\\/(official-templates|privileges) url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/langkhach270389/Scripting/master/nichi.js }}{\fldrslt{https://raw.githubusercontent.com/langkhach270389/Scripting/master/nichi.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#grammarly\par
+^https:\\/\\/subscription\\.grammarly\\.com\\/api\\/v1$ url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/langkhach270389/Scripting/master/grammarly.js }}{\fldrslt{https://raw.githubusercontent.com/langkhach270389/Scripting/master/grammarly.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#splice\par
+^https:\\/\\/splice\\.oracle\\.\\w+\\.com\\/devices\\/me url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/langkhach270389/Scripting/master/splice.js }}{\fldrslt{https://raw.githubusercontent.com/langkhach270389/Scripting/master/splice.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#planner5d\par
+^https:\\/\\/planner5d\\.com\\/api\\/sets url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/langkhach270389/Scripting/master/planner5d.js }}{\fldrslt{https://raw.githubusercontent.com/langkhach270389/Scripting/master/planner5d.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#playerxtreme\par
+;^https:\\/\\/secure\\.istreamer\\.com\\/backend$ url request-header (\\r\\n)If-None-Match:.+(\\r\\n) request-header $1\par
+\par
+^https:\\/\\/secure\\.istreamer\\.com\\/backend$ url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/langkhach270389/Scripting/master/playerxtreme.js }}{\fldrslt{https://raw.githubusercontent.com/langkhach270389/Scripting/master/playerxtreme.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#all apps monkey\par
+^https:\\/\\/www\\.api\\.monkeyuni\\.net\\/api\\/.+\\/mobile\\/account\\/load-update url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/langkhach270389/Scripting/master/monkey.js }}{\fldrslt{https://raw.githubusercontent.com/langkhach270389/Scripting/master/monkey.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#textnow\par
+^https:\\/\\/api\\.textnow\\.me\\/api2.0\\/users\\/.* url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/langkhach270389/Scripting/master/Textnow.js }}{\fldrslt{https://raw.githubusercontent.com/langkhach270389/Scripting/master/Textnow.js\ul0\cf0}}}}\f0\fs21\par
+\par
+\par
+##\f2\'b4\'f3\'d0\'db\'bd\'c5\'b1\'be\'d7\'e9\f0\par
+\par
+#\~\f2\'bc\'dd\'d0\'a3\'d2\'bb\'b5\'e3\'cd\'a8\f0\~(by @superuv)\par
+^https:\\/\\/vipapi\\.jxedt\\.com\\/vip\\/check url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/jxydt.js }}{\fldrslt{https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/jxydt.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#\~\f2\'b2\'ca\'d4\'c6\'d0\'a1\'d2\'eb\f0\~\~\~(by @superuv)\par
+^https:\\/\\/api\\.interpreter\\.caiyunai\\.com\\/v1\\/user url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/cyxy.js }}{\fldrslt{https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/cyxy.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#Bear\f2\'d0\'dc\'d5\'c6\'bc\'c7\f0\~\~\f2\'c4\'da\'b9\'ba\'bd\'e2\'cb\'f8\f0\par
+^https:\\/\\/buy\\.itunes\\.apple\\.com\\/verifyReceipt url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/bear.js }}{\fldrslt{https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/bear.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#Pocket list (by @superuv)\par
+^https:\\/\\/pocketlists\\.com\\/api\\/v1\\/pocketlists.me.get url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/pock.js }}{\fldrslt{https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/pock.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#\f2\'ba\'a3\'eb\'e0\'bc\'c7\'d5\'cb\f0\~(by @superuv)\par
+https:\\/\\/book\\.haitunwallet\\.com\\/app\\/vip\\/status url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/HTJZ.js }}{\fldrslt{https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/HTJZ.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#\f2\'c4\'bb\'b2\'bc\f0\~(by @superuv)\par
+https:\\/\\/mubu\\.com\\/api\\/app\\/user\\/info url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/mb.js }}{\fldrslt{https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/mb.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#\f2\'d6\'c7\'c4\'dc\'d6\'a4\'bc\'fe\'d5\'d5\'cf\'e0\'bb\'fa\f0\~(by @superuv)\par
+^https:\\/\\/app\\.xunjiepdf\\.com\\/api\\/v4\\/virtualactregister url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/znzj.js }}{\fldrslt{https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/znzj.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#\f2\'c3\'a8\'df\'e4\'b7\'ad\'d2\'eb\f0 (by @superuv)\par
+http:\\/\\/miaow\\.yiyongcad\\.com\\/api\\/v4\\/memprofile url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/mmfy.js }}{\fldrslt{https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/mmfy.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#\f2\'ce\'a2\'c9\'cc\'d6\'fa\'ca\'d6\f0 (by @superuv)\par
+https:\\/\\/api\\.lennou\\.com\\/user\\/info url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/wszs.js }}{\fldrslt{https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/wszs.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#gk\f2\'c9\'a8\'c3\'e8\'d2\'c7\f0 (by @superuv)\par
+^https:\\/\\/api\\.gkocr\\.com\\/api\\/userlogin1.php url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/smy.js }}{\fldrslt{https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/smy.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#\f2\'c1\'f7\'c0\'fb\'cb\'b5\f0 .\f2\'d4\'c4\'b6\'c1\f0\~(by@\f2\'bb\'f0\'d3\'f0\f0 &@singee)\par
+^https?:\\/\\/vira\\.llsapp\\.com\\/api\\/v2\\/readings\\/(accessible|limitation) url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/llyd.js }}{\fldrslt{https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/llyd.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#\f2\'c8\'cb\'c8\'cb\'ca\'d3\'c6\'b5\f0\~(by@george Jiang & R)\par
+^https:\\/\\/api\\.rr\\.tv(\\/user\\/privilege\\/list|\\/ad\\/getAll|\\/rrtv-video\\/v4plus\\/season\\/detail) url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/rrtv.js }}{\fldrslt{https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/rrtv.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#abaenglish (\f2\'ce\'b4\'b2\'e2\'ca\'d4\f0 )\par
+^https:\\/\\/api\\.revenuecat\\.com\\/v1\\/(receipts|\\d\{1,\})$ url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/abaenglish.vip.js }}{\fldrslt{https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/abaenglish.vip.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#\f2\'c7\'e1\'d1\'d5\'cf\'e0\'bb\'fa\f0\~& ulike &\~\f2\'d5\'f4\'c6\'fb\'b2\'a8\'cf\'e0\'bb\'fa\f0 (vaporcam)\f2\'c8\'fd\'ba\'cf\'d2\'bb\f0\~\f2\'bd\'e2\'cb\'f8\f0 VIP(By @s y & Alex0510)\par
+{\cf0\kerning2\f1{\field{\*\fldinst{HYPERLINK "\\t "}}{\fldrslt{\ul\cf2\cf3\kerning0\ul\f0 https://(commerce-.*api|pay}}}}\f0\fs21 ).(faceu|wecut).(com|mobi)/(commerce|apple)/(iosAppVerifyReceipt.php|v1/subscription/user_info) url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/qyxj.js }}{\fldrslt{https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/qyxj.js\ul0\cf0}}}}\f0\fs21\par
+\par
+\par
+#CPU Dasher\f2\'c6\'c6\'bd\'e2\f0 (\f2\'d0\'e8\'d2\'aa\f0 ios13\~\f2\'bb\'d6\'b8\'b4\'b9\'ba\'c2\'f2\'ba\'f3\'bd\'fb\'d3\'c3\'b5\'f4\f0\~By @s y)\par
+;^https:\\/\\/p.+-buy\\.itunes\\.apple\\.com\\/WebObjects\\/MZFinance.woa\\/wa\\/inAppRegrantPurchaseHistory url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/cupdasher.js }}{\fldrslt{https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/cupdasher.js\ul0\cf0}}}}\f0\fs21\par
+\par
+# 115\f2\'c0\'eb\'cf\'df\f0\~(\f2\'c7\'eb\'d7\'d0\'cf\'b8\'d4\'c4\'b6\'c1\'bd\'c5\'b1\'be\'c4\'da\'ca\'b9\'d3\'c3\'cb\'b5\'c3\'f7\f0\~By ikanam)\par
+^https:\\/\\/editorapi\\.115\\.com.* url 302\~{\cf0{\field{\*\fldinst{HYPERLINK http://115.com/lx?taskdg=1 }}{\fldrslt{http://115.com/lx?taskdg=1\ul0\cf0}}}}\f0\fs21\par
+^http:\\/\\/115\\.com\\/lx.*$ url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/115lx.js }}{\fldrslt{https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/115lx.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#lake\par
+^https:\\/\\/api\\.lakecoloring\\.com\\/v1\\/receipt url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/lake.js }}{\fldrslt{https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/lake.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#\f2\'c8\'cb\'c8\'cb\'d3\'b0\'ca\'d3\'d7\'d6\'c4\'bb\'d7\'e9\f0 (\f2\'c9\'cc\'b5\'ea\'b0\'e6\f0 )\f2\'c8\'a5\'b9\'e3\'b8\'e6\f0 ,\f2\'b1\'a3\'c1\'f4\'c2\'d6\'b2\'a5\'cd\'c6\'bc\'f6\'d3\'b0\'c6\'ac\f0 (By @Kaya)\par
+^{\cf0\kerning2\f1{\field{\*\fldinst{HYPERLINK "http://ctrl.playcvn.com/app/(init%7Cads"}}{\fldrslt{\ul\cf2\cf3\kerning0\ul\f0 http://ctrl.playcvn.com/app/(init|ads}}}}\f0\fs21 ) url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/YYeTs.js }}{\fldrslt{https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/YYeTs.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#\f2\'c3\'bf\'c8\'d5\'d3\'a2\'d3\'ef\'d4\'c4\'b6\'c1\f0 /\f2\'c3\'bf\'c8\'d5\'cd\'e2\'bf\'af\f0\~\f2\'bd\'e2\'cb\'f8\'bf\'ce\'b3\'cc\f0\~\~(By chamberlen)\par
+^https:\\/\\/dict\\.eudic\\.net\\/jingting\\/GetThisChapterTaskStatus? url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/mryy.js }}{\fldrslt{https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/mryy.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#\f2\'c1\'aa\'cd\'a8\'d3\'aa\'d2\'b5\'cc\'fc\f0\~\f2\'c8\'a5\'c2\'d6\'b2\'a5\'b9\'e3\'b8\'e6\f0\~(By Wangsc1)\par
+^https?://{\cf0\kerning2\f1{\field{\*\fldinst{HYPERLINK "http://m.client.10010.com/uniAdmsInterface/getHomePageAd"}}{\fldrslt{\ul\cf2\cf3\kerning0\ul\f0 m.client.10010.com/uniAdmsInterface/getHomePageAd}}}}\f0\fs21\~url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/china_unicom.js }}{\fldrslt{https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/china_unicom.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#\f2\'df\'d9\'df\'c7\'c2\'fe\'bb\'ad\f0\~\f2\'c6\'c1\'b1\'ce\'b8\'fc\'d0\'c2\f0 (By @FlintyLemming)\par
+#iOS 2.1.2.1\~\f2\'c6\'c1\'b1\'ce\f0\~2.1.2.2\~\f2\'b5\'c4\'b8\'fc\'d0\'c2\'cc\'e1\'ca\'be\f0\par
+^https:\\/\\/api\\.wakamoment\\.ga\\/init\\?platform\\=ios url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/blockBikaUpdate.js }}{\fldrslt{https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/blockBikaUpdate.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#\f2\'b1\'c0\'bb\'b5\f0 3\~\f2\'bf\'e7\'b7\'fe\f0\~(By @FlintyLemming)\par
+^http:\\/\\/(\\d*\\.\\d*\\.\\d*\\.\\d*)\\/query_gameserver\\?version=3\\.7\\.0_gf_ios&t=(\\d*)&uid=(\\d*) url 302\~{\cf0\kerning2\f1{\field{\*\fldinst{HYPERLINK "\\t "}}{\fldrslt{\ul\cf2\cf3\kerning0\ul\f0 http://$1/query_gameserver?version=3.7.0_gf_android&t=$2&uid=$3}}}}\f0\fs21\par
+^https:\\/\\/global1\\.bh3\\.com\\/query_dispatch\\?version=3\\.7\\.0_gf_ios&t=(\\d*) url 302\~\~{\cf0{\field{\*\fldinst{HYPERLINK https://global1.bh3.com/query_dispatch?version=3.7.0_gf_android&t=$1 }}{\fldrslt{https://global1.bh3.com/query_dispatch?version=3.7.0_gf_android&t=$1\ul0\cf0}}}}\f0\fs21\par
+\par
+#\f2\'b5\'da\'d2\'bb\'b5\'af\f0\~\f2\'c8\'a5\'b9\'e3\'b8\'e6\f0 +\f2\'d4\'ad\'bb\'ad\f0\~(By Miao Miao)\par
+^https:\\/\\/api\\.diyidan\\.net\\/v0\\.3\\/(user\\/personal_homepage|vip_user\\/info|tv_series\\/index\\?appChanne) url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/Diyidan.js }}{\fldrslt{https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/Diyidan.js\ul0\cf0}}}}\f0\fs21\par
+#\~\f2\'d0\'de\'b8\'b4\'cf\'c2\'d4\'d8\'ca\'d3\'c6\'b5\'c7\'e5\'ce\'fa\'b6\'c8\f0\par
+({\cf0\kerning2\f1{\field{\*\fldinst{HYPERLINK "http://musicapi/.diyidan/.net/tv_series/video/download/d+"}}{\fldrslt{\ul\cf2\cf3\kerning0\ul\f0 http://musicapi\\.diyidan\\.net/tv_series/video/download/\\d+}}}}\f0\fs21 )/(1|2) url 302 $1/4\par
+\par
+#Fantastical\~\f2\'c4\'da\'b9\'ba\'bd\'e2\'cb\'f8\f0\~(By @sunshy)\par
+^https:\\/\\/api\\.flexibits\\.com\\/v1\\/(auth|account)\\/(device|details|appstore-receipt)\\/$ url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/fantastical.js }}{\fldrslt{https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/fantastical.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#\f2\'b2\'cb\'c6\'d7\'b4\'f3\'c8\'ab\'bd\'e2\'cb\'f8\f0 vip (By @photonmang)\par
+https?:\\/\\/api\\.jiaonizuocai\\.com url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/cpdq.js }}{\fldrslt{https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/cpdq.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#SoloLearn Unlock PRO & Platinum Moderator (By @sunshy)\par
+https:\\/\\/api\\.sololearn\\.com\\/(authenticateDevice|challenge\\/GetContestFeed|Profile\\/GetProfile)$ url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/sololearn.js }}{\fldrslt{https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/sololearn.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#\f2\'cd\'b7\'c4\'d4\'b3\'d4\'bc\'a6\f0\par
+^{\cf0\kerning2\f1{\field{\*\fldinst{HYPERLINK "https://tncj.hortorgames.com/chicken/fight/(answer%7CfindQuiz"}}{\fldrslt{\ul\cf2\cf3\kerning0\ul\f0 https://tncj.hortorgames.com/chicken/fight/(answer|findQuiz}}}}\f0\fs21 ) url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/chavyleung/scripts/master/tncj/tncj.min.js }}{\fldrslt{https://raw.githubusercontent.com/chavyleung/scripts/master/tncj/tncj.min.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#Pear\~\f2\'d1\'a9\'c0\'e6\f0\par
+^https:\\/\\/(www\\.baidu.com2\\.club|ayk\\.tmdidi\\.com|m\\.pearkin\\.com|souhu\\.mett\\.me|bkcd\\.b-cdn\\.net)\\/(api\\/movie\\/WatchMovie|api\\/Account\\/CheckVip|api\\/account\\/IndexDetail) url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/pear.js }}{\fldrslt{https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/pear.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#\f2\'bf\'cb\'c0\'ad\'b1\'da\'d6\'bd\f0\~\~\f2\'bd\'e2\'cb\'f8\'b8\'b6\'b7\'d1\'b1\'da\'d6\'bd\f0\~(By @Dachaw)\par
+^https:\\/\\/claritywallpaper\\.com\\/clarity\\/api\\/(userInfo|special\\/queryByCatalogAll) url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/clarity.js }}{\fldrslt{https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/clarity.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#\f2\'ba\'e9\'b6\'f7\'cb\'ab\'d3\'ef\'bb\'e6\'b1\'be\f0\~(By\~\f2\'be\'fc\'b8\'e7\'b8\'e7\f0 )\par
+https:\\/\\/bookapi\\.ihuman\\.com\\/(v1\\/get\\_user\\_info|v1\\/get\\_purchase\\_list) url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/hnsyhb.js }}{\fldrslt{https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/hnsyhb.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#\f2\'d6\'d0\'b9\'fa\'cc\'e5\'d3\'fd\'d6\'b1\'b2\'a5\f0 unlock (By\~\f2\'be\'fc\'b8\'e7\'b8\'e7\f0 )\par
+http:\\/\\/rest\\.zhibo\\.tv\\/room\\/get\\-room\\-info\\-v430 url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/zgtyzb.js }}{\fldrslt{https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/zgtyzb.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#\~\f2\'d3\'d0\'b5\'c0\'d4\'c6\'b1\'ca\'bc\'c7\f0 VIP (ByAlex0510)\par
+{\cf0\kerning2\f1{\field{\*\fldinst{HYPERLINK "https://note.youdao.com/yws/(mapi/payment%7Capi/self"}}{\fldrslt{\ul\cf2\cf3\kerning0\ul\f0 https://note.youdao.com/yws/(mapi/payment|api/self}}}}\f0\fs21 ) url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/ydybj.js }}{\fldrslt{https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/ydybj.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#Peak\~\f2\'bd\'e2\'cb\'f8\f0 Pro\par
+^https:\\/\\/billing\\.peakcloud\\.org\\/billing\\/2\\/user\\/me? url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/peak.js }}{\fldrslt{https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/peak.js\ul0\cf0}}}}\f0\fs21\par
+\par
+# IT\f2\'d6\'ae\'bc\'d2\f0\~\f2\'c8\'a5\'d0\'c2\'ce\'c5\'c1\'d0\'b1\'ed\'b9\'e3\'b8\'e6\f0\par
+^https?:\\/\\/api\\.ithome\\.com\\/json\\/slide\\/index url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/ITHome.js }}{\fldrslt{https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/ITHome.js\ul0\cf0}}}}\f0\fs21\par
+^https?:\\/\\/api\\.ithome\\.com\\/json\\/(newslist|listpage)\\/news url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/ITHome.js }}{\fldrslt{https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/ITHome.js\ul0\cf0}}}}\f0\fs21\par
+\par
+# XMind\f2\'cb\'bc\'ce\'ac\'b5\'bc\'cd\'bc\f0\~(by @JigsaWo)\par
+https:\\/\\/www\\.xmind\\.cn\\/\\_res\\/devices url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/XMind.js }}{\fldrslt{https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/XMind.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#\~\f2\'cd\'f2\'c0\'ef\'d3\'b0\'ca\'d3\f0\~\f2\'a3\'a8\f0 by LTribe\f2\'a3\'a9\f0\par
+^http?:\\/\\/.*\\{\cf0\kerning2\f1{\field{\*\fldinst{HYPERLINK "http://.arten.cn/login/login"}}{\fldrslt{\ul\cf2\cf3\kerning0\ul\f0 .arten.cn/login/login}}}}\f0\fs21\~url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/Wanliyingshi.js }}{\fldrslt{https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/Wanliyingshi.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#\~\f2\'c6\'e6\'c8\'c8\'d0\'a1\'cb\'b5\f0\~\f2\'bd\'e2\'cb\'f8\'ca\'d5\'b7\'d1\'d5\'c2\'bd\'da\f0 (By @@ios4521)\par
+^{\cf0\kerning2\f1{\field{\*\fldinst{HYPERLINK "https://api.weiqire.com/api3/(visitor/%7Cuser/unlockCharpter"}}{\fldrslt{\ul\cf2\cf3\kerning0\ul\f0 https://api.weiqire.com/api3/(visitor/|user/unlockCharpter}}}}\f0\fs21 ) url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/qrxs.js }}{\fldrslt{https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/qrxs.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#\~\f2\'ca\'af\'c4\'ab\'ce\'c4\'b5\'b5\f0\~(By Alex0510)\par
+{\cf0{\field{\*\fldinst{HYPERLINK https://api.shimo.im/users/ }}{\fldrslt{https://api.shimo.im/users/\ul0\cf0}}}}\f0\fs21\~url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/shimo.js }}{\fldrslt{https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/shimo.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#VideoStar Unlock\f2\'a3\'a8\f0 by LTribe\f2\'a3\'a9\f0\par
+^https?:\\/\\/.*\\.videostarapp\\.com\\/scripts\\/subsNew\\.php url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/VideoStar.js }}{\fldrslt{https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/VideoStar.js\ul0\cf0}}}}\f0\fs21\par
+\par
+# Pillow (By @CheeryTodo)\par
+https:\\/\\/api\\.revenuecat\\.com\\/v1\\/(subscribers|receipts) url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/pillow.js }}{\fldrslt{https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/pillow.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#\~\f2\'c2\'ed\'bf\'a8\'c1\'fa\f0\~(By @CheeryTodo)\par
+{\cf0{\field{\*\fldinst{HYPERLINK https://app.api.versa-ai.com/pay/order/iap/check }}{\fldrslt{https://app.api.versa-ai.com/pay/order/iap/check\ul0\cf0}}}}\f0\fs21\~url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/mkl.js }}{\fldrslt{https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/mkl.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#\~\f2\'ba\'ab\'be\'e7\f0 TV (By\~\f2\'c1\'b9\'d2\'e2\f0 )\par
+#\~\f2\'cf\'c2\'d4\'d8\'b5\'d8\'d6\'b7\'c7\'eb\'bf\'b4\'bd\'c5\'b1\'be\'c4\'da\'cb\'b5\'c3\'f7\f0\par
+^https\\:\\/\\/hjapi\\.bjxkhc\\.com\\/v2d2\\/users\\/.*\\/member url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/hanjuTV.js }}{\fldrslt{https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/hanjuTV.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#\~\f2\'ca\'d6\'bb\'fa\'d3\'b2\'bc\'fe\'b9\'dc\'bc\'d2\f0\~(By Alex0510)\par
+http:\\/\\/api\\.591master\\.com\\:8081\\/(1.0|3.6.8)\\/ui(forum|common)\\/(downloadwallpaper|getuser) url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/sjyjgj.js }}{\fldrslt{https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/sjyjgj.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#\~\f2\'bd\'ee\'b6\'b7\'d4\'c6\f0 tv (By\~\f2\'c1\'b9\'d2\'e2\f0 )\par
+^http\\:\\/\\/jdytv\\.cn\\/login\\/login\\/veifys url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/jdyTV.js }}{\fldrslt{https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/jdyTV.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#\~\f2\'bb\'a8\'bd\'b7\'ca\'d3\'c6\'b5\f0\~(By Alex0510)\par
+{\cf0{\field{\*\fldinst{HYPERLINK http://user.shywck.com/user/userinfo }}{\fldrslt{http://user.shywck.com/user/userinfo\ul0\cf0}}}}\f0\fs21\~url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/hjsp.js }}{\fldrslt{https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/hjsp.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#\~\f2\'d1\'b8\'bd\'dd\'d3\'a6\'d3\'c3\f0 6\f2\'ba\'cf\f0 1\~\f2\'a3\'a8\f0 by LTribe\f2\'a3\'a9\f0\par
+^https?:\\/\\/.*\\.xunjie.*\\.com\\/api\\/v\\d\\/* url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/xunjie.js }}{\fldrslt{https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/xunjie.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#\~\f2\'d0\'a1\'cb\'af\'c3\'df\'a3\'a8\f0 by\~\f2\'ba\'da\'ba\'da\'bd\'b4\'a3\'a9\f0\par
+^https:\\/\\/api\\.psy-1\\.com\\/cosleep\\/user\\/info url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/xiaoshuimian.js }}{\fldrslt{https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/xiaoshuimian.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#\f2\'ce\'cf\'c5\'a3\'cb\'af\'c3\'df\'bb\'e1\'d4\'b1\'a3\'a8\f0 by\f2\'ba\'da\'ba\'da\'bd\'b4\'a3\'a9\f0\par
+^https:\\/\\/snailsleep\\.net\\/snail\\/v1\\/profile\\/get url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/wnsm.js }}{\fldrslt{https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/wnsm.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#\~\f2\'bf\'c9\'bf\'c9\'d3\'a2\'d3\'ef\'bb\'e1\'d4\'b1\f0\par
+^https:\\/\\/mob2015\\.kekenet\\.com\\/keke\\/mobile\\/index\\.php url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/kkyy.js }}{\fldrslt{https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/kkyy.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#\~\f2\'ec\'aa\'c2\'fe\'bb\'ad\f0\~(By @u18888)\par
+^https:\\/\\/m\\.samh\\.xndm\\.tech\\/userapi\\/info\\/v1\\/getuserinfo url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/Smh.js }}{\fldrslt{https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/Smh.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#\~\f2\'c9\'c1\'b5\'e7\'cf\'c2\'d4\'d8\f0 vip (By\~\f2\'c1\'b9\'d2\'e2\f0 )\par
+^http\\:\\/\\/app\\.flashdown365\\.com\\/ios\\/login url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/sdxz.js }}{\fldrslt{https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/sdxz.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#\~\f2\'ce\'f7\'b4\'b0\'d6\'f2\f0\~\f2\'a3\'a8\f0 By\~\f2\'ba\'da\'ba\'da\'bd\'b4\'a3\'a9\f0\par
+^https:\\/\\/avoscloud\\.com\\/1\\.1\\/users\\/ url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/xcz.js }}{\fldrslt{https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/xcz.js\ul0\cf0}}}}\f0\fs21\par
+\par
+# JAV101\f2\'ce\'de\'cf\'de\'b9\'db\'bf\'b4\f0\~(By\~\f2\'c1\'b9\'d2\'e2\f0 )\par
+^https\\:\\/\\/pwaapi\\.gao1gps\\.cn\\/v1\\/user\\/info url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/JAV101.js }}{\fldrslt{https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/JAV101.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#\~\f2\'c3\'c0\'d1\'d5\'cf\'e0\'bb\'fa\'d2\'bb\'b4\'ce\'d0\'d4\'bd\'e2\'cb\'f8\'c4\'da\'b9\'ba\'a3\'a8\f0 by\f2\'ba\'da\'ba\'da\'bd\'b4\'a3\'a9\f0\par
+^https:\\/\\/api\\.meiyan\\.com\\/iap\\/verify\\.json url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/myxj.js }}{\fldrslt{https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/myxj.js\ul0\cf0}}}}\f0\fs21\par
+\par
+# Fit\f2\'bd\'a1\'c9\'ed\'bb\'e1\'d4\'b1\f0\~\f2\'a3\'a8\f0 by\f2\'ba\'da\'ba\'da\'bd\'b4\'a3\'a9\f0\par
+^https:\\/\\/bea\\.sportq\\.com\\/SFitWeb\\/sfit\\/getUserBaseInfo url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/fit.js }}{\fldrslt{https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/fit.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#\~\f2\'bd\'e2\'cb\'f8\f0 B\f2\'d5\'be\'b4\'f3\'bb\'e1\'d4\'b1\f0\par
+https:\\/\\/api\\.bilibili\\.com\\/pgc\\/player\\/api\\/playurl url 302\~{\cf0{\field{\*\fldinst{HYPERLINK http://api.bili.best/playurl }}{\fldrslt{http://api.bili.best/playurl\ul0\cf0}}}}\f0\fs21\par
+https:\\/\\/api.bilibili.com\\/pgc\\/view\\/app\\/season url 302\~{\cf0{\field{\*\fldinst{HYPERLINK http://api.bili.best/season }}{\fldrslt{http://api.bili.best/season\ul0\cf0}}}}\f0\fs21\par
+\par
+#\~\f2\'df\'d9\'c1\'a8\'df\'d9\'c1\'a8\'b7\'ac\'be\'e7\'bf\'aa\'c6\'f4\f0 1080P+\par
+^https:\\/\\/ap(p|i)\\.bilibili\\.com\\/((pgc\\/player\\/api\\/playurl)|(x\\/v2\\/account\\/myinfo\\?)|(x\\/v2\\/account/mine\\?)) url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/bilifj.js }}{\fldrslt{https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/bilifj.js\ul0\cf0}}}}\f0\fs21\par
+\par
+# Netflix\f2\'c6\'c0\'b7\'d6\f0\par
+^https?://ios\\.prod\\.ftl\\.netflix\\.com/iosui/user/.+path=%5B%22videos%22%2C%\\d+%22%2C%22summary%22%5D url script-request-header\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/yichahucha/surge/master/nf_rating.js }}{\fldrslt{https://raw.githubusercontent.com/yichahucha/surge/master/nf_rating.js\ul0\cf0}}}}\f0\fs21\par
+^https?://ios\\.prod\\.ftl\\.netflix\\.com/iosui/user/.+path=%5B%22videos%22%2C%\\d+%22%2C%22summary%22%5D url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/yichahucha/surge/master/nf_rating.js }}{\fldrslt{https://raw.githubusercontent.com/yichahucha/surge/master/nf_rating.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#\~\f2\'d6\'aa\'ba\'f5\'c8\'a5\'b9\'e3\'b8\'e6\f0 (By blackmatrix7)\par
+^https?:\\/\\/api\\.zhihu\\.com\\/people\\/ url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.js }}{\fldrslt{https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.js\ul0\cf0}}}}\f0\fs21\par
+^https?:\\/\\/api\\.zhihu\\.com\\/(moments|topstory)(\\/|\\?)?(recommend|action=|feed_type=)(?!\\/people) url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.js }}{\fldrslt{https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.js\ul0\cf0}}}}\f0\fs21\par
+^https?:\\/\\/api\\.zhihu\\.com\\/v4\\/questions url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.js }}{\fldrslt{https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#\~\f2\'ca\'b2\'c3\'b4\'d6\'b5\'b5\'c3\'c2\'f2\f0 (By blackmatrix7)\par
+^https:\\/\\/homepage-api.smzdm.com\\/home url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.js }}{\fldrslt{https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.js\ul0\cf0}}}}\f0\fs21\par
+^https:\\/\\/haojia-api.smzdm.com\\/home\\/list url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.js }}{\fldrslt{https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.js\ul0\cf0}}}}\f0\fs21\par
+^https:\\/\\/article-api.smzdm.com\\/article\\/index_home_page url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.js }}{\fldrslt{https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.js\ul0\cf0}}}}\f0\fs21\par
+\par
+#\~\f2\'df\'d9\'c1\'a8\'df\'d9\'c1\'a8\f0 (By srk24)\par
+^https?:\\/\\/app\\.bilibili\\.com\\/x\\/v2\\/splash\\/list url script-response-body\~{\cf0{\field{\*\fldinst{HYPERLINK https://raw.githubusercontent.com/srk24/profile/master/bilibili_splash.js }}{\fldrslt{https://raw.githubusercontent.com/srk24/profile/master/bilibili_splash.js\ul0\cf0}}}}\f0\fs21\par
+
+\pard\nowidctlpar\qj\cf0\kerning2\f1\par
+\par
+
+\pard\sa200\sl276\slmult1\kerning0\f3\fs22\lang2052\par
+}
+ 
