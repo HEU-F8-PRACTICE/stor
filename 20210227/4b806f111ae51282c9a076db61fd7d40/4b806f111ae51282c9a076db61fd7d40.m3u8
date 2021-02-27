@@ -1,0 +1,802 @@
+DAUMPLAYLIST  
+playname=http://112.50.243.8/PLTV/88888888/224/3221225922/1.m3u8  
+topindex=0  
+saveplaypos=0  
+1*file*http://118.25.29.24/outlivecloud-cdn.ysp.cctv.cn/cctv/2000210103.m3u8  
+1*title*CCTV-1 HD  
+1*played*0  
+2*file*http://112.50.243.8/PLTV/88888888/224/3221225829/1.m3u8  
+2*title*CCTV-1 HD  
+2*played*0  
+3*file*http://112.50.243.8/PLTV/88888888/224/3221225922/1.m3u8  
+3*title*CCTV-1 HD  
+3*played*0  
+4*file*http://111.40.205.87/PLTV/88888888/224/3221225755/index.m3u8  
+4*title*CCTV-1 HD  
+4*played*0  
+5*file*http://111.13.111.242/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226226/1.m3u8  
+5*title*CCTV-1 HD  
+5*played*0  
+6*file*http://liveplay-kk.rtxapp.com/live/program/live/cctv1hd/4000000/mnf.m3u8  
+6*title*CCTV-1 HD  
+6*played*0  
+7*file*http://118.25.29.24/outlivecloud-cdn.ysp.cctv.cn/cctv/2000203603.m3u8  
+7*title*CCTV-2 HD  
+7*played*0  
+8*file*http://112.50.243.8/PLTV/88888888/224/3221225923/1.m3u8  
+8*title*CCTV-2 HD  
+8*played*0  
+9*file*http://112.50.243.8/PLTV/88888888/224/3221225923/1.m3u8  
+9*title*CCTV-2 HD  
+9*played*0  
+10*file*http://111.13.111.242/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226230/1.m3u8  
+10*title*CCTV-2 HD  
+10*played*0  
+11*file*http://118.25.29.24/outlivecloud-cdn.ysp.cctv.cn/cctv/2000203803.m3u8  
+11*title*CCTV-3 HD  
+11*played*0  
+12*file*http://223.110.243.170//PLTV/3/224/3221225588/index.m3u8  
+12*title*CCTV-3 HD  
+12*played*0  
+13*file*http://112.17.40.8:80/PLTV/88888888/224/3221226485/index.m3u8  
+13*title*CCTV-3 HD  
+13*played*0  
+14*file*http://111.40.205.87/PLTV/88888888/224/3221225754/index.m3u8  
+14*title*CCTV-3 HD  
+14*played*0  
+15*file*http://liveplay-kk.rtxapp.com/live/program/live/cctv3hd/4000000/mnf.m3u8  
+15*title*CCTV-3 HD  
+15*played*0  
+16*file*http://118.25.29.24/outlivecloud-cdn.ysp.cctv.cn/cctv/2000204803.m3u8  
+16*title*CCTV-4 HD  
+16*played*0  
+17*file*http://112.50.243.8/PLTV/88888888/224/3221225802/1.m3u8  
+17*title*CCTV-4 HD  
+17*played*0  
+18*file*http://111.13.111.242/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226314/1.m3u8  
+18*title*CCTV-4 HD  
+18*played*0  
+19*file*http://118.25.29.24/outlivecloud-cdn.ysp.cctv.cn/cctv/2000205103.m3u8  
+19*title*CCTV-5 HD  
+19*played*0  
+20*file*http://223.110.243.172/PLTV/3/224/3221227166/index.m3u8  
+20*title*CCTV-5 HD  
+20*played*0  
+21*file*http://112.17.40.6:80/PLTV/88888888/224/3221226400/index.m3u8  
+21*title*CCTV-5 HD  
+21*played*0  
+22*file*http://111.40.205.87/PLTV/88888888/224/3221225753/index.m3u8  
+22*title*CCTV-5 HD  
+22*played*0  
+23*file*http://liveplay-kk.rtxapp.com/live/program/live/cctv5hd/4000000/mnf.m3u8  
+23*title*CCTV-5 HD  
+23*played*0  
+24*file*http://118.25.29.24/outlivecloud-cdn.ysp.cctv.cn/cctv/2000204503.m3u8  
+24*title*CCTV-5+HD  
+24*played*0  
+25*file*http://112.50.243.8/PLTV/88888888/224/3221225821/1.m3u8  
+25*title*CCTV-5+HD  
+25*played*0  
+26*file*http://112.50.243.8/PLTV/88888888/224/3221225939/1.m3u8  
+26*title*CCTV-5+HD  
+26*played*0  
+27*file*http://183.251.61.214:80/PLTV/88888888/224/3221225821/index.m3u8  
+27*title*CCTV-5+HD  
+27*played*0  
+28*file*http://111.13.111.242/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226225/1.m3u8  
+28*title*CCTV-5+HD  
+28*played*0  
+29*file*http://liveplay-kk.rtxapp.com/live/program/live/cctv5phd/4000000/mnf.m3u8  
+29*title*CCTV-5+HD  
+29*played*0  
+30*file*http://112.17.40.48:80/PLTV/88888888/224/3221226433/1.m3u8  
+30*title*CCTV-6 HD  
+30*played*0  
+31*file*http://liveplay-kk.rtxapp.com/live/program/live/cctv6hd/4000000/mnf.m3u8  
+31*title*CCTV-6 HD  
+31*played*0  
+32*file*http://112.17.40.7:80/PLTV/88888888/224/3221226487/1.m3u8  
+32*title*CCTV-6 HD  
+32*played*0  
+33*file*http://111.40.205.87/PLTV/88888888/224/3221225751/index.m3u8  
+33*title*CCTV-6 HD  
+33*played*0  
+34*file*http://liveplay-kk.rtxapp.com/live/program/live/cctv6hd/4000000/mnf.m3u8  
+34*title*CCTV-6 HD  
+34*played*0  
+35*file*http://118.25.29.24/outlivecloud-cdn.ysp.cctv.cn/cctv/2000510003.m3u8  
+35*title*CCTV-7 HD  
+35*played*0  
+36*file*http://112.50.243.8/PLTV/88888888/224/3221225805/1.m3u8  
+36*title*CCTV-7 HD  
+36*played*0  
+37*file*http://112.50.243.8/PLTV/88888888/224/3221225927/1.m3u8  
+37*title*CCTV-7 HD  
+37*played*0  
+38*file*http://111.13.111.242/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226234/1.m3u8  
+38*title*CCTV-7 HD  
+38*played*0  
+39*file*http://118.25.29.24/outlivecloud-cdn.ysp.cctv.cn/cctv/2000203903.m3u8  
+39*title*CCTV-8 HD  
+39*played*0  
+40*file*http://223.110.243.171/PLTV/3/224/3221227204/index.m3u8  
+40*title*CCTV-8 HD  
+40*played*0  
+41*file*http://111.40.205.87/PLTV/88888888/224/3221225750/index.m3u8  
+41*title*CCTV-8 HD  
+41*played*0  
+42*file*http://liveplay-kk.rtxapp.com/live/program/live/cctv8hd/4000000/mnf.m3u8  
+42*title*CCTV-8 HD  
+42*played*0  
+43*file*http://118.25.29.24/outlivecloud-cdn.ysp.cctv.cn/cctv/2000499403.m3u8  
+43*title*CCTV-9 HD  
+43*played*0  
+44*file*http://112.50.243.8/PLTV/88888888/224/3221225820/1.m3u8  
+44*title*CCTV-9 HD  
+44*played*0  
+45*file*http://112.50.243.8/PLTV/88888888/224/3221225929/1.m3u8  
+45*title*CCTV-9 HD  
+45*played*0  
+46*file*http://111.13.111.242/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226236/1.m3u8  
+46*title*CCTV-9 HD  
+46*played*0  
+47*file*http://liveplay-kk.rtxapp.com/live/program/live/cctv8hd/4000000/mnf.m3u8  
+47*title*CCTV-9 HD  
+47*played*0  
+48*file*http://118.25.29.24/outlivecloud-cdn.ysp.cctv.cn/cctv/2000203503.m3u8  
+48*title*CCTV-10 HD  
+48*played*0  
+49*file*http://112.50.243.8/PLTV/88888888/224/3221225814/1.m3u8  
+49*title*CCTV-10 HD  
+49*played*0  
+50*file*http://112.50.243.8/PLTV/88888888/224/3221225931/1.m3u8  
+50*title*CCTV-10 HD  
+50*played*0  
+51*file*http://111.13.111.242/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226227/1.m3u8  
+51*title*CCTV-10 HD  
+51*played*0  
+52*file*http://liveplay-kk.rtxapp.com/live/program/live/cctv10hd/4000000/mnf.m3u8  
+52*title*CCTV-10 HD  
+52*played*0  
+53*file*http://118.25.29.24/outlivecloud-cdn.ysp.cctv.cn/cctv/2000204103.m3u8  
+53*title*CCTV-11 HD  
+53*played*0  
+54*file*http://112.50.243.8/PLTV/88888888/224/3221225815/1.m3u8  
+54*title*CCTV-11 HD  
+54*played*0  
+55*file*http://111.13.111.242/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226315/1.m3u8  
+55*title*CCTV-11 HD  
+55*played*0  
+56*file*http://118.25.29.24/outlivecloud-cdn.ysp.cctv.cn/cctv/2000202603.m3u8  
+56*title*CCTV-12 HD  
+56*played*0  
+57*file*http://112.50.243.8/PLTV/88888888/224/3221225816/1.m3u8  
+57*title*CCTV-12 HD  
+57*played*0  
+58*file*http://112.50.243.8/PLTV/88888888/224/3221225932/1.m3u8  
+58*title*CCTV-12 HD  
+58*played*0  
+59*file*http://39.134.52.163/hwottcdn.ln.chinamobile.com/PLTV/88888890/224/3221226183/index.m3u8  
+59*title*CCTV-12 HD  
+59*played*0  
+60*file*http://111.13.111.242/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226228/1.m3u8  
+60*title*CCTV-12 HD  
+60*played*0  
+61*file*http://118.25.29.24/outlivecloud-cdn.ysp.cctv.cn/cctv/2000204603.m3u8  
+61*title*CCTV-13 HD  
+61*played*0  
+62*file*http://112.50.243.8/PLTV/88888888/224/3221225817/1.m3u8  
+62*title*CCTV-13 HD  
+62*played*0  
+63*file*http://112.17.40.140/PLTV/88888888/224/3221226193/index.m3u8  
+63*title*CCTV-13 HD  
+63*played*0  
+64*file*http://111.40.205.87/PLTV/88888888/224/3221225599/index.m3u8  
+64*title*CCTV-13 HD  
+64*played*0  
+65*file*http://118.25.29.24/outlivecloud-cdn.ysp.cctv.cn/cctv/2000204403.m3u8  
+65*title*CCTV-14 HD  
+65*played*0  
+66*file*http://112.50.243.8/PLTV/88888888/224/3221225819/1.m3u8  
+66*title*CCTV-14 HD  
+66*played*0  
+67*file*http://112.50.243.8/PLTV/88888888/224/3221225933/1.m3u8  
+67*title*CCTV-14 HD  
+67*played*0  
+68*file*http://39.134.52.158/hwottcdn.ln.chinamobile.com/PLTV/88888890/224/3221226182/index.m3u8  
+68*title*CCTV-14 HD  
+68*played*0  
+69*file*http://111.13.111.242/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226229/1.m3u8  
+69*title*CCTV-14 HD  
+69*played*0  
+70*file*http://118.25.29.24/outlivecloud-cdn.ysp.cctv.cn/cctv/2000205003.m3u8  
+70*title*CCTV-15 HD  
+70*played*0  
+71*file*http://112.50.243.8/PLTV/88888888/224/3221225818/1.m3u8  
+71*title*CCTV-15 HD  
+71*played*0  
+72*file*http://111.13.111.167/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226333/1.m3u8  
+72*title*CCTV-15 HD  
+72*played*0  
+73*file*http://ott-live.olympicchannel.com/out/u/OC1_2.m3u8  
+73*title*CCTV-16 HD  
+73*played*0  
+74*file*http://ott-live.olympicchannel.com/out/u/OC1_1.m3u8  
+74*title*CCTV-16 HD  
+74*played*0  
+75*file*http://118.25.29.24/outlivecloud-cdn.ysp.cctv.cn/cctv/2000204203.m3u8  
+75*title*CCTV-17 HD  
+75*played*0  
+76*file*http://112.50.243.8/PLTV/88888888/224/3221226986/1.m3u8  
+76*title*CCTV-17 HD  
+76*played*0  
+77*file*http://111.13.111.242/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226318/1.m3u8  
+77*title*CCTV-17 HD  
+77*played*0  
+78*file*http://118.25.29.24/outlivecloud-cdn.ysp.cctv.cn/cctv/2001656803.m3u8  
+78*title*CGTN     HD  
+78*played*0  
+79*file*http://112.50.243.8/PLTV/88888888/224/3221225944/1.m3u8  
+79*title*北京纪实 HD  
+79*played*0  
+80*file*http://111.40.205.87/PLTV/88888888/224/3221225729/index.m3u8  
+80*title*北京纪实 HD  
+80*played*0  
+81*file*http://111.40.205.87/PLTV/88888888/224/3221225756/index.m3u8  
+81*title*北京纪实 HD  
+81*played*0  
+82*file*http://hwottcdn.ln.chinamobile.com/PLTV/88888890/224/3221226730/index.m3u8  
+82*title*北京纪实 HD  
+82*played*0  
+83*file*http://118.25.29.24/outlivecloud-cdn.ysp.cctv.cn/cctv/2000296203.m3u8  
+83*title*湖南卫视 HD  
+83*played*0  
+84*file*http://112.50.243.8/PLTV/88888888/224/3221225827/1.m3u8  
+84*title*湖南卫视 HD  
+84*played*0  
+85*file*http://112.50.243.8/PLTV/88888888/224/3221225935/1.m3u8  
+85*title*湖南卫视 HD  
+85*played*0  
+86*file*http://111.13.111.242/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226241/1.m3u8  
+86*title*湖南卫视 HD  
+86*played*0  
+87*file*http://liveplay-kk.rtxapp.com/live/program/live/hnwshd/4000000/mnf.m3u8  
+87*title*湖南卫视 HD  
+87*played*0  
+88*file*http://118.25.29.24/outlivecloud-cdn.ysp.cctv.cn/cctv/2000295603.m3u8  
+88*title*江苏卫视 HD  
+88*played*0  
+89*file*http://112.50.243.8/PLTV/88888888/224/3221225847/1.m3u8  
+89*title*江苏卫视 HD  
+89*played*0  
+90*file*http://112.50.243.8/PLTV/88888888/224/3221225930/1.m3u8  
+90*title*江苏卫视 HD  
+90*played*0  
+91*file*http://111.13.111.242/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226242/1.m3u8  
+91*title*江苏卫视 HD  
+91*played*0  
+92*file*http://liveplay-kk.rtxapp.com/live/program/live/jswshd/4000000/mnf.m3u8  
+92*title*江苏卫视 HD  
+92*played*0  
+93*file*http://118.25.29.24/outlivecloud-cdn.ysp.cctv.cn/cctv/2000295501.m3u8  
+93*title*浙江卫视 HD  
+93*played*0  
+94*file*http://112.50.243.8/PLTV/88888888/224/3221225825/1.m3u8  
+94*title*浙江卫视 HD  
+94*played*0  
+95*file*http://112.50.243.8/PLTV/88888888/224/3221225934/1.m3u8  
+95*title*浙江卫视 HD  
+95*played*0  
+96*file*http://223.110.243.173/PLTV/3/224/3221227215/index.m3u8  
+96*title*浙江卫视 HD  
+96*played*0  
+97*file*http://111.13.111.242/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226247/1.m3u8  
+97*title*浙江卫视 HD  
+97*played*0  
+98*file*http://liveplay-kk.rtxapp.com/live/program/live/zjwshd/4000000/mnf.m3u8  
+98*title*浙江卫视 HD  
+98*played*0  
+99*file*http://118.25.29.24/outlivecloud-cdn.ysp.cctv.cn/cctv/2000292401.m3u8  
+99*title*上海东方 HD  
+99*played*0  
+100*file*http://112.50.243.8/PLTV/88888888/224/3221225828/1.m3u8  
+100*title*上海东方 HD  
+100*played*0  
+101*file*http://112.50.243.8/PLTV/88888888/224/3221225936/1.m3u8  
+101*title*上海东方 HD  
+101*played*0  
+102*file*http://111.13.111.242/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226237/1.m3u8  
+102*title*上海东方 HD  
+102*played*0  
+103*file*http://liveplay-kk.rtxapp.com/live/program/live/hddfws/4000000/mnf.m3u8,cntv-dongfang  
+103*title*上海东方 HD  
+103*played*0  
+104*file*http://118.25.29.24/outlivecloud-cdn.ysp.cctv.cn/cctv/2000272103.m3u8  
+104*title*北京卫视 HD  
+104*played*0  
+105*file*http://112.50.243.8/PLTV/88888888/224/3221225826/1.m3u8  
+105*title*北京卫视 HD  
+105*played*0  
+106*file*http://112.50.243.8/PLTV/88888888/224/3221225937/1.m3u8  
+106*title*北京卫视 HD  
+106*played*0  
+107*file*http://111.13.111.242/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226224/1.m3u8  
+107*title*北京卫视 HD  
+107*played*0  
+108*file*http://118.25.29.24/outlivecloud-cdn.ysp.cctv.cn/cctv/2000292703.m3u8  
+108*title*广东卫视 HD  
+108*played*0  
+109*file*http://112.50.243.8/PLTV/88888888/224/3221225824/1.m3u8  
+109*title*广东卫视 HD  
+109*played*0  
+110*file*http://112.50.243.8/PLTV/88888888/224/3221225942/1.m3u8  
+110*title*广东卫视 HD  
+110*played*0  
+111*file*http://111.13.111.242/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226238/1.m3u8  
+111*title*广东卫视 HD  
+111*played*0  
+112*file*http://liveplay-kk.rtxapp.com/live/program/live/gdwshd/4000000/mnf.m3u8  
+112*title*广东卫视 HD  
+112*played*0  
+113*file*http://118.25.29.24/outlivecloud-cdn.ysp.cctv.cn/cctv/2000292203.m3u8  
+113*title*深圳卫视 HD  
+113*played*0  
+114*file*http://112.50.243.8/PLTV/88888888/224/3221225848/1.m3u8  
+114*title*深圳卫视 HD  
+114*played*0  
+115*file*http://112.50.243.8/PLTV/88888888/224/3221225938/1.m3u8  
+115*title*深圳卫视 HD  
+115*played*0  
+116*file*http://111.13.111.242/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226245/1.m3u8  
+116*title*深圳卫视 HD  
+116*played*0  
+117*file*http://liveplay-kk.rtxapp.com/live/program/live/szwshd/4000000/mnf.m3u8  
+117*title*深圳卫视 HD  
+117*played*0  
+118*file*http://112.50.243.8/PLTV/88888888/224/3221225830/1.m3u8  
+118*title*天津卫视 HD  
+118*played*0  
+119*file*http://liveplay-kk.rtxapp.com/live/program/live/tjwshd/4000000/mnf.m3u8  
+119*title*天津卫视 HD  
+119*played*0  
+120*file*http://112.50.243.8/PLTV/88888888/224/3221225941/1.m3u8  
+120*title*天津卫视 HD  
+120*played*0  
+121*file*http://111.13.111.242/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226246/1.m3u8  
+121*title*天津卫视 HD  
+121*played*0  
+122*file*http://liveplay-kk.rtxapp.com/live/program/live/tjwshd/4000000/mnf.m3u8  
+122*title*天津卫视 HD  
+122*played*0  
+123*file*http://118.25.29.24/outlivecloud-cdn.ysp.cctv.cn/cctv/2000298003.m3u8  
+123*title*安徽卫视 HD  
+123*played*0  
+124*file*http://112.50.243.8/PLTV/88888888/224/3221225844/1.m3u8  
+124*title*安徽卫视 HD  
+124*played*0  
+125*file*http://112.50.243.8/PLTV/88888888/224/3221225945/1.m3u8  
+125*title*安徽卫视 HD  
+125*played*0  
+126*file*http://111.40.205.87/PLTV/88888888/224/3221225727/index.m3u8  
+126*title*安徽卫视 HD  
+126*played*0  
+127*file*http://111.13.111.242/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226223/1.m3u8  
+127*title*安徽卫视 HD  
+127*played*0  
+128*file*http://liveplay-kk.rtxapp.com/live/program/live/ahwshd/4000000/mnf.m3u8  
+128*title*安徽卫视 HD  
+128*played*0  
+129*file*http://118.25.29.24/outlivecloud-cdn.ysp.cctv.cn/cctv/2000294803.m3u8  
+129*title*山东卫视 HD  
+129*played*0  
+130*file*http://112.50.243.8/PLTV/88888888/224/3221225843/1.m3u8  
+130*title*山东卫视 HD  
+130*played*0  
+131*file*http://112.50.243.8/PLTV/88888888/224/3221225943/1.m3u8  
+131*title*山东卫视 HD  
+131*played*0  
+132*file*http://111.13.111.242/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226308/1.m3u8  
+132*title*山东卫视 HD  
+132*played*0  
+133*file*http://liveplay-kk.rtxapp.com/live/program/live/sdwshd/4000000/mnf.m3u8  
+133*title*山东卫视 HD  
+133*played*0  
+134*file*http://118.25.29.24/outlivecloud-cdn.ysp.cctv.cn/cctv/2000294503.m3u8  
+134*title*湖北卫视 HD  
+134*played*0  
+135*file*http://112.50.243.8/PLTV/88888888/224/3221225948/1.m3u8  
+135*title*湖北卫视 HD  
+135*played*0  
+136*file*http://112.50.243.8/PLTV/88888888/224/3221225948/1.m3u8  
+136*title*湖北卫视 HD  
+136*played*0  
+137*file*http://111.40.205.87/PLTV/88888888/224/3221225705/index.m3u8  
+137*title*湖北卫视 HD  
+137*played*0  
+138*file*http://111.13.111.242/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226310/1.m3u8  
+138*title*湖北卫视 HD  
+138*played*0  
+139*file*http://liveplay-kk.rtxapp.com/live/program/live/hbwshd/4000000/mnf.m3u8  
+139*title*湖北卫视 HD  
+139*played*0  
+140*file*http://118.25.29.24/outlivecloud-cdn.ysp.cctv.cn/cctv/2000281303.m3u8  
+140*title*辽宁卫视 HD  
+140*played*0  
+141*file*http://112.50.243.8/PLTV/88888888/224/3221225832/1.m3u8  
+141*title*辽宁卫视 HD  
+141*played*0  
+142*file*http://112.17.40.140/PLTV/88888888/224/3221226148/index.m3u8  
+142*title*辽宁卫视 HD  
+142*played*0  
+143*file*http://liveplay-kk.rtxapp.com/live/program/live/lnwshd/4000000/mnf.m3u8  
+143*title*辽宁卫视 HD  
+143*played*0  
+144*file*http://118.25.29.24/outlivecloud-cdn.ysp.cctv.cn/cctv/2000297803.m3u8  
+144*title*重庆卫视 HD  
+144*played*0  
+145*file*http://112.50.243.8/PLTV/88888888/224/3221225831/1.m3u8  
+145*title*重庆卫视 HD  
+145*played*0  
+146*file*http://qxlmlive.cbg.cn:1935/app_2/ls_67.stream/chunklist.m3u8  
+146*title*重庆卫视 HD  
+146*played*0  
+147*file*http://118.25.29.24/outlivecloud-cdn.ysp.cctv.cn/cctv/2000294103.m3u8  
+147*title*江西卫视 HD  
+147*played*0  
+148*file*http://112.50.243.8/PLTV/88888888/224/3221225834/1.m3u8  
+148*title*江西卫视 HD  
+148*played*0  
+149*file*http://111.13.111.242/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226243/1.m3u8  
+149*title*江西卫视 HD  
+149*played*0  
+150*file*http://liveplay-kk.rtxapp.com/live/program/live/jxwshd/4000000/mnf.m3u8  
+150*title*江西卫视 HD  
+150*played*0  
+151*file*http://118.25.29.24/outlivecloud-cdn.ysp.cctv.cn/cctv/2000293403.m3u8  
+151*title*河北卫视 HD  
+151*played*0  
+152*file*http://weblive.hebtv.com/live/hbws_bq/index.m3u8  
+152*title*河北卫视 HD  
+152*played*0  
+153*file*http://live5.plus.hebtv.com/hbws/sd/live.m3u8  
+153*title*河北卫视 HD  
+153*played*0  
+154*file*http://118.25.29.24/outlivecloud-cdn.ysp.cctv.cn/cctv/2000293303.m3u8  
+154*title*贵州卫视 HD  
+154*played*0  
+155*file*http://112.50.243.8/PLTV/88888888/224/3221226827/1.m3u8  
+155*title*贵州卫视 HD  
+155*played*0  
+156*file*http://39.130.218.239:6610/gitv_live/G_GUIZHOU-HD/G_YUNNAN-HD.m3u8  
+156*title*贵州卫视 HD  
+156*played*0  
+157*file*http://118.25.29.24/outlivecloud-cdn.ysp.cctv.cn/cctv/2000295003.m3u8  
+157*title*四川卫视 HD  
+157*played*0  
+158*file*http://112.50.243.8/PLTV/88888888/224/3221227006/1.m3u8  
+158*title*四川卫视 HD  
+158*played*0  
+159*file*http://scgctvshow.sctv.com/scgc/sctv1deu5453w/index.m3u8  
+159*title*四川卫视 HD  
+159*played*0  
+160*file*http://39.134.65.87:80/PLTV/88888888/224/3221225497/index.m3u8  
+160*title*四川卫视 HD  
+160*played*0  
+161*file*http://118.25.29.24/outlivecloud-cdn.ysp.cctv.cn/cctv/2000296103.m3u8  
+161*title*河南卫视 HD  
+161*played*0  
+162*file*http://112.50.243.8/PLTV/88888888/224/3221225842/1.m3u8  
+162*title*河南卫视 HD  
+162*played*0  
+163*file*http://112.17.40.140/PLTV/88888888/224/3221226130/index.m3u8  
+163*title*河南卫视 HD  
+163*played*0  
+164*file*http://118.25.29.24/outlivecloud-cdn.ysp.cctv.cn/cctv/2000294203.m3u8  
+164*title*广西卫视 HD  
+164*played*0  
+165*file*http://112.50.243.8/PLTV/88888888/224/3221225836/1.m3u8  
+165*title*广西卫视 HD  
+165*played*0  
+166*file*http://mobilelive.gxtv.cn/live/nn_live1004/playlist.m3u8  
+166*title*广西卫视 HD  
+166*played*0  
+167*file*http://liveplay-kk.rtxapp.com/live/program/live/gxws/1300000/mnf.m3u8  
+167*title*广西卫视 HD  
+167*played*0  
+168*file*http://stream4.jlntv.cn/test2/sd/live.m3u8  
+168*title*吉林卫视 HD  
+168*played*0  
+169*file*http://112.50.243.8/PLTV/88888888/224/3221225851/1.m3u8  
+169*title*吉林卫视 HD  
+169*played*0  
+170*file*http://101.71.255.229:6610/zjhs/2/10096/index.m3u8?virtualDomain=zjhs.live_hls.zte.com  
+170*title*吉林卫视 HD  
+170*played*0  
+171*file*http://livelyws.chinamcache.com/lyws/zb01.m3u8?auth_key=1593241343-0-0-90b80e74457c94b2015f9428a1cb9b0e  
+171*title*海南卫视 HD  
+171*played*0  
+172*file*http://112.50.243.8/PLTV/88888888/224/3221225855/1.m3u8  
+172*title*海南卫视 HD  
+172*played*0  
+173*file*http://112.50.243.8/PLTV/88888888/224/3221226781/1.m3u8  
+173*title*厦门卫视 HD  
+173*played*0  
+174*file*http://cctvalih5ca.v.myalicdn.com/cstv/xiamen_2/index.m3u8  
+174*title*厦门卫视 HD  
+174*played*0  
+175*file*http://223.110.245.145/ott.js.chinamobile.com/PLTV/3/224/3221226093/2.m3u8  
+175*title*厦门卫视 HD  
+175*played*0  
+176*file*http://118.25.29.24/outlivecloud-cdn.ysp.cctv.cn/cctv/2000292503.m3u8  
+176*title*东南卫视 HD  
+176*played*0  
+177*file*http://112.50.243.8/PLTV/88888888/224/3221225833/1.m3u8  
+177*title*东南卫视 HD  
+177*played*0  
+178*file*http://39.134.65.162/PLTV/88888888/224/3221225500/index.m3u8  
+178*title*东南卫视 HD  
+178*played*0  
+179*file*rtsp://183.252.176.54:554/PLTV/88888888/224/3221226128/10000100000000060000000002434539_0.smil  
+179*title*海峡卫视 HD  
+179*played*0  
+180*file*rtsp://183.252.176.54:554/PLTV/88888888/224/3221226116/10000100000000060000000002358068_0.smil  
+180*title*福建新闻 HD  
+180*played*0  
+181*file*http://118.25.29.24/outlivecloud-cdn.ysp.cctv.cn/cctv/2000293903.m3u8  
+181*title*黑龙江卫视 HD  
+181*played*0  
+182*file*http://112.50.243.8/PLTV/88888888/224/3221225862/1.m3u8  
+182*title*黑龙江卫视 HD  
+182*played*0  
+183*file*http://112.50.243.8/PLTV/88888888/224/3221225940/1.m3u8  
+183*title*黑龙江卫视 HD  
+183*played*0  
+184*file*http://111.13.111.242/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226239/1.m3u8  
+184*title*黑龙江卫视 HD  
+184*played*0  
+185*file*http://liveplay-kk.rtxapp.com/live/program/live/hljwshd/4000000/mnf.m3u8  
+185*title*黑龙江卫视 HD  
+185*played*0  
+186*file*http://112.50.243.8/PLTV/88888888/224/3221225850/1.m3u8  
+186*title*陕西卫视  
+186*played*0  
+187*file*http://111.40.205.87/PLTV/88888888/224/3221225625/index.m3u8  
+187*title*陕西卫视  
+187*played*0  
+188*file*http://112.17.40.140/PLTV/88888888/224/3221226177/index.m3u8  
+188*title*陕西卫视  
+188*played*0  
+189*file*http://111.13.111.242/otttv.bj.chinamobile.com/PLTV/88888888/224/3221225896/1.m3u8  
+189*title*陕西卫视  
+189*played*0  
+190*file*http://112.50.243.8/PLTV/88888888/224/3221225845/1.m3u8  
+190*title*甘肃卫视  
+190*played*0  
+191*file*http://223.110.245.141/ott.js.chinamobile.com/PLTV/3/224/3221225846/index.m3u8  
+191*title*甘肃卫视  
+191*played*0  
+192*file*http://111.40.205.87/PLTV/88888888/224/3221225633/index.m3u8  
+192*title*甘肃卫视  
+192*played*0  
+193*file*http://111.13.111.242/otttv.bj.chinamobile.com/PLTV/88888888/224/3221225877/1.m3u8  
+193*title*甘肃卫视  
+193*played*0  
+194*file*http://112.50.243.8/PLTV/88888888/224/3221225839/1.m3u8  
+194*title*山西卫视  
+194*played*0  
+195*file*http://111.40.205.87/PLTV/88888888/224/3221225624/index.m3u8  
+195*title*山西卫视  
+195*played*0  
+196*file*http://111.13.111.242/otttv.bj.chinamobile.com/PLTV/88888888/224/3221225895/1.m3u8  
+196*title*山西卫视  
+196*played*0  
+197*file*http://112.50.243.8/PLTV/88888888/224/3221225841/1.m3u8  
+197*title*青海卫视  
+197*played*0  
+198*file*http://liveplay-kk.rtxapp.com/live/program/live/qhws/1300000/mnf.m3u8  
+198*title*青海卫视  
+198*played*0  
+199*file*http://111.13.111.242/otttv.bj.chinamobile.com/PLTV/88888888/224/3221225893/1.m3u8  
+199*title*青海卫视  
+199*played*0  
+200*file*http://112.50.243.8/PLTV/88888888/224/3221225853/1.m3u8  
+200*title*云南卫视  
+200*played*0  
+201*file*http://liveplay-kk.rtxapp.com/live/program/live/ynws/1300000/mnf.m3u8  
+201*title*云南卫视  
+201*played*0  
+202*file*http://111.13.111.242/otttv.bj.chinamobile.com/PLTV/88888888/224/3221225902/1.m3u8  
+202*title*云南卫视  
+202*played*0  
+203*file*http://112.50.243.8/PLTV/88888888/224/3221225849/1.m3u8  
+203*title*宁夏卫视  
+203*played*0  
+204*file*http://stream.nxtv.com.cn/wspd/sd/live.m3u8?_upt=325bcb6a1587631252  
+204*title*宁夏卫视  
+204*played*0  
+205*file*http://39.134.65.162/PLTV/88888888/224/3221225579/index.m3u8  
+205*title*宁夏卫视  
+205*played*0  
+206*file*http://111.13.111.242/otttv.bj.chinamobile.com/PLTV/88888888/224/3221225892/1.m3u8  
+206*title*宁夏卫视  
+206*played*0  
+207*file*http://112.50.243.8/PLTV/88888888/224/3221225852/1.m3u8  
+207*title*新疆卫视  
+207*played*0  
+208*file*http://223.110.243.136:80/PLTV/3/224/3221225523/index.m3u8  
+208*title*新疆卫视  
+208*played*0  
+209*file*http://111.13.111.242/otttv.bj.chinamobile.com/PLTV/88888888/224/3221225901/1.m3u8  
+209*title*新疆卫视  
+209*played*0  
+210*file*http://111.13.111.242/otttv.bj.chinamobile.com/PLTV/88888888/224/3221225900/1.m3u8  
+210*title*西藏卫视  
+210*played*0  
+211*file*http://112.50.243.8/PLTV/88888888/224/3221225846/1.m3u8  
+211*title*内蒙古卫视  
+211*played*0  
+212*file*http://39.134.65.162/PLTV/88888888/224/3221225577/index.m3u8  
+212*title*内蒙古卫视  
+212*played*0  
+213*file*http://111.40.205.87/PLTV/88888888/224/3221225634/index.m3u8  
+213*title*内蒙古卫视  
+213*played*0  
+214*file*http://111.13.111.242/otttv.bj.chinamobile.com/PLTV/88888888/224/3221225891/1.m3u8  
+214*title*内蒙古卫视  
+214*played*0  
+215*file*http://112.50.243.8/PLTV/88888888/224/3221225900/1.m3u8  
+215*title*凤凰中文 HD  
+215*played*0  
+216*file*http://112.17.40.140/PLTV/88888888/224/3221226368/index.m3u8  
+216*title*凤凰中文 HD  
+216*played*0  
+217*file*http://qlive.fengshows.cn/PCC.flv  
+217*title*凤凰中文 HD  
+217*played*0  
+218*file*http://112.50.243.8/PLTV/88888888/224/3221225901/1.m3u8  
+218*title*凤凰资讯 HD  
+218*played*0  
+219*file*http://112.17.40.140/PLTV/88888888/224/3221226491/index.m3u8  
+219*title*凤凰资讯 HD  
+219*played*0  
+220*file*http://qlive.fengshows.cn/PIN.flv  
+220*title*凤凰资讯 HD  
+220*played*0  
+221*file*http://223.110.245.136/PLTV/3/224/3221226975/index.m3u8  
+221*title*凤凰香港 HD  
+221*played*0  
+222*file*http://qlive.fengshows.cn/PHK.flv  
+222*title*凤凰香港 HD  
+222*played*0  
+223*file*http://qlive.fengshows.cn/live720p/PHK.flv  
+223*title*凤凰香港 HD  
+223*played*0  
+224*file*http://183.207.249.34/PLTV/3/224/3221226975/index.m3u8  
+224*title*凤凰香港 HD  
+224*played*0  
+225*file*http://zhibo.hkstv.tv/livestream/mutfysrq.flv  
+225*title*香港卫视  
+225*played*0  
+226*file*http://cctvtxyh5ca.liveplay.myqcloud.com/cstv/xianggangweishi_2_hd.m3u8  
+226*title*香港卫视  
+226*played*0  
+227*file*http://118.25.29.24/outlivecloud-cdn.ysp.cctv.cn/cctv/2000266303.m3u8  
+227*title*CCTV4K  UHD  
+227*played*0  
+228*file*http://112.17.40.12/PLTV/88888888/224/3221226758/index.m3u8  
+228*title*CCTV4K  UHD  
+228*played*0  
+229*file*http://39.134.185.69/PLTV/88888888/224/3221226758/1.m3u8  
+229*title*CCTV4K  UHD  
+229*played*0  
+230*file*http://112.50.243.8/PLTV/88888888/224/3221226825/1.m3u8  
+230*title*纯享4K    UHD  
+230*played*0  
+231*file*http://ott.fj.chinamobile.com/PLTV/88888888/224/3221226825/1.m3u8  
+231*title*纯享4K    UHD  
+231*played*0  
+232*file*http://117.148.187.37/PLTV/88888888/224/3221226718/index.m3u8  
+232*title*BesTV4K UHD  
+232*played*0  
+233*file*http://117.148.187.83/PLTV/88888888/224/3221226718/index.m3u8  
+233*title*BesTV4K UHD  
+233*played*0  
+234*file*http://39.134.176.157/PLTV/88888888/224/3221226718/index.m3u8  
+234*title*BesTV4K UHD  
+234*played*0  
+235*file*http://39.134.52.207/hwottcdn.ln.chinamobile.com/PLTV/88888890/224/3221226752/index.m3u8  
+235*title*高清HD大众影视  
+235*played*0  
+236*file*http://39.134.52.197/hwottcdn.ln.chinamobile.com/PLTV/88888890/224/3221226740/index.m3u8  
+236*title*高清HD家庭剧场  
+236*played*0  
+237*file*http://39.134.52.169/hwottcdn.ln.chinamobile.com/PLTV/88888890/224/3221226723/index.m3u8  
+237*title*高清HD家庭影院  
+237*played*0  
+238*file*http://39.134.52.179/hwottcdn.ln.chinamobile.com/PLTV/88888890/224/3221226717/index.m3u8  
+238*title*高清HD卡通剧场  
+238*played*0  
+239*file*http://112.50.243.8/PLTV/88888888/224/3221225879/1.m3u8  
+239*title*Newtv动作电影  
+239*played*0  
+240*file*http://112.17.40.140/PLTV/88888888/224/3221226747/index.m3u8  
+240*title*Newtv动作电影  
+240*played*0  
+241*file*http://112.50.243.8/PLTV/88888888/224/3221225885/1.m3u8  
+241*title*Newtv惊悚悬疑  
+241*played*0  
+242*file*http://112.17.40.140/PLTV/88888888/224/3221226656/index.m3u8  
+242*title*Newtv惊悚悬疑  
+242*played*0  
+243*file*http://112.50.243.8/PLTV/88888888/224/3221225893/1.m3u8  
+243*title*Newtv明星大片  
+243*played*0  
+244*file*http://112.17.40.140/PLTV/88888888/224/3221226751/index.m3u8  
+244*title*Newtv明星大片  
+244*played*0  
+245*file*http://112.50.243.8/PLTV/88888888/224/3221225882/1.m3u8  
+245*title*Newtv家庭剧场  
+245*played*0  
+246*file*http://112.17.40.140/PLTV/88888888/224/3221226642/index.m3u8  
+246*title*Newtv家庭剧场  
+246*played*0  
+247*file*http://112.50.243.8/PLTV/88888888/224/3221225889/1.m3u8  
+247*title*Newtv精品大剧  
+247*played*0  
+248*file*http://112.17.40.140/PLTV/88888888/224/3221226668/index.m3u8  
+248*title*Newtv精品大剧  
+248*played*0  
+249*file*http://112.50.243.8/PLTV/88888888/224/3221225880/1.m3u8  
+249*title*Newtv古装剧场  
+249*played*0  
+250*file*http://112.17.40.140/PLTV/88888888/224/3221226753/index.m3u8  
+250*title*Newtv古装剧场  
+250*played*0  
+251*file*http://112.50.243.8/PLTV/88888888/224/3221225877/1.m3u8  
+251*title*Newtv爱情喜剧  
+251*played*0  
+252*file*http://112.17.40.140/PLTV/88888888/224/3221226660/index.m3u8  
+252*title*Newtv爱情喜剧  
+252*played*0  
+253*file*http://112.50.243.8/PLTV/88888888/224/3221225887/1.m3u8  
+253*title*Newtv军旅剧场  
+253*played*0  
+254*file*http://112.17.40.140/PLTV/88888888/224/3221226682/index.m3u8  
+254*title*Newtv军旅剧场  
+254*played*0  
+255*file*http://112.50.243.8/PLTV/88888888/224/3221225890/1.m3u8  
+255*title*Newtv军事评论  
+255*played*0  
+256*file*http://112.17.40.140/PLTV/88888888/224/3221226658/index.m3u8  
+256*title*Newtv军事评论  
+256*played*0  
+257*file*http://112.50.243.8/PLTV/88888888/224/3221225884/1.m3u8  
+257*title*Newtv金牌综艺  
+257*played*0  
+258*file*http://112.17.40.140/PLTV/88888888/224/3221226749/index.m3u8  
+258*title*Newtv金牌综艺  
+258*played*0  
+259*file*http://112.50.243.8/PLTV/88888888/224/3221225886/1.m3u8  
+259*title*Newtv精品体育  
+259*played*0  
+260*file*http://112.17.40.140/PLTV/88888888/224/3221226819/index.m3u8  
+260*title*Newtv精品体育  
+260*played*0  
+261*file*http://112.50.243.8/PLTV/88888888/224/3221225888/1.m3u8  
+261*title*Newtv精品记录  
+261*played*0  
+262*file*http://112.17.40.140/PLTV/88888888/224/3221226763/index.m3u8  
+262*title*Newtv精品记录  
+262*played*0  
+263*file*http://112.50.243.8/PLTV/88888888/224/3221225891/1.m3u8  
+263*title*黑莓电影  
+263*played*0  
+264*file*http://112.17.40.140/PLTV/88888888/224/3221226755/index.m3u8  
+264*title*黑莓电影  
+264*played*0  
+265*file*http://112.50.243.8/PLTV/88888888/224/3221225878/1.m3u8  
+265*title*黑莓动画  
+265*played*0  
+266*file*http://112.17.40.140/PLTV/88888888/224/3221226654/index.m3u8  
+266*title*黑莓动画  
+266*played*0  
