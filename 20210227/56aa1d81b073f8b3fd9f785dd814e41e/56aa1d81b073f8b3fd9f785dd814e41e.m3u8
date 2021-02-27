@@ -1,0 +1,3 @@
+国内直播源
+#EXTINF:tvg-logo=““,cctv
+https://api.123zx.net/m3u8/play.html?id=http://cctvcnch5c.v.wscdns.com/live/cctv1_2/index.m3u8
