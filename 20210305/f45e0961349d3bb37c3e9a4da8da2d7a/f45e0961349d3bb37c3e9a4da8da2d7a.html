@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+    <title>小杰激活码商城</title>
+    <style>
+       /* iframe {
+            height: 97vh;!*设置高度百分比,一直调到只有一个滚动调为止*!
+        }*/
+        .content-iframe-wrapper {
+            -webkit-overflow-scrolling: touch;
+            overflow-y: auto;
+            width: 100%;
+            height: calc(100vh);
+        }
+
+        .content-iframe-wrapper .content-iframe {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body style="margin:0">
+<div id="iframe-box" class="content-iframe-wrapper" >
+    <input hidden value="http://fk.9g4.cn" id="url">
+    <iframe src="http://jie.yx006.cn/" id="ifram" frameborder="0" class="content-iframe">
+
+</iframe>
+   <!-- <script>
+           var ifram = document.getElementById('ifram');
+           if (navigator.userAgent.match(/iPad|iPhone/i)) {
+                   var iframe_box = document.getElementById('iframe-box');
+                   iframe_box.style.width = 100 + '%';
+                   iframe_box.style.overflowX = 'hidden';
+                   iframe_box.style.overflowY = 'scroll';
+                   iframe_box.style.webkitOverflowScrolling = 'touch';
+                   ifram.setAttribute('scrolling', 'no');
+                   iframe_box.appendChild(ifram);
+               }
+
+       </script>-->
+    <script>
+        setTimeout(function (){
+            document.getElementById('ifram').src = document.getElementById('url').value;
+            return
+        },1500)
+    </script>
+</div>
+</body>
+</html>
