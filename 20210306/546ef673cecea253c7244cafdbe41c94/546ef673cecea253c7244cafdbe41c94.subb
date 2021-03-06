@@ -1,0 +1,24 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: :9090
+proxies:
+  - {name: "#通知：严禁发布任何反党反国言论", server: 1.1, port: 443, type: vmess, uuid: a0e3a342-de06-393a-9d65-193d0c5510be, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇨🇳 台湾01|广移1|优选Hinet原生IP|1x, server: cszz.qlssvip.xyz, port: 18010, type: vmess, uuid: a0e3a342-de06-393a-9d65-193d0c5510be, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /cat-tw1, ws-headers: {Host: cszz.qlssvip.xyz}, udp: true}
+  - {name: 🇸🇬 新加坡03|广移2|1x, server: gzzz.qlssvip.xyz, port: 18010, type: vmess, uuid: a0e3a342-de06-393a-9d65-193d0c5510be, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /cat-xjp3, ws-headers: {Host: gzzz.qlssvip.xyz}, udp: true}
+  - {name: 🇯🇵 日本02|广移1|1x, server: cszz.qlssvip.xyz, port: 18010, type: vmess, uuid: a0e3a342-de06-393a-9d65-193d0c5510be, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /cat-linjp2, ws-headers: {Host: cszz.qlssvip.xyz}, udp: true}
+  - {name: 🇯🇵 日本03|广移1|1x, server: cszz.qlssvip.xyz, port: 18010, type: vmess, uuid: a0e3a342-de06-393a-9d65-193d0c5510be, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /cat-linjp3, ws-headers: {Host: cszz.qlssvip.xyz}, udp: true}
+  - {name: 🇯🇵 日本04|广移1|1x, server: cszz.qlssvip.xyz, port: 18010, type: vmess, uuid: a0e3a342-de06-393a-9d65-193d0c5510be, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /cat-linjp4, ws-headers: {Host: cszz.qlssvip.xyz}, udp: true}
+  - {name: 🇯🇵 日本05|广移2|流媒体解锁|1x, server: gzzz.qlssvip.xyz, port: 18010, type: vmess, uuid: a0e3a342-de06-393a-9d65-193d0c5510be, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /cat-linjp5, ws-headers: {Host: gzzz.qlssvip.xyz}, udp: true}
+  - {name: 🇯🇵 日本06|广移2|流媒体解锁|1x, server: gzzz.qlssvip.xyz, port: 18010, type: vmess, uuid: a0e3a342-de06-393a-9d65-193d0c5510be, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /cat-rb5, ws-headers: {Host: gzzz.qlssvip.xyz}, udp: true}
+  - {name: 🇺🇸 美国01|广移1|1x, server: cszz.qlssvip.xyz, port: 18010, type: vmess, uuid: a0e3a342-de06-393a-9d65-193d0c5510be, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /cat-aga3, ws-headers: {Host: cszz.qlssvip.xyz}, udp: true}
+  - {name: 🇺🇸 美国02|广移2|流媒体解锁|1x, server: gzzz.qlssvip.xyz, port: 18010, type: vmess, uuid: a0e3a342-de06-393a-9d65-193d0c5510be, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /cat-agaus3, ws-headers: {Host: gzzz.qlssvip.xyz}, udp: true}
+  - {name: 🇺🇸 美国|CC|广移2|公益性|0.1x, server: gzzz.qlssvip.xyz, port: 18010, type: vmess, uuid: a0e3a342-de06-393a-9d65-193d0c5510be, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /cat-ccus1, ws-headers: {Host: gzzz.qlssvip.xyz}, udp: true}
+  - {name: 🇰🇷 韩国01|广移1|1x, server: cszz.qlssvip.xyz, port: 18010, type: vmess, uuid: a0e3a342-de06-393a-9d65-193d0c5510be, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /cat-hg1, ws-headers: {Host: cszz.qlssvip.xyz}, udp: true}
+  - {name: 🇰🇷 韩国02|广移1||1x, server: cszz.qlssvip.xyz, port: 18010, type: vmess, uuid: a0e3a342-de06-393a-9d65-193d0c5510be, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /cat-hg2, ws-headers: {Host: cszz.qlssvip.xyz}, udp: true}
+  - {name: 🇰🇷 韩国03|广移2|流媒体解锁|1x, server: gzzz.qlssvip.xyz, port: 18010, type: vmess, uuid: a0e3a342-de06-393a-9d65-193d0c5510be, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /cat-hg3, ws-headers: {Host: gzzz.qlssvip.xyz}, udp: true}
+  - {name: 🇭🇰 香港01|广移1|1x, server: cszz.qlssvip.xyz, port: 18010, type: vmess, uuid: a0e3a342-de06-393a-9d65-193d0c5510be, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /cat-awshk2, ws-headers: {Host: cszz.qlssvip.xyz}, udp: true}
+  - {name: 🇭🇰 香港02|广移1|1x, server: cszz.qlssvip.xyz, port: 18010, type: vmess, uuid: a0e3a342-de06-393a-9d65-193d0c5510be, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /cat-awshk1, ws-headers: {Host: cszz.qlssvip.xyz}, udp: true}
+  
