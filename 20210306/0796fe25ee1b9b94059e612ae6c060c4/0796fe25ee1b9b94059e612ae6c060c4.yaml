@@ -1,0 +1,286 @@
+proxies:
+  -
+    name: 剩余流量：71.42GB
+    type: ss
+    server: catcloud.fun
+    port: 10086
+    cipher: chacha20-ietf-poly1305
+    password: AreWLN
+    udp: true
+  -
+    name: 过期时间：2021-04-02
+    type: ss
+    server: catcloud.fun
+    port: 10086
+    cipher: chacha20-ietf-poly1305
+    password: AreWLN
+    udp: true
+  -
+    name: '#通知：严禁发布任何反党反国言论'
+    type: vmess
+    server: '1.1'
+    port: 443
+    uuid: a0e3a342-de06-393a-9d65-193d0c5510be
+    alterId: 0
+    cipher: auto
+    udp: true
+  -
+    name: 台湾01|广移1|优选Hinet原生IP|1x
+    type: vmess
+    server: cszz.qlssvip.xyz
+    port: 18010
+    uuid: a0e3a342-de06-393a-9d65-193d0c5510be
+    alterId: 1
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /cat-tw1
+    ws-headers:
+      Host: cszz.qlssvip.xyz
+  -
+    name: 新加坡03|广移2|1x
+    type: vmess
+    server: gzzz.qlssvip.xyz
+    port: 18010
+    uuid: a0e3a342-de06-393a-9d65-193d0c5510be
+    alterId: 1
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /cat-xjp3
+    ws-headers:
+      Host: gzzz.qlssvip.xyz
+  -
+    name: 日本02|广移1|1x
+    type: vmess
+    server: cszz.qlssvip.xyz
+    port: 18010
+    uuid: a0e3a342-de06-393a-9d65-193d0c5510be
+    alterId: 1
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /cat-linjp2
+    ws-headers:
+      Host: cszz.qlssvip.xyz
+  -
+    name: 日本03|广移1|1x
+    type: vmess
+    server: cszz.qlssvip.xyz
+    port: 18010
+    uuid: a0e3a342-de06-393a-9d65-193d0c5510be
+    alterId: 1
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /cat-linjp3
+    ws-headers:
+      Host: cszz.qlssvip.xyz
+  -
+    name: 日本04|广移1|1x
+    type: vmess
+    server: cszz.qlssvip.xyz
+    port: 18010
+    uuid: a0e3a342-de06-393a-9d65-193d0c5510be
+    alterId: 1
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /cat-linjp4
+    ws-headers:
+      Host: cszz.qlssvip.xyz
+  -
+    name: 日本05|广移2|流媒体解锁|1x
+    type: vmess
+    server: gzzz.qlssvip.xyz
+    port: 18010
+    uuid: a0e3a342-de06-393a-9d65-193d0c5510be
+    alterId: 1
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /cat-linjp5
+    ws-headers:
+      Host: gzzz.qlssvip.xyz
+  -
+    name: 日本06|广移2|流媒体解锁|1x
+    type: vmess
+    server: gzzz.qlssvip.xyz
+    port: 18010
+    uuid: a0e3a342-de06-393a-9d65-193d0c5510be
+    alterId: 1
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /cat-rb5
+    ws-headers:
+      Host: gzzz.qlssvip.xyz
+  -
+    name: 美国01|广移1|1x
+    type: vmess
+    server: cszz.qlssvip.xyz
+    port: 18010
+    uuid: a0e3a342-de06-393a-9d65-193d0c5510be
+    alterId: 1
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /cat-aga3
+    ws-headers:
+      Host: cszz.qlssvip.xyz
+  -
+    name: 美国02|广移2|流媒体解锁|1x
+    type: vmess
+    server: gzzz.qlssvip.xyz
+    port: 18010
+    uuid: a0e3a342-de06-393a-9d65-193d0c5510be
+    alterId: 1
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /cat-agaus3
+    ws-headers:
+      Host: gzzz.qlssvip.xyz
+  -
+    name: 美国|CC|广移2|公益性|0.1x
+    type: vmess
+    server: gzzz.qlssvip.xyz
+    port: 18010
+    uuid: a0e3a342-de06-393a-9d65-193d0c5510be
+    alterId: 1
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /cat-ccus1
+    ws-headers:
+      Host: gzzz.qlssvip.xyz
+  -
+    name: 韩国01|广移1|1x
+    type: vmess
+    server: cszz.qlssvip.xyz
+    port: 18010
+    uuid: a0e3a342-de06-393a-9d65-193d0c5510be
+    alterId: 1
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /cat-hg1
+    ws-headers:
+      Host: cszz.qlssvip.xyz
+  -
+    name: 韩国02|广移1||1x
+    type: vmess
+    server: cszz.qlssvip.xyz
+    port: 18010
+    uuid: a0e3a342-de06-393a-9d65-193d0c5510be
+    alterId: 1
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /cat-hg2
+    ws-headers:
+      Host: cszz.qlssvip.xyz
+  -
+    name: 韩国03|广移2|流媒体解锁|1x
+    type: vmess
+    server: gzzz.qlssvip.xyz
+    port: 18010
+    uuid: a0e3a342-de06-393a-9d65-193d0c5510be
+    alterId: 1
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /cat-hg3
+    ws-headers:
+      Host: gzzz.qlssvip.xyz
+  -
+    name: 香港01|广移1|1x
+    type: vmess
+    server: cszz.qlssvip.xyz
+    port: 18010
+    uuid: a0e3a342-de06-393a-9d65-193d0c5510be
+    alterId: 1
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /cat-awshk2
+    ws-headers:
+      Host: cszz.qlssvip.xyz
+  -
+    name: 香港02|广移1|1x
+    type: vmess
+    server: cszz.qlssvip.xyz
+    port: 18010
+    uuid: a0e3a342-de06-393a-9d65-193d0c5510be
+    alterId: 1
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /cat-awshk1
+    ws-headers:
+      Host: cszz.qlssvip.xyz
+  -
+    name: 香港03|广移1|1x
+    type: vmess
+    server: cszz.qlssvip.xyz
+    port: 18011
+    uuid: a0e3a342-de06-393a-9d65-193d0c5510be
+    alterId: 1
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /cat-azhk22
+    ws-headers:
+      Host: cszz.qlssvip.xyz
+  -
+    name: 香港04|广移1|1x
+    type: vmess
+    server: cszz.qlssvip.xyz
+    port: 18010
+    uuid: a0e3a342-de06-393a-9d65-193d0c5510be
+    alterId: 1
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /cat-azhk111
+    ws-headers:
+      Host: cszz.qlssvip.xyz
+  -
+    name: 香港05|广移1|流媒体解锁|1x
+    type: vmess
+    server: cszz.qlssvip.xyz
+    port: 18010
+    uuid: a0e3a342-de06-393a-9d65-193d0c5510be
+    alterId: 1
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /cat-azhk11
+    ws-headers:
+      Host: cszz.qlssvip.xyz
+  -
+    name: 香港07|广移1|优选HKT原生IP|1x
+    type: vmess
+    server: cszz.qlssvip.xyz
+    port: 18010
+    uuid: a0e3a342-de06-393a-9d65-193d0c5510be
+    alterId: 1
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /cat-hkt1
+    ws-headers:
+      Host: cszz.qlssvip.xyz
+  -
+    name: 香港08|广移2|流媒体解锁|1x
+    type: vmess
+    server: gzzz.qlssvip.xyz
+    port: 18010
+    uuid: a0e3a342-de06-393a-9d65-193d0c5510be
+    alterId: 1
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /cat-hk8
+    ws-headers:
+      Host: gzzz.qlssvip.xyz
