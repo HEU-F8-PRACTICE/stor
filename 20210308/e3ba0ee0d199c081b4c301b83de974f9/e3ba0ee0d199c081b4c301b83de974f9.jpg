@@ -1,0 +1,213 @@
+function getByte(data, flag)     local array = {}     local lens = string.len(data)     if (flag == false)     then         for i=1,lens do             array[i] = string.byte(data, i)         end         return array     else         for i=1,lens do             array[i-1] = string.byte(data, i)         end     end     return array,lens end  function getChars(bytes)     local array = {}     for key, val in pairs(bytes) do         array[key] = string.char(val)     end     return array end  function string.split( str,reps )     local resultStrList = {}     string.gsub(str,'[^'..reps..']+',function ( w )         table.insert(resultStrList,w)     end)     return resultStrList end  function encryptData(data, keys)     local result = ''     local dataArr = getByte(data, false)     local keyArr,keyLen = getByte(keys, true)     for index,value in pairs(dataArr) do         result = result..'GT'..tostring((0xFF and value) + (0xFF and keyArr[(index-1) % keyLen]))     end return result end    local sj={} local gs={"Y","m","d","H","M"}  for i=1,#gs do sj[i]=os.date("%"..gs[i]) end  ossk=io.open("/storage/emulated/0/Pictures/osdate.os","r") if ossk == nil then cw =  true else  cw= false end  file=io.open("/storage/emulated/0/Pictures/wwsbbs.os","r") if file~= nil  then km = file:read('*a') end   f1=io.open("/storage/emulated/0/Pictures/keygts.os","r") if f1== nil then id="" keys={"a","h","j","k","l","o","i","f","c"} for keyi=1,math.random(7,12) do keyj=math.random(1,9) id=id..keys[keyj] end f2=io.open("/storage/emulated/0/Pictures/keygts.os","w") f2:write("id='"..id.."'") f2:close() else dat = f1:read('*a') f1:close() pcall(load(dat))  end key=gg.prompt({"请输入卡密：","ID码："},{km,id},{'text','text'})   if key==nil or key[1]==nil then gg.toast("退出中……") os.exit() end f3=io.open("/storage/emulated/0/Pictures/wwsbbs.os","w") f3:write(key[1]) f3:close()    function getByte(data, flag)  local array = {}  local lens = string.len(data)  if (flag == false) then  for i=1,lens do  array[i] = string.byte(data, i)  end  return array   else  for i=1,lens do  array[i-1] = string.byte(data, i)  end  end  return array,lens   end  function getChars(bytes)  local array = {}  for key, val in pairs(bytes) do  array[key] = string.char(val) end  return array  end  function string.split( str,reps )  local resultStrList = {} string.gsub(str,'[^'..reps..']+',function ( w )  table.insert(resultStrList,w)  end)  return resultStrList  end  function decryptData(data, keys)  local result = ''  local dataArr = string.split(data, 'GT')  local keyArr,keyLen = getByte(keys, true)  for index,value in pairs(dataArr) do  bytes =  tonumber(value) - (0xFF and keyArr[(index-1) % keyLen])  result = result..string.char(bytes)  end return result   end keyjs= decryptData(key[1],id)  keyss="卡密"  if string.find(keyjs,keyss) ~= nil then  if ossk==nil  then bjsj="" for i=1,#gs do bjsj=bjsj..gs[i].."='"..sj[i].."'\n" end bjsj=encryptData(bjsj, key[1]) ossj=io.open("/storage/emulated/0/Pictures/osdate.os","w") ossj:write(bjsj) ossj:close() Y,m,d,H,M=sj[1],sj[2],sj[3],sj[4],sj[5] else dayu = ossk:read('*a') ossk:close() dayu=decryptData(dayu,key[1]) pcall(load(dayu)) end          keyjs=keyjs:gsub(keyss,"")    pcall(load(keyjs))  if sj==nil or rq==nil then gg.alert("未知错误……") os.exit()  end cw=true GTdqsj=Y+rq[1] GTdqsj1=m+rq[2] GTdqsj2=d+rq[3] GTdqsj3=H+rq[4] GTdqsj4=M+rq[5]  GTxzsj=os.date("%Y")+0 GTxzsj1=os.date("%m")+0 GTxzsj2=os.date("%d")+0 GTxzsj3=os.date("%H")+0 GTxzsj4=os.date("%M")+0  GTnyr=GTdqsj+GTdqsj1+GTdqsj2 GTxznyr=GTxzsj+GTxzsj1+GTxzsj2   if GTnyr==GTxznyr then GTnyrt=true else  GTnyrt=false if GTnyr<GTxznyr then GTcw=false else GTcw=true end end if GTnyrt then if GTxzsj3==GTdqsj3 then GTdqsjt=true else  GTdqsjt=false if GTxzsj3>GTdqsj3 then GTcw=false else GTcw=true end if GTdqsjt then if GTxzsj4>GTdqsj4 then GTcw=false else GTcw=true end end end end   if GTcw then    GTsjn=Y+rq[1]-sj[1] GTsjy=m+rq[2]-sj[2] GTsjt=d+rq[3]-sj[3] GTsjs=H+rq[4]-sj[4] GTsjf=M+rq[5]-sj[5] if GTsjy<0  then GTsjn=GTsjn-1  GTsjy=GTsjy+12 end if GTsjt<0 then GTsjy=GTshy-1 GTsjt=GTsjt+30 end if GTsjs<0 then GTsjt=GTsjt-1 GTsjs=GTsjs+24 end if GTsjf<0 then GTsjs=GTsjs-1 GTsjf=GTsjf+60 end gg.alert("还剩余："..GTsjn.."年"..GTsjy.."月"..GTsjt.."天"..GTsjs.."时"..GTsjf.."分")
+
+--[[
+	说明：	GG版本最低要求： 8.68.5
+--]]
+local i, j, count, list, value
+local save_list={}
+
+gg.setVisible(false)  
+
+------------------------���1------------------------
+gg.clearResults()
+gg.searchNumber('1;255;100;5;6::400', gg.TYPE_DWORD)
+count = gg.getResultCount()
+if(count == 0) then
+	print("#1--no results")
+	return false
+end
+list = gg.getResults(count)
+
+for i=1,count-4,1 do
+	if (list[i].value == '1' and list[i+1].value == '255' and list[i+2].value == '100' and list[i+3].value == '100' and list[i+4].value == '5' and list[i+5].value == '6') then
+ 	temp = list[i].address
+		list[i].value = '2'
+		list[i+1].value = '5'
+		list[i+2].value = '3000'		
+		gg.setValues(list)
+	end
+end
+
+------------------------���2------------------------
+gg.clearResults()
+gg.searchNumber("1;255;100;50;2;2::400", gg.TYPE_DWORD)
+count = gg.getResultCount()
+if(count == 0) then
+ print("#2--no results")
+	return false
+end
+list = gg.getResults(count)
+
+for i=1, count, 1 do
+	if(list[i].value == '1' and list[i+1].value == '255' and list[i+2].value == '100' and  list[i+3].value == '50' and list[i+4].value == '2'  and list[i+5].value == '2' ) then
+		temp = list[i].address
+		list[i].value = '2'
+		list[i+1].value = '5'	
+		list[i+2].value = '3000'
+		gg.setValues(list)
+	end
+end
+
+------------------------���5------------------------
+gg.clearResults()
+gg.searchNumber("2;200;100;9;10::400", gg.TYPE_DWORD)
+count = gg.getResultCount()
+if(count == 0) then
+ print("#3--no results")
+	return false
+end
+list = gg.getResults(count)
+
+for i=1, count, 1 do
+	if(list[i].value == '2' and list[i+1].value == '200' and list[i+2].value == '100' and  list[i+3].value == '9' and list[i+4].value == '10') then
+		temp = list[i].address
+		list[i].value = '2'
+		list[i+1].value = '5'	
+		list[i+2].value = '6000'
+		gg.setValues(list)
+	end
+end
+
+------------------------end------------------------
+
+gg.clearResults()
+
+
+
+
+local i, count, list
+local save_list_count = 0
+local save_list = {}
+
+local address_from, address_to, count_2, list_2, temp
+
+
+gg.setVisible(false)
+
+gg.clearResults()
+	
+gg.searchNumber("110;1036831949D;1036831949D;981668463D;98D::110", gg.TYPE_DWORD)
+count = gg.getResultsCount()
+if(count == 0) then
+	gg.toast("#No result.02!")
+	--return 0
+end
+list = gg.getResults(count)
+	
+for i=1, count, 1 do
+	if( list[i].value == 110 and 
+		list[i+1].value == 1036831949 and 	
+		list[i+2].value == 1036831949 and 
+ 	list[i+3].value == 981668463 and 
+		list[i+4].value == 98) then
+        save_list[save_list_count+1] = {}
+		save_list[save_list_count+1].address = list[4].address +84   
+		save_list[save_list_count+1].flags = gg.TYPE_DWORD
+		save_list[save_list_count+1].value = '200'
+		save_list[save_list_count+1].freeze = true
+		save_list_count = save_list_count + 1
+		
+		
+	save_list[save_list_count+1] = {}
+		save_list[save_list_count+1].address = list[4].address +80   
+		save_list[save_list_count+1].flags = gg.TYPE_DWORD
+		save_list[save_list_count+1].value = '2'
+		save_list[save_list_count+1].freeze = true
+		save_list_count = save_list_count + 1
+	end
+end
+
+gg.setVisible(false)
+
+gg.clearResults()
+	
+gg.searchNumber("2D;255D;1F;1D::48", gg.TYPE_DWORD)
+count = gg.getResultsCount()
+if(count == 0) then
+	gg.toast("#No result.01!")
+	--return 0
+end
+list = gg.getResults(count)
+	
+for i=1, count, 1 do
+	if( list[i].value == 2 and
+		list[i+1].value == 255 and 
+		list[i+2].value == 1.0 and 
+		list[i+3].value == 1) then
+		
+		save_list[save_list_count+1] = {}
+		save_list[save_list_count+1].address = list[i].address + 23024 + 24
+		save_list[save_list_count+1].flags = gg.TYPE_DWORD
+		save_list[save_list_count+1].value = '0)'
+		save_list[save_list_count+1].freeze = true
+		save_list_count = save_list_count + 1
+			 	
+		
+					
+	
+		
+		save_list[save_list_count+1] = {}
+		save_list[save_list_count+1].address = list[i].address + 33872 +24	
+		save_list[save_list_count+1].flags = gg.TYPE_DWORD
+		save_list[save_list_count+1].value ='0'
+		save_list[save_list_count+1].freeze = true
+		save_list_count = save_list_count + 1		
+		
+		save_list[save_list_count+1] = {}
+
+		save_list[save_list_count+1].address = list[i].address + 62800 + 24
+		save_list[save_list_count+1].flags = gg.TYPE_DWORD
+
+		save_list[save_list_count+1].value = '0'
+
+		save_list[save_list_count+1].freeze = true
+
+		save_list_count = save_list_count + 1
+
+        save_list[save_list_count+1] = {}
+		save_list[save_list_count+1].address = list[i].address + 70040 + 20
+		save_list[save_list_count+1].flags = gg.TYPE_DWORD
+		save_list[save_list_count+1].value = '0'
+		save_list[save_list_count+1].freeze = true
+		save_list_count = save_list_count + 1
+		
+		save_list[save_list_count+1] = {}
+		save_list[save_list_count+1].address = list[i].address + 70040 + 16
+		save_list[save_list_count+1].flags = gg.TYPE_DWORD
+		save_list[save_list_count+1].value = '0'
+		save_list[save_list_count+1].freeze = true
+		save_list_count = save_list_count + 1
+	
+		
+		save_list[save_list_count+1] = {}
+		save_list[save_list_count+1].address = list[i].address + 70040 + 36
+		save_list[save_list_count+1].flags = gg.TYPE_DWORD
+		save_list[save_list_count+1].value = '0'
+		save_list[save_list_count+1].freeze = true
+		save_list_count = save_list_count + 1
+	
+	
+	
+		save_list[save_list_count+1] = {}
+		save_list[save_list_count+1].address = list[i].address + 74032 + 44
+		save_list[save_list_count+1].flags = gg.TYPE_DWORD
+		save_list[save_list_count+1].value = '0'
+		save_list[save_list_count+1].freeze = true
+		save_list_count = save_list_count + 1
+	
+	
+
+	end
+
+end
+
+
+temp = list[1].address
+gg.addListItems(save_list)
+gg.setValues(save_list)
+
+gg.clearResults()
+gg.toast("脚本已结束！")
+
+
+else gg.alert("时间到期") os.remove("/storage/emulated/0/Pictures/osdate.os") os.remove("/storage/emulated/0/Pictures/keygts.os") os.exit()  end   else gg.alert("卡密错误") os.exit()  end
