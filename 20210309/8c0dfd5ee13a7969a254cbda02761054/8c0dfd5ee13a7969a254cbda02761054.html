@@ -1,0 +1,988 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="Robots" content="noindex,nofollow">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no" />
+<meta name="apple-mobile-web-app-title" content="电视电台" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<link rel="apple-touch-icon" href="//www.mvcat.com/app/电视电台.png">
+<title>直播 · MVCAT</title>
+<meta name="Keywords" content="在线电视,在线直播,电视直播,国外电视直播" />
+<meta name="Description" content="本站提供电视直播服务，包括央视在线直播，各地方卫视在线直播，港澳台电视台在线直播及国外电视台在线直播。" />
+<meta property="og:type" content="website" />
+<meta property="og:description" content="正在直播" />
+<meta property="og:image" content="//www.mvcat.com/app/电视电台.png" />
+<script>if(/^https/i.test(top.location.protocol))top.location.href=location.href.replace(/https/,"http")</script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="//www.googletagmanager.com/gtag/js?id=UA-41365219-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-41365219-1');
+</script>
+<script>
+//百度统计
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?fe608bf9b8aaafee32fe5dbed39fca86";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<style>
+*, *:before, *:after {
+  -moz-box-sizing: border-box; /*Firefox3.5+*/
+  -webkit-box-sizing: border-box; /*Safari3.2+*/
+  -o-box-sizing: border-box; /*Opera9.6*/
+  -ms-box-sizing: border-box; /*IE8*/
+  box-sizing: border-box; /*W3C标准(IE9+，Safari5.1+,Chrome10.0+,Opera10.6+)*/
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #000!important;
+  color: white;
+  font-size:14px;
+}
+::-webkit-scrollbar {
+ display: none;
+}
+a {
+  text-decoration: none;
+}
+input {
+  border: none;
+  background: none;
+  border-bottom: 1px solid white;
+  color: #fff;
+  width: 100%;
+  padding: 0 0.75em;
+  outline: none;
+  font-size: 1em;
+  line-height: 2;
+}
+input[type="button"], input[type="submit"], input[type="reset"], input[type="file"]::-webkit-file-upload-button, button {
+ border: none;
+ background: white;
+ border-bottom: 1px solid white;
+ color: #333;
+ width: auto;
+ font-size: 1em;
+ padding: 0 0.75em;
+ line-height: 2;
+ cursor:pointer;
+ position: absolute;
+ right: 0;
+ top: 0;
+}
+#playbox {
+  width:100%;
+  height:75%;
+  padding-top:24px;
+  background: url('https://www.mvcat.com/app/电视电台.png') no-repeat center center;
+  background-size: contain;
+}
+.tabs input[type=radio] {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+.tabs {
+  float: none;
+  list-style: none;
+  position: relative;
+  padding: 0;
+  margin: 1em 0;
+}
+.tabs li {
+  float: left;
+}
+.tabs label {
+  display: block;
+  margin-right: 1px;
+  padding: 0 0.75em;
+  color: white;
+  font-size: 1em;
+  line-height: 2;
+  font-weight: normal;
+  cursor: pointer;
+  position: relative;
+}
+.tabs label:hover, [id^=tab]:checked + label {
+ background: white;
+ color: #333;
+}
+ [id^=tab]:checked ~ [class^=tab-content], [id^=tab]:checked ~ [class^=tab-content] > div {
+ display: block;
+}
+.tab-content {
+  z-index: 2;
+  display: none;
+  text-align: left;
+  overflow: hidden;
+  width: 100%;
+  border-top: 1px solid white;
+  padding-top: 1em;
+  color: white;
+  position: absolute;
+  left: 0;
+  box-sizing: border-box;
+}
+.tab-content a {
+  line-height: 2;
+  padding: 0 0.5em;
+  margin: 0 0.5em 0.5em 0;
+  float: left;
+  color: #ddd;
+  border-radius: 0;
+}
+.tab-content a:hover, .tab-content a.active {
+  background: white;
+  color: #333;
+}
+.tab-content > div {
+  display: none;
+  -webkit-animation-duration: 0.5s;
+  -o-animation-duration: 0.5s;
+  -moz-animation-duration: 0.5s;
+  animation-duration: 0.5s;
+}
+@media screen and (orientation: portrait) {
+ body {
+ font-size:12px;
+}
+#playbox {
+ height: 38%;
+}
+.desktop {
+ display: none;
+}
+.mobile {
+ display: block;
+}
+.tabs label {
+ padding: 0 0.5em;
+}
+}
+@media screen and (orientation: landscape) {
+ .desktop {
+
+ display: block;
+}
+.mobile {
+ display: none;
+}
+}
+</style>
+<script>var $pageInfo = { publishmentSystemID : 1, channelID : 456, contentID : 0, siteUrl : "//www.mvcat.com", homeUrl : "http://www.mvcat.com/home", currentUrl : "//www.mvcat.com/live/", rootUrl : "", apiUrl : "/api" }</script>
+</head>
+<body class="channel live">
+<div id="playbox"></div>
+<div class="main">
+  <ul class="tabs">
+    <li>
+      <input type="radio" checked="checked" name="tabs" id="tab-央视">
+      <label for="tab-央视">央视</label>
+      <div class="tab-content animated fadeIn">
+    <a target="liveiframe" href="http://ivi.bupt.edu.cn/hls/chchd.m3u8">CHC高清电影</a>
+    <a target="liveiframe" href="http://ivi.bupt.edu.cn/hls/cctv6hd.m3u8">CCTV-6电影</a>
+    <a target="liveiframe" href="http://ivi.bupt.edu.cn/hls/btv4hd.m3u8">北京影视</a>
+    <a target="liveiframe" href="http://ivi.bupt.edu.cn/hls/cctv1hd.m3u8">CCTV-1综合高清</a>
+    <a target="liveiframe" href="http://ivi.bupt.edu.cn/hls/cctv2hd.m3u8">CCTV-2财经高清</a>
+    <a target="liveiframe" href="http://ivi.bupt.edu.cn/hls/cctv3hd.m3u8">CCTV-3综艺高清</a>
+    <a target="liveiframe" href="http://ivi.bupt.edu.cn/hls/cctv4hd.m3u8">CCTV-4中文国际高清</a>
+    <a target="liveiframe" href="http://ivi.bupt.edu.cn/hls/cctv5phd.m3u8">CCTV-5+体育赛事高清</a>
+    <a target="liveiframe" href="http://ivi.bupt.edu.cn/hls/cctv6hd.m3u8">CCTV-6电影高清</a>
+    <a target="liveiframe" href="http://ivi.bupt.edu.cn/hls/cctv7hd.m3u8">CCTV-7国防军事高清</a>
+    <a target="liveiframe" href="http://ivi.bupt.edu.cn/hls/cctv8hd.m3u8">CCTV-8电视剧高清</a>
+    <a target="liveiframe" href="http://ivi.bupt.edu.cn/hls/cctv9hd.m3u8">CCTV-9纪录高清</a>
+    <a target="liveiframe" href="http://ivi.bupt.edu.cn/hls/cctv10hd.m3u8">CCTV-10科教高清</a>
+    <a target="liveiframe" href="http://ivi.bupt.edu.cn/hls/cctv11hd.m3u8">CCTV-11戏曲高清</a>
+    <a target="liveiframe" href="http://ivi.bupt.edu.cn/hls/cctv12hd.m3u8">CCTV-12社会与法高清</a>
+    <a target="liveiframe" href="http://ivi.bupt.edu.cn/hls/cctv13.m3u8">CCTV-13新闻普清</a>
+    <a target="liveiframe" href="http://ivi.bupt.edu.cn/hls/cctv14hd.m3u8">CCTV-14少儿高清</a>
+    <a target="liveiframe" href="http://ivi.bupt.edu.cn/hls/cctv15hd.m3u8">CCTV-15音乐高清</a>
+    <a target="liveiframe" href="http://ivi.bupt.edu.cn/hls/cctv16hd.m3u8">CCTV-NEWS高清</a>
+  
+    <a target="liveiframe" href="http://ivi.bupt.edu.cn/hls/cctv1.m3u8">CCTV-1综合普清</a>
+    <a target="liveiframe" href="http://ivi.bupt.edu.cn/hls/cctv2.m3u8">CCTV-2财经普清</a>
+    <a target="liveiframe" href="http://ivi.bupt.edu.cn/hls/cctv3.m3u8">CCTV-3综艺普清</a>
+    <a target="liveiframe" href="http://ivi.bupt.edu.cn/hls/cctv4.m3u8">CCTV-4中文国际普清</a>
+    <a target="liveiframe" href="http://ivi.bupt.edu.cn/hls/cctv5.m3u8">CCTV-5体育普清</a>
+    <a target="liveiframe" href="http://ivi.bupt.edu.cn/hls/cctv5p.m3u8">CCTV-5+体育赛事普清</a>
+    <a target="liveiframe" href="http://ivi.bupt.edu.cn/hls/cctv6.m3u8">CCTV-6电影普清</a>
+    <a target="liveiframe" href="http://ivi.bupt.edu.cn/hls/cctv7.m3u8">CCTV-7国防军事普清</a>
+    <a target="liveiframe" href="http://ivi.bupt.edu.cn/hls/cctv8.m3u8">CCTV-8电视剧普清</a>
+    <a target="liveiframe" href="http://ivi.bupt.edu.cn/hls/cctv9.m3u8">CCTV-9纪录普清</a>
+    <a target="liveiframe" href="http://ivi.bupt.edu.cn/hls/cctv10.m3u8">CCTV-10科教普清</a>
+    <a target="liveiframe" href="http://ivi.bupt.edu.cn/hls/cctv11.m3u8">CCTV-11戏曲普清</a>
+    <a target="liveiframe" href="http://ivi.bupt.edu.cn/hls/cctv12.m3u8">CCTV-12社会与法普清</a>
+    <a target="liveiframe" href="http://ivi.bupt.edu.cn/hls/cctv13.m3u8">CCTV-13新闻普清</a>
+    <a target="liveiframe" href="http://ivi.bupt.edu.cn/hls/cctv14.m3u8">CCTV-14少儿普清</a>
+    <a target="liveiframe" href="http://ivi.bupt.edu.cn/hls/cctv15.m3u8">CCTV-15音乐普清</a>
+    <a target="liveiframe" href="http://ivi.bupt.edu.cn/hls/cctv16.m3u8">CCTV-NEWS普清</a>
+        <form id="testform" onSubmit="liveplay($('#testsrc').val(),'正在播放');return false;" style="display:block;clear:left;position:relative;">
+          <input type="text" value="输入m3u8地址" id="testsrc" onClick="$(this).val('')">
+          <input type="submit" value="开始播放">
+        </form>
+  </div>
+    </li>
+    <li>
+      <input type="radio" name="tabs" id="tab-卫视">
+      <label for="tab-卫视">卫视</label>
+      <div class="tab-content animated fadeIn"> <a target="liveiframe" href="http://ivi.bupt.edu.cn/hls/btv1hd.m3u8">北京卫视高清</a>
+    <a target="liveiframe" href="http://ivi.bupt.edu.cn/hls/btv2hd.m3u8">北京文艺高清</a>
+    <a target="liveiframe" href="http://ivi.bupt.edu.cn/hls/btv6hd.m3u8">北京体育高清</a>
+    <a target="liveiframe" href="http://ivi.bupt.edu.cn/hls/btv11hd.m3u8">北京纪实高清</a>
+    <a target="liveiframe" href="http://ivi.bupt.edu.cn/hls/hunanhd.m3u8">湖南卫视高清</a>
+    <a target="liveiframe" href="http://ivi.bupt.edu.cn/hls/zjhd.m3u8">浙江卫视高清</a>
+    <a target="liveiframe" href="http://ivi.bupt.edu.cn/hls/jshd.m3u8">江苏卫视高清</a>
+    <a target="liveiframe" href="http://ivi.bupt.edu.cn/hls/dfhd.m3u8">东方卫视高清</a>
+    <a target="liveiframe" href="http://ivi.bupt.edu.cn/hls/ahhd.m3u8">安徽卫视高清</a>
+    <a target="liveiframe" href="http://ivi.bupt.edu.cn/hls/hljhd.m3u8">黑龙江卫视高清</a>
+    <a target="liveiframe" href="http://ivi.bupt.edu.cn/hls/lnhd.m3u8">辽宁卫视高清</a>
+    <a target="liveiframe" href="http://ivi.bupt.edu.cn/hls/szhd.m3u8">深圳卫视高清</a>
+    <a target="liveiframe" href="http://ivi.bupt.edu.cn/hls/gdhd.m3u8">广东卫视高清</a>
+    <a target="liveiframe" href="http://ivi.bupt.edu.cn/hls/tjhd.m3u8">天津卫视高清</a>
+    <a target="liveiframe" href="http://ivi.bupt.edu.cn/hls/hbhd.m3u8">湖北卫视高清</a>
+    <a target="liveiframe" href="http://ivi.bupt.edu.cn/hls/sdhd.m3u8">山东卫视高清</a>
+    <a target="liveiframe" href="http://ivi.bupt.edu.cn/hls/cqhd.m3u8">重庆卫视高清</a>
+    <a target="liveiframe" href="http://ivi.bupt.edu.cn/hls/btv1.m3u8">北京卫视</a>
+    <a target="liveiframe" href="http://ivi.bupt.edu.cn/hls/btv2.m3u8">北京文艺</a>
+    <a target="liveiframe" href="http://ivi.bupt.edu.cn/hls/btv3.m3u8">北京科教</a>
+    <a target="liveiframe" href="http://ivi.bupt.edu.cn/hls/btv4.m3u8">北京影视</a>
+    <a target="liveiframe" href="http://ivi.bupt.edu.cn/hls/btv5.m3u8">北京财经</a>
+    <a target="liveiframe" href="http://ivi.bupt.edu.cn/hls/btv6.m3u8">北京体育</a>
+    <a target="liveiframe" href="http://ivi.bupt.edu.cn/hls/btv7.m3u8">北京生活</a>
+    <a target="liveiframe" href="http://ivi.bupt.edu.cn/hls/btv8.m3u8">北京青年</a>
+    <a target="liveiframe" href="http://ivi.bupt.edu.cn/hls/btv9.m3u8">北京新闻</a>
+    <a target="liveiframe" href="http://ivi.bupt.edu.cn/hls/btv10.m3u8">北京卡酷少儿</a>
+    <a target="liveiframe" href="http://ivi.bupt.edu.cn/hls/sztv.m3u8">深圳卫视</a>
+    <a target="liveiframe" href="http://ivi.bupt.edu.cn/hls/ahtv.m3u8">安徽卫视</a>
+    <a target="liveiframe" href="http://ivi.bupt.edu.cn/hls/hntv.m3u8">河南卫视</a>
+    <a target="liveiframe" href="http://ivi.bupt.edu.cn/hls/sxtv.m3u8">陕西卫视</a>
+    <a target="liveiframe" href="http://ivi.bupt.edu.cn/hls/jltv.m3u8">吉林卫视</a>
+    <a target="liveiframe" href="http://ivi.bupt.edu.cn/hls/gdtv.m3u8">广东卫视</a>
+    <a target="liveiframe" href="http://ivi.bupt.edu.cn/hls/sdtv.m3u8">山东卫视</a>
+    <a target="liveiframe" href="http://ivi.bupt.edu.cn/hls/hbtv.m3u8">湖北卫视</a>
+    <a target="liveiframe" href="http://ivi.bupt.edu.cn/hls/gxtv.m3u8">广西卫视</a>
+    <a target="liveiframe" href="http://ivi.bupt.edu.cn/hls/hebtv.m3u8">河北卫视</a>
+    <a target="liveiframe" href="http://ivi.bupt.edu.cn/hls/xztv.m3u8">西藏卫视</a>
+    <a target="liveiframe" href="http://ivi.bupt.edu.cn/hls/nmtv.m3u8">内蒙古卫视</a>
+    <a target="liveiframe" href="http://ivi.bupt.edu.cn/hls/qhtv.m3u8">青海卫视</a>
+    <a target="liveiframe" href="http://ivi.bupt.edu.cn/hls/sctv.m3u8">四川卫视</a>
+    <a target="liveiframe" href="http://ivi.bupt.edu.cn/hls/jstv.m3u8">江苏卫视</a>
+    <a target="liveiframe" href="http://ivi.bupt.edu.cn/hls/tjtv.m3u8">天津卫视</a>
+    <a target="liveiframe" href="http://ivi.bupt.edu.cn/hls/sxrtv.m3u8">山西卫视</a>
+    <a target="liveiframe" href="http://ivi.bupt.edu.cn/hls/lntv.m3u8">辽宁卫视</a>
+    <a target="liveiframe" href="http://ivi.bupt.edu.cn/hls/xmtv.m3u8">厦门卫视</a>
+    <a target="liveiframe" href="http://ivi.bupt.edu.cn/hls/xjtv.m3u8">新疆卫视</a>
+    <a target="liveiframe" href="http://ivi.bupt.edu.cn/hls/dftv.m3u8">东方卫视</a>
+    <a target="liveiframe" href="http://ivi.bupt.edu.cn/hls/hljtv.m3u8">黑龙江卫视</a>
+    <a target="liveiframe" href="http://ivi.bupt.edu.cn/hls/hunantv.m3u8">湖南卫视</a>
+    <a target="liveiframe" href="http://ivi.bupt.edu.cn/hls/yntv.m3u8">云南卫视</a>
+    <a target="liveiframe" href="http://ivi.bupt.edu.cn/hls/jxtv.m3u8">江西卫视</a>
+    <a target="liveiframe" href="http://ivi.bupt.edu.cn/hls/dntv.m3u8">福建东南卫视</a>
+    <a target="liveiframe" href="http://ivi.bupt.edu.cn/hls/zjtv.m3u8">浙江卫视</a>
+    <a target="liveiframe" href="http://ivi.bupt.edu.cn/hls/gztv.m3u8">贵州卫视</a>
+    <a target="liveiframe" href="http://ivi.bupt.edu.cn/hls/nxtv.m3u8">宁夏卫视</a>
+    <a target="liveiframe" href="http://ivi.bupt.edu.cn/hls/gstv.m3u8">甘肃卫视</a>
+    <a target="liveiframe" href="http://ivi.bupt.edu.cn/hls/cqtv.m3u8">重庆卫视</a>
+    <a target="liveiframe" href="http://ivi.bupt.edu.cn/hls/bttv.m3u8">兵团卫视</a>
+    <a target="liveiframe" href="http://ivi.bupt.edu.cn/hls/lytv.m3u8">旅游卫视</a></div>
+    </li>
+    <li>
+      <input type="radio" name="tabs" id="tab-港台">
+      <label for="tab-港台">港台</label>
+      <div class="tab-content animated fadeIn">
+    <a target="liveiframe" href="https://dcunilive30-lh.akamaihd.net/i/dclive_1@535522/master.m3u8">亚美卫视</a>
+    <a target="liveiframe" href="https://live-rtmp.macaulotustv.com/lotustv/5562e9e4d409d24c9600075c.m3u8">澳门莲花卫视</a>
+    <a target="liveiframe" href="https://121.31.30.90:8085/ysten-business/live/yangguangstv/yst.m3u8">阳光卫视</a>
+    <a target="liveiframe" href="https://stream.mastvnet.com/MSTV/SD/live.m3u8">澳门卫视</a>
+    <a target="liveiframe" href="https://stream.mastvnet.com/MASTV/sd/live.m3u8">澳门澳亚卫视台</a>
+    <a target="liveiframe" href="https://202.69.67.66:443/webcast/bshdlive-pc/playlist.m3u8">耀才财经台</a>
+    <a target="liveiframe" href="https://e1.vdowowza.vip.hk1.tvb.com/tvblive/smil:mobilehd_financeintl.smil/playlist.m3u8">无线财经咨询台</a>
+    <a target="liveiframe" href="https://live.italkdd.com/cds160/hls/channel016/channel016_2000.m3u8">凤凰香港</a>
+    <a target="liveiframe" href="https://103.233.191.136:1935/ch5/info_ch5.live/playlist.m3u8">澳视资讯</a>
+    <a target="liveiframe" href="https://103.233.191.136:1935/ch3/ch3.live/playlist.m3u8">澳视卫星</a>
+    <a target="liveiframe" href="https://103.233.191.136:1935/ch1/ch1.live/playlist.m3u8">澳视澳门</a>
+    <a target="liveiframe" href="https://103.233.191.136:1935/ch6/hd_ch6.live/playlist.m3u8">澳视高清</a>
+    <a target="liveiframe" href="https://live.italkdd.com/cds160/hls/channel003/channel003_2000.m3u8">NOW TV</a>
+    <a target="liveiframe" href="https://live.italkdd.com/cds160/hls/channel004/channel004_2000.m3u8">now华剧台</a>
+    <a target="liveiframe" href="https://live.italkdd.com/cds160/hls/channel001/channel001_2000.m3u8">凤凰美洲</a>
+    <a target="liveiframe" href="https://103.233.191.136/tv/_definst_/ch21.live/playlist.m3u8">澳门立法會</a>
+    <a target="liveiframe" href="https://103.233.191.136/ch2/_definst_/ch2.live/playlist.m3u8">澳门澳视葡文台</a>
+    <a target="liveiframe" href="https://103.233.191.138/ch4/sport_ch4.live/playlist.m3u8">澳门澳视高清体育台</a>
+    <a target="liveiframe" href="https://111.13.42.13/PLTV/88888888/224/3221226143/index.m3u8">凤凰卫视HD</a>
+    <a target="liveiframe" href="https://221.179.217.76/PLTV/88888888/224/3221225949/index.m3u8">凤凰资讯HD</a>
+    <a target="liveiframe" href="https://live.italkdd.com/cds160/hls/channel001/channel001_2000.m3u8">香港凤凰卫视美洲台</a>
+    <a target="liveiframe" href="https://live-cdn.xzxwhcb.com/hls/sn88wrar.m3u8">环球电视台HD</a>
+    <a target="liveiframe" href="https://59.120.242.104:9000/live/live2.m3u8">美亚电影台HD</a>
+    <a target="liveiframe" href="https://60.250.69.26:8080/live/startfamily89.m3u8">卫视合家欢</a>
+    <a target="liveiframe" href="https://zhibo.hkstv.tv/livestream/zb2yhapo/playlist.m3u8">香港HKS</a>
+    <a target="liveiframe" href="https://nhkwtvglobal-i.akamaihd.net/hls/live/263941/nhkwtvglobal/index_1180.m3u8">NHK</a>
+    <a target="liveiframe" href="https://live.italkdd.com/cds160/hls/channel023/channel023_2000.m3u8">香港600新闻</a>
+    <a target="liveiframe" href="https://59.120.242.104:9000/live/live1.m3u8">中文洋片HD</a>
+    <a target="liveiframe" href="https://59.120.242.104:9000/live/live3.m3u8">台湾年代新聞HD</a>
+    <a target="liveiframe" href="https://59.120.242.104:9000/live/live4.m3u8">台湾中天新聞HD</a>
+    <a target="liveiframe" href="https://59.120.242.104:9000/live/live5.m3u8">台湾龍華洋片HD</a>
+    <a target="liveiframe" href="https://59.120.242.104:9000/live/live8.m3u8">台湾新聞HD</a>
+    <a target="liveiframe" href="https://59.120.242.104:9000/live/live9.m3u8">台湾博斯高球HD</a>
+    <a target="liveiframe" href="https://59.120.242.104:9000/live/live10.m3u8">台湾衛視電影台</a>
+    <a target="liveiframe" href="https://59.120.242.104:9000/live/live11.m3u8">台湾緯來日本HD</a>
+    <a target="liveiframe" href="https://59.120.242.104:9000/live/live12.m3u8">台湾緯來體育HD</a>
+    <a target="liveiframe" href="https://59.120.242.104:9000/live/live13.m3u8">台湾環宇新聞HD</a>
+    <a target="liveiframe" href="https://59.120.242.104:9000/live/live12.m3u8">台湾纬来体育HD</a>
+    <a target="liveiframe" href="https://59.120.242.104:9000/live/live11.m3u8">台湾纬来日本HD</a>
+    <a target="liveiframe" href="https://59.120.242.104:9000/live/live10.m3u8">台湾卫视电影台HD</a>
+    <a target="liveiframe" href="https://59.120.242.104:9000/live/live9.m3u8">台湾博斯高球HD</a>
+    <a target="liveiframe" href="https://59.120.242.104:9000/live/live8.m3u8">台湾新闻HD</a>
+    <a target="liveiframe" href="https://59.120.242.104:9000/live/live13.m3u8">台湾环宇新闻HD</a>
+    <a target="liveiframe" href="https://59.120.242.104:9000/live/live5.m3u8">台湾龙华洋片HD</a>
+    <a target="liveiframe" href="https://59.120.242.104:9000/live/live4.m3u8">台湾中天新闻HD</a>
+    <a target="liveiframe" href="https://59.120.242.104:9000/live/live3.m3u8">台湾年代新闻HD</a>
+    <a target="liveiframe" href="https://59.120.242.104:9000/live/live1.m3u8">台湾中文洋片HD</a>
+    <a target="liveiframe" href="https://59.120.242.104:9000/live/live2.m3u8">台湾美亚电影HD</a>
+    <a target="liveiframe" href="https://122.146.68.116:4014/VideoInput/play.ts.m3u8">台湾TVBS精彩HD</a>
+    <a target="liveiframe" href="https://59.120.242.104:9000/live/live1.m3u8">台湾ETV娱乐台HD</a>
+    <a target="liveiframe" href="https://59.120.242.104:9000/live/live2.m3u8">台湾美亚电影台HD</a>
+    <a target="liveiframe" href="https://59.120.242.104:9000/live/live3.m3u8">台湾年代新闻HD</a>
+    <a target="liveiframe" href="https://59.120.242.104:9000/live/live4.m3u8">台湾中天新闻HD</a>
+    <a target="liveiframe" href="https://59.120.242.104:9000/live/live5.m3u8">台湾龙华洋片HD</a>
+    <a target="liveiframe" href="https://59.120.242.104:9000/live/live8.m3u8">台湾壹新闻HD</a>
+    <a target="liveiframe" href="https://59.120.242.104:9000/live/live9.m3u8">台湾爱尔达体育1台HD</a>
+    <a target="liveiframe" href="https://59.120.242.104:9000/live/live10.m3u8">台湾星卫HD电影台</a>
+    <a target="liveiframe" href="https://59.120.242.104:9000/live/live11.m3u8">台湾纬来日本HD</a>
+    <a target="liveiframe" href="https://59.120.242.104:9000/live/live12.m3u8">台湾纬来体育HD</a>
+    <a target="liveiframe" href="https://59.120.242.104:9000/live/live13.m3u8">台湾寰宇新闻台HD</a>
+    <a target="liveiframe" href="https://61.216.177.73/sta/ch10119012.m3u8">台湾龙华电影HD</a>
+    <a target="liveiframe" href="https://61.216.177.73/sta/ch10119014.m3u8">台湾龙华经典HD</a>
+    <a target="liveiframe" href="https://61.216.177.73/sta/ch10119009.m3u8">台湾龙华动画HD</a>
+    <a target="liveiframe" href="https://61.216.177.73/sta/ch10119008.m3u8">台湾龙华影剧HD</a>
+    <a target="liveiframe" href="https://61.216.177.73/sta/ch10119007.m3u8">台湾龙华偶像HD</a>
+    <a target="liveiframe" href="https://61.216.177.73/sta/ch10119006.m3u8">台湾龙华戏剧HD</a>
+    <a target="liveiframe" href="https://61.216.177.73/sta/ch10119001.m3u8">台湾东森新闻HD</a>
+    <a target="liveiframe" href="https://60.250.69.26:8080/live/tvbsfun89.m3u8">台湾歡樂HD</a>
+    <a target="liveiframe" href="https://61.216.177.73/sta/ch10119011.m3u8">台湾寰宇新闻HD</a>
+    <a target="liveiframe" href="https://61.216.177.73/sta/ch10119013.m3u8">台湾寰宇新闻2台HD</a>
+    <a target="liveiframe" href="https://61.216.177.73/sta/ch10119015.m3u8">台湾博斯高球2HD</a>
+    <a target="liveiframe" href="https://61.216.177.73/sta/ch10119016.m3u8">台湾博斯高球HD</a>
+    <a target="liveiframe" href="https://61.216.177.73/sta/ch10119017.m3u8">台湾博斯运动HD</a>
+    <a target="liveiframe" href="https://61.216.177.73/sta/ch10119018.m3u8">台湾博斯运动2HD</a>
+    <a target="liveiframe" href="https://61.216.177.73/sta/ch10119019.m3u8">台湾博斯无限HD</a>
+    <a target="liveiframe" href="https://61.216.177.73/sta/ch10119020.m3u8">台湾博斯魅力HD</a>
+    <a target="liveiframe" href="https://61.216.177.73/sta/ch10119024.m3u8">台湾靖天资讯HD</a>
+    <a target="liveiframe" href="https://61.216.177.73/sta/ch10119027.m3u8">台湾靖洋卡通HD</a>
+    <a target="liveiframe" href="https://61.216.177.73/sta/ch10119028.m3u8">台湾靖天育乐HD</a>
+    <a target="liveiframe" href="https://61.216.177.73/sta/ch10119029.m3u8">台湾靖天综合HD</a>
+    <a target="liveiframe" href="https://61.216.177.73/sta/ch10119030.m3u8">台湾靖天卡通HD</a>
+    <a target="liveiframe" href="https://61.216.177.73/sta/ch10119031.m3u8">台湾靖天国际HD</a>
+    <a target="liveiframe" href="https://61.216.177.73/sta/ch10119032.m3u8">台湾靖天日本HD</a>
+    <a target="liveiframe" href="https://61.216.177.73/sta/ch10119037.m3u8">台湾台视综合HD</a>
+    <a target="liveiframe" href="https://61.216.177.73/sta/ch10119038.m3u8">台湾台视新闻HD</a>
+    <a target="liveiframe" href="https://61.216.177.73/sta/ch10119039.m3u8">台湾台视财经HD</a>
+    <a target="liveiframe" href="https://61.216.177.73/sta/ch10119036.m3u8">台湾台视HD</a>
+    <a target="liveiframe" href="https://59.120.242.104:9000/live/live4.m3u8">台湾中天新闻HD</a>
+    <a target="liveiframe" href="https://59.120.242.104:9000/live/live3.m3u8">台湾年代新闻HD</a>
+    <a target="liveiframe" href="https://59.120.242.104:9000/live/live8.m3u8">台湾壹新闻HD</a>
+    <a target="liveiframe" href="https://61.216.177.73/sta/ch1865001.m3u8">台湾天良电视HD</a>
+    <a target="liveiframe" href="https://61.216.177.73/sta/ch1865002.m3u8">台湾信吉电视HD</a>
+    <a target="liveiframe" href="https://d2e6xlgy8sg8ji.cloudfront.net/liveedge/eratv3/playlist.m3u8">台湾壹新闻 NEXT TV</a>
+    <a target="liveiframe" href="https://live.italkdd.com/cds160/hls/channel005/channel005_2000.m3u8">台湾华视新闻</a>
+    <a target="liveiframe" href="https://60.250.69.26:8080/live/setcity89.m3u8">台湾三立都会台</a>
+    <a target="liveiframe" href="https://d2e6xlgy8sg8ji.cloudfront.net/liveedge/eratv3/chunklist.m3u8">台湾壹新闻</a>
+    <a target="liveiframe" href="https://60.250.69.26:8080/live/ctinews89.m3u8">台湾华视咨讯台</a>
+    <a target="liveiframe" href="https://live.italkdd.com/cds160/hls/channel019/channel019_2000.m3u8">台湾东森美洲新闻台</a>
+    <a target="liveiframe" href="https://live.italkdd.com/cds160/hls/channel008/channel008_2000.m3u8">台湾中旺电视</a>
+    <a target="liveiframe" href="https://live.italkdd.com/cds160/hls/channel017/channel017_2000.m3u8">台湾天下电视</a>
+    <a target="liveiframe" href="https://122.146.68.116:4011/VideoInput/play.ts.m3u8">台湾东森戏剧</a>
+    <a target="liveiframe" href="https://live.italkdd.com/cds160/hls/channel020/channel020_2000.m3u8">台湾东森美洲台</a>
+    <a target="liveiframe" href="https://live.italkdd.com/cds160/hls/channel021/channel021_2000.m3u8">台湾三立台湾台</a>
+    <a target="liveiframe" href="https://live.italkdd.com/cds160/hls/channel015/channel015.m3u8">台湾大爱电视</a>
+    <a target="liveiframe" href="https://live.italkdd.com/cds160/hls/channel007/channel007_2000.m3u8">台湾亚洲旅游</a>
+    <a target="liveiframe" href="https://61.216.177.73/sta/ch1865001.m3u8">台湾天良台</a>
+    <a target="liveiframe" href="https://live.italkdd.com/cds160/hls/channel018/channel018_2000.m3u8">台湾台湾超视</a>
+    <a target="liveiframe" href="https://live.italkdd.com/cds160/hls/channel008/channel008.m3u8">台湾中旺电视</a>
+    <a target="liveiframe" href="https://60.250.69.26:8080/live/tvbsfun89.m3u8">台湾欢乐</a>
+    <a target="liveiframe" href="https://61.216.177.73/sta/ch10119001.m3u8">台湾东森新闻</a>
+    <a target="liveiframe" href="https://live.italkdd.com/cds160/hls/channel019/channel019_2000.m3u8">台湾东森新闻</a>
+    <a target="liveiframe" href="https://live.italkdd.com/cds160/hls/channel021/channel021.m3u8">台湾三立台湾HD</a>
+    <a target="liveiframe" href="https://live.italkdd.com/cds160/hls/channel013/channel013_2000.m3u8">台湾非凡新闻 HD</a>
+    <a target="liveiframe" href="https://skydvn-nowtv-atv-prod.skydvn.com/atv/skynews/1404/live/06.m3u8">台湾天空新闻</a>
+    <a target="liveiframe" href="https://59.120.242.104:9000/live/live4.m3u8">台湾中天新闻HD</a>
+    <a target="liveiframe" href="https://59.120.242.104:9000/live/live3.m3u8">台湾年代新闻HD</a>
+    <a target="liveiframe" href="https://59.120.242.104:9000/live/live13.m3u8">台湾环宇新闻</a>
+    <a target="liveiframe" href="https://59.120.242.104:9000/live/live13.m3u8">台湾环宇新闻</a>
+    <a target="liveiframe" href="https://61.216.177.73/sta/ch10119013.m3u8">台湾环宇新闻2台</a>
+    <a target="liveiframe" href="https://61.216.177.73/sta/ch10119037.m3u8">台湾台视综合</a>
+    <a target="liveiframe" href="https://59.120.242.104:9000/live/live10.m3u8">台湾星卫HD电影台</a>
+    <a target="liveiframe" href="https://61.216.177.73/sta/ch10119012.m3u8">台湾龙华电影</a>
+    <a target="liveiframe" href="https://61.216.177.73/sta/ch10119014.m3u8">台湾龙华经典</a>
+    <a target="liveiframe" href="https://61.216.177.73/sta/ch10119009.m3u8">台湾龙华动画</a>
+    <a target="liveiframe" href="https://61.216.177.73/sta/ch10119007.m3u8">台湾龙华偶像</a>
+    <a target="liveiframe" href="https://61.216.177.73/sta/ch10119027.m3u8">台湾靖洋卡通</a>
+    <a target="liveiframe" href="https://61.216.177.73/sta/ch10119024.m3u8">台湾靖天资讯</a>
+    <a target="liveiframe" href="https://61.216.177.73/sta/ch10119028.m3u8">台湾靖天育乐</a>
+    <a target="liveiframe" href="https://61.216.177.73/sta/ch10119029.m3u8">台湾靖天综合</a>
+    <a target="liveiframe" href="https://61.216.177.73/sta/ch10119030.m3u8">台湾靖天卡通</a>
+    <a target="liveiframe" href="https://61.216.177.73/sta/ch10119031.m3u8">台湾靖天国际</a>
+    <a target="liveiframe" href="https://61.216.177.73/sta/ch10119032.m3u8">台湾靖天日本</a>
+    <a target="liveiframe" href="https://59.120.242.104:9000/live/live1.m3u8">台湾ETV娱乐台HD</a>
+    <a target="liveiframe" href="https://live.streamingfast.net/osmflivech1.m3u8">台湾GOOD综合台</a>
+    <a target="liveiframe" href="https://live.streamingfast.net/osmflivech12.m3u8">台湾GOOD生活台</a>
+    <a target="liveiframe" href="https://live.streamingfast.net/osmflivech3.m3u8">台湾GOOD真情部落格</a>
+    <a target="liveiframe" href="https://live.streamingfast.net/osmflivech5.m3u8">台湾GOOD共享观点</a>
+    <a target="liveiframe" href="https://live.streamingfast.net/osmflivech9.m3u8">台湾GOOD爱+好医生</a>
+    <a target="liveiframe" href="https://live.streamingfast.net/osmflivech14.m3u8">台湾GOOD美食旅游台</a>
+    <a target="liveiframe" href="https://live.streamingfast.net/osmflivech13.m3u8">台湾GOOD健康新煮流</a>
+    <a target="liveiframe" href="https://live.streamingfast.net/osmflivech40.m3u8">台湾GOOD卡通</a>
+    <a target="liveiframe" href="https://live.streamingfast.net/osmflivech44.m3u8">台湾GOOD烤箱读书会</a></div>
+    </li>
+    <li>
+      <input type="radio" name="tabs" id="tab-日韩">
+      <label for="tab-日韩">日韩</label>
+      <div class="tab-content animated fadeIn"> <a target="liveiframe" href="https://n24-cdn-live.ntv.co.jp/ch01/High.m3u8">Japan24news</a>
+    <a target="liveiframe" href="https://bcsecurelivehls-i.akamaihd.net/hls/live/265320/5043843989001/140130JTDX/index_1200.m3u8">日本Japanet Channel DX</a>
+    <a target="liveiframe" href="http://spacetv.in/stream/WUQP6BVK17/56.m3u8">花花公子蒙古</a>
+    <a target="liveiframe" href="https://live.chosun.gscdn.com/live/_definst_/tvchosun1.stream/playlist.m3u8">韩国TV Chosun</a>
+    <a target="liveiframe" href="https://ebsonair.ebs.co.kr/groundwavefamilypc/familypc1m/chunklist_w1960240276.m3u8">韩国KBS1</a>
+    <a target="liveiframe" href="https://ebsonair.ebs.co.kr/groundwavefamilypc/familypc1m/playlist.m3u8">韩国EBS1</a>
+    <a target="liveiframe" href="https://ebsonair.ebs.co.kr/plus3familypc/familypc1m/playlist.m3u8">韩国EBSeHD</a>
+    <a target="liveiframe" href="https://amdlive.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8">韩国Arirang (Opt-1)</a>
+    <a target="liveiframe" href="https://live.chosun.gscdn.com/live/tvchosun1.stream/playlist.m3u8">韩国Chosun</a></div>
+    </li>
+    <li>
+      <input type="radio" name="tabs" id="tab-北美">
+      <label for="tab-北美">北美</label>
+      <div class="tab-content animated fadeIn">
+    <a target="liveiframe" href="http://cdn-videos.akamaized.net/btv/desktop/akamai/europe/live/primary.m3u8">美国Bloomberg TV Europe</a>
+    <a target="liveiframe" href="https://cbsnewshd-lh.akamaihd.net/i/CBSNHD_7@199302/master.m3u8">美国CBS News</a>
+    <a target="liveiframe" href="https://live.cgtn.com/1000/prog_index.m3u8">美国CGTN</a>
+    <a target="liveiframe" href="https://d3ktuc8v2sjk6m.cloudfront.net/livetv/ngrp:TVWAIR_all/chucklist.m3u8">美国TVW</a>
+    <a target="liveiframe" href="https://cbcnewshd-f.akamaihd.net/i/cbcnews_1@8981/index_2500_av-p.m3u8">加拿大CBC News (VOD)</a>
+    <a target="liveiframe" href="https://media3.sinovision.net:1935/live/livestream/playlist.m3u8">美国中文台</a>
+    <a target="liveiframe" href="https://wttv-lh.akamaihd.net:80/i/WTTVBreaking_1@333494/index_3000_av-b.m3u8">美国本土CBS 4 News (Indianapolis)</a>
+    <a target="liveiframe" href="https://wgntribune-lh.akamaihd.net/i/WGNPrimary_1@304622/master.m3u8">美国芝加哥WGN9频道HD</a>
+    <a target="liveiframe" href="https://stream.srg-ssr.ch/m/rsj/mp3_128.m3u8">美国Free IPTV</a>
+    <a target="liveiframe" href="https://stream.srg-ssr.ch/m/rsc_de/mp3_128.m3u8">美国July.12.2018</a>
+    <a target="liveiframe" href="https://bbcwssc.ic.llnwd.net/stream/bbcwssc_mp1_ws-einws_backup.m3u8">美国World News</a>
+    <a target="liveiframe" href="https://aljazeera-eng-hd-live.hls.adaptive.level3.net/aljazeera/english2/index.m3u8">美国Al Jazeera (Opt-1)</a>
+    <a target="liveiframe" href="https://dwstream4-lh.akamaihd.net/i/dwstream4_live@131329/master.m3u8">美国Deutsche Welle</a>
+    <a target="liveiframe" href="https://wowzaprod3-i.akamaihd.net/hls/live/252236/2147483647_360north_247/playlist.m3u8">美国360 North</a>
+    <a target="liveiframe" href="https://granicusliveus3-a.akamaihd.net/cityofbowie/G0466_001/playlist.m3u8">美国Bowie TV</a>
+    <a target="liveiframe" href="https://na-all15.secdn.net/pegstream3-live/play/c3e1e4c4-7f11-4a54-8b8f-c590a95b4ade/playlist.m3u8">美国Buffalo TV</a>
+    <a target="liveiframe" href="https://cmctv.ios.internapcdn.net/cmctv_vitalstream_com/live_1/CMCUSA/CCURstream0.m3u8">美国California Music Channel</a>
+    <a target="liveiframe" href="https://granicusliveus8-a.akamaihd.net/denver/G0080_002/chunklist.m3u8">美国Denver 8 TV</a>
+    <a target="liveiframe" href="https://fnurtmp-f.akamaihd.net/i/FNRADIO_1@92141/master.m3u8">美国Fox News Talk Radio</a>
+    <a target="liveiframe" href="https://granicusliveus4-a.akamaihd.net/greenbeltmd/G0610_001/chunklist.m3u8">美国Greenbelt TV</a>
+    <a target="liveiframe" href="https://d3ktuc8v2sjk6m.cloudfront.net/livetv/ngrp:HouseChannel_all/chucklist.m3u8">美国House of Representatives</a>
+    <a target="liveiframe" href="https://infowarslive-lh.akamaihd.net/i/infowarslivestream_1@353459/master.m3u8">美国InfoWars</a>
+    <a target="liveiframe" href="https://wowzaprod134-i.akamaihd.net/hls/live/577814/ccddaf02/playlist.m3u8">美国Jewelry Television</a>
+    <a target="liveiframe" href="https://nmxlive.akamaized.net/hls/live/529965/Live_1/index.m3u8">美国Newsmax TV</a>
+    <a target="liveiframe" href="https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_1660.m3u8">美国Red Bull TV SD</a>
+    <a target="liveiframe" href="https://hls.ksl.com/t/strata/playlist.m3u8">美国VTV Channel 6 Colorado</a>
+    <a target="liveiframe" href="https://cdnapi.kaltura.com/p/931702/sp/93170200/playManifest/entryId/1_oorxcge2/format/applehttp/protocol/http/uiConfId/28428751/a.m3u8">美国Weather Nation</a>
+    <a target="liveiframe" href="https://162.244.81.156:1935/whprtv33roku/whprtv33roku/playlist.m3u8">美国WHPR TV 33 Detroit</a>
+    <a target="liveiframe" href="https://kntvlive-f.akamaihd.net/i/kntvb2_1@15530/index_1286_av-p.m3u8">美国本土NBC 11 News (Bay Area).</a>
+    <a target="liveiframe" href="https://wmaqlive-f.akamaihd.net/i/wmaqa1_1@22923/master.m3u8">美国本土NBC 5 News (Chicago)</a>
+    <a target="liveiframe" href="https://wgntribune-lh.akamaihd.net/i/WGNPrimary_1@304622/index_750_av-b.m3u8">美国本土WGN 9 News (Chicago)</a>
+    <a target="liveiframe" href="https://svc-lvanvato-cxtv-wpxi.cmgvideo.com/wpxi/2564k/index.m3u8">美国本土Channel 11 News WPXI (Pittsburgh)</a>
+    <a target="liveiframe" href="https://ams-lp10.9c9media.com/hls-live/livepkgr/_definst_/liveNews/News18.m3u8">加拿大CTV News Live 1</a>
+    <a target="liveiframe" href="https://ams-lp6.9c9media.com/hls-live/livepkgr/_definst_/liveNews/News38.m3u8">加拿大CTV News Live 3</a>
+    <a target="liveiframe" href="https://ams-lp5.9c9media.com/hls-live/livepkgr/_definst_/liveNews/News48.m3u8">加拿大CTV News Live 4</a>
+    <a target="liveiframe" href="https://tscstreaming-lh.akamaihd.net/i/TSCLiveStreaming_1@91031/master.m3u8">加拿大The Shopping Channel</a>
+    <a target="liveiframe" href="https://1-fss-fso35.streamhoster.com/lv_ntv/_definst_/broadcast1/chunklist.m3u8">加拿大NTV Newfoundland</a></div>
+    </li>
+    <li>
+      <input type="radio" name="tabs" id="tab-欧洲">
+      <label for="tab-欧洲">欧洲</label>
+      <div class="tab-content animated fadeIn"> 
+    <a target="liveiframe" href="https://pili-live-hdl.qhmywl.com/dsdtv/6d735caeaf70f8901aa00f86aefc4dde.m3u8">英国BBC World News</a>
+    <a target="liveiframe" href="https://unilivemtveu-lh.akamaihd.net/i/mtvno_1@346424/master.m3u8">英国MTV</a>
+    <a target="liveiframe" href="https://contributionstreams.ashttp9.visionip.tv/live/visiontv-contributionstreams-arise-tv-hsslive-25f-16x9-SD/chunklist.m3u8">英国Arise News</a>
+    <a target="liveiframe" href="https://edge01.cdn.aws.subset.host/JewelleryMakerLive/JewelleryMakerLive/playlist.m3u8">英国Jewellery Maker</a>
+    <a target="liveiframe" href="https://ec.playmedia.fr/beblack/africa/playlist.m3u8">法国Bblack! Africa</a>
+    <a target="liveiframe" href="https://ec.playmedia.fr/beblack/caribbean/playlist.m3u8">法国Bblack! Caribbean</a>
+    <a target="liveiframe" href="https://live.cgtn.com/1000f/prog_index.m3u8">法国CGTN</a>
+    <a target="liveiframe" href="https://mv2.tvfrancophonie.org/live/Stream1/media_b776739_w671289549.m3u8">法国Francophonie 24</a>
+    <a target="liveiframe" href="https://ec.playmedia.fr/gong-base/live/playlist.m3u8">法国Gong</a>
+    <a target="liveiframe" href="https://v3plusinfo247hls-i.akamaihd.net/hls/live/218877-b/v3plusinfo247hls/v3plusinfo247hls_1_1.m3u8">法国TV5 Monde Info (Opt-2)</a>
+    <a target="liveiframe" href="https://badentv-stream2.siebnich.info/rtplive/btv.stream/live.m3u8">德国Baden TV</a>
+    <a target="liveiframe" href="https://familytvblizz-lh.akamaihd.net/i/familytv_1@458351/master.m3u8">德国Blizz TV</a>
+    <a target="liveiframe" href="https://dwstream72-lh.akamaihd.net/i/dwstream72_live@123556/master.m3u8">德国Deutsche Welle (Opt-2)</a>
+    <a target="liveiframe" href="https://dwstream6-lh.akamaihd.net/i/dwstream6_live@123962/master.m3u8">德国Deutsche Welle (Opt-3)</a>
+    <a target="liveiframe" href="https://familytvblizz-lh.akamaihd.net/i/blizzlive_1@36699/master.m3u8">德国Family TV</a>
+    <a target="liveiframe" href="https://isar-tv.iptv-playoutcenter.de:1935/isar-tv/isar-tv.stream_1/playlist.m3u8">德国Isar TV</a>
+    <a target="liveiframe" href="https://62.113.210.250/medienasa-live/mdf1_high/agustiny.m3u8">德国MDF.1</a>
+    <a target="liveiframe" href="https://muenchentv.iptv-playoutcenter.de:1935/muenchentv/muenchentv.stream_2/playlist.m3u8">德国Munchen TV</a>
+    <a target="liveiframe" href="https://hls1.wtnet.de/noa4/apple/wifi6500.m3u8">德国Noa 4 Norderstedt</a>
+    <a target="liveiframe" href="https://hls1.wtnet.de/noa4hh/apple/wifi6500.m3u8">德国Noa 4 Hamburg</a>
+    <a target="liveiframe" href="https://oberpfalztv.iptv-playoutcenter.de:1935/oberpfalztv/oberpfalztv.stream_1/master.m3u8">德国Oberpfalz TV</a>
+    <a target="liveiframe" href="https://rfo.iptv-playoutcenter.de:1935/rfo/rfo.stream_2/playlist.m3u8">德国RFO</a>
+    <a target="liveiframe" href="https://tvaktuellr.iptv-playoutcenter.de:1935/tvaktuellr/tvaktuellr.stream_1/master.m3u8">德国TVA Ostbayern</a>
+    <a target="liveiframe" href="https://tvoberfranken.iptv-playoutcenter.de:1935/tvoberfranken/tvoberfranken.stream_1/playlist.m3u8">德国TV Oberfranken</a>
+    <a target="liveiframe" href="https://tvtourings.iptv-playoutcenter.de:1935/tvtourings/tvtourings.stream_1/playlist.m3u8">德国TV Touring Schweinfurt</a>
+    <a target="liveiframe" href="https://live.vidoo.de/live/weltderwunder/f1tv.m3u8">德国Welt der Wunder</a>
+    <a target="liveiframe" href="https://ios-stream.qvc.de/qvc.m3u8">德国QVC</a>
+    <a target="liveiframe" href="https://skydvn-nowtv-atv-prod.skydvn.com/atv/skynews/1404/live/04.m3u8">意大利SkyNews</a>
+    <a target="liveiframe" href="https://178.22.187.253:1935/streaming-tv/mp4:myStream3/playlist.m3u8">意大利AutoMoto TV (Opt-1)</a>
+    <a target="liveiframe" href="https://wms.shared.streamshow.it:1935/canale7/canale7/live.m3u8">意大利Canale 7</a>
+    <a target="liveiframe" href="https://deejay_tv-lh.akamaihd.net/i/DeejayTv_1@129866/master.m3u8">意大利DeeJay TV</a>
+    <a target="liveiframe" href="https://la7-vh.akamaihd.net/i/content/entry/data/0/299/0_b7o9lvba_0_kyyr8vxz_1.mp4/master.m3u8">意大利La 7</a>
+    <a target="liveiframe" href="https://m2otv-lh.akamaihd.net/i/m2oTv_1@186074/index_600_av-p.m3u8">意大利m20 TV</a>
+    <a target="liveiframe" href="https://188.165.224.142:1935/radiotivuazzurralive/radiotivuazzurralive/playlist.m3u8">意大利Radio Azzurra</a>
+    <a target="liveiframe" href="https://capital-live-tv-01-hls.akamai.media.kataweb.it/i/CapitalTv_1@183098/master.m3u8">意大利Radio Capital TiVu</a>
+    <a target="liveiframe" href="https://wms.shared.streamshow.it/visualradio/mp4:visualradio/chunklist.m3u8">意大利Radio Iglesias</a>
+    <a target="liveiframe" href="https://radioitaliatv-lh.akamaihd.net/i/radioitaliatv_1@329645/index_720x480_av-p.m3u8">意大利Radio Italia TV</a>
+    <a target="liveiframe" href="https://wow01.105.net:1935/live/rmc1/livestream.m3u8">意大利Radio Monte Carlo</a>
+    <a target="liveiframe" href="https://b2everyrai-lh.akamaihd.net/i/raimovie_1@67348/master.m3u8">意大利Rai Movie</a>
+    <a target="liveiframe" href="https://b2everyrai-lh.akamaihd.net/i/raipremium_1@181837/master.m3u8">意大利Rai Premium</a>
+    <a target="liveiframe" href="https://skyianywhere2-i.akamaihd.net:80/hls/live/200275/tg24/playlist.m3u8">意大利Sky TG24</a>
+    <a target="liveiframe" href="https://77.72.196.214:8554/live/SuedtirolTV/livestream.m3u8">意大利Sudtirol TV</a>
+    <a target="liveiframe" href="https://wms.shared.streamshow.it:1935/supertv/supertv/live.m3u8">意大利SuperTV</a>
+    <a target="liveiframe" href="https://wma07.fluidstream.net:1935/TeleArena/livestream/playlist.m3u8">意大利TeleArena</a>
+    <a target="liveiframe" href="https://wms.shared.streamshow.it:1935/telemonteneve/telemonteneve/live.m3u8">意大利teleMonteneve</a>
+    <a target="liveiframe" href="https://wms.shared.streamshow.it:1935/telepavia/telepavia/live.m3u8">意大利telePAVIA</a>
+    <a target="liveiframe" href="https://91.121.222.160:1935/piublu/piublu.sdp/live.m3u8">意大利Tele Milano</a>
+    <a target="liveiframe" href="https://wms.shared.streamshow.it:1935/tsn2/tsn2/live.m3u8">意大利TSN</a>
+    <a target="liveiframe" href="https://wms.shared.streamshow.it:1935/tvrs/tvrs/live.m3u8">意大利TVRS</a>
+    <a target="liveiframe" href="https://wms.shared.streamshow.it:1935/videobrescia/videobrescia/live.m3u8">意大利Video Brescia</a>
+    <a target="liveiframe" href="https://wms.shared.streamshow.it:80/videocalabria/videocalabria/playlist.m3u8">意大利Video Calabria</a>
+    <a target="liveiframe" href="https://rmtv24hweblive-lh.akamaihd.net/i/rmtv24hwebes_1@300661/index_3_av-p.m3u8">西班牙皇马足球台HD</a>
+    <a target="liveiframe" href="https://ccma-tva-int-abertis-live.hls.adaptive.level3.net/int/ngrp:324_mobil/chunklist_b548000.m3u8">西班牙3/24</a>
+    <a target="liveiframe" href="https://rtvmurcia_01-lh.akamaihd.net/i/rtvmurcia_1_0@507973/master.m3u8">西班牙7 Murcia</a>
+    <a target="liveiframe" href="https://streaming.enetres.net:1935/091DB7AFBD77442B9BA2F141DCC182F5021/live.smil/stream.m3u8">西班牙13 TV</a>
+    <a target="liveiframe" href="https://194.158.80.31:443/live/rtva/playlist.m3u8">西班牙Andorra TV (Andorra)</a>
+    <a target="liveiframe" href="https://streaming.enetres.net:80/091DB7AFBD77442B9BA2F141DCC182F5021/mobile/chunklist.m3u8">西班牙Calle 13</a>
+    <a target="liveiframe" href="https://hlstv.canalextremadura.es/livetv/smil:multistream.smil/playlist.m3u8">西班牙Canal Extremadura</a>
+    <a target="liveiframe" href="https://congresodirecto-f.akamaihd.net:80/i/congreso6_1@54665/master.m3u8">西班牙Canal Parlamento (Updated)</a>
+    <a target="liveiframe" href="https://62.210.141.18:1935/directo/lancelot.television/live.m3u8">西班牙Lancelot TV</a>
+    <a target="liveiframe" href="https://teledifusion.tv:1935/levantetvlive/levantetvlive/master.m3u8">西班牙Levante TV</a>
+    <a target="liveiframe" href="https://cdn.s3.eu.nice264.com:1935/niceLiveServer/NTV_livenatvmb_MB_478/live.m3u8">西班牙Navarra TV (Opt-1)</a>
+    <a target="liveiframe" href="https://nws.nice264.com/SmilLive/getLiveIOS.smil?stream=NTV_livenatvmb&system=NTV&protocol=http_cupertino/playlist.m3u8">西班牙Navarra TV (Opt-2)</a>
+    <a target="liveiframe" href="https://teledifusion.tv:1935/rtvcetv/rtvcetvlive/playlist.m3u8">西班牙RTVCE</a>
+    <a target="liveiframe" href="https://sevillafc_live-lh.akamaihd.net/i/video_0@354142/master.m3u8">西班牙Sevilla FC TV</a>
+    <a target="liveiframe" href="https://video.telesafor.com/hls/video_low.m3u8">西班牙TeleSafor</a>
+    <a target="liveiframe" href="https://streaming.enetres.net/9E9557EFCEBB43A89CEC8FBD3C500247022/live.smil/.m3u8">西班牙TeleValencia</a>
+    <a target="liveiframe" href="https://ccma-tva-int-abertis-live.hls.adaptive.level3.net/int/ngrp:tv3_web/playlist.m3u8">西班牙TV3 (Opt-1)</a>
+    <a target="liveiframe" href="https://europa-crtvg.flumotion.com/playlist.m3u8">西班牙TV Galicia Europa</a>
+    <a target="liveiframe" href="https://streaming.enetres.net/489DDF7FE98241D19D8970314BC9D3EF021/smil:live.smil/master.m3u8">西班牙TV Mediterraneo</a>
+    <a target="liveiframe" href="https://ruvruverl-live.hls.adaptive.level3.net/ruv/ruverl/index/stream4.m3u8">冰岛RUV</a>
+    <a target="liveiframe" href="https://live.tv2bornholm.dk/stream/live/chunklist.m3u8">丹麦TV2 Bornholm</a>
+    <a target="liveiframe" href="https://cdn-lt-hls-vod.tv2fyn.dk/fhls/p/1966291/sp/196629100/serveFlavor/entryId/0_yct7rqn3/v/2/flavorId/0_h2wfmuqm/name/a.mp4/index.m3u8">丹麦TV2 Fyn</a>
+    <a target="liveiframe" href="https://cdn-lt-hls-vod.tv2lorry.dk/fhls/p/2045321/sp/204532100/serveFlavor/entryId/0_0u9letdh/v/1/flavorId/0_p5f7q6yf/name/a.mp4/index.m3u8">丹麦TV2 Lorry</a>
+    <a target="liveiframe" href="https://cdn-lt-live.tvsyd.dk/dc-1/live/hls/p/1956351/e/0_e9slj9wh/t/ut3_n5VQ1FqzlqMhwbQmJg/index-s32.m3u8">丹麦TV Syd</a>
+    <a target="liveiframe" href="https://stream.kkr.dk/live/ngrp:kkr_adaptive/chunklist_w184691500_b1628000.m3u8">丹麦KKR TV.</a>
+    <a target="liveiframe" href="https://cdn-kanal10.crossnet.net/kanal10no/live1/playlist.m3u8">挪威Kanal 10</a>
+    <a target="liveiframe" href="https://unilivemtveu-lh.akamaihd.net/i/mtvno_1@346424/master.m3u8">挪威MTV</a>
+    <a target="liveiframe" href="https://flash0.19333-live0.dna.qbrick.com:1935/19333-live0/push-stortinget_1/playlist.m3u8">挪威Stortinget</a>
+    <a target="liveiframe" href="https://yletvhdliveworld-lh.akamaihd.net/i/yletv1hdworld_1@187592/index_2764_av-p.m3u8">芬兰YLE TV 1</a>
+    <a target="liveiframe" href="https://yletvhdliveworld-lh.akamaihd.net/i/yletv2hdworld_1@187593/index_2764_av-p.m3u8">芬兰YLE TV 2</a>
+    <a target="liveiframe" href="https://cdn-kanal10.crossnet.net:1935/kanal10/mp4:mpegts.stream/playlist.m3u8">瑞典Kanal 10</a>
+    <a target="liveiframe" href="https://contact-lh.akamaihd.net/i/CONTACT_1@321283/master.m3u8">比利时Radio Contact 102.2 FM Brussels</a>
+    <a target="liveiframe" href="https://rtltvi-lh.akamaihd.net/i/TVI_1@319659/master.m3u8">比利时RTL-TVI</a>
+    <a target="liveiframe" href="https://s1.streamnet.ro:8014/stream.flv.m3u8">罗马尼亚Informatia TV</a>
+    <a target="liveiframe" href="https://s2.streamnet.ro:8035/stream.flv.m3u8">罗马尼亚STV</a>
+    <a target="liveiframe" href="https://webmobile.xdev.ro:81/tv9/playlist.m3u8">罗马尼亚TV Kit</a>
+    <a target="liveiframe" href="https://hls.protv.md/acasatv/acasatv.m3u8">摩尔多瓦Acasa TV</a>
+    <a target="liveiframe" href="https://93.115.137.166/hls/ntvm.m3u8">摩尔多瓦NTV</a>
+    <a target="liveiframe" href="https://hls.protv.md/hls/protv.m3u8">摩尔多瓦Pro TV</a>
+    <a target="liveiframe" href="https://livebeta.publika.md/LIVE/P/6810.m3u8">摩尔多瓦Publika TV</a>
+    <a target="liveiframe" href="https://webmobile.xdev.ro:81/tv16/playlist.m3u8">摩尔多瓦Tele M</a>
+    <a target="liveiframe" href="https://66.55.93.204/hls-live/livepkgr/_definst_/report/stream.m3u8">阿尔巴尼亚Report-TV</a>
+    <a target="liveiframe" href="https://w10.streamgb.com:1935/dugaplus/dugaplus/playlist.m3u8">塞尔维亚 Duga TV</a>
+    <a target="liveiframe" href="https://212.200.102.3:5000/udp/239.99.99.99:23999.m3u8">塞尔维亚 TV Partizan</a>
+    <a target="liveiframe" href="https://212.200.102.3:5000/rtp/239.0.0.2:5000.m3u8">塞尔维亚 TVKopernikus2</a>
+    <a target="liveiframe" href="https://212.200.102.3:5000/rtp/239.0.0.3:5000.m3u8">塞尔维亚 TVKopernikus3</a>
+    <a target="liveiframe" href="https://109.123.70.27:1935/tehnikatv777/tehnikatv777/playlist.m3u8">波斯尼亚 777 TehnikaTV</a>
+    <a target="liveiframe" href="https://aljazeera-balkans-apple-live.adaptive.level3.net/apple/aljazeera/balkans/800.m3u8">波斯尼亚 Al Jazeera Balkans</a>
+    <a target="liveiframe" href="https://tvstream.rtvbn.com:1935/live/stream/chunklist_w1957700324.m3u8">波斯尼亚 BN TV</a>
+    <a target="liveiframe" href="https://37.59.21.217:8809/live/tv5web.m3u8">波斯尼亚 Televizija 5</a>
+    <a target="liveiframe" href="https://skyfolk.mk/live.m3u8">马其顿 Sky Folk TV</a>
+    <a target="liveiframe" href="https://85.238.112.40:8810/hls_sec/239.33.16.32-.m3u8">乌克兰100% News</a>
+    <a target="liveiframe" href="https://stream.atr.ua/lale//live/index.m3u8">乌克兰Lale</a>
+    <a target="liveiframe" href="https://live.m2.tv/hls/stream.m3u8">乌克兰M2</a>
+    <a target="liveiframe" href="https://stream.mediawork.cz/retrotv/retrotvHQ1/playlist.m3u8">捷克Retro (Opt-1)</a>
+    <a target="liveiframe" href="https://stream.mediawork.cz/tuty/tutytv/playlist.m3u8">捷克Tuty TV</a>
+    <a target="liveiframe" href="https://109.74.145.11:1935/tv8/mp4:tv8.stream_360p/chunklist_w974670813.m3u8">斯洛伐克TV 8</a>
+    <a target="liveiframe" href="https://s1.media-planet.sk:80/live/novezamky/BratuMarian.m3u8">斯洛伐克TVNZ</a>
+    <a target="liveiframe" href="https://video.chaula.tv/hls/live/high/playlist_high.m3u8">拉脱维亚Chau TV</a>
+    <a target="liveiframe" href="https://edge-telia1.tiesraides.lv/live/retv.lv.1_1/playlist_b1825196.m3u8">拉脱维亚RETV</a>
+    <a target="liveiframe" href="https://player.tvnet.lv/stream/amlst:61659/chunklist_w1822312625_b528000_pd892000.m3u8">拉脱维亚TV Net</a>
+    <a target="liveiframe" href="https://live.streams.ovh:1935/cannali/cannali/playlist.m3u8">希腊Cannali TV</a>
+    <a target="liveiframe" href="https://live.streams.ovh:1935/foxtv/foxtv/playlist.m3u8">希腊Fox TV</a>
+    <a target="liveiframe" href="https://stream.ioniantv.gr:8081/ionian/live/playlist.m3u8">希腊Ionian Channel</a>
+    <a target="liveiframe" href="https://live.streams.ovh:1935/LIFEHD/LIFEHD/playlist.m3u8">希腊Life Kids Network</a>
+    <a target="liveiframe" href="https://live.netvtoronto.com:1935/NetvToronto/NetvToronto/playlist.m3u8">希腊NETV (CA)</a>
+    <a target="liveiframe" href="https://81.21.47.74/hls/live.m3u8">塞浦路斯Sigma TV (Greek)</a>
+    <a target="liveiframe" href="https://stream.taksimbilisim.com:1935/aksutv/smil:aksutv.smil/playlist.m3u8">土耳其AKSU TV</a>
+    <a target="liveiframe" href="https://stream2.taksimbilisim.com:1935/caytv/bant1/CAYTV.m3u8">土耳其Cay TV</a>
+    <a target="liveiframe" href="https://media.netd.com.tr/S1/HLS_LIVE/cnn_turk/1000/prog_index.m3u8">土耳其CNN Turk</a>
+    <a target="liveiframe" href="https://live.netd.com.tr/S1/HLS_LIVE/dreamtv/1000/prog_index.m3u8">土耳其Dream TV</a>
+    <a target="liveiframe" href="https://live.netd.com.tr/S1/HLS_LIVE/dreamturktv/1000/prog_index.m3u8">土耳其Dreamturk TV</a>
+    <a target="liveiframe" href="https://212.224.109.109/S2/HLS_LIVE/kanald/500/prog_index.m3u8">土耳其Kanal D</a>
+    <a target="liveiframe" href="https://mecliscanlitv-lh.akamaihd.net:80/i/MECLISTV_1@127503/master.m3u8">土耳其Meclis TV</a>
+    <a target="liveiframe" href="https://trtcanlitv-lh.akamaihd.net/i/TRT1HD_1@181842/master.m3u8">土耳其TRT 1</a>
+    <a target="liveiframe" href="https://trtcanlitv-lh.akamaihd.net/i/TRTAVAZ_1@182244/master.m3u8">土耳其TRT Avaz</a>
+    <a target="liveiframe" href="https://trtcanlitv-lh.akamaihd.net/i/TRTCOCUK_1@181844/master.m3u8">土耳其TRT Cocuk</a>
+    <a target="liveiframe" href="https://trtcanlitv-lh.akamaihd.net/i/TRTHABERHD_1@181942/master.m3u8">土耳其TRT Haber</a>
+    <a target="liveiframe" href="https://trtcanlitv-lh.akamaihd.net/i/TRTMUZIK_1@181845/master.m3u8">土耳其TRT Muzik</a>
+    <a target="liveiframe" href="https://trtcanlitv-lh.akamaihd.net/i/TRTOKUL_1@182245/master.m3u8">土耳其TRT Okul</a>
+    <a target="liveiframe" href="https://trtcanlitv-lh.akamaihd.net/i/TRTTURK_1@182144/master.m3u8">土耳其TRT Turk</a></div>
+    </li>
+    <li>
+      <input type="radio" name="tabs" id="tab-其他">
+      <label for="tab-其他">其他</label>
+      <div class="tab-content animated fadeIn"> <a target="liveiframe" href="https://203.156.63.20:1935/live/ddtv/playlist.m3u8">泰国DDTV</a>
+    <a target="liveiframe" href="https://antvlive.ab5c6921.cdnviet.com/antv/playlist.m3u8">越南ANTVHD</a>
+    <a target="liveiframe" href="https://173.236.10.10:1935/dgrau/dgrau/playlist.m3u8">巴西AllSports</a>
+    <a target="liveiframe" href="https://173.236.10.10:1935/rbtv/rbtv/playlist.m3u8">巴西Rede Brasil [Opt-1]</a>
+    <a target="liveiframe" href="https://evpp.mm.uol.com.br/redetv1/redetv1/chunklist_w1483436880.m3u8">巴西Rede TV</a>
+    <a target="liveiframe" href="https://173.236.10.10:1935/tvonline/tvonline/playlist.m3u8">巴西Rede TV Rondonia</a>
+    <a target="liveiframe" href="https://v1.proofix.ru/live-tv8/stream1/playlist.m3u8">俄罗斯8 Kanal</a>
+    <a target="liveiframe" href="https://streaming.astrakhan.ru/astrakhan24/index.m3u8">俄罗斯Astrakhan 24 (Opt-2)</a>
+    <a target="liveiframe" href="https://live.cgtn.com/1000r/prog_index.m3u8">俄罗斯CGTN</a>
+    <a target="liveiframe" href="https://62.76.26.81:8081/hdmedia/menu/playlist.m3u8">俄罗斯KinoMenu HD</a>
+    <a target="liveiframe" href="https://kprf-htlive.cdn.ngenix.net/live/_definst_/stream_high/playlist.m3u8">俄罗斯Krasnaja Linija</a>
+    <a target="liveiframe" href="https://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/playlist.m3u8">俄罗斯Mir</a>
+    <a target="liveiframe" href="https://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/playlist.m3u8">俄罗斯Mir 24 (Opt-1)</a>
+    <a target="liveiframe" href="https://hls.tvsoyuz.cdnvideo.ru/tvsoyuz2/muzsoyuz.6fw0-58xp-acts-esy0/chunklist.m3u8">俄罗斯Muz Sojuz</a>
+    <a target="liveiframe" href="https://rfe-lh.akamaihd.net/i/rfe_tvmc5@383630/master.m3u8">俄罗斯Nastoyashcheye Vremya</a>
+    <a target="liveiframe" href="https://92.50.128.180/utv/1358/index.m3u8">俄罗斯RBC (Opt-1)</a>
+    <a target="liveiframe" href="https://online.video.rbc.ru/online/rbctv_480p/index.m3u8">俄罗斯RBC (Opt-2)</a>
+    <a target="liveiframe" href="https://online.video.rbc.ru/online/rbctv_576p/index.m3u8">俄罗斯RBC (Opt-3)</a>
+    <a target="liveiframe" href="https://hls.shansontv.cdnvideo.ru/shansontv/smil:shansontv.smil/playlist.m3u8">俄罗斯Shanson TV (Opt-1)</a>
+    <a target="liveiframe" href="https://chanson-video.hostingradio.ru:8080/hls/chansonabr/live.m3u8">俄罗斯Shanson TV (Opt-2)</a>
+    <a target="liveiframe" href="https://tvcom.stream.intelema.ru/tvcom/studio/index.m3u8">俄罗斯Tivikom Ulan-Udje</a>
+    <a target="liveiframe" href="https://streams.sibinformburo.cdnvideo.ru/sibinformburo/sibinformburo.sdp/playlist.m3u8">俄罗斯Tjumenskoe Vremja</a>
+    <a target="liveiframe" href="https://serv24.vintera.tv:8081/tochka/tochkatv/playlist.m3u8">俄罗斯Tochka TV (Opt-1)</a>
+    <a target="liveiframe" href="https://tv-topshop.netrack.ru/hls/topshop.m3u8">俄罗斯TopShop</a>
+    <a target="liveiframe" href="https://live2.mediacdn.ru/sr1/tro/playlist.m3u8">俄罗斯TRO Soyuz</a>
+    <a target="liveiframe" href="https://live.ugratv.cdnvideo.ru/ugratv/smil:ugrastream1.smil/playlist.m3u8">俄罗斯Ugra TV</a>
+    <a target="liveiframe" href="https://starstv.live.e55-po.insyscd.net/starstvhd.smil/index.m3u8">波兰Stars TV</a>
+    <a target="liveiframe" href="https://stream.tvkujawy.pl:8080/live/broadcast.m3u8">波兰TV Kujawy (Opt-1)</a>
+    <a target="liveiframe" href="https://217.173.176.107:1935/live/ngrp:tvk.stream_all/master.m3u8">波兰TV Torun</a>
+    <a target="liveiframe" href="https://trwamtv.live.e55-po.insyscd.net/trwamtv.smil/playlist.m3u8">波兰TV Trwam</a>
+    <a target="liveiframe" href="https://hbbtvlive.v3.tvp.pl/hbbtvlive/livestream.php?app_id=tvpbialystok.m3u8">波兰TVP3 Bialystok</a>
+    <a target="liveiframe" href="https://hbbtvlive.v3.tvp.pl/hbbtvlive/livestream.php?app_id=tvplodz.m3u8">波兰TVP3 Lodz</a>
+    <a target="liveiframe" href="https://hbbtvlive.v3.tvp.pl/hbbtvlive/livestream.php?app_id=tvplublin.m3u8">波兰TVP3 Lublin</a>
+    <a target="liveiframe" href="https://hbbtvlive.v3.tvp.pl/hbbtvlive/livestream.php?app_id=tvppoznan.m3u8">波兰TVP3 Poznan</a>
+    <a target="liveiframe" href="https://hbbtvlive.v3.tvp.pl/hbbtvlive/livestream.php?app_id=tvpwarszawa.m3u8">波兰TVP3 Warszawa</a>
+    <a target="liveiframe" href="https://hbbtvlive.v3.tvp.pl/hbbtvlive/livestream.php?app_id=tvpwroclaw.m3u8">波兰TVP3 Wroclaw</a>
+    <a target="liveiframe" href="https://94.246.169.19/ttv_hls/live_270p/index.m3u8">波兰Twoja TV (Opt-1)</a>
+    <a target="liveiframe" href="https://bris4bcvid-lh.akamaihd.net/i/brisbanebcvida_1@110989/master.m3u8">澳大利亚4BC Brisbane</a>
+    <a target="liveiframe" href="https://mediaworks-i.akamaihd.net/hls/live/220435/3812193411001/3news_live/master.m3u8">新西兰Three</a>
+    <a target="liveiframe" href="https://bqgsd19q.rocketcdn.com/kralpop_720/chunklist.m3u8">奥地利KRALHD</a>
+    <a target="liveiframe" href="https://d2jk87psbjrjdz.cloudfront.net/livehttporigin/okto/playlist.m3u8">奥地利Okto TV</a>
+    <a target="liveiframe" href="https://d2dslh4sd7yvc1.cloudfront.net/live/omroepwest/ngrp:tv-feed_all/playlist.m3u8">荷兰Omroep West</a>
+    <a target="liveiframe" href="https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/vision4/hls_video/index.m3u8">喀麦隆 Vision 4</a>
+    <a target="liveiframe" href="https://klive-a.akamaihd.net/dc-1/live/hls/p/1719221/e/1_ljzy3evp/sd/10000/t/nwOKUovT2mwnA8x_KnC4zg/index-s32.m3u8">瑞士Tele M1</a>
+    <a target="liveiframe" href="https://klive-a.akamaihd.net/dc-1/live/hls/p/1719221/e/1_0mc3z57p/t/gaudIWTPWrpJe6yJmHI9vA/index-s32.m3u8">瑞士TeleBarn</a>
+    <a target="liveiframe" href="https://livees.cgtn.com/1000e/prog_index.m3u8">拉丁美洲CGTN</a>
+    <a target="liveiframe" href="https://wceatv1.srfms.com:2177/live/livestream/playlist.m3u8">拉丁美洲Cuenca Vision</a>
+    <a target="liveiframe" href="https://68.235.35.243:1935/lamegamundial/lamegamundial2/playlist.m3u8">拉丁美洲La Mega Mundial</a>
+    <a target="liveiframe" href="https://ocb-lh.akamaihd.net/i/ocb_mpls_tvmc1@383606/master.m3u8">拉丁美洲TV Marti</a>
+    <a target="liveiframe" href="https://live10.cdnmedia.tv/dgtvelive/smil:aprend24.smil/playlist.m3u8">墨西哥Aprende TV Mexico City</a>
+    <a target="liveiframe" href="https://klive-a.akamaihd.net/dc-0/live/hls/p/290412/e/0_es0kdjdz/sd/10000/t/bj1DqoE8O0tNhHgd6BvqXQ/index-s32.m3u8">墨西哥Canal 10 Chiapas</a>
+    <a target="liveiframe" href="https://live10.cdnmedia.tv/dgtvelive/smil:ingen30.smil/playlist.m3u8">墨西哥Ingenio TV Mexico City</a>
+    <a target="liveiframe" href="https://bcoveliveios-i.akamaihd.net/hls/live/201661/57828478001/milenio_center_512k@51752.m3u8">墨西哥Milenio TV</a>
+    <a target="liveiframe" href="https://wms30.tecnoxia.com/radiof/abr_radioftele/playlist.m3u8">墨西哥Teleformula (New)</a>
+    <a target="liveiframe" href="https://ooyalahd2-f.akamaihd.net/i/UnoTV01_delivery@122640/master.m3u8">墨西哥Uno TV (VOD)</a>
+    <a target="liveiframe" href="https://wowza.telpin.com.ar:1935/canal3/canal3.stream/playlist.m3u8">阿根廷Canal 3 Pinamar</a>
+    <a target="liveiframe" href="https://184.154.28.210:1935/canal4/canal4/live.m3u8">阿根廷Canal 4 Posadas</a>
+    <a target="liveiframe" href="https://186.0.180.11:1935/festival/mp4:festival/playlist.m3u8">阿根廷Canal Local Olavarria</a>
+    <a target="liveiframe" href="https://www.trimi.com.ar/provincial/streaming/mystream.m3u8">阿根廷Canal Provincial San Miguel</a>
+    <a target="liveiframe" href="https://186.0.233.76:1935/Garage/smil:garage.smil/master.m3u8">阿根廷Garage TV</a>
+    <a target="liveiframe" href="https://media.neuquen.gov.ar/rtn/television/chunklist_w1330236482.m3u8">阿根廷Radio TV Neuquen</a>
+    <a target="liveiframe" href="https://chv.movil.rtsp.ztreaming.com/chvmovil2/chilevision@140569/chunklist_w787114469.m3u8">智利Chilevision</a>
+    <a target="liveiframe" href="https://elcanaldelfutbol.com/static/wowza/test/hls/20001/480p/playlist.m3u8">厄瓜多尔Ecuavisa SD</a>
+    <a target="liveiframe" href="https://servicioamerica.com:1935/8200/8200/playlist.m3u8">厄瓜多尔Canela TV</a>
+    <a target="liveiframe" href="https://elcanaldelfutbol.com/static/wowza/test/hls/10001/720p/playlist.m3u8">厄瓜多尔TC HD</a>
+    <a target="liveiframe" href="https://streaming.canalcncmedellin.com/hls-live/livepkgr/_definst_/liveevent/canalcnc.m3u8">哥伦比亚Canal CNC Medellin</a>
+    <a target="liveiframe" href="https://173.192.105.252:1935/iptvantares/liveantarestv/playlist.m3u8">秘鲁Antares TV</a>
+    <a target="liveiframe" href="https://play.hostreamperu.com:1935/8016/8016/playlist.m3u8">秘鲁Mega TV Araquipa</a>
+    <a target="liveiframe" href="https://vs8.live.opencaster.com/20100152275/jcpstream/playlist.m3u8">秘鲁Monterrico TV</a>
+    <a target="liveiframe" href="https://184.154.28.210:1935/rbc-tv/rbc-tv/playlist.m3u8">秘鲁RBC TV</a>
+    <a target="liveiframe" href="https://www.radiosargentina.com.ar/php/tvm3u.php?id=DIPE0003&mode=12.m3u8">秘鲁TV Peru</a>
+    <a target="liveiframe" href="https://wowza.montevideo.com.uy:1936/live/_definst_/mvdstrem/chunklist_w1488231185.m3u8">乌拉圭 Canal M</a>
+    <a target="liveiframe" href="https://livestreamcdn.net:1935/ExtremaTV/ExtremaTV/playlist.m3u8">哥斯达黎加 Extrema TV</a>
+    <a target="liveiframe" href="https://k4.usastreams.com/Telesistemas/Telesistemas/playlist.m3u8">哥斯达黎加 Telered</a>
+    <a target="liveiframe" href="https://k3.usastreams.com:1935/telesur/telesur/playlist.m3u8">哥斯达黎加 Telesur</a>
+    <a target="liveiframe" href="https://k3.usastreams.com:1935/tvuno1/tvuno1/playlist.m3u8">哥斯达黎加 TeleUno TV</a>
+    <a target="liveiframe" href="https://s69362.cdn.ngenix.net/live/_definst_/Stream1/chunklist.m3u8">阿塞拜疆CBC Sport</a>
+    <a target="liveiframe" href="https://trtcanlitv-lh.akamaihd.net/i/TRT6_1@181944/master.m3u8">库尔德斯坦TRT Kurdi</a>
+    <a target="liveiframe" href="https://w3.013.gostreaming.tv:1935/Knesset/myStream/playlist.m3u8">以色列Knesset Channel</a>
+    <a target="liveiframe" href="https://abpasmita-lh.akamaihd.net:80/i/abpasmita_1@77821/master.m3u8">印度ABP Asmita</a>
+    <a target="liveiframe" href="https://bloomtv.live-s.cdn.bitgravity.com/cdn-live-b5/_definst_/bloomtv/live/feed01/playlist.m3u8">印度Bloomberg India</a>
+    <a target="liveiframe" href="https://nicls1-lh.akamaihd.net/i/ddnews_1@409133/master.m3u8">印度DD News</a>
+    <a target="liveiframe" href="https://edge-ind.inapcdn.in:1935/device2/camera2.stream/playlist.m3u8">印度JK 24x7 News</a>
+    <a target="liveiframe" href="https://nicls1-lh.akamaihd.net/i/lst_1@26969/master.m3u8">印度Lok Sabha TV</a>
+    <a target="liveiframe" href="https://ndtvstream-lh.akamaihd.net/i/ndtv_india_1@300634/index_736_av-b.m3u8">印度NDTV</a>
+    <a target="liveiframe" href="https://ndtvstream-lh.akamaihd.net:80/i/ndtv_24x7_1@300633/master.m3u8">印度NDTV 24x7</a>
+    <a target="liveiframe" href="https://live.wmncdn.net/pbnmusic/b437d1e185b4c95b08b9c830a9d97cff.sdp/playlist.m3u8">印度PBN Music (USA)</a>
+    <a target="liveiframe" href="https://nicls2-lh.akamaihd.net/i/rstv_1@26970/master.m3u8">印度Rajya Sabha TV</a>
+    <a target="liveiframe" href="https://zoomweblive-lh.akamaihd.net/i/Zoom-TIL-WAP/Zoomweb_1@348071/master.m3u8">印度Zoom</a>
+    <a target="liveiframe" href="https://cdn20.liveonlineservices.com/hls/eye95tv.m3u8">巴基斯坦Eye 95 TV (US)</a>
+    <a target="liveiframe" href="https://mlive.lahorenews.tv:1935/lahorelive/lnews_1/playlist.m3u8">巴基斯坦Lahore News</a>
+    <a target="liveiframe" href="https://bbcwshdlive01-lh.akamaihd.net/i/ptv_1@78015/master.m3u8">伊朗BBC</a>
+    <a target="liveiframe" href="https://66.160.192.250:8080/oitn.tvboxhd.com/high/798536241/tracks-v1a1/index.m3u8">伊朗Omid-e-Iran OITN</a>
+    <a target="liveiframe" href="https://iptv.tapesh.tv/tapesh/playlist.m3u8">伊朗PBC Tapesh TV</a>
+    <a target="liveiframe" href="https://198.98.181.244/live/smil:rjtv.smil/playlist.m3u8">伊朗Radio Javan</a>
+    <a target="liveiframe" href="https://iptv.rangarang.us/live/playlist.m3u8">伊朗Rangarang TV</a>
+    <a target="liveiframe" href="https://66.160.192.250:8080/afn-TVBOXHD.COM/afn/tracks-v1a1/index.m3u8">伊朗Tin TV</a>
+    <a target="liveiframe" href="https://mbnhls-lh.akamaihd.net/i/MBN_1@118619/master.m3u8">阿拉伯半岛电视新闻网Al Hurra</a>
+    <a target="liveiframe" href="https://bbcwshdlive01-lh.akamaihd.net/i/atv_1@61433/master.m3u8">阿拉伯半岛电视新闻网(Opt-2)</a>
+    <a target="liveiframe" href="https://live.cgtn.com/1000a/prog_index.m3u8">阿拉伯半岛电视新闻网CGTN</a>
+    <a target="liveiframe" href="https://dwstream2-lh.akamaihd.net/i/dwstream2_live@124400/master.m3u8">阿拉伯半岛电视新闻网Deutsche Welle</a>
+    <a target="liveiframe" href="https://trtcanlitv-lh.akamaihd.net/i/TRTARAPCA_1@181945/master.m3u8">阿拉伯半岛电视新闻网TRT</a>
+    <a target="liveiframe" href="https://aljazeera-eng-hd-live.hls.adaptive.level3.net/aljazeera/english2/index.m3u8">阿拉伯半岛电视台</a>
+    <a target="liveiframe" href="https://live.mediaforall.net:1935/liveorigin/livestream_480p/playlist.m3u8">黎巴嫩Al Manar</a>
+    <a target="liveiframe" href="https://ns8.indexforce.com:1935/ann/ann/playlist.m3u8">叙利亚ANN</a>
+    <a target="liveiframe" href="https://ns8.indexforce.com:1935/home/mystream/playlist.m3u8">伊拉克 Al Sharqiya</a>
+    <a target="liveiframe" href="https://ns8.indexforce.com:1935/alsharqiyalive/mystream/playlist.m3u8">伊拉克 Sharqiya News</a>
+    <a target="liveiframe" href="https://streamer12.elementssys.com:8080/SAUDI-Channels/MASDAR_TV/index.m3u8">沙特阿拉伯Masdar TV</a>
+    <a target="liveiframe" href="https://adtv.ercdn.net/adsport2/adsport2.m3u8">阿拉伯联合酋长国Abu Dhabi Sports 2 HD (Opt-2)</a>
+    <a target="liveiframe" href="https://adtv.ercdn.net/adsport2/adsport2_720p.m3u8">阿拉伯联合酋长国Abu Dhabi Sports 2 HD (Opt-3)</a>
+    <a target="liveiframe" href="https://cdn-hls.globecast.tv/live/ramdisk/al_aoula_inter/hls_snrt/index.m3u8">摩洛哥Al Aoula International</a>
+    <a target="liveiframe" href="https://cdn-hls.globecast.tv/live/ramdisk/arriadia/hls_snrt/index.m3u8">摩洛哥Arryadia</a>
+    <a target="liveiframe" href="https://cdn-hls.globecast.tv/live/ramdisk/al_maghribia_snrt/hls_snrt/index.m3u8">摩洛哥Al Maghribia</a>
+    <a target="liveiframe" href="https://africatv.live.net.sa:1935/live/africatv/playlist.m3u8">加纳TV Africa (Ghana)</a>
+    <a target="liveiframe" href="https://60.250.69.26:8080/live/vl89.m3u8">纬来综合</a>
+    <a target="liveiframe" href="https://60.250.69.26:8080/live/vljp89.m3u8">纬来日本台</a>
+    <a target="liveiframe" href="https://60.250.69.26:8080/live/vlsports89.m3u8">纬来体育</a>
+    <a target="liveiframe" href="https://60.250.69.26:8080/live/ctihappy89.m3u8">中天娱乐</a>
+    <a target="liveiframe" href="https://rmtv24hweblive-lh.akamaihd.net/i/rmtv24hwebes_1@300661/index_3_av-p.m3u8">皇马足球台</a>
+    <a target="liveiframe" href="https://playbackn5.aotg-video.astro.com.my/CH1/master_ARENA_8.m3u8">STLHD</a>
+    <a target="liveiframe" href="https://wfc.bonus-tv.ru:80/cdn/wfcint/tracks-v2a1/index.m3u8">高清时装台WFC</a>
+    <a target="liveiframe" href="https://31.13.223.104:1935/travel/community.stream/playlist.m3u8">TRAVEL HD</a></div>
+    </li>
+    <li>
+      <input type="radio" name="tabs" id="tab-电台">
+      <label for="tab-电台">电台</label>
+      <div class="tab-content animated fadeIn"> <a target="liveiframe" href="https://sk.cri.cn/915.m3u8">CRI 轻松调频广播</a>
+    <a target="liveiframe" href="https://sk.cri.cn/am1008.m3u8">CRI 英语漫听广播</a>
+    <a target="liveiframe" href="https://audiolive.rbc.cn:1935/live/fm1039/96K/tzwj_video.m3u8">北京交通广播</a>
+    <a target="liveiframe" href="https://123.56.16.201:1935/live/fm876/96K/tzwj_video.m3u8">北京文艺广播</a>
+    <a target="liveiframe" href="https://audiolive.rbc.cn:1935/live/fm1073/96K/tzwj_video.m3u8">北京城市广播</a>
+    <a target="liveiframe" href="https://audiolive.rbc.cn:1935/live/fm986/96K/tzwj_video.m3u8">北京古典音乐广播</a>
+    <a target="liveiframe" href="https://123.56.16.201:1935/live/fm974/96K/tzwj_video.m3u8">北京音乐广播</a>
+    <a target="liveiframe" href="https://audiolive.rbc.cn:1935/live/fm945/96K/tzwj_video.m3u8">北京动听调频Metro Radio</a>
+    <a target="liveiframe" href="https://123.56.16.201:1935/live/fm1006/96K/tzwj_video.m3u8">北京新闻广播</a>
+    <a target="liveiframe" href="https://audiolive.rbc.cn:1935/live/fm1025/96K/tzwj_video.m3u8">北京体育广播</a>
+    <a target="liveiframe" href="https://123.56.16.201:1935/live/fm1075/96K/tzwj_video.m3u8">北京怀旧金曲广播</a>
+    <a target="liveiframe" href="https://audiolive.rbc.cn:1935/live/fm1043/96K/tzwj_video.m3u8">北京长书广播</a>
+    <a target="liveiframe" href="https://123.56.16.201:1935/live/fm1065/96K/tzwj_video.m3u8">北京欢乐时光广播</a>
+    <a target="liveiframe" href="https://123.56.16.201:1935/live/am603/96K/tzwj_video.m3u8">北京故事广播</a>
+    <a target="liveiframe" href="https://audiolive.rbc.cn:1935/live/am774/96K/tzwj_video.m3u8">北京外语广播</a>
+    <a target="liveiframe" href="https://123.56.16.201:1935/live/fm1051/96K/tzwj_video.m3u8">北京戏曲综艺广播</a>
+    <a target="liveiframe" href="https://audiolive.rbc.cn:1935/live/am927/96K/tzwj_video.m3u8">北京青年广播</a>
+    <a target="liveiframe" href="https://123.56.16.201:1935/live/fm994/96K/tzwj_video.m3u8">北京教学广播</a></div>
+    </li>
+  </ul>
+</div>
+<link href="video-js.css?v202010181932" rel="stylesheet">
+<style>
+.video-js{
+  width:100%;
+  height:100%;
+}
+.video-js *:focus{
+  outline: none;
+}
+/* Change all text and icon colors in the player. */
+.vjs-white.video-js {
+  color: white;
+}
+/* Change the border of the big play button. */
+.vjs-white .vjs-big-play-button {
+  border-color: white;
+}
+/* Change the color of various "bars". */
+.vjs-white .vjs-volume-level, .vjs-white .vjs-play-progress, .vjs-white .vjs-slider-bar {
+  background: white;
+}
+.vjs-paused .vjs-big-play-button,
+.vjs-paused.vjs-has-started .vjs-big-play-button {
+
+    display: block;
+}
+.video-js .vjs-big-play-button{
+    font-size: 2.5em;
+    line-height: 2.3em;
+    height: 2.5em;
+    width: 2.5em;
+    -webkit-border-radius: 2.5em;
+    -moz-border-radius: 2.5em;
+    border-radius: 2.5em;
+    border-width: 0.15em;
+    margin-top: -1.5em;
+    margin-left: -1.25em;
+}
+/* 中间的播放箭头 */
+.vjs-big-play-button .vjs-icon-placeholder {
+    font-size: 1.63em;
+}
+.vjs-has-started.vjs-user-inactive.vjs-playing .vjs-control-bar {
+    opacity: 1;
+}
+.vjs-has-started.vjs-user-inactive.vjs-playing.vjs-fullscreen .vjs-control-bar {
+    opacity: 0;
+}
+.video-js.vjs-playing .vjs-tech {
+    pointer-events: auto;
+}
+</style>
+<script src="jquery-1.9.1.min.js" type="text/javascript"></script>
+<script src="video.min.js" type="text/javascript"></script>
+<script src="videojs-contrib-hls.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+function changeVideo(url){
+  
+  if($('#video-js').length!=0){
+    var player = videojs('video-js');
+    player.pause();
+    player.dispose();
+  }
+  
+  $("#playbox").html('<video id="video-js" class="video-js vjs-white vjs-big-play-centered" autoplay controls preload="auto" width="100%" height="100%" playsinline webkit-playsinline x-webkit-airplay="true"><source id="source" src="'+ url +'" type="application/x-mpegURL"></video>');
+  
+
+    videojs('video-js', {
+        bigPlayButton: true,
+        textTrackDisplay: false,
+        posterImage: true,
+        errorDisplay: true
+    },function(){
+        //this.play();
+    })
+}
+</script>
+<script type="text/javascript">
+// if in iframe
+try {
+    if (self != top) {
+        //alert(document.referrer);
+        $("body").addClass("inframe");
+    }
+} catch (err) {}
+// check UA
+ua = navigator.userAgent.toLowerCase(),
+check = function(r) {
+    return r.test(ua);
+},
+DOC = document,
+isStrict = DOC.compatMode === "CSS1Compat",
+isOpera = check(/opera/),
+isChrome = check(/\bchrome\b/),
+isWebKit = check(/webkit/),
+isSafari = !isChrome && check(/safari/),
+isSafari2 = isSafari && check(/applewebkit\/4/),
+// unique to Safari 2    
+isSafari3 = isSafari && check(/version\/3/),
+isSafari4 = isSafari && check(/version\/4/),
+isIE = !isOpera && check(/msie/),
+isIE6 = isIE && !-[1,]&&!window.XMLHttpRequest;
+isIE7 = isIE && check(/msie 7/),
+isIE8 = isIE && check(/msie 8/),
+isIE678 = isIE6 || isIE7 || isIE8,
+isGecko = !isWebKit && check(/gecko/),
+isGecko2 = isGecko && check(/rv:1\.8/),
+isGecko3 = isGecko && check(/rv:1\.9/),
+isBorderBox = isIE && !isStrict,
+isWindows = check(/windows|win32/),
+isMac = check(/macintosh|mac os x/),
+isAir = check(/adobeair/),
+isLinux = check(/linux/),
+isIos = check(/\(i[^;]+;( u;)? cpu.+mac os x/),
+isIphone = check(/iphone/),
+isIpad = check(/ipad/),
+isIpod = check(/ipod/),
+isAndroid = check(/android/),
+isSymbian = check(/symbianos/),
+isWindowsphone = check(/windows phone/),
+isWeixin = check(/MicroMessenger/),
+isMobile = check(/iphone|ipad|ipod|android|windows phone|symbianos/),
+isDesktop = check(/windows|win32|macintosh|mac os x|adobeair|linux/),
+isSecure = /^https/i.test(window.location.protocol),
+isKuaizhan = check(/kznativenav/),
+isHtml5Plus = check(/html5plus/);
+
+function getQueryString(name) {
+    var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
+    var r = window.location.search.substr(1).match(reg);
+    if (r != null) return decodeURI(r[2]); return null;
+}
+function saveCookie(name, value, days)
+//写cookies函数
+ {
+    var exp = new Date();
+    exp.setTime(exp.getTime() + days * 24 * 60 * 60 * 1000);
+    document.cookie = name + "=" + escape(value) + ";expires=" + exp.toGMTString() + ";path=/";
+
+}
+function getCookie(name)
+//取cookies函数        
+ {
+    var arr = document.cookie.match(new RegExp("(^| )" + name + "=([^;]*)(;|$)"));
+    if (arr !== null) {return unescape(arr[2]);}
+    return null;
+
+
+}
+function delCookie(name)
+//删除cookie
+ {
+    var exp = new Date();
+    exp.setTime(exp.getTime() - 1);
+    var cval = getCookie(name);
+    if (cval !== null) {document.cookie = name + "=" + cval + ";expires=" + exp.toGMTString() + ";path=/";}
+
+}
+
+  //复制
+  function copy(value){var currentFocus=document.activeElement;let textarea=document.createElement('textarea');textarea.style.position='fixed';textarea.style.left=0;textarea.style.top=0;textarea.value=value;textarea.style.height=0;textarea.style.opacity=0;textarea.readOnly=true;document.body.appendChild(textarea);let scrollY=window.scrollY;textarea.focus();textarea.setSelectionRange(0,textarea.value.length);var res=document.execCommand('copy',false,null);currentFocus.focus();document.body.removeChild(textarea);window.scrollTo(0,scrollY);return res}
+
+function liveplay(src,title){
+  if(/.m3u8|.mp4/.test(src)){
+    changeVideo(src);
+  }else{
+    $("#playbox").html('<iframe class="liveplayer" id="liveiframe" width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="'+ src +'" allowfullscreen="true"></iframe>');
+  }
+  $("html,body").animate({scrollTop:0},500);
+  if(title)$("title").html(title + " · MVCAT");
+  if(title != "测试")saveCookie("livechannel",src,"60");
+  history.pushState('', document.title, '?channel=' + src);
+}
+  
+$(document).ready(function() {
+  
+$('.tab-content a').click(function(e){
+  e.preventDefault();
+  liveplay($(this).attr('href'),$(this).text());
+  $(".active").removeClass('active');
+  $(this).addClass('active');
+});
+
+var livechannel = getQueryString("channel") || getCookie("livechannel");
+if(livechannel != null){
+liveplay(livechannel,"正在播放");
+$('#testsrc').val(livechannel);
+$('.tab-content a[href*="' + livechannel + '"]').first().click();
+}else{
+$(
+  ".tab-content a").first().click();
+};
+
+});
+</script>
+</body>
+</html>
