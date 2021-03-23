@@ -1,0 +1,76 @@
+--[[
+	说明：	GG版本最低要求： 8.68.5
+--]]
+
+
+local i, count, list
+local save_list_count = 0
+local save_list = {}
+
+local address_from, address_to, count_2, list_2, temp
+
+
+gg.setVisible(false)
+gg.clearResults()
+	
+gg.searchNumber("2D;255D;1F;1D::48", gg.TYPE_DWORD)
+count = gg.getResultsCount()
+if(count == 0) then
+	gg.toast("#No result.01!")
+	--return 0
+end
+list = gg.getResults(count)
+	
+for i=1, count, 1 do
+	if( list[i].value == 2 and 
+		list[i+1].value == 255 and 
+		list[i+2].value == 1.0 and 
+		list[i+3].value == 1) then
+		
+	
+		
+	
+		
+		save_list[save_list_count+1] = {}
+		save_list[save_list_count+1].address = list[i].address + 34320	
+		save_list[save_list_count+1].flags = gg.TYPE_DWORD
+		save_list[save_list_count+1].value = '0'
+		save_list[save_list_count+1].freeze = true
+		save_list_count = save_list_count + 1	
+		
+		
+		
+        save_list[save_list_count+1] = {}
+		save_list[save_list_count+1].address = list[i].address + 23400	
+		save_list[save_list_count+1].flags = gg.TYPE_DWORD
+		save_list[save_list_count+1].value = '0'
+		save_list[save_list_count+1].freeze = true
+		save_list_count = save_list_count + 1	
+		
+		
+		
+		save_list[save_list_count+1] = {}
+		save_list[save_list_count+1].address = list[i].address + 63440
+		save_list[save_list_count+1].flags = gg.TYPE_DWORD
+		save_list[save_list_count+1].value = '0'
+		save_list[save_list_count+1].freeze = true
+		save_list_count = save_list_count + 1	
+		
+        save_list[save_list_count+1] = {}
+		save_list[save_list_count+1].address = list[i].address + 70720
+		save_list[save_list_count+1].flags = gg.TYPE_DWORD
+		save_list[save_list_count+1].value = '0'
+		save_list[save_list_count+1].freeze = true
+		save_list_count = save_list_count + 1
+		
+		
+        
+	end
+end
+
+temp = list[1].address
+gg.addListItems(save_list)
+gg.setValues(save_list)
+gg.clearResults()
+
+gg.toast("脚本已结束！")
