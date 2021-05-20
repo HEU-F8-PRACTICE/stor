@@ -1,0 +1,168 @@
+！！！！！！！！！！！！！！！！！！！！！！！！！！！
+/*
+SQLyog Ultimate v12.08 (64 bit)
+MySQL - 5.0.16-nt : Database - txl
+*********************************************************************
+*/
+
+
+/*!40101 SET NAMES utf8 */;
+
+/*!40101 SET SQL_MODE=''*/;
+
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+CREATE DATABASE /*!32312 IF NOT EXISTS*/`txl` /*!40100 DEFAULT CHARACTER SET utf8 */;
+
+USE `txl`;
+
+/*Table structure for table `dxjlb` */
+
+DROP TABLE IF EXISTS `dxjlb`;
+
+CREATE TABLE `dxjlb` (
+  `dxjlid` varchar(20) NOT NULL,
+  `lxrid` varchar(20) default NULL,
+  `jfstart` timestamp NOT NULL default CURRENT_TIMESTAMP on update CURRENT_TIMESTAMP,
+  `dxnr` varchar(100) default NULL,
+  `dxcate` varchar(20) default NULL,
+  PRIMARY KEY  (`dxjlid`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+/*Data for the table `dxjlb` */
+
+insert  into `dxjlb`(`dxjlid`,`lxrid`,`jfstart`,`dxnr`,`dxcate`) values ('1','1','2020-09-10 22:53:03','你的书已到请速来领取','1');
+
+/*Table structure for table `lxrenb` */
+
+DROP TABLE IF EXISTS `lxrenb`;
+
+CREATE TABLE `lxrenb` (
+  `lxrid` varchar(20) NOT NULL,
+  `lxrname` varchar(20) default NULL,
+  `lxrdh` varchar(20) default NULL,
+  `lxrdz` varchar(20) default NULL,
+  PRIMARY KEY  (`lxrid`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+/*Data for the table `lxrenb` */
+
+insert  into `lxrenb`(`lxrid`,`lxrname`,`lxrdh`,`lxrdz`) values ('1','朱敏丽','15857455696','河南洛阳市中学路1号'),('2','张花莉','18953991767','河南洛阳市武汉路2号'),('3','梁宝丽','13752317719','河南洛阳市大学路3号'),('4','王保志','13938801001','河南洛阳市大学路4号'),('5','李君江','13752309239','河南洛阳市大学路5号');
+
+/*Table structure for table `thjlb` */
+
+DROP TABLE IF EXISTS `thjlb`;
+
+CREATE TABLE `thjlb` (
+  `txjlid` varchar(20) default NULL,
+  `lxrid` varchar(20) default NULL,
+  `thstart` timestamp NOT NULL default CURRENT_TIMESTAMP on update CURRENT_TIMESTAMP,
+  `thend` timestamp NOT NULL default '0000-00-00 00:00:00',
+  `thcate` varchar(20) default NULL,
+  `thstatus` int(11) default NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+/*Data for the table `thjlb` */
+
+/*Table structure for table `v_lxren_dxjlb` */
+
+DROP TABLE IF EXISTS `v_lxren_dxjlb`;
+
+/*!50001 DROP VIEW IF EXISTS `v_lxren_dxjlb` */;
+/*!50001 DROP TABLE IF EXISTS `v_lxren_dxjlb` */;
+
+/*!50001 CREATE TABLE  `v_lxren_dxjlb`(
+ `lxrid` varchar(20) ,
+ `lxrname` varchar(20) ,
+ `dxnr` varchar(100) ,
+ `dxcate` varchar(20) 
+)*/;
+
+/*View structure for view v_lxren_dxjlb */
+
+/*!50001 DROP TABLE IF EXISTS `v_lxren_dxjlb` */;
+/*!50001 DROP VIEW IF EXISTS `v_lxren_dxjlb` */;
+
+/*!50001 CREATE ALGORITHM=UNDEFINED DEFINER=`root`@`localhost` SQL SECURITY DEFINER VIEW `v_lxren_dxjlb` AS select `lxrenb`.`lxrid` AS `lxrid`,`lxrenb`.`lxrname` AS `lxrname`,`dxjlb`.`dxnr` AS `dxnr`,`dxjlb`.`dxcate` AS `dxcate` from (`lxrenb` join `dxjlb` on((`lxrenb`.`lxrid` = `dxjlb`.`lxrid`))) */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+！！！！！！！！！！！！！！！！！！！！！！！
+
+
+
+
+
+
+
+
+/*
+SQLyog Ultimate v12.08 (64 bit)
+MySQL - 5.5.49 : Database - posnt
+*********************************************************************
+*/
+
+
+/*!40101 SET NAMES utf8 */;
+
+/*!40101 SET SQL_MODE=''*/;
+
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+CREATE DATABASE /*!32312 IF NOT EXISTS*/`posnt` /*!40100 DEFAULT CHARACTER SET utf8 */;
+
+USE `posnt`;
+
+/*Table structure for table `gjjlb` */
+
+DROP TABLE IF EXISTS `gjjlb`;
+
+CREATE TABLE `gjjlb` (
+  `gjid` int(20) NOT NULL,
+  `gjperson` varchar(20) DEFAULT NULL,
+  `gjtime` date DEFAULT NULL,
+  `gjprice` varchar(200) DEFAULT NULL,
+  `gjstate` varchar(20) DEFAULT NULL,
+  PRIMARY KEY (`gjid`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+/*Data for the table `gjjlb` */
+
+/*Table structure for table `spkcb` */
+
+DROP TABLE IF EXISTS `spkcb`;
+
+CREATE TABLE `spkcb` (
+  `kcid` int(20) NOT NULL,
+  `spid` int(20) DEFAULT NULL,
+  `kcnumber` int(255) DEFAULT NULL,
+  PRIMARY KEY (`kcid`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+/*Data for the table `spkcb` */
+
+/*Table structure for table `spmcb` */
+
+DROP TABLE IF EXISTS `spmcb`;
+
+CREATE TABLE `spmcb` (
+  `spid` int(20) NOT NULL,
+  `spname` varchar(20) DEFAULT NULL,
+  `spdw` varchar(20) DEFAULT NULL,
+  `spprice` varchar(20) DEFAULT NULL,
+  PRIMARY KEY (`spid`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+/*Data for the table `spmcb` */
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+！！！！！！！！！！！！！！！！！！！！！
