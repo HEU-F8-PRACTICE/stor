@@ -1,0 +1,320 @@
+
+ 
+ <style>
+  body{background:#000;text-align:center;font:12px/20px Arial;}
+  #tab-wrap {width:100%;position:relative;overflow:hidden;}
+  #tab-wrap .list {position:relative;height:252px;}
+  #tab-wrap .list li {position:absolute;top:0;left:0;width:100%;height:252px;}
+  #tab-wrap .list li img {margin:0 auto;width:990px;}
+  #tab-wrap .list li .bg-right {position:absolute;top:0;right:0;width:50%;height:252px;z-index:-1;}
+  #tab-wrap .count {position:absolute;left:50%;width:10px;height:100px;top:100px;margin-left:470px;z-index:300;}
+  #tab-wrap .count li {float:left;width:10px;height:10px;background:#ccc;margin-bottom:10px;}
+  #tab-wrap .count li:hover{cursor:pointer;}
+  #tab-wrap .count li.current {background:#85BE2E;}
+  </style>
+ </head>
+ <body>
+  <div id="tab-wrap">
+   <ul class="list">
+    <li>
+     <img src="http://img03.sogoucdn.com/app/a/100520146/f6fbb59d3ad12926dc523eccaef19105" width="1000" height="800" />
+     <div class="bg-right"></div>
+    </li>
+   </ul>
+  </div>
+ </body>
+</html>
+
+
+
+
+
+
+
+<style type="text/css">
+#common_box{width:300px;position:fixed;_position:absolute;right:0;top:40%;border:1px solid #0;background:#fff;z-index:88}
+
+
+#cli_on{width:30px;height:180px;float:left;cursor:pointer;background:#FFC3D9FF;text-align:center;line-height:180px}
+</style>
+</head>
+
+<body>
+<div id="common_box">
+ <div id="cli_on">></div>
+ <div>
+ 
+ 
+ 
+ 其他
+ <div class="product">
+<span class="title">关于</span>
+<a class="show" href="#">更多</a>
+<span class="homepage"><a href="http://code.google.com/p/angleproject/">  </a></span>
+<div class="licence">
+<pre><I>
+<body onselectstart="return false">
+        It may seem like a great layman and the difficulty is very high, but in fact, as an expert, I can tell you that it is very simple and can reach this level in a few months. Don’t question my strength. After all
+
+</pre>
+</div>
+</div>
+
+
+ 
+ 
+ 
+ 
+ </div>
+</div>
+
+</body>
+</html>
+<script type="text/javascript">
+window.onload = function() {
+ var combox = document.getElementById("common_box");
+ var cli_on = document.getElementById("cli_on");
+ var flag = true, timer = null, initime = null, r_len = 0;
+ 
+ cli_on.onclick = function () {
+  
+  //自动展开
+  if (flag) {
+   r_len = 0;
+   timer = setInterval(slideright, 10);
+  } else {
+   r_len = -270;
+   timer = setInterval(slideleft, 10);
+  }
+ }
+ 
+ //展开
+ function slideright() {
+  if (r_len <= -270) {
+   clearInterval(timer);
+   flag = !flag;
+   return false;
+  } else {
+   r_len -= 5;
+   combox.style.right = r_len + 'px';
+  }
+  
+ }
+ 
+ //收缩
+ function slideleft() {
+  if (r_len >= 0) {
+   clearInterval(timer);
+   flag = !flag;
+   return false;
+  } else {
+   r_len += 5;
+   combox.style.right = r_len + 'px';
+  }
+ }
+
+ //自动收缩
+ initime = setTimeout("cli_on.click()", 5000);
+}
+
+</script>
+
+
+
+
+
+<html>
+<head>
+<meta charset="utf-8">
+<title>Heart Bandit</title>
+<style>
+
+body {
+  background-color: white;
+  font-size: 150%;
+  max-width: 1000px;
+}
+.page-title {
+  font-size: 10%;
+  font-weight: bold;
+}
+.product {
+  background-color: #c3d9ff;
+  border-radius: 0px;
+  margin-top: 16px;
+  overflow: auto;
+  padding: 10px;
+}
+/*字体大小
+*/
+.product .title {
+  float: left;
+  font-size: 100%;
+  font-weight: bold;
+  margin: 10px;
+}
+/*标题大小
+*/
+.product .homepage {
+  float: right;
+  margin: 1px;
+  text-align: right;
+}
+.product .homepage::after {
+  content: "   ";
+}
+.product .show {
+  float: right;
+  margin: 10px;
+  text-align: right;
+}
+.licence {
+  background-color: #fff;
+  border-radius: 0px;
+  clear: both;
+  display: none;
+  padding: 0px;
+}
+.licence h3 {
+  margin-top: 0;
+}
+.licence pre {
+  white-space: pre-wrap;
+}
+.dialog #print-link,
+.dialog .homepage {
+  display: none;
+}
+/*对话框
+*/
+</style>
+</head>
+<body>
+
+<!--<marquee>■■■</marquee>-->
+
+<!--<marquee bgcolor=FF0000>■■■</marquee>-->
+
+<marquee scrollamount=5>Heart Bandit</marquee>
+
+<marquee scrollamount=5>——————</marquee>
+
+
+
+
+
+
+
+
+
+</form>
+<span class="page-title" style="float:left;">Heart Bandit</span>
+<a id="print-link" href="#" style="float:right;">  </a>
+<div style="clear:both; overflow:auto;"><!-- Chromium <3s the following projects -->
+<div class="product">
+<span class="title">首页</span>
+<a class="show" href="#">更多</a>
+<span class="  "><a href="https://raw.githubusercontent.com/GoogleChrome/accessibility-developer-tools/master/dist/js/axs_testing.js">   </a></span>
+<div class="licence">
+<pre>            测试
+
+       工作室-1.0.0 ——2021.2.22
+                 
+                 
+                        
+                               —— Heart Bandit
+                                      
+<img src="  ">
+                                        <a href="http://img02.sogoucdn.com/app/a/100520146/bd46b0a42ae3cc081d9b9c03b823cef8">像素人物行走图</a></span>
+
+</pre>
+</div>
+</div>
+       </a></span>
+
+
+<div class="product">
+<span class="title">帮助</span>
+<a class="show" href="#">更多</a>
+<span class="homepage"><a href="http://code.google.com/p/angleproject/">  </a></span>
+<div class="licence">
+<pre><I>
+<body onselectstart="return false">
+             可能外行看起来很厉害，
+             难度很高，
+             但其实作为内行的我可以很负责任的告诉你很简单，
+             几个月就能达到这种水平，
+             不要质疑我的实力，
+             毕竟我也是拿过好几个区的冠军，
+             但你非要问我哪个区，
+             我只能告诉你是评论区
+             可能是因为这是玩家
+             对国产游戏刻板印象
+             还有玩家其自身修养有关，
+             林子大了什么鸟都有了，
+             这其实说明夜神的独立游戏
+             已经开始小有名气了，
+             自然会出现为个人利益而不择手段的、
+             刷存在感的那种“微博式”的玩家。
+             当然夜神也要学会合理采纳玩家的客观公正意见，
+             玩家是完善游戏的第一向导
+             夜神的独立游戏开发的经历
+             其实对像我这样还在高中
+             但想努力并在未来
+             开发自己的独立游戏的学生
+             有着很大的影响作用，
+             我也希望未来能成为一名游戏开发者
+             我很感谢夜神
+
+</pre>
+</div>
+</div>
+
+<div class="product">
+<span class="title">其他功能</span>
+<a class="show" href="#">更多</a>
+<span class="homepage"><a href="http://img03.sogoucdn.com/app/a/100520146/f64191ab1aa3f461f95ee19a6a881981">  </a></span>
+<div class="licence">
+<pre>
+                                
+                                           <a href="https://huanghaozi.cn/tools/file2link/uploader.html">文件转链接
+
+</pre>
+</div>
+</div>
+       
+<script>
+function $(id) { return document.getElementById(id); }
+
+function toggle(o) {
+  var licence = o.nextSibling;
+
+  while (licence.className != 'licence') {
+    if (!licence) return false;
+    licence = licence.nextSibling;
+  }
+
+  if (licence.style && licence.style.display == 'block') {
+    licence.style.display = 'none';
+    o.textContent = 'show license';
+  } else {
+    licence.style.display = 'block';
+    o.textContent = 'hide license';
+  }
+  return false;
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+  var links = document.querySelectorAll('a.show');
+  for (var i = 0; i < links.length; ++i) {
+    links[i].onclick = function() { return toggle(this); };
+  }
+
+  $('print-link').onclick = function() {
+    window.print();
+    return false;
+  };
+});
+</script>
+</body>
+</html>
