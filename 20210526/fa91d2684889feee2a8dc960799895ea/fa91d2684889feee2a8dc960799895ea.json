@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "com.yy.ztbzdq",
+  "variantName": "4K主题壁纸大全HuaweiRelease",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "properties": [],
+      "versionCode": 220,
+      "versionName": "220",
+      "enabled": true,
+      "outputFile": "ztbzdq-huawei_v2.2.0.apk"
+    }
+  ]
+}
