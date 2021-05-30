@@ -1,0 +1,1791 @@
+if FX2 == nil then
+  mm = gg.prompt({[1]="输入主宰晨密码.开启你的奔放之旅"}, {[1]="0"}, {[1]="txet"})
+  if mm[1] == "0968635" then
+    gg.toast("密码正确.你果然深得我意")
+  else
+    print(mm[1],"密码错误.你是不是瞎猜的")
+    os.exit()
+  end
+end
+gg.alert("欢迎使用主宰晨本次开启时间\n"..os.date("\n%Y年%m月%d日%H时%M分%S秒").."")
+local bx=os.date("%Y年%m月%d日%H时%M分%S秒")
+print(bx)
+bqt={"🍬","🧸","🍓","🍁","🎡","🐥","✡","❄️","👻","💛","⭐","🍺","🍀","💯","🏀","👹","😈","🤖","💙","💜","💫","💓","💖","🍀","⚡","☑️",}
+SN=1
+  a = gg.prompt({"输入你使用迷你号️"}
+,{[1]=0},{[1]="number"})[1]
+function split(szFullString, szSeparator) local nFindStartIndex = 1 local nSplitIndex = 1 local nSplitArray = {} while true do local nFindLastIndex = string.find(szFullString, szSeparator, nFindStartIndex) if not nFindLastIndex then nSplitArray[nSplitIndex] = string.sub(szFullString, nFindStartIndex, string.len(szFullString)) break end nSplitArray[nSplitIndex] = string.sub(szFullString, nFindStartIndex, nFindLastIndex - 1) nFindStartIndex = nFindLastIndex + string.len(szSeparator) nSplitIndex = nSplitIndex + 1 end return nSplitArray end function xgxc(szpy, qmxg) for x = 1, #(qmxg) do xgpy = szpy + qmxg[x]["offset"] xglx = qmxg[x]["type"] xgsz = qmxg[x]["value"] xgdj = qmxg[x]["freeze"] if xgdj == nil or xgdj == "" then gg.setValues({[1] = {address = xgpy, flags = xglx, value = xgsz}}) else gg.addListItems({[1] = {address = xgpy, flags = xglx, freeze = xgdj, value = xgsz}}) end xgsl = xgsl + 1 xgjg = true end end function xqmnb(qmnb) gg.clearResults() gg.setRanges(qmnb[1]["memory"]) gg.searchNumber(qmnb[3]["value"], qmnb[3]["type"]) if gg.getResultCount() == 0 then gg.toast(qmnb[2]["name"] .. "开启失败") else gg.refineNumber(qmnb[3]["value"], qmnb[3]["type"]) gg.refineNumber(qmnb[3]["value"], qmnb[3]["type"]) gg.refineNumber(qmnb[3]["value"], qmnb[3]["type"]) if gg.getResultCount() == 0 then gg.toast(qmnb[2]["name"] .. "开启失败") else sl = gg.getResults(999999) sz = gg.getResultCount() xgsl = 0 if sz > 999999 then sz = 999999 end for i = 1, sz do pdsz = true for v = 4, #(qmnb) do if pdsz == true then pysz = {} pysz[1] = {} pysz[1].address = sl[i].address + qmnb[v]["offset"] pysz[1].flags = qmnb[v]["type"] szpy = gg.getValues(pysz) pdpd = qmnb[v]["lv"] .. ";" .. szpy[1].value szpd = split(pdpd, ";") tzszpd = szpd[1] pyszpd = szpd[2] if tzszpd == pyszpd then pdjg = true pdsz = true else pdjg = false pdsz = false end end end if pdjg == true then szpy = sl[i].address xgxc(szpy, qmxg) end end if xgjg == true then gg.toast(qmnb[2]["name"] .. "开启成功,共修改" .. xgsl .. "条数据") else gg.toast(qmnb[2]["name"] .. "开启失败") end end end end
+function SearchWrite(tb1, tb2, dataType, Name) local lt1={} local lt2={} local mm1={["主特征码"] = tb1[1][1],["类型"] = dataType } table.insert(lt1,1,mm1)   for i=2 , #tb1 do     local mm2={["副特征码"] = tb1[i][1],["偏移"] = tb1[i][2]}     table.insert(lt1,i,mm2)   end   for i=1 , #tb2 do     if tb2[i][2]~=nil then       local mm3={["修改"] = tb2[i][1],["偏移"] = tb2[i][2]}       table.insert(lt2,i,mm3)      else       local mm3={["修改"] = false,["偏移"] = tb2[i][1]}       table.insert(lt2,i,mm3)     end   end   LongTao(lt1, lt2 ) end  function LongTao(Search, Write)   gg.clearResults()   gg.setVisible(false)   lx=Search[1]["类型"]   gg.searchNumber(Search[1]["主特征码"], lx)   local count = gg.getResultCount()   local result = gg.getResults(count)   gg.clearResults()   local data = {}   if (count > 0) then     gg.toast("共搜索 "..count.." 条数据")     for i, v in ipairs(result) do       v.isUseful = true     end     for k=2, #Search do       local tmp = {}       local num = Search[k]["副特征码"]       if Search[k]["类型"]~= nil then            lx =Search[k]["类型"]          else            lx = Search[1]["类型"]         end       for i, v in ipairs(result) do         tmp[#tmp+1] = {}         tmp[#tmp].address = v.address + Search[k]["偏移"]         tmp[#tmp].flags = lx       end       tmp = gg.getValues(tmp)       for i, v in ipairs(tmp) do         if ( tostring(v.value) ~= tostring(num) ) then           result[i].isUseful = false         end       end     end     for i, v in ipairs(result) do       if (v.isUseful) then         data[#data+1] = v.address       end     end     if (#data > 0) then       local t = {}       for i=1, #data do         for k, w in ipairs(Write) do           if w["类型"] ~= nil then              lx = w["类型"]            else              lx = Search[1]["类型"]           end           t[#t+1] = {}           t[#t].address = data[i] + w["偏移"]           t[#t].flags = lx           if (w["修改"]~=nil) and (w["修改"]~=false) then             t[#t].value = w["修改"]             gg.setValues(t)             if (w["冻结"] == true) then               local item = {}               item[#item+1] = t[#t]               item[#item].freeze = w["冻结"]               gg.addListItems(item)             end           end         end       end       gg.loadResults(t)       gg.toast("共偏移η"..#t.." 条数据ΔΘ")      else       gg.toast("未定位到数据！")       return false     end    else     gg.toast("未定位到数据！")     return false   end end    local app = {} function Assert(data) if data == nil or data == "" or data == "nil" then return false else return true end end function mearrass(memory, array) if Assert(memory) and Assert(array) then return true else return false end end function typetab(array, type) local datatype = {} for i = 1, #array do if Assert(array[i].type) then table.insert(datatype, i, array[i].type) else if Assert(type) then table.insert(datatype, i, type) else return false end end end return true, datatype end function app.memorysearch(memory, array, type) gg.setVisible(false) local isok = mearrass(memory, array) if isok then local isok, datatype = typetab(array, type) if isok then if Assert(array[1].hv) then gg.clearResults() gg.setRanges(memory) gg.searchNumber(array[1].lv .. "~" .. array[1].hv, datatype[1]) else gg.clearResults() gg.setRanges(memory) gg.searchNumber(array[1].lv, datatype[1]) end if gg.getResultCount() == 0 then return false else local tab = {} local data = gg.getResults(gg.getResultCount()) gg.clearResults() for i = 1, #data do data[i].isok = true end for i = 2, #array do local t = {} local offset = array[i].offset for x = 1, #data do t[#t + 1] = {} t[#t].address = data[x].address + offset t[#t].flags = datatype[i] end local t = gg.getValues(t) for z = 1, #t do if Assert(array[i].hv) then if tonumber(t[z].value) < tonumber(array[i].lv) or tonumber(t[z].value) > tonumber(array[i].hv) then  data[z].isok = false end else if tostring(t[z].value) ~= tostring(array[i].lv) then data[z].isok = false end end end end for i = 1, #data do if data[i].isok then tab[#tab + 1] = data[i].address end end if #tab > 0 then return true, tab else return false end end else print("type参数错误") gg.toast("type参数错误") os.exit() end else print("memory or array参数错误") gg.toast("memory or array参数错误") os.exit() end end function app.memoryread(addr, type) local t = {} t[1] = {} t[1].address = addr t[1].flags = type if #t > 0 then return true, gg.getValues(t)[1].value else return false end end function app.memorywrite(addr, type, value, freeze) local t = {} t[1] = {} t[1].address = addr t[1].flags = type t[1].value = value if #t > 0 then if Assert(freeze) then t[1].freeze = freeze return gg.addListItems(t) else return gg.setValues(t) end else return false end end
+function Main()
+  local sjbq=bqt[math.random(1,#bqt)]
+SN = gg.choice({
+    [1] = sjbq.."房 主 功 能"..sjbq,
+    [2] = sjbq.."联 机 功 能"..sjbq,
+    [3] = sjbq.."笔 刷 模 式"..sjbq,
+    [4] = sjbq.."狙 击 功 能"..sjbq,
+    [5] = sjbq.."️退 出 脚 本"..sjbq,
+  },2018,os.date("主宰晨.主宰你的游戏                                                                %Y年%m月%d日%H时%M分%S秒"))
+if SN==1 then Main1() end
+if SN==2 then Main5() end
+if SN==3 then Main43() end
+if SN==4 then Main70() end
+if SN==5 then Exit() end
+XGCK=-1 end
+function Main1()
+SN = gg.multiChoice({
+	 "🐾无限物品{第1格放2个物品}🐾",
+	 "🐾改小黄人装扮🐾",
+	 "🐾无敌秒杀无限星[5颗星星用]🐾",
+	 "🐾牛掉落熔岩弹[开]🐾",
+	 "🐾天 空 变 黑[开]🐾",
+	 "🐾武器附魔[放在第1格]🐾",
+	 "🐾工具附魔[放在第1格]🐾",
+	 "🐾改 自 身 坐 标🐾",
+	 "🐾第1个坐骑位改坐骑🐾",
+	 "🐾转创造背包按钮🐾",
+	 "🐾开电脑大房间🐾",
+	 "🐾开发者页面按钮🐾",
+	 "🐾召唤5坐骑[1]🐾",
+     "🐾召唤5坐骑[2]🐾",
+     "🐾彩蛋枪强化🐾",
+     "🐾改 皮 肤🐾",     
+     "🐾锁坐标摔死🐾",          
+     "🐾时 间 加 速🐾",
+     "🐾自定义房间人数🐾", 
+     "🐾禁用钩爪塞子🐾",
+     "🐾无 限 脚 印🐾",           	     	
+	  "🎡返 回 主 页🎡",
+ }, nil, "𒅒抱歉！你喜欢的样子我都没有.....𒅒")
+if SN == nil then else
+if SN[1]==true then	 HS3() end
+if SN[2]==true then	 HS4() end
+if SN[3]==true then	 AQ36() end
+if SN[4]==true then	 HS24() end
+if SN[5]==true then	 HS31() end
+if SN[6]==true then	 HS98() end
+if SN[7]==true then	 HS41() end
+if SN[8]==true then	 HS68() end
+if SN[9]==true then	 HS69() end
+if SN[10]==true then HS3366() end
+if SN[11]==true then	 A5() end
+if SN[12]==true then	 A21() end
+if SN[13]==true then	 AM1() end
+if SN[14]==true then	 AM2() end
+if SN[15]==true then	 AL99()	end
+if SN[16]==true then	 AO1()	end
+if SN[17]==true then	 AO2()	end
+if SN[18]==true then	 AO3()	end
+if SN[19]==true then	 AO4()	end
+if SN[20]==true then	 AO5()	end
+if SN[21]==true then	 AO6()	end
+if SN[22]==true then	 Main() end end
+FX=0 end
+function AO6()
+F = gg.alert("🔰请选择｛开 关｝🔰","🍁开🍁","🍁️关🍁️️")
+ if  F~=1 and F~=2 then
+ gg.toast("你未选择开关默认取消")
+    gg.toast("📌你未选择｛开 关｝")
+  else 
+  end
+if  F== 1 then
+gg.clearResults()
+qmnb = {
+{["memory"] = 16384},
+{["name"] = "无限脚印"},
+{["value"] = -1046478848, ["type"] = 4},
+{["lv"] = 1101004800, ["offset"] = 4, ["type"] = 4},
+{["lv"] = 1179629040, ["offset"] = 8, ["type"] = 4},
+{["lv"] = -1262467514, ["offset"] = 12, ["type"] = 4},
+}
+qmxg = {
+{["value"] = 0, ["offset"] = -512, ["type"] = 16},
+{["value"] = 0, ["offset"] = -4, ["type"] = 16},
+}
+xqmnb(qmnb)
+gg.clearResults()
+ elseif  F== 2 then
+ gg.clearResults()
+qmnb = {
+{["memory"] = 16384},
+{["name"] = "无限脚印"},
+{["value"] = -1046478848, ["type"] = 4},
+{["lv"] = 1101004800, ["offset"] = 4, ["type"] = 4},
+{["lv"] = 1179629040, ["offset"] = 8, ["type"] = 4},
+{["lv"] = -1262467514, ["offset"] = 12, ["type"] = 4},
+}
+qmxg = {
+{["value"] = 200, ["offset"] = -512, ["type"] = 16},
+{["value"] = 200, ["offset"] = -4, ["type"] = 16},
+}
+xqmnb(qmnb)
+gg.clearResults()
+end
+end
+function HS68()
+ML = gg.prompt({"请输入你现在的高度"}
+,{[1]=8},{[1]="number"})[1]
+gg.clearResults()
+Q = gg.prompt({"请输入你想要去的横坐标末尾加两个0"}
+,{[1]=0},{[1]="number"})[1]
+gg.clearResults()
+W = gg.prompt({"请输入你想要去的竖坐标末尾加两个0"}
+,{[1]=0},{[1]="number"})[1]
+gg.clearResults()
+qmnb = {
+{["memory"] = 4},
+{["name"] = "改坐标"},
+{["value"] = 220, ["type"] = 4},
+{["lv"] = 60, ["offset"] = -16, ["type"] = 4},
+{["lv"] = 180, ["offset"] = -12, ["type"] = 4},
+{["lv"] = 120, ["offset"] = -4, ["type"] = 4},
+{["lv"] = 120, ["offset"] = 4, ["type"] = 4},
+{["lv"] = ML, ["offset"] = 36, ["type"] = 4},
+}
+qmxg = {
+{["value"] = Q, ["offset"] = 8, ["type"] = 4,["freeze"] = true},
+{["value"] = W, ["offset"] = 16, ["type"] = 4},
+
+}
+xqmnb(qmnb)
+end
+function AQ36()
+gg.toast("正在调用数据请稍后")
+gg.clearResults()
+qmnb = {
+{["memory"] = 4},
+{["name"] = "无敌"},
+{["value"] = 945804632, ["type"] = 4},
+{["lv"] = 1092616192, ["offset"] = -164, ["type"] = 4},
+{["lv"] = 0, ["offset"] = -176, ["type"] = 4},
+}
+qmxg = {
+{["value"] = 1000, ["offset"] = -176, ["type"] = 16},
+{["value"] = 1000, ["offset"] = -180, ["type"] = 16},
+{["value"] = 999, ["offset"] = 0, ["type"] = 16},
+{["value"] = 999999, ["offset"] = -140, ["type"] = 16},
+}
+xqmnb(qmnb)
+gg.clearResults()
+end
+function AM1()
+gg.toast("正在调用数据请稍后")
+gg.clearResults()
+qmnb = {
+{["memory"] = 4},
+{["name"] = ""},
+{["value"] = 663552, ["type"] = 4},
+{["lv"] = 16777472, ["offset"] = 4, ["type"] = 4},
+{["lv"] = 379, ["offset"] = 8, ["type"] = 4},
+}
+qmxg = {
+{["value"] = 664064, ["offset"] = 512, ["type"] = 4},
+{["value"] = 666, ["offset"] = 508, ["type"] =4,["freeze"] = true},
+{["value"] = 16777472, ["offset"] = 516, ["type"] = 4,["freeze"] = true},
+}
+xqmnb(qmnb)
+gg.clearResults()
+gg.clearResults()
+qmnb = {
+{["memory"] = 4},
+{["name"] = "坐骑"},
+{["value"] = 664064, ["type"] = 4},
+{["lv"] = 16777472, ["offset"] = 4, ["type"] = 4},
+{["lv"] = 666, ["offset"] = -4, ["type"] = 4},
+}
+qmxg = {
+{["value"] = 16777472, ["offset"] = 4, ["type"] = 4,["freeze"] = true},
+{["value"] = 3438, ["offset"] = 272, ["type"] = 4,["freeze"] = true},
+{["value"] = 16777472, ["offset"] = 516, ["type"] = 4,["freeze"] = true},
+{["value"] = 3459, ["offset"] = 784, ["type"] = 4,["freeze"] = true},
+{["value"] = 16777472, ["offset"] = 1028, ["type"] = 4,["freeze"] = true},
+{["value"] = 3462, ["offset"] = 1296, ["type"] = 4,["freeze"] = true},
+{["value"] = 16777472, ["offset"] = 1540, ["type"] = 4,["freeze"] = true},
+{["value"] = 3471, ["offset"] = 1808, ["type"] = 4,["freeze"] = true},
+{["value"] = 16777472, ["offset"] = 2052, ["type"] = 4,["freeze"] = true},
+{["value"] = 3485, ["offset"] = 2320, ["type"] = 4,["freeze"] = true},
+}
+xqmnb(qmnb)
+gg.clearResults()
+end
+function AM2()
+gg.toast("正在调用数据请稍后")
+gg.clearResults()
+qmnb = {
+{["memory"] = 4},
+{["name"] = "坐骑"},
+{["value"] = 664064, ["type"] = 4},
+{["lv"] = 16777472, ["offset"] = 4, ["type"] = 4},
+{["lv"] = 666, ["offset"] = -4, ["type"] = 4},
+}
+qmxg = {
+{["value"] = 16777472, ["offset"] = 4, ["type"] = 4,["freeze"] = true},
+{["value"] = 3432, ["offset"] = 272, ["type"] = 4,["freeze"] = true},
+{["value"] = 16777472, ["offset"] = 516, ["type"] = 4,["freeze"] = true},
+{["value"] = 3435, ["offset"] = 784, ["type"] = 4,["freeze"] = true},
+{["value"] = 16777472, ["offset"] = 1028, ["type"] = 4,["freeze"] = true},
+{["value"] = 3441, ["offset"] = 1296, ["type"] = 4,["freeze"] = true},
+{["value"] = 16777472, ["offset"] = 1540, ["type"] = 4,["freeze"] = true},
+{["value"] = 3456, ["offset"] = 1808, ["type"] = 4,["freeze"] = true},
+{["value"] = 16777472, ["offset"] = 2052, ["type"] = 4,["freeze"] = true},
+{["value"] = 3480, ["offset"] = 2320, ["type"] = 4,["freeze"] = true},
+}
+xqmnb(qmnb)
+gg.clearResults()
+end
+function HS24()
+	 gg.clearResults()
+	 gg.setRanges(4)
+	 gg.searchNumber("3401;12516", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	 gg.searchNumber("12516", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	 jg=gg.getResults(100)
+	 sl=gg.getResultCount()
+	 if sl>100 then sl=100 end
+	 for i = 1, sl do
+	 	 dzy=jg[i].address
+	 	 gg.addListItems({[1] = {address = dzy,flags = gg.TYPE_DWORD,freeze = true,value = 15055}})
+	 end
+	 gg.toast("牛掉落物开局成功")
+	 gg.clearResults()
+end
+function HS31()
+	 gg.clearResults()
+	 gg.setRanges(16384)
+	 gg.searchNumber("280.0;0.400000000596", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	 gg.searchNumber("0.400000000596", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	 jg=gg.getResults(100)
+	 sl=gg.getResultCount()
+	 if sl>100 then sl=100 end
+	 for i = 1, sl do
+	 	 dzy=jg[i].address
+	 	 gg.addListItems({[1] = {address = dzy,flags = gg.TYPE_FLOAT,freeze = true,value = -9999}})
+	 end
+	 gg.toast("天空变黑修改成功")
+	 gg.clearResults()
+end
+function HS98()
+gg.clearResults()
+qmnb = {
+{["memory"] = 4},
+{["name"] = "附魔"},
+{["value"] = 945804461, ["type"] = 4},
+{["lv"] = 1000, ["offset"] = -4, ["type"] = 4},
+}
+qmxg = {
+{["value"] = 20000, ["offset"] = 4, ["type"] = 4},
+{["value"] = 5, ["offset"] = 8, ["type"] = 4},
+{["value"] = 505, ["offset"] = 12, ["type"] = 4},
+{["value"] = 605, ["offset"] = 16, ["type"] = 4},
+{["value"] = 1005, ["offset"] = 20, ["type"] = 4},
+{["value"] = 1105, ["offset"] = 24, ["type"] = 4},
+{["value"] = 705, ["offset"] = 28, ["type"] = 4},
+}
+xqmnb(qmnb)
+gg.clearResults()
+end
+function AL99()
+F = gg.alert("🔰请选择功能🔰","🍁彩蛋枪强化1🍁","🍁自定义️子弹2🍁️️")
+ if  F~=1 and F~=2 then
+  else 
+  end
+ if F == 2 then
+ A4 = gg.prompt({"『输入子弹代码』12299擎天柱炮弹-12300星星弹-15509燃烧激光-15510冰冻激光-15511爆炸激光-15512岩石海啸-15513冰球-15518特效炸弹-15519岩浆弹-15520混乱球_15521_15051燃烧箭-15052燃烧雪球-15053泡泡球-15056熔岩弹-15057混乱弹-15058炸弹-15059冰锥[不可放置方块]-15060熔岩球-15062冰锥-15064冰炸弹-15065火炸弹-15066冰雪弹-15067紫球-15068紫箭"}
+,{[1]=0},{[1]="number"})[1]
+ qmnb = {
+{["memory"] = 4},
+{["name"] = "子弹选择"},
+{["value"] = 12247, ["type"] = 4},
+{["lv"] = 12247, ["offset"] = 4, ["type"] = 4},
+{["lv"] = 0, ["offset"] = 72, ["type"] = 4},
+{["lv"] = 1, ["offset"] = 136, ["type"] = 4},
+{["lv"] = 2, ["offset"] = 132, ["type"] = 4},
+}
+qmxg = {
+{["value"] = A4, ["offset"] = 140, ["type"] = 4},
+}
+xqmnb(qmnb)
+ elseif  F== 1 then
+gg.clearResults()
+qmnb = {
+{["memory"] = 4},
+{["name"] = "彩蛋枪"},
+{["value"] = 12247, ["type"] = 4},
+{["lv"] = 12247, ["offset"] = 4, ["type"] = 4},
+{["lv"] = 9830400, ["offset"] = 72, ["type"] = 4},
+{["lv"] = 12249, ["offset"] = 140, ["type"] = 4},
+}
+qmxg = {
+{["value"] = 0, ["offset"] = 72, ["type"] = 4},
+{["value"] = 0, ["offset"] = 100, ["type"] = 4},
+{["value"] = 12299, ["offset"] = 140, ["type"] = 4},
+}
+xqmnb(qmnb)
+gg.clearResults()
+end
+end
+function HS41()
+gg.clearResults()
+qmnb = {
+{["memory"] = 4},
+{["name"] = "附魔"},
+{["value"] = 945804461, ["type"] = 4},
+{["lv"] = 1000, ["offset"] = -4, ["type"] = 4},
+}
+qmxg = {
+{["value"] = 20000, ["offset"] = 4, ["type"] = 4},
+{["value"] = 5, ["offset"] = 8, ["type"] = 4},
+{["value"] = 2505, ["offset"] = 12, ["type"] = 4},
+{["value"] = 2603, ["offset"] = 16, ["type"] = 4},
+{["value"] = 2401, ["offset"] = 20, ["type"] = 4},
+{["value"] = 1505, ["offset"] = 24, ["type"] = 4},
+{["value"] = 1105, ["offset"] = 28, ["type"] = 4},
+}
+xqmnb(qmnb)
+gg.clearResults()
+end
+function HS69()
+q = gg.prompt({"『请输入坐骑代码』先召唤出坐骑                                                 3432化石龙-3435飞鼠-3438麒麟-3441陆行鸟-3446海报-3456猫-3459天马-3480月亮-3471龙-3485鹿"}
+,{[1]=3441},{[1]="number"})[1]
+gg.clearResults()
+qmnb = {
+{["memory"] = 4},
+{["name"] = "坐骑"},
+{["value"] = 664064, ["type"] = 4},
+{["lv"] = 16777472, ["offset"] = 4, ["type"] = 4},
+{["lv"] = 1050253722, ["offset"] = 244, ["type"] = 4},
+{["lv"] = 1056964608, ["offset"] = 236, ["type"] = 4},
+}
+qmxg = {
+{["value"] = q, ["offset"] = 272, ["type"] = 4, ["freeze"] = true},
+
+}
+xqmnb(qmnb)
+gg.clearResults()
+end
+function HS3366()
+gg.toast("正在调用创造背包数据请稍后")
+gg.clearResults()
+qmnb = {
+{["memory"] = 4},
+{["name"] = "创造背包"},
+{["value"] = 1757, ["type"] = 4},
+{["lv"] = 881, ["offset"] = 4, ["type"] = 4},
+{["lv"] = 1003, ["offset"] = 12, ["type"] = 4},
+{["lv"] = 65536, ["offset"] = -32, ["type"] = 4},
+}
+qmxg = {
+{["value"] = 16777472, ["offset"] = -4, ["type"] = 4, ["freeze"] = true},
+}
+xqmnb(qmnb)
+gg.clearResults()
+end
+function A5()
+	qmnb = {
+{["memory"] = 4},
+{["name"] = "40人房间"},
+{["value"] = 1111490560, ["type"] = 4},
+{["lv"] = 1065353216, ["offset"] = -8, ["type"] = 4},
+{["lv"] = 1108082688, ["offset"] = 4, ["type"] = 4},
+{["lv"] = 393222, ["offset"] = 8, ["type"] = 4},
+{["lv"] = 16777216, ["offset"] = 460, ["type"] = 4},
+}
+qmxg = {
+{["value"] = 16777472, ["offset"] = 460, ["type"] = 4,["freeze"] = true},
+}
+xqmnb(qmnb)
+end
+function A21()
+	qmnb = {
+{["memory"] = 4},
+{["name"] = "开发者页面"},
+{["value"] = 1697, ["type"] = 4},
+{["lv"] = 18, ["offset"] = -4, ["type"] = 4},
+{["lv"] = 1616, ["offset"] = -8, ["type"] = 4},
+{["lv"] = 16777216, ["offset"] = -12, ["type"] = 4},
+{["lv"] = 2, ["offset"] = -24, ["type"] = 4},
+{["lv"] = 3, ["offset"] = -28, ["type"] = 4},
+}
+qmxg = {
+{["value"] = 16777472, ["offset"] = -12, ["type"] = 4,["freeze"] = true},
+}
+xqmnb(qmnb)
+ end
+
+function AO1()
+gg.toast("请选择开关")
+F = gg.alert("🔰请选择｛开 关｝🔰","🍁开🍁","🍁️关🍁️️")
+ if  F~=1 and F~=2 then
+ gg.toast("你未选择开关默认取消")
+    gg.toast("📌你未选择｛开 关｝")
+  else 
+  end
+if  F== 1 then
+ w = gg.prompt({"请输入你要的装扮代码"}
+,{[1]=23000},{[1]="number"})[1]
+qmnb = {
+{["memory"] = 4},
+{["name"] = "改皮肤"},
+{["value"] = 1633761094, ["type"] = 4},
+{["lv"] = 38796, ["offset"] = 16, ["type"] = 4},
+}
+qmxg = {
+{["value"] = w, ["offset"] = 28, ["type"] = 4, ["freeze"] = true},
+
+}
+xqmnb(qmnb)
+gg.clearResults()
+ elseif F == 2 then
+qmnb = {
+{["memory"] = 4},
+{["name"] = "改皮肤"},
+{["value"] = 1633761094, ["type"] = 4},
+{["lv"] = 38796, ["offset"] = 16, ["type"] = 4},
+}
+qmxg = {
+{["value"] = 0, ["offset"] = 28, ["type"] = 4, ["freeze"] = true},
+}
+xqmnb(qmnb)
+gg.clearResults()
+ 
+ end
+end
+function HS4()
+gg.toast("请选择开关")
+F = gg.alert("🔰请选择｛开 关｝🔰","🍁开🍁","🍁️关🍁️️")
+ if  F~=1 and F~=2 then
+ gg.toast("你未选择开关默认取消")
+    gg.toast("📌你未选择｛开 关｝")
+  else 
+  end
+if  F== 1 then
+ E = gg.prompt({"『请输入你要的装扮代码』房主还有云服能用                                                       11-小黄人 12-没穿衣服 13-小黑人"}
+,{[1]=11},{[1]="number"})[1]
+qmnb = {
+{["memory"] = 4},
+{["name"] = "小黄人"},
+{["value"] = 1633761094, ["type"] = 4},
+{["lv"] = 38796, ["offset"] = 16, ["type"] = 4},
+}
+qmxg = {
+{["value"] = E, ["offset"] = -4, ["type"] = 4, ["freeze"] = true},
+
+}
+xqmnb(qmnb)
+gg.clearResults()
+ elseif F == 2 then
+qmnb = {
+{["memory"] = 4},
+{["name"] = "小黄人恢复"},
+{["value"] = 1633761094, ["type"] = 4},
+{["lv"] = 38796, ["offset"] = 16, ["type"] = 4},
+}
+qmxg = {
+{["value"] = 0, ["offset"] = -4, ["type"] = 4, ["freeze"] = true},
+}
+xqmnb(qmnb)
+gg.clearResults()
+ 
+ end
+end
+
+function AO2()
+A3 = gg.prompt({"『输入你的高度』最好别和其他人的高度一样,不能是15"}
+,{[1]=8},{[1]="number"})[1]
+qmnb = {
+{["memory"] = 4},
+{["name"] = "第1步"},
+{["value"] = 220, ["type"] = 4},
+{["lv"] = 60, ["offset"] = -16, ["type"] = 4},
+{["lv"] = 180, ["offset"] = -12, ["type"] = 4},
+{["lv"] = 120, ["offset"] = -4, ["type"] = 4},
+{["lv"] = A3, ["offset"] = 36, ["type"] = 4},
+{["lv"] = -1082130432, ["offset"] = 216, ["type"] = 4},
+{["lv"] = 1082130432, ["offset"] = 240, ["type"] = 4},
+{["lv"] = 1086324736, ["offset"] = 244, ["type"] = 4},
+{["lv"] = 1073741824, ["offset"] = 248, ["type"] = 4},
+}
+qmxg = {
+{["value"] = 61, ["offset"] = -16, ["type"] = 4},
+}
+xqmnb(qmnb)
+gg.clearResults()
+qmnb = {
+{["memory"] = 4},
+{["name"] = "锁坐标摔死"},
+{["value"] = 220, ["type"] = 4},
+{["lv"] = 60, ["offset"] = -16, ["type"] = 4},
+{["lv"] = 180, ["offset"] = -12, ["type"] = 4},
+{["lv"] = 120, ["offset"] = -4, ["type"] = 4},
+{["lv"] = -1082130432, ["offset"] = 216, ["type"] = 4},
+{["lv"] = 1082130432, ["offset"] = 240, ["type"] = 4},
+{["lv"] = 1086324736, ["offset"] = 244, ["type"] = 4},
+{["lv"] = 1073741824, ["offset"] = 248, ["type"] = 4},
+}
+qmxg = {
+{["value"] = 0, ["offset"] = 8, ["type"] = 4, ["freeze"] = true},
+{["value"] = 0, ["offset"] = 16, ["type"] = 4, ["freeze"] = true},
+{["value"] = 1500, ["offset"] = 12, ["type"] = 4, ["freeze"] = true},
+}
+xqmnb(qmnb)
+ end
+
+function AO3()
+gg.toast("请选择开关")
+F = gg.alert("🔰请选择｛开 关｝🔰","🍁开🍁","🍁️关🍁️️")
+ if  F~=1 and F~=2 then
+ gg.toast("你未选择开关默认取消")
+    gg.toast("📌你未选择｛开 关｝")
+  else 
+  end
+if  F== 1 then
+qmnb = {
+{["memory"] = 4},
+{["name"] = "时间加速"},
+{["value"] = 1203187456, ["type"] = 4},
+{["lv"] = 1, ["offset"] = -60, ["type"] = 4},
+{["lv"] = 1, ["offset"] = -72, ["type"] = 4},
+}
+qmxg = {
+{["value"] = 1200, ["offset"] = -60, ["type"] = 4},
+
+}
+xqmnb(qmnb)
+gg.clearResults()
+ elseif F == 2 then
+qmnb = {
+{["memory"] = 4},
+{["name"] = "时间加速"},
+{["value"] = 1203187456, ["type"] = 4},
+{["lv"] = 1200, ["offset"] = -60, ["type"] = 4},
+{["lv"] = 1, ["offset"] = -72, ["type"] = 4},
+}
+qmxg = {
+{["value"] = 1, ["offset"] = -60, ["type"] = 4},
+
+}
+xqmnb(qmnb)
+gg.clearResults()
+ 
+ end
+end
+function AO4()
+A1 = gg.prompt({"『请输入你要开启的房间人数』                                                                        7-10人房 8-20人房 9-30人房 10-40人房 [开启成功后直接开房间]"}
+,{[1]=8},{[1]="number"})[1]
+gg.clearResults()
+qmnb = {
+{["memory"] = 4},
+{["name"] = "房间人数"},
+{["value"] = 1080483840, ["type"] = 4},
+{["lv"] = 0, ["offset"] = -4, ["type"] = 4},
+{["lv"] = 4, ["offset"] = -12, ["type"] = 4},
+{["lv"] = 3, ["offset"] = 68, ["type"] = 4},
+{["lv"] = 0, ["offset"] = -8, ["type"] = 4},
+{["lv"] = 3, ["offset"] = 4, ["type"] = 4},
+{["lv"] = 4, ["offset"] = 20, ["type"] = 4},
+{["lv"] = 4, ["offset"] = -28, ["type"] = 4},
+{["lv"] = 1080483840, ["offset"] = -64, ["type"] = 4},
+}
+qmxg = {
+{["value"] = A1, ["offset"] = 60, ["type"] = 64, ["freeze"] = true},
+
+}
+xqmnb(qmnb)
+end
+function AO5()
+gg.toast("请选择开关")
+F = gg.alert("🔰请选择｛开 关｝🔰","🍁开🍁","🍁️关🍁️️")
+ if  F~=1 and F~=2 then
+ gg.toast("你未选择开关默认取消")
+    gg.toast("📌你未选择｛开 关｝")
+  else 
+  end
+if  F== 1 then
+qmnb = {
+{["memory"] = 4},
+{["name"] = "禁用钩爪"},
+{["value"] = 12006, ["type"] = 4},
+{["lv"] = 12006, ["offset"] = 4, ["type"] = 4},
+{["lv"] = 1, ["offset"] = 180, ["type"] = 4},
+{["lv"] = 2, ["offset"] = 316, ["type"] = 4},
+{["lv"] = 12006, ["offset"] = 176, ["type"] = 4},
+}
+qmxg = {
+{["value"] = 0, ["offset"] = 176, ["type"] = 4},
+}
+xqmnb(qmnb)
+gg.clearResults()
+qmnb = {
+{["memory"] = 4},
+{["name"] = "禁用塞子"},
+{["value"] = 12008, ["type"] = 4},
+{["lv"] = 12008, ["offset"] = 4, ["type"] = 4},
+{["lv"] = 1, ["offset"] = 180, ["type"] = 4},
+{["lv"] = 2, ["offset"] = 316, ["type"] = 4},
+{["lv"] = 12008, ["offset"] = 176, ["type"] = 4},
+}
+qmxg = {
+{["value"] = 0, ["offset"] = 176, ["type"] = 4},
+}
+xqmnb(qmnb)
+gg.clearResults()
+ elseif F == 2 then
+qmnb = {
+{["memory"] = 4},
+{["name"] = "解除禁用钩爪"},
+{["value"] = 12006, ["type"] = 4},
+{["lv"] = 12006, ["offset"] = 4, ["type"] = 4},
+{["lv"] = 1, ["offset"] = 180, ["type"] = 4},
+{["lv"] = 0, ["offset"] = 176, ["type"] = 4},
+}
+qmxg = {
+{["value"] = 12006, ["offset"] = 176, ["type"] = 4},
+}
+xqmnb(qmnb)
+gg.clearResults()
+qmnb = {
+{["memory"] = 4},
+{["name"] = "解除禁用塞子"},
+{["value"] = 12008, ["type"] = 4},
+{["lv"] = 12008, ["offset"] = 4, ["type"] = 4},
+{["lv"] = 1, ["offset"] = 180, ["type"] = 4},
+{["lv"] = 0, ["offset"] = 176, ["type"] = 4},
+}
+qmxg = {
+{["value"] = 12008, ["offset"] = 176, ["type"] = 4},
+}
+xqmnb(qmnb)
+gg.clearResults()
+ 
+ end
+end
+
+function Main5() 
+SN = gg.multiChoice({
+	 "❄️踏 空 跳[开]❄",
+	 "❄️飞行翅膀[开]❄",
+	 "❄️穿墙(先开飞行翅膀)❄",
+	 "❄️人物加速{永久}❄",
+	 "❄自 定 义 特 效❄",
+	 "❄第3人称上帝视角❄",
+	 "❄灵 魂 出 窍❄",
+	 "❄️第3人称超远攻击❄",
+	 "❄第1人称超远攻击️❄️",
+	 "❄篮 球 模 式❄️",
+	 "❄三 角 透 视❄",
+	 "❄️人物加速[全加速]❄",
+	 "❄能 量 剑 无 cd❄";
+	 "❄超 级 高 跳❄",
+	 "❄观 战 模 式[开]❄",
+	 "❄留言板[先打开一次]❄",
+	 "❄刷怪方块刷坐骑[选择鸡]❄",
+	 "❄️踢 走 房 主❄️",
+	 "❄️人 物 定 坐❄️",
+	 "❄️附 身 别 人❄️",
+	 "❄云 服 服 主❄️",
+	 "❄️解除刷屏禁言❄️",
+	 "❄️玩法解除权限❄️",
+	 "❄️水 珠 特 效❄️",
+	 "❄️秒吃胡萝卜土豆❄️",
+	 "❄️动 作 选 择❄️",	 
+	 "🎡返 回 主 页🎡",
+ }, nil, "𒅒认真过、努力过、尽力过、挽留过、最后什么都没有过𒅒")
+ if SN == nil then else
+if SN[1]==true then HS33() end
+if SN[2]==true then A2() end
+if SN[3]==true then HS35() end
+if SN[4]==true then HS36() end
+if SN[5]==true then ML8() end
+if SN[6]==true then PO8() end
+if SN[7]==true then HS55() end
+if SN[8]==true then Ba1() end
+if SN[9]==true then Ba8() end
+if SN[10]==true then AS1() end
+if SN[11]==true then HS122() end
+if SN[12]==true then HS34() end
+if SN[13]==true then A1() end
+if SN[14]==true then B1() end
+if SN[15]==true then B12() end
+if SN[16]==true then ML1() end
+if SN[17]==true then ML3() end
+if SN[18]==true then ML10() end
+if SN[19]==true then PO1() end
+if SN[20]==true then PO2() end
+if SN[21]==true then PO3() end
+if SN[22]==true then PO4() end
+if SN[23]==true then PO5() end
+if SN[24]==true then PO6() end
+if SN[25]==true then PO7() end
+if SN[26]==true then AS96() end 
+if SN[27]==true then Main() end end
+FX=0 end
+function PO1()
+gg.toast("请选择开关")
+F = gg.alert("🔰请选择｛开 关｝🔰","🍁开🍁","🍁️关🍁️️")
+ if  F~=1 and F~=2 then
+ gg.toast("你未选择开关默认取消")
+    gg.toast("📌你未选择｛开 关｝")
+  else 
+  end
+if  F== 1 then
+gg.clearResults()
+qmnb = {
+{["memory"] = 4},
+{["name"] = "人物定坐"},
+{["value"] = a, ["type"] = 4},
+{["lv"] = 3, ["offset"] = -84, ["type"] = 4},
+{["lv"] = 16777473, ["offset"] = -64, ["type"] = 4},
+}
+qmxg = {
+{["value"] = 1, ["offset"] = -164, ["type"] = 4},
+}
+xqmnb(qmnb)
+gg.clearResults()
+ elseif F == 2 then
+gg.clearResults()
+qmnb = {
+{["memory"] = 4},
+{["name"] = "人物定坐"},
+{["value"] = a, ["type"] = 4},
+{["lv"] = 3, ["offset"] = -84, ["type"] = 4},
+{["lv"] = 16777473, ["offset"] = -64, ["type"] = 4},
+}
+qmxg = {
+{["value"] = 0, ["offset"] = -164, ["type"] = 4},
+}
+xqmnb(qmnb)
+gg.clearResults()
+ 
+ end
+end
+
+function ML3()
+r = gg.prompt({"『请输入坐骑代码』                                                          3432化石龙-3435飞鼠-3438麒麟-3441陆行鸟-3446海报-3456猫-3459天马-3480月亮-3471龙-3485鹿"}
+,{[1]=3485},{[1]="number"})[1]
+gg.clearResults()
+qmnb = {
+{["memory"] = 4},
+{["name"] = "刷怪方块"},
+{["value"] = 3400, ["type"] = 4},
+{["lv"] = 1056964608, ["offset"] = -36, ["type"] = 4},}
+qmxg = {
+{["value"] = r, ["offset"] = 0, ["type"] = 4, ["freeze"] = true},
+
+}
+xqmnb(qmnb)
+gg.clearResults()
+end
+function ML10()
+gg.clearResults()
+qmnb = {
+{["memory"] = 4},
+{["name"] = "踢房主"},
+{["value"] = a, ["type"] = 4},
+{["lv"] = 65535, ["offset"] = 24, ["type"] = 4},
+}
+qmxg = {
+{["value"] = a, ["offset"] = 0, ["type"] = 4, ["freeze"] = true},}
+xqmnb(qmnb)
+gg.toast("在冻结里把你的迷你号改成别人的,5秒后改回")
+end
+function PO5()
+gg.toast("请选择开关")
+F = gg.alert("🔰请选择｛开 关｝🔰","🍁开🍁","🍁️关🍁️️")
+ if  F~=1 and F~=2 then
+ gg.toast("你未选择开关默认取消")
+    gg.toast("📌你未选择｛开 关｝")
+  else 
+  end
+if  F== 1 then
+gg.clearResults()
+qmnb = {
+{["memory"] = 4},
+{["name"] = "解除权限"},
+{["value"] = a, ["type"] = 4},
+{["lv"] = 1092616192, ["offset"] = -40, ["type"] = 4},
+{["lv"] = 16777473, ["offset"] = -64, ["type"] = 4},}
+qmxg = {
+{["value"] = 123698, ["offset"] = 0, ["type"] = 4},
+}
+
+xqmnb(qmnb)
+gg.clearResults()
+ elseif F == 2 then
+gg.clearResults()
+qmnb = {
+{["memory"] = 4},
+{["name"] = "解除权限"},
+{["value"] = 123698, ["type"] = 4},
+{["lv"] = 1092616192, ["offset"] = -40, ["type"] = 4},
+{["lv"] = 16777473, ["offset"] = -64, ["type"] = 4},}
+qmxg = {
+{["value"] = a, ["offset"] = 0, ["type"] = 4},
+}
+
+xqmnb(qmnb)
+end
+end
+function PO2()
+gg.toast("请选择开关")
+F = gg.alert("🔰请选择｛开 关｝🔰","🍁开🍁","🍁️关🍁️️")
+ if  F~=1 and F~=2 then
+ gg.toast("你未选择开关默认取消")
+    gg.toast("📌你未选择｛开 关｝")
+  else 
+  end
+if  F== 1 then
+t = gg.prompt({"『输入别人的迷你号』"}
+,{[1]=0},{[1]="number"})[1]
+gg.clearResults()
+qmnb = {
+{["memory"] = 4},
+{["name"] = "附身别人"},
+{["value"] = a, ["type"] = 4},
+{["lv"] = 16777473, ["offset"] = -64, ["type"] = 4},}
+qmxg = {
+{["value"] = t, ["offset"] = 0, ["type"] = 4},
+}
+xqmnb(qmnb)
+gg.clearResults()
+ elseif F == 2 then
+ t = gg.prompt({"『输入别人的迷你号』"}
+,{[1]=0},{[1]="number"})[1]
+gg.clearResults()
+qmnb = {
+{["memory"] = 4},
+{["name"] = "附身别人解除"},
+{["value"] = t, ["type"] = 4},
+{["lv"] = 16777473, ["offset"] = -64, ["type"] = 4},}
+qmxg = {
+{["value"] = a, ["offset"] = 0, ["type"] = 4},
+}
+xqmnb(qmnb)
+end
+end
+function PO3()
+y = gg.prompt({"『输入服主的迷你号』"}
+,{[1]=12345},{[1]="number"})[1]
+gg.clearResults()
+qmnb = {
+{["memory"] = 4},
+{["name"] = "云服服主"},
+{["value"] = y, ["type"] = 4},
+{["lv"] = 1, ["offset"] = 4, ["type"] = 4},
+{["lv"] = 16383, ["offset"] = 8, ["type"] = 4},
+}
+qmxg = {
+{["value"] = a, ["offset"] = 0, ["type"] = 4},
+}
+
+xqmnb(qmnb)
+gg.clearResults()
+end
+function HS33()
+a = gg.prompt({"请输入你的高度"}
+,{[1]=8},{[1]="number"})[1]
+gg.clearResults()
+qmnb = {
+{["memory"] = 4},
+{["name"] = "无限跳"},
+{["value"] = 220, ["type"] = 4},
+{["lv"] = 60, ["offset"] = -16, ["type"] = 4},
+{["lv"] = 180, ["offset"] = -12, ["type"] = 4},
+{["lv"] = 120, ["offset"] = -4, ["type"] = 4},
+{["lv"] = a, ["offset"] = 36, ["type"] = 4},
+{["lv"] = -1082130432, ["offset"] = 216, ["type"] = 4},
+{["lv"] = 1082130432, ["offset"] = 240, ["type"] = 4},
+{["lv"] = 1086324736, ["offset"] = 244, ["type"] = 4},
+{["lv"] = 1073741824, ["offset"] = 248, ["type"] = 4},
+}
+qmxg = {
+{["value"] = 1, ["offset"] = 116, ["type"] = 4, ["freeze"] = true},
+
+}
+xqmnb(qmnb)
+gg.clearResults()
+end
+function PO6()
+a = gg.prompt({"『请输入你的高度』把冻结间隔调成0"}
+,{[1]=8},{[1]="number"})[1]
+gg.clearResults()
+qmnb = {
+{["memory"] = 4},
+{["name"] = "水珠特效"},
+{["value"] = 220, ["type"] = 4},
+{["lv"] = 60, ["offset"] = -16, ["type"] = 4},
+{["lv"] = 180, ["offset"] = -12, ["type"] = 4},
+{["lv"] = 120, ["offset"] = -4, ["type"] = 4},
+{["lv"] = a, ["offset"] = 36, ["type"] = 4},
+{["lv"] = -1082130432, ["offset"] = 216, ["type"] = 4},
+{["lv"] = 1082130432, ["offset"] = 240, ["type"] = 4},
+{["lv"] = 1086324736, ["offset"] = 244, ["type"] = 4},
+{["lv"] = 1073741824, ["offset"] = 248, ["type"] = 4},
+}
+qmxg = {
+{["value"] = 257, ["offset"] = 116, ["type"] = 4, ["freeze"] = true},
+
+}
+xqmnb(qmnb)
+gg.clearResults()
+end
+function HS34()
+gg.clearResults()
+qmnb = {
+{["memory"] = 4},
+{["name"] = "人物加速"},
+{["value"] = a, ["type"] = 4},
+{["lv"] = 16777473, ["offset"] = -64, ["type"] = 4},
+}
+qmxg = {
+{["value"] = 70, ["offset"] = -40, ["type"] = 16, ["freeze"] = true},
+}
+xqmnb(qmnb)
+gg.clearResults()
+end
+function ML1()
+qmnb = {
+{["memory"] = 4},
+{["name"] = "留言板"},
+{["value"] = 406323200, ["type"] = 4},
+{["lv"] = 16777216, ["offset"] = 4, ["type"] = 4},
+}
+qmxg = {
+{["value"] = 16777472, ["offset"] = 4, ["type"] = 4,["freeze"] = true},
+}
+xqmnb(qmnb)
+end
+function B12()
+gg.clearResults()
+qmnb = {
+{["memory"] = 4},
+{["name"] = "观战模式"},
+{["value"] = 1121452032, ["type"] = 4},
+{["lv"] = 1118568448, ["offset"] = -4, ["type"] = 4},
+{["lv"] = 16777216, ["offset"] = -56, ["type"] = 4},
+{["lv"] = 1065353216, ["offset"] = -12, ["type"] = 4},
+}
+qmxg = {
+{["value"] = 16777472, ["offset"] = -56, ["type"] = 4, ["freeze"] = true},}
+xqmnb(qmnb)
+gg.clearResults()
+end
+function HS35()
+a = gg.prompt({"请输入你的高度"}
+,{[1]=8},{[1]="number"})[1]
+gg.clearResults()
+qmnb = {
+{["memory"] = 4},
+{["name"] = "穿墙"},
+{["value"] = 220, ["type"] = 4},
+{["lv"] = 60, ["offset"] = -16, ["type"] = 4},
+{["lv"] = 180, ["offset"] = -12, ["type"] = 4},
+{["lv"] = 120, ["offset"] = -4, ["type"] = 4},
+{["lv"] = a, ["offset"] = 36, ["type"] = 4},
+{["lv"] = -1082130432, ["offset"] = 216, ["type"] = 4},
+{["lv"] = 1082130432, ["offset"] = 240, ["type"] = 4},
+{["lv"] = 1086324736, ["offset"] = 244, ["type"] = 4},
+{["lv"] = 1073741824, ["offset"] = 248, ["type"] = 4},
+}
+qmxg = {
+{["value"] = -99999, ["offset"] = -12, ["type"] = 4, ["freeze"] = true},
+
+}
+xqmnb(qmnb)
+gg.clearResults()
+end
+function ML8()
+u = gg.prompt({"『请输入特效代码』                                                          12月亮-13碧琪-14六边形-15彩虹-16蓝色心形"}
+,{[1]=12},{[1]="number"})[1]
+gg.clearResults()
+qmnb = {
+{["memory"] = 4},
+{["name"] = "动作特效"},
+{["value"] = 520066560, ["type"] = 4},
+{["lv"] = 738182400, ["offset"] = 12, ["type"] = 4},}
+qmxg = {
+{["value"] = u, ["offset"] = 4, ["type"] = 4, ["freeze"] = true},
+}
+xqmnb(qmnb)
+gg.clearResults()
+end
+
+function PO4()
+gg.clearResults()
+qmnb = {
+{["memory"] = 4},
+{["name"] = "解除禁言"},
+{["value"] = 1176664923, ["type"] = 4},
+{["lv"] = 12862, ["offset"] = -8, ["type"] = 4},}
+qmxg = {
+{["value"] = 0, ["offset"] = -4, ["type"] = 4},
+{["value"] = 0, ["offset"] = -16, ["type"] = 4},
+{["value"] = 0, ["offset"] = -12, ["type"] = 4},
+}
+xqmnb(qmnb)
+gg.clearResults()
+end
+function AS1()
+gg.toast("请选择开关")
+F = gg.alert("🔰请选择｛开 关｝🔰","🍁开🍁","🍁️关🍁️️")
+ if  F~=1 and F~=2 then
+ gg.toast("你未选择开关默认取消")
+    gg.toast("📌你未选择｛开 关｝")
+  else 
+  end
+if  F== 1 then
+gg.clearResults()
+qmnb = {
+{["memory"] = 4},
+{["name"] = "篮球模式"},
+{["value"] = a, ["type"] = 4},
+{["lv"] = 0, ["offset"] = -264, ["type"] = 4},
+{["lv"] = 2147483647, ["offset"] = 236, ["type"] = 4},
+}
+qmxg = {
+{["value"] = 3, ["offset"] = -264, ["type"] = 4},
+}
+xqmnb(qmnb)
+gg.clearResults()
+ elseif F == 2 then
+gg.clearResults()
+qmnb = {
+{["memory"] = 4},
+{["name"] = "篮球模式"},
+{["value"] = a, ["type"] = 4},
+{["lv"] = 3, ["offset"] = -264, ["type"] = 4},
+{["lv"] = 2147483647, ["offset"] = 236, ["type"] = 4},
+}
+qmxg = {
+{["value"] = 0, ["offset"] = -264, ["type"] = 4},
+}
+xqmnb(qmnb)
+ 
+ end
+end
+function HS55()
+s = gg.prompt({"请输入要修改的大小"}
+,{[1]=6},{[1]="number"})[1]
+gg.clearResults()
+qmnb = {
+{["memory"] = 4},
+{["name"] = "灵魂出窍"},
+{["value"] = 1053609165, ["type"] = 4},
+{["lv"] = 1053609165, ["offset"] = -4, ["type"] = 4},
+{["lv"] = 16777472, ["offset"] = -216, ["type"] = 4},
+{["lv"] = 1065353216, ["offset"] = -368, ["type"] = 4},
+}
+qmxg = {
+{["value"] = s, ["offset"] = -368, ["type"] = 16, ["freeze"] = true},
+
+}
+xqmnb(qmnb)
+gg.clearResults()
+end
+function HS122()
+gg.toast("请选择开关")
+F = gg.alert("🔰请选择｛开 关｝🔰","🍁开🍁","🍁️关🍁️️")
+ if  F~=1 and F~=2 then
+ gg.toast("你未选择开关默认取消")
+    gg.toast("📌你未选择｛开 关｝")
+  else 
+  end
+if  F== 1 then
+qmnb = {
+{["memory"] = 32768},
+{["name"] = "三角透视"},
+{["value"] = 196608, ["type"] = 4},
+{["lv"] = 65538, ["offset"] = 8, ["type"] = 4},
+{["lv"] = 65536, ["offset"] = 12, ["type"] = 4},
+{["lv"] = 196610, ["offset"] = 20, ["type"] = 4},
+}
+qmxg = {
+{["value"] = 1, ["offset"] = 12, ["type"] = 4},
+}
+xqmnb(qmnb)
+gg.clearResults()
+ elseif F == 2 then
+qmnb = {
+{["memory"] = 32768},
+{["name"] = "三角透视"},
+{["value"] = 196608, ["type"] = 4},
+{["lv"] = 65538, ["offset"] = 8, ["type"] = 4},
+{["lv"] = 1, ["offset"] = 12, ["type"] = 4},
+{["lv"] = 196610, ["offset"] = 20, ["type"] = 4},
+}
+qmxg = {
+{["value"] = 65536, ["offset"] = 12, ["type"] = 4},
+}
+xqmnb(qmnb)
+gg.clearResults()
+ 
+ end
+end
+function HS3()
+qmnb = {
+{["memory"] = 4},
+{["name"] = "无限物品"},
+{["value"] = 945804462, ["type"] = 4},
+{["lv"] = 1000, ["offset"] = -4, ["type"] = 4},
+}
+qmxg = {
+{["value"] = 945804999, ["offset"] = 0, ["type"] = 4, ["freeze"] = true},
+}
+xqmnb(qmnb)
+gg.clearResults()
+end
+function A1()
+	 gg.clearResults()
+	 gg.setRanges(4)
+	 gg.searchNumber("12005D;5;0.6::400", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	 gg.searchNumber("0.6;5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	 gg.getResults(100)
+	 gg.editAll("0", gg.TYPE_FLOAT)
+end
+function B1()
+gg.toast("正在调用数据请稍后")
+gg.clearResults()
+qmnb = {
+{["memory"] = 4},
+{["name"] = "高跳"},
+{["value"] = 945804460, ["type"] = 4},
+{["lv"] = 1120403456, ["offset"] = -196, ["type"] = 4},
+{["lv"] = -1082130432, ["offset"] = -140, ["type"] = 4},
+}
+qmxg = {
+{["value"] = 130, ["offset"] = -148, ["type"] = 16},
+}
+xqmnb(qmnb)
+gg.clearResults()
+end
+function HS36()
+gg.toast("请选择开关")
+F = gg.alert("🔰请选择｛开 关｝🔰","🍁开🍁","🍁️关🍁️️")
+ if  F~=1 and F~=2 then
+ gg.toast("你未选择开关默认取消")
+    gg.toast("📌你未选择｛开 关｝")
+  else 
+  end
+if  F== 1 then
+qmnb = {
+{["memory"] = 4},
+{["name"] = "人物加速"},
+{["value"] = 3600, ["type"] = 4},
+{["lv"] = 1120403456, ["offset"] = -100, ["type"] = 4},
+}
+qmxg = {
+{["value"] = 7.5, ["offset"] = -52, ["type"] = 16},
+{["value"] = 8, ["offset"] = -60, ["type"] = 16},
+
+}
+xqmnb(qmnb)
+gg.clearResults()
+elseif F == 2 then
+qmnb = {
+{["memory"] = 4},
+{["name"] = "人物加速"},
+{["value"] = 3600, ["type"] = 4},
+{["lv"] = 1120403456, ["offset"] = -100, ["type"] = 4},
+}
+qmxg = {
+{["value"] = 1, ["offset"] = -52, ["type"] = 16},
+{["value"] = 1, ["offset"] = -60, ["type"] = 16},
+
+}
+xqmnb(qmnb)
+end
+end
+function A2()
+gg.clearResults()
+qmnb = {
+{["memory"] = 4},
+{["name"] = "飞行翅膀"},
+{["value"] = 1907, ["type"] = 4},
+{["lv"] = 16777216, ["offset"] = -4, ["type"] = 4},
+{["lv"] = 811, ["offset"] = 12, ["type"] = 4},
+{["lv"] = 685, ["offset"] = 4, ["type"] = 4},
+{["lv"] = 16777216, ["offset"] = 508, ["type"] = 4},
+}
+qmxg = {
+{["value"] = 16777472, ["offset"] = -4, ["type"] = 4, ["freeze"] = true},
+{["value"] = 16777472, ["offset"] = -516, ["type"] = 4, ["freeze"] = true},
+{["value"] = 16777472, ["offset"] = 508, ["type"] = 4, ["freeze"] = true},
+}
+xqmnb(qmnb)
+gg.clearResults()
+end
+function Ba1()
+gg.clearResults()
+qmnb = {
+{["memory"] = 16384},
+{["name"] = "超远攻击"},
+{["value"] = 1132068864, ["type"] = 4},
+{["lv"] = 1036831949, ["offset"] = -4, ["type"] = 4},}
+qmxg = {
+{["value"] = -1, ["offset"] = -4, ["type"] = 16},
+
+}
+xqmnb(qmnb)
+gg.clearResults()
+end
+function Ba8()
+gg.clearResults()
+qmnb = {
+{["memory"] = 16384},
+{["name"] = "超远攻击"},
+{["value"] = 953267991, ["type"] = 4},
+{["lv"] = 1476, ["offset"] = -12, ["type"] = 4},}
+qmxg = {
+{["value"] = 999999, ["offset"] = -8, ["type"] = 16},
+{["value"] = 999999, ["offset"] = -20, ["type"] = 16},
+}
+xqmnb(qmnb)
+end
+function PO8()
+A1 = gg.prompt({"『请输入你要的倍数』改成500恢复"}
+,{[1]=5000},{[1]="number"})[1]
+gg.clearResults()
+qmnb = {
+{["memory"] = 16384},
+{["name"] = "上帝视角"},
+{["value"] =1138819072, ["type"] = 4},
+{["lv"] = 1117782016, ["offset"] = -4, ["type"] = 4},
+{["lv"] = 1092616192, ["offset"] = 8, ["type"] = 4},
+}
+qmxg = {
+{["value"] = A1, ["offset"] = 4, ["type"] = 16},
+}
+xqmnb(qmnb)
+end
+function PO7()
+gg.toast("先吃一个胡萝卜")
+qmnb = {
+{["memory"] = 4},
+{["name"] = "秒吃胡萝卜"},
+{["value"] = 236, ["type"] = 4},
+{["lv"] = 30, ["offset"] = 8, ["type"] = 4},
+}
+qmxg = {
+{["value"] = -9999, ["offset"] = 8, ["type"] = 4},
+{["value"] = -9999, ["offset"] = 104, ["type"] = 4},
+}
+xqmnb(qmnb)
+end
+
+function Main43()
+SN = gg.multiChoice({
+	 "🍁自定义改冒险🍁",
+	 "🍁自定义改创造🍁",
+	 "🍁大厅地图改创造🍁",
+	 "🍁星河地图改创造🍁",
+	 "🍁找朋友图改创造🍁",
+	 "🍁仙人掌改炸药桶🍁",
+	 "🥇香溢烤鸡改编辑器🥇",
+	 "🥇传送卷轴改编辑器🥇",
+	 "🥇星星礼盒改编辑器🥇",
+	 "🥇能 量 剑改编辑器🥇",
+	 "🥇木 斧 头改编辑器🥇",
+	 "🥇香溢面包改编辑器🥇",
+	 "🎡返 回 主 页🎡",
+ }, nil, "𒅒我好像在放弃你，又好像...在等你𒅒")
+ if SN == nil then else
+if SN[1]==true then HS44() end
+if SN[2]==true then HS63() end
+if SN[3]==true then AQ1() end
+if SN[4]==true then ML5() end
+if SN[5]==true then ML6() end
+if SN[6]==true then ML2() end
+if SN[7]==true then HS45() end
+if SN[8]==true then HS46() end
+if SN[9]==true then HS47() end
+if SN[10]==true then HS51() end
+if SN[11]==true then HS52() end
+if SN[12]==true then HS54() end
+if SN[13]==true then Main() end end
+FX=0 end
+function HS44()
+d = gg.prompt({"请输入房主迷你号"}
+,{[1]=607884226},{[1]="number"})[1]
+gg.clearResults()
+qmnb = {
+{["memory"] = 4},
+{["name"] = "改冒险"},
+{["value"] = d, ["type"] = 4},
+{["lv"] = 5, ["offset"] = -4, ["type"] = 4},
+}
+qmxg = {
+{["value"] = 0, ["offset"] = -4, ["type"] = 4},
+}
+xqmnb(qmnb)
+gg.clearResults()
+end
+function HS63()
+f = gg.prompt({"请输入房主迷你号"}
+,{[1]=607884226},{[1]="number"})[1]
+gg.clearResults()
+qmnb = {
+{["memory"] = 4},
+{["name"] = "改创造"},
+{["value"] = f, ["type"] = 4},
+{["lv"] = 5, ["offset"] = -4, ["type"] = 4},
+}
+qmxg = {
+{["value"] = 4, ["offset"] = -4, ["type"] = 4},
+}
+xqmnb(qmnb)
+gg.clearResults()
+end
+function AQ1()
+gg.toast("正在调用数据请稍后")
+gg.clearResults()
+qmnb = {
+{["memory"] = 4},
+{["name"] = "改创造"},
+{["value"] = 12345, ["type"] = 4},
+{["lv"] = 5, ["offset"] = 8, ["type"] = 4},
+
+}
+qmxg = {
+{["value"] = 4, ["offset"] = 8, ["type"] = 4},
+}
+xqmnb(qmnb)
+gg.clearResults()
+end
+function ML5()
+gg.toast("正在调用数据请稍后")
+gg.clearResults()
+qmnb = {
+{["memory"] = 4},
+{["name"] = "改创造"},
+{["value"] = 882982599, ["type"] = 4},
+{["lv"] = 5, ["offset"] = 8, ["type"] = 4},
+{["lv"] = 10, ["offset"] = 20, ["type"] = 4},
+
+}
+qmxg = {
+{["value"] = 4, ["offset"] = 8, ["type"] = 4},
+}
+xqmnb(qmnb)
+gg.clearResults()
+end
+function ML6()
+gg.toast("正在调用数据请稍后")
+gg.clearResults()
+qmnb = {
+{["memory"] = 4},
+{["name"] = "改创造"},
+{["value"] = 604823537, ["type"] = 4},
+{["lv"] = 5, ["offset"] = 8, ["type"] = 4},
+{["lv"] = 10, ["offset"] = 20, ["type"] = 4},
+
+}
+qmxg = {
+{["value"] = 4, ["offset"] = 8, ["type"] = 4},
+}
+xqmnb(qmnb)
+gg.clearResults()
+end
+function HS45()
+gg.clearResults()
+qmnb = {
+{["memory"] = 4},
+{["name"] = "香溢烤鸡改编辑器"},
+{["value"] = 12558, ["type"] = 4},
+{["lv"] = 6, ["offset"] = -112, ["type"] = 4},
+{["lv"] = 1, ["offset"] = 20, ["type"] = 4},
+{["lv"] = 4, ["offset"] = 56, ["type"] = 4},
+}
+qmxg = {
+{["value"] = 10500, ["offset"] = 0, ["type"] = 4},
+}
+xqmnb(qmnb)
+end
+function HS46()
+gg.toast("请选择开关")
+F = gg.alert("🔰请选择｛开 关｝🔰","🍁开🍁","🍁️关🍁️️")
+ if  F~=1 and F~=2 then
+ gg.toast("你未选择开关默认取消")
+    gg.toast("📌你未选择｛开 关｝")
+  else 
+  end
+if  F== 1 then
+gg.clearResults()
+qmnb = {
+{["memory"] = 4},
+{["name"] = "改编辑器"},
+{["value"] = 12964, ["type"] = 4},
+{["lv"] = 1, ["offset"] = 4, ["type"] = 4},
+{["lv"] = 2, ["offset"] = 8, ["type"] = 4},
+{["lv"] = 2, ["offset"] = 56, ["type"] = 4},
+}
+qmxg = {
+{["value"] = 10500, ["offset"] = 0, ["type"] = 4},
+}
+xqmnb(qmnb)
+elseif F == 2 then
+qmnb = {
+{["memory"] = 4},
+{["name"] = "改编辑器"},
+{["value"] = 10500, ["type"] = 4},
+{["lv"] = 1, ["offset"] = 4, ["type"] = 4},
+{["lv"] = 2, ["offset"] = 8, ["type"] = 4},
+{["lv"] = 2, ["offset"] = 56, ["type"] = 4},
+}
+qmxg = {
+{["value"] = 12964, ["offset"] = 0, ["type"] = 4},
+}
+xqmnb(qmnb)
+end
+end
+
+function HS47()
+gg.toast("请选择开关")
+F = gg.alert("🔰请选择｛开 关｝🔰","🍁开🍁","🍁️关🍁️️")
+ if  F~=1 and F~=2 then
+ gg.toast("你未选择开关默认取消")
+    gg.toast("📌你未选择｛开 关｝")
+  else 
+  end
+if  F== 1 then
+gg.clearResults()
+qmnb = {
+{["memory"] = 4},
+{["name"] = "改编辑器"},
+{["value"] = 12963, ["type"] = 4},
+{["lv"] = 1, ["offset"] = 4, ["type"] = 4},
+{["lv"] = 2, ["offset"] = 8, ["type"] = 4},
+{["lv"] = 2, ["offset"] = 56, ["type"] = 4},
+}
+qmxg = {
+{["value"] = 10500, ["offset"] = 0, ["type"] = 4},
+}
+xqmnb(qmnb)
+elseif F == 2 then
+qmnb = {
+{["memory"] = 4},
+{["name"] = "改编辑器"},
+{["value"] = 10500, ["type"] = 4},
+{["lv"] = 1, ["offset"] = 4, ["type"] = 4},
+{["lv"] = 2, ["offset"] = 8, ["type"] = 4},
+{["lv"] = 2, ["offset"] = 56, ["type"] = 4},
+}
+qmxg = {
+{["value"] = 12963, ["offset"] = 0, ["type"] = 4},
+}
+xqmnb(qmnb)
+end
+end
+function HS51()
+	 qmnb = {
+{["memory"] = 4},
+{["name"] = "能量剑改编辑器"},
+{["value"] = 2103921795, ["type"] = 4},
+{["lv"] = 12005, ["offset"] = 196, ["type"] = 4},
+}
+qmxg = {
+{["value"] = 10500, ["offset"] = 196, ["type"] = 4},
+}
+xqmnb(qmnb)
+end
+function HS52()
+gg.clearResults()
+qmnb = {
+{["memory"] = 4},
+{["name"] = "编辑器"},
+{["value"] = 11001, ["type"] = 4},
+{["lv"] = 2, ["offset"] = 20, ["type"] = 4},
+{["lv"] = 1, ["offset"] = 12, ["type"] = 4},
+{["lv"] = 1, ["offset"] = 24, ["type"] = 4},
+}
+qmxg = {
+{["value"] = 10500, ["offset"] = 0, ["type"] = 4},
+}
+xqmnb(qmnb)
+end
+function HS54()
+	 qmnb = {
+{["memory"] = 4},
+{["name"] = "香益面包改编辑器"},
+{["value"] = 2932997, ["type"] = 4},
+{["lv"] = 12550, ["offset"] = 196, ["type"] = 4},
+}
+qmxg = {
+{["value"] = 10500, ["offset"] = 196, ["type"] = 4},
+}
+xqmnb(qmnb)
+end
+function ML2()
+gg.toast("正在调用数据请稍后")
+gg.clearResults()
+qmnb = {
+{["memory"] = 4},
+{["name"] = "👻👻"},
+{["value"] = 1731093611, ["type"] = 4},
+{["lv"] = 1668246626, ["offset"] = -4, ["type"] = 4},
+{["lv"] = 242, ["offset"] = 260, ["type"] = 4},
+{["lv"] = 12, ["offset"] = 300, ["type"] = 4},
+{["lv"] = 100, ["offset"] = 316, ["type"] = 4},
+}
+qmxg = {
+{["value"] = 835, ["offset"] = 260, ["type"] = 4, ["freeze"] = true},
+
+}
+xqmnb(qmnb)
+gg.clearResults()
+end
+function Main70() 
+SN = gg.multiChoice({
+	 "🍁子弹穿紫荧石(房主)🍁",
+	 "🍁狙击枪通用🍁",
+	 "🍁怒海狙击专用🍁",
+	 "🍁三 角 透 视🍁",
+	 "🍁第3视角超远攻击🍁",
+	 "🍁己方队伍间传送🍁",
+     "🍁关闭黑色圈圈🍁",
+	 "🎡返 回 主 页🎡",
+ }, nil, "𒅒错过了就错过了,我不遗憾,也不期待圆满𒅒")
+ if SN == nil then else
+if SN[1]==true then HS71() end
+if SN[2]==true then HS72() end
+if SN[3]==true then HS73() end
+if SN[4]==true then HS74() end
+if SN[5]==true then A13() end
+if SN[6]==true then A19() end
+if SN[7]==true then l1() end
+if SN[8]==true then Main() end end
+FX=0 end
+function HS71()
+gg.toast("正在调用数据请稍后")
+gg.clearResults()
+qmnb = {
+{["memory"] = 4},
+{["name"] = "👻👻"},
+{["value"] = 449, ["type"] = 4},
+{["lv"] = 1, ["offset"] = 16, ["type"] = 4},
+{["lv"] = 449, ["offset"] = 92, ["type"] = 4},
+{["lv"] = 10000, ["offset"] = 96, ["type"] = 4},
+}
+qmxg = {
+{["value"] = 3, ["offset"] = 16, ["type"] = 4},
+
+}
+xqmnb(qmnb)
+gg.clearResults()
+qmnb = {
+{["memory"] = 4},
+{["name"] = "👻👻"},
+{["value"] = 450, ["type"] = 4},
+{["lv"] = 1, ["offset"] = 16, ["type"] = 4},
+{["lv"] = 450, ["offset"] = 92, ["type"] = 4},
+{["lv"] = 10000, ["offset"] = 96, ["type"] = 4},
+}
+qmxg = {
+{["value"] = 3, ["offset"] = 16, ["type"] = 4},
+
+}
+xqmnb(qmnb)
+end
+function HS72()
+local memory = 4
+local array = {
+{["lv"] = -2117, ["type"] = 2},
+{["lv"] = 1, ["hv"] = 10000, ["offset"] = 68, ["type"] = 2},
+}
+local isok, data = app.memorysearch(memory, array)
+if isok then
+for i = 1, #data do
+app.memorywrite(data[i] + 68, 2, 32000)
+end
+end
+gg.clearResults()
+qmnb = {
+{["memory"] = 4},
+{["name"] = "狙击枪"},
+{["value"] = 15004, ["type"] = 4},
+{["lv"] = 15004, ["offset"] = 4, ["type"] = 4},
+{["lv"] = 15003, ["offset"] = 140, ["type"] = 4},
+}
+qmxg = {
+{["value"] =0, ["offset"] = 72, ["type"] = 4},
+{["value"] =0, ["offset"] = 104, ["type"] = 4},
+{["value"] =1, ["offset"] = 136, ["type"] = 4},
+}
+xqmnb(qmnb)
+end
+function HS73()
+local memory = 4
+local array = {
+{["lv"] = -2117, ["type"] = 2},
+{["lv"] = 1, ["hv"] = 10000, ["offset"] = 68, ["type"] = 2},
+}
+local isok, data = app.memorysearch(memory, array)
+if isok then
+for i = 1, #data do
+app.memorywrite(data[i] + 68, 2, 32000)
+end
+end
+gg.clearResults()
+qmnb = {
+{["memory"] = 4},
+{["name"] = "狙击枪"},
+{["value"] = 65536100, ["type"] = 4},
+{["lv"] = 15004, ["offset"] = -68, ["type"] = 4},
+{["lv"] = 15003, ["offset"] = 68, ["type"] = 4},
+}
+qmxg = {
+{["value"] =0, ["offset"] = 0, ["type"] = 4},
+{["value"] =0, ["offset"] = 32, ["type"] = 4},
+{["value"] =0, ["offset"] = 28, ["type"] = 4},
+{["value"] =1, ["offset"] = 64, ["type"] = 4},
+}	
+ xqmnb(qmnb)
+	 end
+function HS74()
+gg.toast("请选择开关")
+F = gg.alert("🔰请选择｛开 关｝🔰","🍁开🍁","🍁️关🍁️️")
+ if  F~=1 and F~=2 then
+ gg.toast("你未选择开关默认取消")
+    gg.toast("📌你未选择｛开 关｝")
+  else 
+  end
+if  F== 1 then
+qmnb = {
+{["memory"] = 32768},
+{["name"] = "三角透视"},
+{["value"] = 196608, ["type"] = 4},
+{["lv"] = 65538, ["offset"] = 8, ["type"] = 4},
+{["lv"] = 65536, ["offset"] = 12, ["type"] = 4},
+{["lv"] = 196610, ["offset"] = 20, ["type"] = 4},
+}
+qmxg = {
+{["value"] = 1, ["offset"] = 12, ["type"] = 4},
+}
+xqmnb(qmnb)
+gg.clearResults()
+ elseif F == 2 then
+qmnb = {
+{["memory"] = 32768},
+{["name"] = "三角透视"},
+{["value"] = 196608, ["type"] = 4},
+{["lv"] = 65538, ["offset"] = 8, ["type"] = 4},
+{["lv"] = 1, ["offset"] = 12, ["type"] = 4},
+{["lv"] = 196610, ["offset"] = 20, ["type"] = 4},
+}
+qmxg = {
+{["value"] = 65536, ["offset"] = 12, ["type"] = 4},
+}
+xqmnb(qmnb)
+gg.clearResults()
+ 
+ end
+end
+function A13()
+gg.toast("正在调用数据请稍后")
+gg.clearResults()
+qmnb = {
+{["memory"] = 16384},
+{["name"] = "超远攻击"},
+{["value"] = 1132068864, ["type"] = 4},
+{["lv"] = 1036831949, ["offset"] = -4, ["type"] = 4},}
+qmxg = {
+{["value"] = -1, ["offset"] = -4, ["type"] = 16},
+
+}
+xqmnb(qmnb)
+gg.clearResults()
+end
+function A19()
+gg.clearResults()
+qmnb = {
+{["memory"] = 4},
+{["name"] = "观战模式"},
+{["value"] = 1121452032, ["type"] = 4},
+{["lv"] = 1118568448, ["offset"] = -4, ["type"] = 4},
+{["lv"] = 16777216, ["offset"] = -56, ["type"] = 4},
+{["lv"] = 1065353216, ["offset"] = -12, ["type"] = 4},
+}
+qmxg = {
+{["value"] = 16777472, ["offset"] = -56, ["type"] = 4, ["freeze"] = true},}
+xqmnb(qmnb)
+gg.clearResults()
+end
+function l1()
+gg.clearResults()
+qmnb = {
+{["memory"] = 4},
+{["name"] = "关闭黑色圈圈"},
+{["value"] = 78643200, ["type"] = 4},
+{["lv"] = 16777472, ["offset"] = 4, ["type"] = 4},
+}
+qmxg = {
+{["value"] = 16777216, ["offset"] = 4, ["type"] = 4},
+}
+xqmnb(qmnb)
+gg.clearResults()
+end
+function AS96()
+gg.toast("请选择开关")
+F = gg.alert("🔰请选择功能🔰","🍁动作1🍁","🍁️动作2🍁️️","🍁️恢复🍁️️")
+ if  F~=1 and F~=2 and F~=3 then
+  else 
+  end
+if  F== 1 then
+r = gg.prompt({"『请输入动作代码』                                                                                           12走路13睡觉14坐下15游泳16攻击17死亡18被打"}
+,{[1]=14},{[1]="number"})[1]
+gg.clearResults()
+qmnb = {
+{["memory"] = 4},
+{["name"] = "动作1"},
+{["value"] = 520066560, ["type"] = 4},
+{["lv"] = 738182400, ["offset"] = 12, ["type"] = 4},}
+qmxg = {
+{["value"] = r, ["offset"] = 8, ["type"] = 4,["freeze"] = true},
+}
+xqmnb(qmnb)
+gg.clearResults()
+ elseif F == 2 then
+r = gg.prompt({"『请输入动作代码』                                                                                        999479跳舞-99999927抱坐-3122睡觉"}
+,{[1]=99999927},{[1]="number"})[1]
+qmnb = {
+{["memory"] = 4},
+{["name"] = "动作2"},
+{["value"] = a, ["type"] = 4},
+{["lv"] = 16777473, ["offset"] = -64, ["type"] = 4},
+{["lv"] = 1092616192, ["offset"] = -40, ["type"] = 4},}
+qmxg = {
+{["value"] = r, ["offset"] = -72, ["type"] = 4},
+}
+xqmnb(qmnb)
+elseif F == 3 then
+qmnb = {
+{["memory"] = 4},
+{["name"] = "动作2"},
+{["value"] = a, ["type"] = 4},
+{["lv"] = 16777473, ["offset"] = -64, ["type"] = 4},
+}
+qmxg = {
+{["value"] = 0, ["offset"] = -72, ["type"] = 4},
+}
+xqmnb(qmnb)
+qmnb = {
+{["memory"] = 4},
+{["name"] = "动作1"},
+{["value"] = 520066560, ["type"] = 4},
+{["lv"] = 738182400, ["offset"] = 12, ["type"] = 4},}
+qmxg = {
+{["value"] = -1, ["offset"] = 8, ["type"] = 4,["freeze"] = true},
+}
+xqmnb(qmnb)
+gg.clearResults()
+end
+end
+ function Exit()
+	 print("主宰晨运行结束.再见") 
+	  os.exit() end
+while true do
+  if gg.isVisible(true) then
+    XGCK = 1
+    gg.setVisible(false)
+  end
+  gg.clearResults()
+  if XGCK == 1 then
+    Main()
+  end
+end
