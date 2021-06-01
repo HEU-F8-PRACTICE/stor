@@ -1,0 +1,91 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+#define   MAX_LEN  9                	/* 字符串最大长度 */
+#define   STU_NUM 40                       /* 最多的学生人数 */
+
+void  ReadScore(long num[],int score[][3],int n);//录入信息
+void  Course(int Coursesum[3],float Courseaver[3],int score[][3],int n);//计算课程总分与平均分
+void  Student(int Studentsum[STU_NUM],float Studentaver[STU_NUM],int score[][3],int n);//计算学生总分与平均分
+
+int main()
+{
+    int n,i,k,g,t,score[STU_NUM][3],Coursesum[3],Studentsum[STU_NUM];
+    long num[STU_NUM];
+    float Courseaver[3],Studentaver[STU_NUM];
+    printf("Input the total number of the students(n<40):");
+    scanf("%d",&n);
+    ReadScore(num,score,n);
+    Course(Coursesum,Courseaver,score,n);
+    Student(Studentsum,Studentaver,score,n);
+    printf("Counting Result:\n");
+    printf("Student’s ID\t  MT \t  EN \t  PH \t SUM \t AVER\n");
+    for(i=0;i<n;i++)
+    {
+        printf("%12ld\t",num[i]);
+        for(k=0;k<3;k++)
+        {
+            printf("%4d\t",score[i][k]);
+        }
+        printf("%4d\t%5.1f\n",Studentsum[i],Studentaver[i]);
+    }
+    printf( "SumofCourse \t");
+    for(t=0;t<3;t++)
+    {
+        printf("%4d\t",Coursesum[t]);
+    }
+    printf("\nAverofCourse\t");
+    for(g=0;g<3;g++)
+    {
+        printf("%4.1f\t",Courseaver[g]);
+    }
+    return 0;
+}
+
+void  ReadScore(long num[],int score[][3],int n)
+{
+    int i,k;
+    printf("Input student’s ID and score as: MT  EN  PH:\n");
+    for(i=0;i<n;i++)
+    {
+        scanf("%ld",&num[i]);
+        getchar();
+        for(k=0;k<3;k++)
+        {
+            scanf("%d",&score[i][k]);
+            getchar();
+        }
+    }
+}
+
+void  Course(int Coursesum[3],float Courseaver[3],int score[][3],int n)
+{
+    int s,i,k;
+    for(k=0;k<3;k++)
+    {
+        s=0;
+        for(i=0;i<n;i++)
+        {
+           s+=score[i][k];
+        }
+        Coursesum[k]=s;
+        Courseaver[k]=s/n;
+    }
+}
+
+void  Student(int Studentsum[STU_NUM],float Studentaver[STU_NUM],int score[][3],int n)
+{
+    int i,k,s;
+    for(i=0;i<n;i++)
+    {
+        s=0;
+        for(k=0;k<3;k++)
+        {
+            s+=score[i][k];
+        }
+        Studentsum[i]=s;
+        Studentaver[i]=(float)s/3;
+    }
+}
+
+
