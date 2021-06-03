@@ -1,0 +1,75 @@
+﻿auth:
+  openId: NGZmYzE1MTkwNmU1OTVjZGE4MjA3ZDZmMGE0NWUyMzY=
+  grantCode: NzgxODI3MzRkZg==
+  openKey: N1pOa1ljV3JraFlWeTZFaXRPV0VZRXRsdUlWSDhkcFdRT0htdGEycm9FV1FjWE41Sks=
+app:
+  ui: app/ui
+  kos: app/kos 
+  static: assets/static
+  service: app/service/service.js
+  font: hipos.ttf
+store:
+  dbpath: db
+  company: xicha
+  serial: 6
+  notCheck: true
+  kos: true
+  kosStoreName: 丘大叔
+logger:
+  level: debug
+  path: log/
+runtime:
+  daemon_port: 1012
+  http:
+    port: 8180
+    ws: true
+  hasWavPrefix: true
+  nats:
+    enable: true
+    port: 5222
+    info: 5223
+  auth:
+    disable: true
+  host: 0.0.0.0
+  mdns: true
+  debug: true
+  isRaw: true
+  checkUpdate: true
+  master: true
+  allowMulti: false
+info:
+  timeInterval: 120 #unit: minute
+  timeoutInterval: 30 #unit: minute
+  pingInterval: 30 #unit: second
+  sandLib: lib/LibSand.dll
+hws:
+  #host: posdev.hexcloud.cn
+  #gateway: /gateway/xicha_dev
+  #测试环境
+  host: http://uncleq-pos-test.hexcloud.cn
+  #生产环境
+  #host: http://uncleq-pos.hexcloud.cn
+  gateway: /api/gateway
+  useNewGateway: true
+  useEticket: true
+
+tasks:
+  # 每五分钟
+  frequent:
+    name: 每五分钟执行
+    cron: "0 */5 * * * *"
+    topic: system.frequently
+client:
+  #第二屏
+  secondScreen: true
+  secondURL: app/ui/secondScreen.html
+  url: app/ui/startup.html
+  nats: 5222
+  fullScreen: false
+  web: 8180
+  masterIp: 127.0.0.1
+  pdfDir: assets/pdf
+  queue:
+    dir: assets/print
+    len: 3
+    interval: 500
