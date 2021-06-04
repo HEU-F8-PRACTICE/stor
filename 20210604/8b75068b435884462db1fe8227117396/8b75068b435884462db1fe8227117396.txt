@@ -1,0 +1,30 @@
+function configure(XG,SS,GS,LX) gg.clearResults() gg.setRanges(NC) flags=LX gg.searchNumber(SS,LX) ssjgsl=gg.getResultCount() if ssjgsl>0 then gg.toast('功能:['..GN..']共搜索到'..ssjgsl..'条数值') gg.searchNumber(GS,LX) ssjgs=gg.getResultCount() if ssjgs>0 then else gg.toast('功能:['..GN..']开启失败') end gg.getResults(ssjgs) gg.editAll(XG, LX) gg.toast('功能:['..GN..']开启成功!已修改'..ssjgs..'条数据!') else gg.toast('开启失败 原因:结果无数值') end end
+
+function Main() SN = gg.choice({
+"远程攻击",
+"人物加速",
+"人物高跳",
+"人物透视",
+"人物穿墙",
+"主宰晨◎内置版",
+},2018,os.date(""))
+  
+if SN==1 then HS01() end 
+if SN==2 then HS02() end 
+if SN==3 then HS03() end 
+if SN==4 then HS04() end 
+if SN==5 then HS05() end 
+if SN==9 then os.exit() end
+FX1=0 end
+
+function HS01() GN='远程攻击' NC=16384 LX=16 SS='0.10000000149;250' GS='0.10000000149' XG='-1' configure(XG,SS,GS,LX) end
+
+function HS02() GN='人物加速' NC=4 LX=16 SS='1120403456D;100;0.5;0.80000001192;1.29999995232;3600D' GS='0.80000001192;1.29999995232' XG='5' configure(XG,SS,GS,LX) end
+
+function HS03() GN='人物高跳' NC=4 LX=16 SS='0.00005336541;100;100;-1;10' GS='-1' XG='120' configure(XG,SS,GS,LX) end
+
+function HS04() GN='人物透视' NC=4 LX=16 SS='10;30000' GS='30000' XG='10' configure(XG,SS,GS,LX) end
+
+function HS05() GN='人物穿墙' NC=4 LX=4 SS='220;60;180;120;-1082130432;1082130432;1086324736;1073741824' GS='180' XG='-9999' configure(XG,SS,GS,LX) end
+
+while true do if gg.isVisible(true) then FX1 = nil gg.setVisible(false) end if FX1 == nil then Main() end end
