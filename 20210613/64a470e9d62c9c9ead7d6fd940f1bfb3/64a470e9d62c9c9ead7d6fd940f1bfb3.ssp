@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ssprotect>
+	<base_info>
+		<app>Virbox Protector 2 Trial</app>
+		<version>2.2.1.13782</version>
+	</base_info>
+	<file>
+		<path>knm.ude</path>
+	</file>
+	<option>
+		<zip>1</zip>
+		<memory_check>0</memory_check>
+		<anti_debugging>0</anti_debugging>
+	</option>
+	<sign />
+	<function>
+		<SENSENODEFUNC1 type="function" name="_start">
+			<flags>8</flags>
+		</SENSENODEFUNC1>
+	</function>
+</ssprotect>
