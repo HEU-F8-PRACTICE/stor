@@ -1,0 +1,26 @@
+pm2 start app.js --name UnblockNeteaseMusic --max-memory-restart 200M -- -p 5200:5201 -e https://music.163.com -o kuwo
+
+app.js  -p 5200 -e https://music.163.com -s -o kuwo
+
+
+node app.js  -p 5200 -e https://music.163.com -s
+
+
+
+docker run -d -p 5200:8080 --name 163 --restart always nondanee/unblockneteasemusic -o qq kuwo migu kugou netease xiami baidu joox youtube
+
+
+docker run -d -p 5200:8080 --name 163 --restart always nondanee/unblockneteasemusic -e https://163.wpan.ml -o qq kuwo migu kugou netease xiami baidu joox youtube
+
+node app.js  -p 8080 -e https://163.wpan.ml
+
+pm2 start app.js --name UnblockNeteaseMusic -- -s -p 5200 -e https://163.wpan.ml -o qq xiami baidu kugou kuwo migu joox youtube
+
+pm2 start app.js --name UnblockNeteaseMusic -- -p 4000:4002 -e https://music.163.com -s
+
+pm2 start app.js --name UnblockNeteaseMusic -- -s -e https://music.163.com -p 5200:5201 -o joox
+
+
+pm2 start app.js --name UnblockNeteaseMusic --max-memory-restart 200M -- -p 5200:5201 -e https://music.163.com -o migu qq kuwo kugou xiami baidu joox youyube
+
+docker run -d -p 5200:8080 --name 163 nondanee/unblockneteasemusic -s -e https://music.163.com -p 5201:8081
