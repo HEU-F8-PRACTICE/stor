@@ -1,0 +1,8 @@
+proxies:
+  - name: 未知
+    type: http
+    server: global.ap.fastqvpn.com
+    port: 29987
+    username: "457077437683990528"
+    password: 527ff4f0-2f81-4478-a1cc-b93c4d4b81f0
+    tls: true
