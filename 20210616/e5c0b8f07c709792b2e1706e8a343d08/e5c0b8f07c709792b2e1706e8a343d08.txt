@@ -1,0 +1,8 @@
+proxies:
+  - {name: ????一键连｜HTTPS1, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: 410108216806998000, password: d02f9d29-0446-4a01-9c49-f19eb7aafed1, tls: true}
+  - {name: ????一键连｜HTTPS2, server: global.ap.fastqvpn.com, port: 29980, type: http, username: 410108216806998000, password: d02f9d29-0446-4a01-9c49-f19eb7aafed1, tls: true}
+  - {name: ????一键连｜HTTPS3, server: a3.ap.fastqvpn.com, port: 29980, type: http, username: 410108216806998000, password: d02f9d29-0446-4a01-9c49-f19eb7aafed1, tls: true}
+  - {name: ????一键连｜HTTPS4, server: global.ap.fastqvpn.com, port: 29980, type: http, username: 410108216806998000, password: d02f9d29-0446-4a01-9c49-f19eb7aafed1, tls: true}
+  - {name: ????一键连｜HTTPS5, server: a5.ap.fastqvpn.com, port: 29980, type: http, username: 410108216806998000, password: d02f9d29-0446-4a01-9c49-f19eb7aafed1, tls: true}
+  - {name: ????一键连│VMESS1, server: 211.99.98.188, port: 11443, type: vmess, uuid: d02f9d29-0446-4a01-9c49-f19eb7aafed1, alterId: 0, cipher: chacha20-poly1305, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: node.er3.xyz}}
+  - {name: ????一键连│VMESS2, server: 211.99.98.54, port: 11443, type: vmess, uuid: d02f9d29-0446-4a01-9c49-f19eb7aafed1, alterId: 0, cipher: chacha20-poly1305, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: node.er3.xyz}}
