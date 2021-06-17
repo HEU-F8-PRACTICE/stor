@@ -1,0 +1,80 @@
+1、(1)单击标题使其下面的div元素显示或隐藏；
+(2)单击标题使其下面的div元素互斥显示。
+<script src="jquery-1.12.4.js"></script>
+	<script>
+	$(function(){
+$("span").click(function(){
+			if($(this).next().is(":visible"))
+			    $(this).next().hide();
+			else
+				$(this).next().show()
+			.parent().siblings().children("div").hide();
+		});
+			
+	})
+	</script>
+2、鼠标移动到一级标题上时显示对应的子菜单，离开时子菜单隐藏。效果如下图所示：
+$(function(){
+     	//stop()停止当前正在执行的动画
+     	$("#wrap>ul>li").mouseenter(function(){
+     		$(this).children("ul").stop().slideDown();
+     	}).mouseleave(function(){
+     		$(this).children("ul").stop().slideUp();
+     	});	
+     })
+
+	</script>
+5、实现单击"发布"按钮，将多行文本框中的内容以列表形式添加到代码中的<ul>元素里面，要求最新发布的内容显示在最上面，同时清空多行文本框。实现效果如下图所示：
+<script>
+$(function(){
+  $("#btn").click(function(){
+    var txt=$("#txt").val();
+    var $ll=$("<li></li>");
+    $ll.text(txt);
+    $("#ul").prepend($ll);
+    $("#txt").val("");
+  });
+})
+</script>
+8、
+<body>
+<div id="dd"></div>
+</body>
+实现使div元素在页面居中显示
+$(function(){
+          $("#dd").css({
+          	left:($(window).width()-$("#dd").outerWidth(true))/2,
+          	top:($(window).height()-$("#dd").height())/2
+          });
+	   })
+	</script>
+10、课业专业选择
+<script>
+	  $(function(){
+	  	$("#btn1").click(function(){
+	  		$("#sel1>option:selected").appendTo("#sel2");
+	  	});
+	  	$("#btn2").click(function(){
+	  		$("#sel2>option:selected").appendTo("#sel1");
+	  	});
+	  })
+	</script>
+12、(1)默认效果如下图所示。
+(2)鼠标单击上面不同的li选项，选项背景添加selected样式(任何时候只有一个选项上有样式)，下面显示对应的div元素。
+<script type="text/javascript">
+	$(function(){
+	    var $div_li =$("div.tab_menu ul li");
+	    $div_li.click(function(){
+			$(this).addClass("selected")        
+				   .siblings().removeClass("selected");  
+            var index =  $div_li.index(this);  
+			$("div.tab_box>div")   	
+					.eq(index).show()   
+					.siblings().hide(); 
+		}).hover(function(){
+			$(this).addClass("hover");
+		},function(){
+			$(this).removeClass("hover");
+		})
+	})
+</script>
