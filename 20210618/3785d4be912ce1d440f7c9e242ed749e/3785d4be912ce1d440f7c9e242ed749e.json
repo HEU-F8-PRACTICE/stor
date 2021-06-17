@@ -1,0 +1,206 @@
+{
+    "dns": {
+        "servers": [
+            "8.8.8.8",
+            "1.1.1.1",
+            "8.8.4.4"
+        ]
+    },
+    "inbounds": [
+        {
+            "listen": "127.0.0.1",
+            "port": 8889,
+            "protocol": "http",
+            "settings": {
+            },
+            "sniffing": {
+                "enabled": false
+            },
+            "tag": "http_IN"
+        },
+        {
+            "listen": "127.0.0.1",
+            "port": 1089,
+            "protocol": "socks",
+            "settings": {
+                "auth": "noauth",
+                "ip": "127.0.0.1",
+                "udp": true,
+                "userLevel": 0
+            },
+            "sniffing": {
+                "enabled": false
+            },
+            "tag": "socks_IN"
+        }
+    ],
+    "log": {
+        "loglevel": "warning"
+    },
+    "outbounds": [
+        {
+            "protocol": "vmess",
+            "sendThrough": "0.0.0.0",
+            "settings": {
+                "vnext": [
+                    {
+                        "address": "72.44.74.98",
+                        "port": 443,
+                        "users": [
+                            {
+                                "alterId": 1,
+                                "id": "81295af2-bcd2-0d7e-8bc4-f1367049cf95",
+                                "level": 0,
+                                "security": "auto",
+                                "testsEnabled": "none"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "streamSettings": {
+                "dsSettings": {
+                    "path": "/"
+                },
+                "httpSettings": {
+                    "host": [
+                    ],
+                    "path": "/"
+                },
+                "kcpSettings": {
+                    "congestion": false,
+                    "downlinkCapacity": 20,
+                    "header": {
+                        "type": "none"
+                    },
+                    "mtu": 1350,
+                    "readBufferSize": 1,
+                    "tti": 20,
+                    "uplinkCapacity": 5,
+                    "writeBufferSize": 1
+                },
+                "network": "ws",
+                "quicSettings": {
+                    "header": {
+                        "type": "none"
+                    },
+                    "key": "",
+                    "security": ""
+                },
+                "security": "tls",
+                "sockopt": {
+                    "mark": 0,
+                    "tcpFastOpen": false,
+                    "tproxy": "off"
+                },
+                "tcpSettings": {
+                    "header": {
+                        "request": {
+                            "headers": {
+                            },
+                            "method": "GET",
+                            "path": [
+                            ],
+                            "version": "1.1"
+                        },
+                        "response": {
+                            "headers": {
+                            },
+                            "reason": "OK",
+                            "status": "200",
+                            "version": "1.1"
+                        },
+                        "type": "none"
+                    }
+                },
+                "tlsSettings": {
+                    "allowInsecure": false,
+                    "allowInsecureCiphers": false,
+                    "alpn": [
+                    ],
+                    "certificates": [
+                    ],
+                    "disableSessionResumption": true,
+                    "disableSystemRoot": false,
+                    "serverName": "72-44-74-98.wdnmd1145141919810.xyz"
+                },
+                "wsSettings": {
+                    "headers": {
+                        "Host": "72-44-74-98.wdnmd1145141919810.xyz"
+                    },
+                    "path": "/gafnvws"
+                }
+            },
+            "tag": "outBound_PROXY"
+        },
+        {
+            "protocol": "freedom",
+            "sendThrough": "0.0.0.0",
+            "settings": {
+                "domainStrategy": "AsIs",
+                "redirect": ":0",
+                "userLevel": 0
+            },
+            "streamSettings": {
+                "kcpSettings": {
+                }
+            },
+            "tag": "outBound_DIRECT"
+        },
+        {
+            "protocol": "blackhole",
+            "sendThrough": "0.0.0.0",
+            "settings": {
+                "response": {
+                    "type": "none"
+                }
+            },
+            "streamSettings": {
+                "kcpSettings": {
+                }
+            },
+            "tag": "outBound_BLACKHOLE"
+        }
+    ],
+    "policy": {
+        "system": {
+            "statsInboundDownlink": true,
+            "statsInboundUplink": true,
+            "statsOutboundDownlink": true,
+            "statsOutboundUplink": true
+        }
+    },
+    "routing": {
+        "domainStrategy": "AsIs",
+        "rules": [
+            {
+                "inboundTag": [
+                    "_QV2RAY_API_INBOUND_"
+                ],
+                "outboundTag": "_QV2RAY_API_",
+                "type": "field"
+            },
+            {
+                "ip": [
+                    "geoip:private"
+                ],
+                "outboundTag": "outBound_DIRECT",
+                "type": "field"
+            },
+            {
+                "ip": [
+                    "geoip:cn"
+                ],
+                "outboundTag": "outBound_DIRECT",
+                "type": "field"
+            },
+            {
+                "domain": [
+                    "geosite:cn"
+                ],
+                "outboundTag": "outBound_DIRECT",
+                "type": "field"
+            }
+        ]
+    }
+}
