@@ -1,0 +1,34 @@
+4、实现单击“添加p段落”可以在div内部追加新的段落，单击页面中存在和新添加的段落都可以使其背景变为红色。效果如下：
+<script>
+	$(function(){
+		$("#btn").click(function(){
+			$("<p>我是新添加的段落</P>").appendTo("body");
+		})
+6、实现当鼠标移动到某个li元素上时，实现该li元素内容为“★”，其前面的所有li元素内容也为“★”，其后面的所有li元素内容也为“☆”。
+$(function)(){
+      $("li").mouseover(function(){
+            $(this).text("★").prevALL().text("★");
+            $(this).nextALL().text("☆");
+        })
+   })
+7、请输入账号：<input type="text"><br>
+   请输入密码：<input type="password"><br>
+$(function(){
+		$(document).keydown(function(e){
+		if(e.which==13&&e.ctrlKey)
+			$("button").click()
+	    })
+
+	    $("button").click(function(){
+	    	alert("登录了")
+	    })
+	})
+</script>
+9、(1)将"哈密瓜"添加在"菠萝"之后;
+<script type="text/javascript">
+	$(function(){
+		$("<li>哈密瓜</li>").insertAfter($("ul>li:eq(2)"))
+	})
+	$("ul>li:eq(0)").clone(true).appendTo($("ul"))
+	$("ul>li:eq(1)").clone(true).appendTo($("ul"))
+</script>
