@@ -1,0 +1,92 @@
+本科生教育
+<script>
+$(function(){
+$(".yiji>li>a").click(function(){
+	if($(this).next().is(":visible"))
+		$(this).next().hide(100);
+	else 
+	    $(this).next().show(100).parent().siblings().children("ul").hide(100)
+});
+})
+</script>
+
+
+空调品牌
+<script>
+		$(function){
+			var $category=$("li:gt(5):not(:last)");
+			$category.hide();
+			$(".showmore>a").click(function(){
+				if($category.is(":visible")){
+					$category.hide();
+					$("ul li").removeClass("promoted");
+					$(this).children("span").text("显示全部品牌");
+				else{
+					$category.show()
+					$("li:contains(奥克斯)"),li:contains(长虹),li:contains(康佳)").addClass("promoted");
+					$(this).children("span").text("精简显示品牌");
+				}
+				}
+			}
+		}
+
+
+浙江宁波
+$(function(){
+		$("tbody>tr:odd").addClass("odd"); //先排除第一行,然后给奇数行添加样式
+		$("tbody>tr:even").addClass("even"); //先排除第一行,然后给偶数行添加样式
+		$("tbody>tr").click(function(){
+			$(this).addClass("selected")
+			.siblings().removeClass("selected")
+			.end().find(":radio").prop("checked",true);
+		})
+		// $(":radio:checked").parents("tr").addClass("selected");
+		$("tbody>tr:has(:checked)").addClass("selected");
+	})
+
+
+简易计算器
+<body>
+	<div id="app">
+	   <input type="text" v-model="n1">
+	   <select v-model="opt">
+	     <option value="+">+</option>
+	     <option value="-">-</option>
+	     <option value="*">*</option>
+	     <option value="/">/</option>
+	   </select>
+	   <input type="text" v-model="n2">
+	   <input type="button" value="=" @click="calc">
+	   <input type="text" v-model="result">
+     </div>
+    <script type="text/javascript" src="vue.js"></script>
+	<script type="text/javascript">
+	var myVue=new Vue({
+		el:"#app",
+		data:{
+			n1:0,
+			n2:0,
+			result:0,
+			opt:'+'
+		},
+		methods:{
+			calc:function(){
+				switch(this.opt){
+					case "+":
+					this.result=parseInt(this.n1)+parseInt(this.n2);
+					break;
+					case "-":
+					this.result=parseInt(this.n1)-parseInt(this.n2);
+					break;
+					case "*":
+					this.result=parseInt(this.n1)*parseInt(this.n2);
+					break;
+					case "/":
+					this.result=parseInt(this.n1)/parseInt(this.n2);
+					break;
+				}
+			}
+		}
+	})
+	</script>
+</body>
