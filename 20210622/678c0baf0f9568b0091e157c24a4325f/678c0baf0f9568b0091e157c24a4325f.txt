@@ -1,0 +1,64 @@
+[RoutingRule]
+DOMAIN,global.cschannel.anticheatexpert.com,PROXY
+DOMAIN,asia.csoversea.mbgame.anticheatexpert.com,PROXY
+DOMAIN,csoversea.mbgame.anticheatexpert.com,PROXY
+DOMAIN,csoversea.mbgame.gamesafe.qq.com,PROXY
+DOMAIN,cschannel.anticheatexpert.com,PROXY
+DOMAIN,nj.cschannel.anticheatexpert.com,PROXY
+DOMAIN,cs.mbgame.gamesafe.qq.com,PROXY
+DOMAIN,cs.mbgame.anticheatexpert.com,PROXY
+DOMAIN,ipv6.mainconn.gamesafe.qq.com,PROXY
+DOMAIN,ipv6.mainconn.anticheatexpert.com,PROXY
+DOMAIN,cs.mainconn.gamesafe.qq.com,PROXY
+DOMAIN,down.anticheatexpert.com,PROXY
+DOMAIN,www.baidu.com,PROXY
+DOMAIN,thirdqq.qlogo.cn,PROXY
+DOMAIN,dlied1.qq.com,PROXY
+DOMAIN,jsonatm.broker.tplay.qq.com,PROXY
+DOMAIN-KEYWORD,smoba,DIRECT
+DOMAIN,10003,DIRECT
+FINAL, DIRECT
+
+[RoutingDomainStrategy]
+AsIs
+
+[LocalPolicy]
+bufferSize = 4096
+connIdle = 300
+downlinkOnly = 0
+handshake = 4
+uplinkOnly = 0
+
+[DnsServer]
+223.5.5.5
+8.8.8.8, 53, Remote
+
+[DnsRule]
+DOMAIN-KEYWORD, google, Remote
+DOMAIN-SUFFIX, fb.com, Remote
+
+[DnsHost]
+geosite:category-ads-all = 127.0.0.1
+
+[DnsClientIp]
+115.239.211.92
+
+[Log]
+# debug/info/warning/error/none
+loglevel = none
+
+[PerAppVpn]
+# On/Off
+Off
+
+[PerAppMode]
+# Allow/Disallow
+Allow
+
+[PerAppAllow]
+# Regex expressions to match package names.
+.*google.*
+.*twitter.*
+
+[PerAppDisallow]
+.*tencent.*
