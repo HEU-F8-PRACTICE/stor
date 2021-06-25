@@ -1,0 +1,127 @@
+function Main()
+  SN = gg.choice({
+    "1.攻击速度150%",
+    "2.攻击速度还原",
+    "3.弱加强",
+    "4.加强还原",
+    "退出脚本"
+  }, nil, "KOF97")
+  if SN == 1 then
+    a()
+  end
+  if SN == 2 then
+    b()
+  end
+  if SN == 3 then
+    c()
+  end
+  if SN == 4 then
+    d()
+  end
+  
+  if SN == 5 then
+    Exit()
+  end
+  XGCK = -1
+end
+
+function a()
+gg.clearResults()
+
+gg.searchNumber("110;1036831949;1036831949;981668463;105;-1;0;100::100", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1, 0)
+gg.searchNumber("105", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1, 0)
+local gui=gg.getResults(1)
+gg.clearResults()
+gg.searchAddress(string.format("%X",gui[1].address+72),-1,4)
+gg.getResults(1)
+t = gg.getResults(1)
+t[1].value = '0'
+t[1].freeze = true
+print('addListItems: ', gg.addListItems(t))
+local gui=gg.getResults(1)
+gg.clearResults()
+gg.searchAddress(string.format("%X",gui[1].address+4),-1,4)
+
+gg.getResults(2)
+t = gg.getResults(2)
+t[1].value = '150'
+t[1].freeze = true
+print('addListItems: ', gg.addListItems(t))
+
+gg.toast("变速成功")
+end
+
+function b()
+gg.clearResults()
+gg.searchNumber("110;1036831949;1036831949;981668463;105;-1;0;150::100", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1, 0)
+gg.searchNumber("105", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1, 0)
+local gui=gg.getResults(1)
+gg.clearResults()
+gg.searchAddress(string.format("%X",gui[1].address+72),-1,4)
+gg.getResults(1)
+t = gg.getResults(1)
+t[1].value = '0'
+t[1].freeze = true
+print('addListItems: ', gg.addListItems(t))
+local gui=gg.getResults(1)
+gg.clearResults()
+gg.searchAddress(string.format("%X",gui[1].address+4),-1,4)
+
+gg.getResults(2)
+t = gg.getResults(2)
+t[1].value = '100'
+t[1].freeze = true
+print('addListItems: ', gg.addListItems(t))
+
+gg.toast("恢复成功")
+end
+
+function c()
+gg.searchNumber("2;255;1065353216;1::48", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1, 0)
+gg.searchNumber("2", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1, 0)
+local gui=gg.getResults(1)
+gg.clearResults()
+gg.searchAddress(string.format("%X",gui[1].address+23404),-1,4)
+gg.getResults(1)
+t = gg.getResults(1)
+t[1].value = '0'
+t[1].freeze = true
+print('addListItems: ', gg.addListItems(t))
+local gui=gg.getResults(1)
+gg.clearResults()
+gg.searchAddress(string.format("%X",gui[1].address+4),-1,4)
+
+gg.getResults(2)
+t = gg.getResults(2)
+t[1].value = '0'
+t[1].freeze = true
+print('addListItems: ', gg.addListItems(t))
+gg.toast("加强成功")
+end
+
+function d()
+gg.clearResults()
+
+gg.searchNumber("2;255;1F;1::48", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1, 0)
+gg.clearResults()
+
+gg.toast("还原成功")
+end
+
+
+function Exit()
+   print("本次使用结束")
+  os.exit()
+end
+cs = "再见"
+while true do
+  if gg.isVisible(true) then
+    XGCK = 1
+    gg.setVisible(false)
+  end
+  gg.clearResults()
+  
+  if XGCK == 1 then
+    Main()
+  end
+end
