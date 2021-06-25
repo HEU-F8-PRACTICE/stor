@@ -1,0 +1,98 @@
+GROMACS: gmx distance, version 2018.8
+Executable: /sob/gmx2018.8/bin/gmx
+Data prefix: /sob/gmx2018.8
+Working dir: /mnt/hgfs/P2VP
+Command line:
+gmx distance -f NPT_cg.xtc -n bonds.ndx -oh bonds-core.xvg
+
+Available static index groups:
+Group 0 ※bonds_core§ (6400 atoms)
+Group 1 ※bonds_term§ (1600 atoms)
+Specify any number of selections for option ＆select＊
+(Position pairs to calculate distances for):
+(one per line, for status/groups, ＆help＊ for help, Ctrl-D to end)
+
+0
+Selection ＆0＊ parsed
+Reading frame 0 time 5000.000 *** Error in `gmx＊: realloc(): invalid next size: 0x000000000085a0a0 ***
+======= Backtrace: =========
+/lib64/libc.so.6(+0x7f5d4)[0x7f4f2f2355d4]
+/lib64/libc.so.6(+0x83bd8)[0x7f4f2f239bd8]
+/lib64/libc.so.6(realloc+0x1d2)[0x7f4f2f23b832]
+/sob/gmx2018.8/bin/＃/lib64/libgromacs.so.3(save_realloc+0x34)[0x7f4f3051fd84]
+/sob/gmx2018.8/bin/＃/lib64/libgromacs.so.3(_Z24gmx_ana_index_make_blockP8t_blockaPK10gmx_mtop_tP15gmx_ana_index_t9e_index_tb+0x1fd)[0x7f4f30832e9d]
+/sob/gmx2018.8/bin/＃/lib64/libgromacs.so.3(+0x678808)[0x7f4f3085c808]
+/sob/gmx2018.8/bin/＃/lib64/libgromacs.so.3(_Z28gmx_ana_poscalc_set_maxindexP17gmx_ana_poscalc_tP15gmx_ana_index_t+0x18)[0x7f4f3085dd78]
+/sob/gmx2018.8/bin/＃/lib64/libgromacs.so.3(+0x6409ee)[0x7f4f308249ee]
+/sob/gmx2018.8/bin/＃/lib64/libgromacs.so.3(+0x6406b0)[0x7f4f308246b0]
+/sob/gmx2018.8/bin/＃/lib64/libgromacs.so.3(_ZN3gmx17SelectionCompiler7compileEPNS_19SelectionCollectionE+0x11bf)[0x7f4f30828f4f]
+/sob/gmx2018.8/bin/＃/lib64/libgromacs.so.3(_ZN3gmx19SelectionCollection7compileEv+0x80)[0x7f4f3086b0c0]
+/sob/gmx2018.8/bin/＃/lib64/libgromacs.so.3(_ZN3gmx23SelectionOptionBehavior15optionsFinishedEv+0x395)[0x7f4f30873775]
+/sob/gmx2018.8/bin/＃/lib64/libgromacs.so.3(_ZN3gmx25OptionsBehaviorCollection15optionsFinishedEv+0xcf)[0x7f4f30c1fdcf]
+/sob/gmx2018.8/bin/＃/lib64/libgromacs.so.3(+0x152031)[0x7f4f30336031]
+/sob/gmx2018.8/bin/＃/lib64/libgromacs.so.3(_ZN3gmx24CommandLineModuleManager3runEiPPc+0x1eb)[0x7f4f3033313b]
+gmx[0x40dd5c]
+/lib64/libc.so.6(__libc_start_main+0xf5)[0x7f4f2f1d83d5]
+gmx[0x40de16]
+======= Memory map: ========
+00400000-00438000 r-xp 00000000 fd:00 37284055 /sob/gmx2018.8/bin/gmx
+00637000-00638000 r每p 00037000 fd:00 37284055 /sob/gmx2018.8/bin/gmx
+00638000-00639000 rw-p 00038000 fd:00 37284055 /sob/gmx2018.8/bin/gmx
+00639000-0063a000 rw-p 00000000 00:00 0
+00817000-00873000 rw-p 00000000 00:00 0 [heap]
+7f4f28000000-7f4f28021000 rw-p 00000000 00:00 0
+7f4f28021000-7f4f2c000000 〞p 00000000 00:00 0
+7f4f2e99a000-7f4f2eb99000 r-xp 00000000 fd:00 100838348 /sob/fftw338/lib/libfftw3f.so.3.5.8
+7f4f2eb99000-7f4f2ed98000 〞p 001ff000 fd:00 100838348 /sob/fftw338/lib/libfftw3f.so.3.5.8
+7f4f2ed98000-7f4f2eda9000 r每p 001fe000 fd:00 100838348 /sob/fftw338/lib/libfftw3f.so.3.5.8
+7f4f2eda9000-7f4f2edaa000 rw-p 0020f000 fd:00 100838348 /sob/fftw338/lib/libfftw3f.so.3.5.8
+7f4f2edaa000-7f4f2edb1000 r-xp 00000000 fd:00 33674031 /usr/lib64/librt-2.17.so
+7f4f2edb1000-7f4f2efb0000 〞p 00007000 fd:00 33674031 /usr/lib64/librt-2.17.so
+7f4f2efb0000-7f4f2efb1000 r每p 00006000 fd:00 33674031 /usr/lib64/librt-2.17.so
+7f4f2efb1000-7f4f2efb2000 rw-p 00007000 fd:00 33674031 /usr/lib64/librt-2.17.so
+7f4f2efb2000-7f4f2efb4000 r-xp 00000000 fd:00 33665207 /usr/lib64/libdl-2.17.so
+7f4f2efb4000-7f4f2f1b4000 〞p 00002000 fd:00 33665207 /usr/lib64/libdl-2.17.so
+7f4f2f1b4000-7f4f2f1b5000 r每p 00002000 fd:00 33665207 /usr/lib64/libdl-2.17.so
+7f4f2f1b5000-7f4f2f1b6000 rw-p 00003000 fd:00 33665207 /usr/lib64/libdl-2.17.so
+7f4f2f1b6000-7f4f2f378000 r-xp 00000000 fd:00 33665201 /usr/lib64/libc-2.17.so
+7f4f2f378000-7f4f2f578000 〞p 001c2000 fd:00 33665201 /usr/lib64/libc-2.17.so
+7f4f2f578000-7f4f2f57c000 r每p 001c2000 fd:00 33665201 /usr/lib64/libc-2.17.so
+7f4f2f57c000-7f4f2f57e000 rw-p 001c6000 fd:00 33665201 /usr/lib64/libc-2.17.so
+7f4f2f57e000-7f4f2f583000 rw-p 00000000 00:00 0
+7f4f2f583000-7f4f2f59a000 r-xp 00000000 fd:00 33674027 /usr/lib64/libpthread-2.17.so
+7f4f2f59a000-7f4f2f799000 〞p 00017000 fd:00 33674027 /usr/lib64/libpthread-2.17.so
+7f4f2f799000-7f4f2f79a000 r每p 00016000 fd:00 33674027 /usr/lib64/libpthread-2.17.so
+7f4f2f79a000-7f4f2f79b000 rw-p 00017000 fd:00 33674027 /usr/lib64/libpthread-2.17.so
+7f4f2f79b000-7f4f2f79f000 rw-p 00000000 00:00 0
+7f4f2f79f000-7f4f2f7b4000 r-xp 00000000 fd:00 33554509 /usr/lib64/libgcc_s-4.8.5-20150702.so.1
+7f4f2f7b4000-7f4f2f9b3000 〞p 00015000 fd:00 33554509 /usr/lib64/libgcc_s-4.8.5-20150702.so.1
+7f4f2f9b3000-7f4f2f9b4000 r每p 00014000 fd:00 33554509 /usr/lib64/libgcc_s-4.8.5-20150702.so.1
+7f4f2f9b4000-7f4f2f9b5000 rw-p 00015000 fd:00 33554509 /usr/lib64/libgcc_s-4.8.5-20150702.so.1
+7f4f2f9b5000-7f4f2f9da000 r-xp 00000000 fd:00 33701332 /usr/lib64/libgomp.so.1.0.0
+7f4f2f9da000-7f4f2fbd9000 〞p 00025000 fd:00 33701332 /usr/lib64/libgomp.so.1.0.0
+7f4f2fbd9000-7f4f2fbda000 r每p 00024000 fd:00 33701332 /usr/lib64/libgomp.so.1.0.0
+7f4f2fbda000-7f4f2fbdb000 rw-p 00025000 fd:00 33701332 /usr/lib64/libgomp.so.1.0.0
+7f4f2fbdb000-7f4f2fcdc000 r-xp 00000000 fd:00 33665209 /usr/lib64/libm-2.17.so
+7f4f2fcdc000-7f4f2fedb000 〞p 00101000 fd:00 33665209 /usr/lib64/libm-2.17.so
+7f4f2fedb000-7f4f2fedc000 r每p 00100000 fd:00 33665209 /usr/lib64/libm-2.17.so
+7f4f2fedc000-7f4f2fedd000 rw-p 00101000 fd:00 33665209 /usr/lib64/libm-2.17.so
+7f4f2fedd000-7f4f2ffc6000 r-xp 00000000 fd:00 33687522 /usr/lib64/libstdc++.so.6.0.19
+7f4f2ffc6000-7f4f301c5000 〞p 000e9000 fd:00 33687522 /usr/lib64/libstdc++.so.6.0.19
+7f4f301c5000-7f4f301cd000 r每p 000e8000 fd:00 33687522 /usr/lib64/libstdc++.so.6.0.19
+7f4f301cd000-7f4f301cf000 rw-p 000f0000 fd:00 33687522 /usr/lib64/libstdc++.so.6.0.19
+7f4f301cf000-7f4f301e4000 rw-p 00000000 00:00 0
+7f4f301e4000-7f4f30e2d000 r-xp 00000000 fd:00 2354367 /sob/gmx2018.8/lib64/libgromacs.so.3.5.0
+7f4f30e2d000-7f4f3102d000 〞p 00c49000 fd:00 2354367 /sob/gmx2018.8/lib64/libgromacs.so.3.5.0
+7f4f3102d000-7f4f3103e000 r每p 00c49000 fd:00 2354367 /sob/gmx2018.8/lib64/libgromacs.so.3.5.0
+7f4f3103e000-7f4f3105e000 rw-p 00c5a000 fd:00 2354367 /sob/gmx2018.8/lib64/libgromacs.so.3.5.0
+7f4f3105e000-7f4f31060000 rw-p 00000000 00:00 0
+7f4f31060000-7f4f31082000 r-xp 00000000 fd:00 33665194 /usr/lib64/ld-2.17.so
+7f4f31262000-7f4f3126a000 rw-p 00000000 00:00 0
+7f4f3127d000-7f4f31281000 rw-p 00000000 00:00 0
+7f4f31281000-7f4f31282000 r每p 00021000 fd:00 33665194 /usr/lib64/ld-2.17.so
+7f4f31282000-7f4f31283000 rw-p 00022000 fd:00 33665194 /usr/lib64/ld-2.17.so
+7f4f31283000-7f4f31284000 rw-p 00000000 00:00 0
+7fff2c2fd000-7fff2c31e000 rw-p 00000000 00:00 0 [stack]
+7fff2c37c000-7fff2c37e000 r-xp 00000000 00:00 0 [vdso]
+ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0 [vsyscall]
+Aborted (core dumped)
