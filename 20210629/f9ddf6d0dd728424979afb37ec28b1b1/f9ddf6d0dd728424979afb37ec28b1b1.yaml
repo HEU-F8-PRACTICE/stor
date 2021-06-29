@@ -1,0 +1,2065 @@
+proxies:
+  - {name: 🇨🇳 台湾131572, server: 185.76.9.55, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
+  - {name: 🇨🇳 台湾131764, server: 217.148.143.211, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: 🇨🇳 台湾131944, server: 91.245.254.45, port: 48127, type: ss, cipher: aes-256-gcm, password: GbJva6QYc8MRn7Fwp795zstu}
+  - {name: 🇨🇳 台湾132558, server: 194.39.127.173, port: 32558, type: ss, cipher: aes-256-gcm, password: gJYzm3TLbdL495ryQptaJXQk}
+  - {name: 🇨🇳 台湾132843, server: 45.89.173.203, port: 32843, type: ss, cipher: aes-256-gcm, password: G35YSR2LFNEM9bq2dkjmKQRr}
+  - {name: 🇨🇳 台湾133148, server: 45.129.32.36, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: 🇨🇳 台湾133992, server: 138.199.42.163, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇨🇳 台湾133998, server: 198.8.92.84, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
+  - {name: 🇨🇳 台湾134687, server: 212.102.46.49, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
+  - {name: 🇨🇳 台湾134815, server: 176.227.241.35, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: 🇨🇳 台湾135294, server: 27.131.138.176, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇨🇳 台湾137473, server: 27.131.138.176, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
+  - {name: 🇨🇳 台湾137588, server: 185.124.240.149, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: 🇨🇳 台湾138033, server: 69.30.249.123, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
+  - {name: 🇨🇳 台湾138620, server: 27.131.138.176, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
+  - {name: 🇨🇳 台湾138742, server: 173.237.207.66, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: 🇨🇳 台湾138747, server: 104.244.210.133, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj}
+  - {name: 🇨🇳 台湾139772, server: 45.43.19.82, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
+  - {name: 🇨🇳 台湾140093, server: 27.131.138.176, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇨🇳 台湾140220, server: 207.244.65.17, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
+  - {name: 🇨🇳 台湾144236, server: 84.17.35.103, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
+  - {name: 🇨🇳 台湾144820, server: 173.237.207.66, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
+  - {name: 🇨🇳 台湾145329, server: 207.244.65.17, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
+  - {name: 🇨🇳 台湾149339, server: 84.17.35.103, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: 🇨🇳 台湾149396, server: 104.244.210.133, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: 🇨🇳 台湾231572, server: 195.181.171.233, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
+  - {name: 🇨🇳 台湾231764, server: 138.199.17.132, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: 🇨🇳 台湾231944, server: 193.29.106.21, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇨🇳 台湾232558, server: 138.199.17.132, port: 32558, type: ss, cipher: aes-256-gcm, password: gJYzm3TLbdL495ryQptaJXQk}
+  - {name: 🇨🇳 台湾232843, server: 103.120.66.227, port: 32843, type: ss, cipher: aes-256-gcm, password: G35YSR2LFNEM9bq2dkjmKQRr}
+  - {name: 🇨🇳 台湾233148, server: 82.102.26.173, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: 🇨🇳 台湾233992, server: 82.102.26.173, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇨🇳 台湾233998, server: 195.181.171.233, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
+  - {name: 🇨🇳 台湾234687, server: 81.92.205.117, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
+  - {name: 🇨🇳 台湾234815, server: 81.92.205.117, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: 🇨🇳 台湾235294, server: 61.14.210.237, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇨🇳 台湾237473, server: 91.90.123.205, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
+  - {name: 🇨🇳 台湾237588, server: 61.14.210.237, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 🇨🇳 台湾238033, server: 61.14.210.237, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
+  - {name: 🇨🇳 台湾238620, server: 138.199.16.145, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
+  - {name: 🇨🇳 台湾238742, server: 61.14.210.237, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: 🇨🇳 台湾238747, server: 61.14.210.237, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj}
+  - {name: 🇨🇳 台湾239772, server: 61.14.210.237, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
+  - {name: 🇨🇳 台湾240093, server: 138.199.16.145, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇨🇳 台湾240220, server: 61.14.210.237, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
+  - {name: 🇨🇳 台湾244236, server: 45.133.193.107, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
+  - {name: 🇨🇳 台湾244820, server: 61.14.210.237, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
+  - {name: 🇨🇳 台湾245329, server: 61.14.210.237, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
+  - {name: 🇨🇳 台湾249339, server: 138.199.19.167, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: 🇨🇳 台湾249396, server: 45.133.193.109, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: 🇨🇳 台湾31572, server: 103.152.151.19, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇨🇳 台湾31572 2, server: 103.152.151.5, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇨🇳 台湾31572 3, server: 31.171.155.51, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
+  - {name: 🇨🇳 台湾31572 4, server: 82.102.26.171, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
+  - {name: 🇨🇳 台湾31572 5, server: 193.29.107.235, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
+  - {name: 🇨🇳 台湾31572 6, server: 2.58.242.133, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇨🇳 台湾31572 7, server: 212.102.44.98, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
+  - {name: 🇨🇳 台湾31572 8, server: 198.8.92.84, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
+  - {name: 🇨🇳 台湾31572 9, server: 103.156.51.8, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
+  - {name: 🇨🇳 台湾31572 10, server: 2.58.242.53, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇨🇳 台湾31572 11, server: 191.96.13.202, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
+  - {name: 🇨🇳 台湾31572 12, server: 103.152.151.3, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇨🇳 台湾31764, server: 144.91.123.50, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
+  - {name: 🇨🇳 台湾31764 2, server: 103.152.151.5, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: 🇨🇳 台湾31764 3, server: 2.58.242.133, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: 🇨🇳 台湾31764 4, server: 193.29.107.235, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: 🇨🇳 台湾31764 5, server: 193.29.107.235, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: 🇨🇳 台湾31764 6, server: 5.189.202.16, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: 🇨🇳 台湾31764 7, server: 2.58.242.53, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: 🇨🇳 台湾31764 8, server: 193.37.255.41, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: 🇨🇳 台湾31764 9, server: 191.96.13.202, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: 🇨🇳 台湾31764 10, server: 103.152.151.19, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: 🇨🇳 台湾31764 11, server: 103.152.151.3, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: 🇨🇳 台湾31764 12, server: 89.187.163.132, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: 🇨🇳 台湾31944, server: 2.58.242.133, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇨🇳 台湾31944 2, server: 185.108.105.231, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇨🇳 台湾31944 3, server: 144.91.123.50, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇨🇳 台湾31944 4, server: 103.148.242.170, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇨🇳 台湾31944 5, server: 103.148.242.170, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇨🇳 台湾31944 6, server: 103.152.151.19, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇨🇳 台湾31944 7, server: 89.187.163.132, port: 48127, type: ss, cipher: aes-256-gcm, password: GbJva6QYc8MRn7Fwp795zstu}
+  - {name: 🇨🇳 台湾31944 8, server: 103.152.151.5, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇨🇳 台湾31944 9, server: 138.199.19.139, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇨🇳 台湾31944 10, server: 2.58.242.53, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇨🇳 台湾31944 11, server: 185.153.150.78, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇨🇳 台湾32558, server: 89.187.163.132, port: 32558, type: ss, cipher: aes-256-gcm, password: gJYzm3TLbdL495ryQptaJXQk}
+  - {name: 🇨🇳 台湾32558 2, server: 144.91.123.50, port: 32558, type: ss, cipher: aes-256-gcm, password: gJYzm3TLbdL495ryQptaJXQk}
+  - {name: 🇨🇳 台湾32843, server: 62.212.239.69, port: 32843, type: ss, cipher: aes-256-gcm, password: G35YSR2LFNEM9bq2dkjmKQRr}
+  - {name: 🇨🇳 台湾32843 2, server: 2.58.242.53, port: 32843, type: ss, cipher: aes-256-gcm, password: G35YSR2LFNEM9bq2dkjmKQRr}
+  - {name: 🇨🇳 台湾32843 3, server: 144.91.123.50, port: 32843, type: ss, cipher: aes-256-gcm, password: G35YSR2LFNEM9bq2dkjmKQRr}
+  - {name: 🇨🇳 台湾32843 4, server: 185.108.105.231, port: 32843, type: ss, cipher: aes-256-gcm, password: G35YSR2LFNEM9bq2dkjmKQRr}
+  - {name: 🇨🇳 台湾32843 5, server: 199.10.64.181, port: 32843, type: ss, cipher: aes-256-gcm, password: G35YSR2LFNEM9bq2dkjmKQRr}
+  - {name: 🇨🇳 台湾32843 6, server: 45.83.88.69, port: 32843, type: ss, cipher: aes-256-gcm, password: G35YSR2LFNEM9bq2dkjmKQRr}
+  - {name: 🇨🇳 台湾32843 7, server: 89.187.163.132, port: 32843, type: ss, cipher: aes-256-gcm, password: G35YSR2LFNEM9bq2dkjmKQRr}
+  - {name: 🇨🇳 台湾32843 8, server: 81.19.208.78, port: 32843, type: ss, cipher: aes-256-gcm, password: G35YSR2LFNEM9bq2dkjmKQRr}
+  - {name: 🇨🇳 台湾32843 9, server: 2.58.242.133, port: 32843, type: ss, cipher: aes-256-gcm, password: G35YSR2LFNEM9bq2dkjmKQRr}
+  - {name: 🇨🇳 台湾32843 10, server: 103.152.151.3, port: 32843, type: ss, cipher: aes-256-gcm, password: G35YSR2LFNEM9bq2dkjmKQRr}
+  - {name: 🇨🇳 台湾32843 11, server: 103.152.151.19, port: 32843, type: ss, cipher: aes-256-gcm, password: G35YSR2LFNEM9bq2dkjmKQRr}
+  - {name: 🇨🇳 台湾33148, server: 144.91.123.50, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: 🇨🇳 台湾33148 2, server: 89.187.163.132, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
+  - {name: 🇨🇳 台湾33184, server: 103.152.151.5, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: 🇨🇳 台湾33184 2, server: 191.96.15.88, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: 🇨🇳 台湾33184 3, server: 2.58.242.53, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: 🇨🇳 台湾33184 4, server: 103.152.151.3, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: 🇨🇳 台湾33184 5, server: 103.192.80.227, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: 🇨🇳 台湾33184 6, server: 2.58.242.133, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: 🇨🇳 台湾33184 7, server: 82.102.26.171, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: 🇨🇳 台湾33184 8, server: 82.102.26.93, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: 🇨🇳 台湾33184 9, server: 103.152.151.19, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: 🇨🇳 台湾33184 10, server: 154.16.171.206, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: 🇨🇳 台湾33992, server: 103.152.151.5, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇨🇳 台湾33992 2, server: 185.102.217.169, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇨🇳 台湾33992 3, server: 103.152.151.3, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇨🇳 台湾33992 4, server: 185.153.150.78, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇨🇳 台湾33992 5, server: 144.91.123.50, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇨🇳 台湾33992 6, server: 104.244.210.157, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇨🇳 台湾33992 7, server: 180.149.228.181, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇨🇳 台湾33992 8, server: 103.152.151.19, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇨🇳 台湾33992 9, server: 2.58.242.133, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇨🇳 台湾33992 10, server: 89.187.163.132, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇨🇳 台湾33992 11, server: 2.58.242.53, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇨🇳 台湾33992 12, server: 194.110.115.85, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇨🇳 台湾33998, server: 2.58.242.133, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 🇨🇳 台湾33998 2, server: 191.96.15.88, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
+  - {name: 🇨🇳 台湾33998 3, server: 193.29.106.45, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
+  - {name: 🇨🇳 台湾33998 4, server: 89.187.163.132, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
+  - {name: 🇨🇳 台湾33998 5, server: 173.237.207.58, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
+  - {name: 🇨🇳 台湾33998 6, server: 45.83.88.69, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
+  - {name: 🇨🇳 台湾33998 7, server: 5.189.202.14, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
+  - {name: 🇨🇳 台湾33998 8, server: 103.152.151.19, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 🇨🇳 台湾33998 9, server: 138.199.42.157, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
+  - {name: 🇨🇳 台湾33998 10, server: 103.152.151.5, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 🇨🇳 台湾33998 11, server: 2.58.242.53, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 🇨🇳 台湾34687, server: 89.187.163.132, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
+  - {name: 🇨🇳 台湾34687 2, server: 144.91.123.50, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
+  - {name: 🇨🇳 台湾34815, server: 89.187.163.132, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: 🇨🇳 台湾34815 2, server: 2.58.242.53, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: 🇨🇳 台湾34815 3, server: 81.19.208.78, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: 🇨🇳 台湾34815 4, server: 194.39.127.171, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: 🇨🇳 台湾34815 5, server: 103.156.50.101, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: 🇨🇳 台湾34815 6, server: 144.91.123.50, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: 🇨🇳 台湾34815 7, server: 103.152.151.3, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: 🇨🇳 台湾34815 8, server: 103.152.151.5, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: 🇨🇳 台湾34815 9, server: 212.102.42.196, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: 🇨🇳 台湾34815 10, server: 66.115.147.89, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: 🇨🇳 台湾34815 11, server: 2.58.242.133, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: 🇨🇳 台湾35294, server: 103.152.151.19, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇨🇳 台湾35294 2, server: 194.110.115.85, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇨🇳 台湾35294 3, server: 91.205.230.166, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇨🇳 台湾35294 4, server: 2.58.242.133, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇨🇳 台湾35294 5, server: 198.8.92.84, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇨🇳 台湾35294 6, server: 144.91.123.50, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇨🇳 台湾35294 7, server: 103.152.151.3, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇨🇳 台湾35294 8, server: 103.152.151.5, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇨🇳 台湾35294 9, server: 62.212.239.45, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇨🇳 台湾35294 10, server: 212.102.42.196, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇨🇳 台湾35294 11, server: 185.102.217.169, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇨🇳 台湾35294 12, server: 2.58.242.53, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇨🇳 台湾37473, server: 62.212.239.45, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
+  - {name: 🇨🇳 台湾37473 2, server: 212.102.42.196, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
+  - {name: 🇨🇳 台湾37473 3, server: 91.205.230.166, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
+  - {name: 🇨🇳 台湾37473 4, server: 144.91.123.50, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
+  - {name: 🇨🇳 台湾37473 5, server: 194.33.40.114, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
+  - {name: 🇨🇳 台湾37473 6, server: 2.58.242.53, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
+  - {name: 🇨🇳 台湾37473 7, server: 103.152.151.19, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
+  - {name: 🇨🇳 台湾37473 8, server: 2.58.242.133, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
+  - {name: 🇨🇳 台湾37473 9, server: 198.8.92.84, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
+  - {name: 🇨🇳 台湾37473 10, server: 103.152.151.5, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
+  - {name: 🇨🇳 台湾37473 11, server: 103.152.151.3, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
+  - {name: 🇨🇳 台湾37473 12, server: 45.43.14.75, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
+  - {name: 🇨🇳 台湾37588, server: 2.58.242.133, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 🇨🇳 台湾37588 2, server: 103.152.151.3, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 🇨🇳 台湾37588 3, server: 2.58.242.53, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 🇨🇳 台湾37588 4, server: 194.39.127.171, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 🇨🇳 台湾37588 5, server: 198.8.92.84, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 🇨🇳 台湾37588 6, server: 212.102.42.196, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 🇨🇳 台湾37588 7, server: 144.91.123.50, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 🇨🇳 台湾37588 8, server: 91.245.254.123, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 🇨🇳 台湾37588 9, server: 185.153.151.189, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 🇨🇳 台湾37588 10, server: 103.152.151.5, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 🇨🇳 台湾37588 11, server: 103.152.151.19, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 🇨🇳 台湾37588 12, server: 62.212.239.45, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 🇨🇳 台湾38033, server: 89.187.163.132, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
+  - {name: 🇨🇳 台湾38033 2, server: 103.152.151.3, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
+  - {name: 🇨🇳 台湾38033 3, server: 2.58.242.133, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
+  - {name: 🇨🇳 台湾38033 4, server: 103.152.151.5, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
+  - {name: 🇨🇳 台湾38033 5, server: 45.133.193.117, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
+  - {name: 🇨🇳 台湾38033 6, server: 42.0.30.158, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
+  - {name: 🇨🇳 台湾38033 7, server: 103.152.151.19, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
+  - {name: 🇨🇳 台湾38033 8, server: 176.227.241.35, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
+  - {name: 🇨🇳 台湾38033 9, server: 2.58.242.53, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
+  - {name: 🇨🇳 台湾38033 10, server: 212.102.42.196, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
+  - {name: 🇨🇳 台湾38033 11, server: 37.120.235.205, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
+  - {name: 🇨🇳 台湾38033 12, server: 185.153.151.189, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
+  - {name: 🇨🇳 台湾38620, server: 198.8.92.84, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
+  - {name: 🇨🇳 台湾38620 2, server: 81.19.208.109, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
+  - {name: 🇨🇳 台湾38742, server: 198.8.92.84, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: 🇨🇳 台湾38742 2, server: 37.120.235.69, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: 🇨🇳 台湾38747, server: 103.152.151.3, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj}
+  - {name: 🇨🇳 台湾38747 2, server: 212.102.42.196, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj}
+  - {name: 🇨🇳 台湾38747 3, server: 2.58.242.133, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj}
+  - {name: 🇨🇳 台湾38747 4, server: 103.152.151.5, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj}
+  - {name: 🇨🇳 台湾38747 5, server: 91.203.69.146, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj}
+  - {name: 🇨🇳 台湾38747 6, server: 103.152.151.19, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj}
+  - {name: 🇨🇳 台湾38747 7, server: 138.199.22.143, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj}
+  - {name: 🇨🇳 台湾38747 8, server: 176.227.241.35, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj}
+  - {name: 🇨🇳 台湾38747 9, server: 195.158.249.52, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj}
+  - {name: 🇨🇳 台湾38747 10, server: 212.102.44.98, port: 33998, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
+  - {name: 🇨🇳 台湾38747 11, server: 82.102.26.93, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj}
+  - {name: 🇨🇳 台湾39772, server: 91.245.254.123, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇨🇳 台湾39772 2, server: 62.212.239.45, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇨🇳 台湾39772 3, server: 2.58.242.133, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇨🇳 台湾39772 4, server: 103.152.151.19, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇨🇳 台湾39772 5, server: 103.152.151.5, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇨🇳 台湾39772 6, server: 37.120.235.205, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇨🇳 台湾39772 7, server: 195.158.249.52, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇨🇳 台湾39772 8, server: 198.8.92.84, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
+  - {name: 🇨🇳 台湾39772 9, server: 103.152.151.3, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇨🇳 台湾39772 10, server: 194.33.40.114, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇨🇳 台湾39772 11, server: 212.102.42.196, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇨🇳 台湾39772 12, server: 2.58.242.53, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇨🇳 台湾40093, server: 193.37.255.41, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇨🇳 台湾40093 2, server: 138.199.17.132, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇨🇳 台湾40093 3, server: 103.152.151.19, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇨🇳 台湾40093 4, server: 2.58.242.133, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇨🇳 台湾40093 5, server: 81.19.208.109, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇨🇳 台湾40093 6, server: 2.58.242.53, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇨🇳 台湾40093 7, server: 66.115.147.89, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇨🇳 台湾40093 8, server: 198.8.92.84, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇨🇳 台湾40093 9, server: 103.152.151.3, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇨🇳 台湾40093 10, server: 62.212.239.45, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇨🇳 台湾40093 11, server: 103.152.151.5, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇨🇳 台湾40093 12, server: 138.199.19.139, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇨🇳 台湾40220, server: 45.133.193.117, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
+  - {name: 🇨🇳 台湾40220 2, server: 2.58.242.133, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
+  - {name: 🇨🇳 台湾40220 3, server: 103.152.151.19, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
+  - {name: 🇨🇳 台湾40220 4, server: 62.212.239.45, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
+  - {name: 🇨🇳 台湾40220 5, server: 89.187.163.132, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
+  - {name: 🇨🇳 台湾40220 6, server: 188.92.78.147, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
+  - {name: 🇨🇳 台湾40220 7, server: 212.102.42.196, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
+  - {name: 🇨🇳 台湾40220 8, server: 193.29.106.45, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
+  - {name: 🇨🇳 台湾40220 9, server: 45.43.14.75, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
+  - {name: 🇨🇳 台湾40220 10, server: 103.152.151.5, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
+  - {name: 🇨🇳 台湾40220 11, server: 103.152.151.3, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
+  - {name: 🇨🇳 台湾44236, server: 89.187.163.132, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
+  - {name: 🇨🇳 台湾44236 2, server: 178.239.173.47, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
+  - {name: 🇨🇳 台湾44820, server: 37.120.235.69, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
+  - {name: 🇨🇳 台湾44820 2, server: 198.8.92.84, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
+  - {name: 🇨🇳 台湾45329, server: 188.92.78.147, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
+  - {name: 🇨🇳 台湾45329 2, server: 89.187.163.132, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
+  - {name: 🇨🇳 台湾49339, server: 178.239.173.47, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: 🇨🇳 台湾49339 2, server: 89.187.163.132, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: 🇨🇳 台湾49396, server: 91.203.69.146, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: 🇨🇳 台湾49396 2, server: 198.8.92.84, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+proxy-groups:
+  - name: 🔰模式
+    type: select
+    proxies:
+      - ♻️自动
+      - ✋🏻手动
+      - 🔮均衡
+      - DIRECT
+  - name: ✋🏻手动
+    type: select
+    proxies:
+      - 🇨🇳 台湾131572
+      - 🇨🇳 台湾131764
+      - 🇨🇳 台湾131944
+      - 🇨🇳 台湾132558
+      - 🇨🇳 台湾132843
+      - 🇨🇳 台湾133148
+      - 🇨🇳 台湾133992
+      - 🇨🇳 台湾133998
+      - 🇨🇳 台湾134687
+      - 🇨🇳 台湾134815
+      - 🇨🇳 台湾135294
+      - 🇨🇳 台湾137473
+      - 🇨🇳 台湾137588
+      - 🇨🇳 台湾138033
+      - 🇨🇳 台湾138620
+      - 🇨🇳 台湾138742
+      - 🇨🇳 台湾138747
+      - 🇨🇳 台湾139772
+      - 🇨🇳 台湾140093
+      - 🇨🇳 台湾140220
+      - 🇨🇳 台湾144236
+      - 🇨🇳 台湾144820
+      - 🇨🇳 台湾145329
+      - 🇨🇳 台湾149339
+      - 🇨🇳 台湾149396
+      - 🇨🇳 台湾231572
+      - 🇨🇳 台湾231764
+      - 🇨🇳 台湾231944
+      - 🇨🇳 台湾232558
+      - 🇨🇳 台湾232843
+      - 🇨🇳 台湾233148
+      - 🇨🇳 台湾233992
+      - 🇨🇳 台湾233998
+      - 🇨🇳 台湾234687
+      - 🇨🇳 台湾234815
+      - 🇨🇳 台湾235294
+      - 🇨🇳 台湾237473
+      - 🇨🇳 台湾237588
+      - 🇨🇳 台湾238033
+      - 🇨🇳 台湾238620
+      - 🇨🇳 台湾238742
+      - 🇨🇳 台湾238747
+      - 🇨🇳 台湾239772
+      - 🇨🇳 台湾240093
+      - 🇨🇳 台湾240220
+      - 🇨🇳 台湾244236
+      - 🇨🇳 台湾244820
+      - 🇨🇳 台湾245329
+      - 🇨🇳 台湾249339
+      - 🇨🇳 台湾249396
+      - 🇨🇳 台湾31572
+      - 🇨🇳 台湾31572 2
+      - 🇨🇳 台湾31572 3
+      - 🇨🇳 台湾31572 4
+      - 🇨🇳 台湾31572 5
+      - 🇨🇳 台湾31572 6
+      - 🇨🇳 台湾31572 7
+      - 🇨🇳 台湾31572 8
+      - 🇨🇳 台湾31572 9
+      - 🇨🇳 台湾31572 10
+      - 🇨🇳 台湾31572 11
+      - 🇨🇳 台湾31572 12
+      - 🇨🇳 台湾31764
+      - 🇨🇳 台湾31764 2
+      - 🇨🇳 台湾31764 3
+      - 🇨🇳 台湾31764 4
+      - 🇨🇳 台湾31764 5
+      - 🇨🇳 台湾31764 6
+      - 🇨🇳 台湾31764 7
+      - 🇨🇳 台湾31764 8
+      - 🇨🇳 台湾31764 9
+      - 🇨🇳 台湾31764 10
+      - 🇨🇳 台湾31764 11
+      - 🇨🇳 台湾31764 12
+      - 🇨🇳 台湾31944
+      - 🇨🇳 台湾31944 2
+      - 🇨🇳 台湾31944 3
+      - 🇨🇳 台湾31944 4
+      - 🇨🇳 台湾31944 5
+      - 🇨🇳 台湾31944 6
+      - 🇨🇳 台湾31944 7
+      - 🇨🇳 台湾31944 8
+      - 🇨🇳 台湾31944 9
+      - 🇨🇳 台湾31944 10
+      - 🇨🇳 台湾31944 11
+      - 🇨🇳 台湾32558
+      - 🇨🇳 台湾32558 2
+      - 🇨🇳 台湾32843
+      - 🇨🇳 台湾32843 2
+      - 🇨🇳 台湾32843 3
+      - 🇨🇳 台湾32843 4
+      - 🇨🇳 台湾32843 5
+      - 🇨🇳 台湾32843 6
+      - 🇨🇳 台湾32843 7
+      - 🇨🇳 台湾32843 8
+      - 🇨🇳 台湾32843 9
+      - 🇨🇳 台湾32843 10
+      - 🇨🇳 台湾32843 11
+      - 🇨🇳 台湾33148
+      - 🇨🇳 台湾33148 2
+      - 🇨🇳 台湾33184
+      - 🇨🇳 台湾33184 2
+      - 🇨🇳 台湾33184 3
+      - 🇨🇳 台湾33184 4
+      - 🇨🇳 台湾33184 5
+      - 🇨🇳 台湾33184 6
+      - 🇨🇳 台湾33184 7
+      - 🇨🇳 台湾33184 8
+      - 🇨🇳 台湾33184 9
+      - 🇨🇳 台湾33184 10
+      - 🇨🇳 台湾33992
+      - 🇨🇳 台湾33992 2
+      - 🇨🇳 台湾33992 3
+      - 🇨🇳 台湾33992 4
+      - 🇨🇳 台湾33992 5
+      - 🇨🇳 台湾33992 6
+      - 🇨🇳 台湾33992 7
+      - 🇨🇳 台湾33992 8
+      - 🇨🇳 台湾33992 9
+      - 🇨🇳 台湾33992 10
+      - 🇨🇳 台湾33992 11
+      - 🇨🇳 台湾33992 12
+      - 🇨🇳 台湾33998
+      - 🇨🇳 台湾33998 2
+      - 🇨🇳 台湾33998 3
+      - 🇨🇳 台湾33998 4
+      - 🇨🇳 台湾33998 5
+      - 🇨🇳 台湾33998 6
+      - 🇨🇳 台湾33998 7
+      - 🇨🇳 台湾33998 8
+      - 🇨🇳 台湾33998 9
+      - 🇨🇳 台湾33998 10
+      - 🇨🇳 台湾33998 11
+      - 🇨🇳 台湾34687
+      - 🇨🇳 台湾34687 2
+      - 🇨🇳 台湾34815
+      - 🇨🇳 台湾34815 2
+      - 🇨🇳 台湾34815 3
+      - 🇨🇳 台湾34815 4
+      - 🇨🇳 台湾34815 5
+      - 🇨🇳 台湾34815 6
+      - 🇨🇳 台湾34815 7
+      - 🇨🇳 台湾34815 8
+      - 🇨🇳 台湾34815 9
+      - 🇨🇳 台湾34815 10
+      - 🇨🇳 台湾34815 11
+      - 🇨🇳 台湾35294
+      - 🇨🇳 台湾35294 2
+      - 🇨🇳 台湾35294 3
+      - 🇨🇳 台湾35294 4
+      - 🇨🇳 台湾35294 5
+      - 🇨🇳 台湾35294 6
+      - 🇨🇳 台湾35294 7
+      - 🇨🇳 台湾35294 8
+      - 🇨🇳 台湾35294 9
+      - 🇨🇳 台湾35294 10
+      - 🇨🇳 台湾35294 11
+      - 🇨🇳 台湾35294 12
+      - 🇨🇳 台湾37473
+      - 🇨🇳 台湾37473 2
+      - 🇨🇳 台湾37473 3
+      - 🇨🇳 台湾37473 4
+      - 🇨🇳 台湾37473 5
+      - 🇨🇳 台湾37473 6
+      - 🇨🇳 台湾37473 7
+      - 🇨🇳 台湾37473 8
+      - 🇨🇳 台湾37473 9
+      - 🇨🇳 台湾37473 10
+      - 🇨🇳 台湾37473 11
+      - 🇨🇳 台湾37473 12
+      - 🇨🇳 台湾37588
+      - 🇨🇳 台湾37588 2
+      - 🇨🇳 台湾37588 3
+      - 🇨🇳 台湾37588 4
+      - 🇨🇳 台湾37588 5
+      - 🇨🇳 台湾37588 6
+      - 🇨🇳 台湾37588 7
+      - 🇨🇳 台湾37588 8
+      - 🇨🇳 台湾37588 9
+      - 🇨🇳 台湾37588 10
+      - 🇨🇳 台湾37588 11
+      - 🇨🇳 台湾37588 12
+      - 🇨🇳 台湾38033
+      - 🇨🇳 台湾38033 2
+      - 🇨🇳 台湾38033 3
+      - 🇨🇳 台湾38033 4
+      - 🇨🇳 台湾38033 5
+      - 🇨🇳 台湾38033 6
+      - 🇨🇳 台湾38033 7
+      - 🇨🇳 台湾38033 8
+      - 🇨🇳 台湾38033 9
+      - 🇨🇳 台湾38033 10
+      - 🇨🇳 台湾38033 11
+      - 🇨🇳 台湾38033 12
+      - 🇨🇳 台湾38620
+      - 🇨🇳 台湾38620 2
+      - 🇨🇳 台湾38742
+      - 🇨🇳 台湾38742 2
+      - 🇨🇳 台湾38747
+      - 🇨🇳 台湾38747 2
+      - 🇨🇳 台湾38747 3
+      - 🇨🇳 台湾38747 4
+      - 🇨🇳 台湾38747 5
+      - 🇨🇳 台湾38747 6
+      - 🇨🇳 台湾38747 7
+      - 🇨🇳 台湾38747 8
+      - 🇨🇳 台湾38747 9
+      - 🇨🇳 台湾38747 10
+      - 🇨🇳 台湾38747 11
+      - 🇨🇳 台湾39772
+      - 🇨🇳 台湾39772 2
+      - 🇨🇳 台湾39772 3
+      - 🇨🇳 台湾39772 4
+      - 🇨🇳 台湾39772 5
+      - 🇨🇳 台湾39772 6
+      - 🇨🇳 台湾39772 7
+      - 🇨🇳 台湾39772 8
+      - 🇨🇳 台湾39772 9
+      - 🇨🇳 台湾39772 10
+      - 🇨🇳 台湾39772 11
+      - 🇨🇳 台湾39772 12
+      - 🇨🇳 台湾40093
+      - 🇨🇳 台湾40093 2
+      - 🇨🇳 台湾40093 3
+      - 🇨🇳 台湾40093 4
+      - 🇨🇳 台湾40093 5
+      - 🇨🇳 台湾40093 6
+      - 🇨🇳 台湾40093 7
+      - 🇨🇳 台湾40093 8
+      - 🇨🇳 台湾40093 9
+      - 🇨🇳 台湾40093 10
+      - 🇨🇳 台湾40093 11
+      - 🇨🇳 台湾40093 12
+      - 🇨🇳 台湾40220
+      - 🇨🇳 台湾40220 2
+      - 🇨🇳 台湾40220 3
+      - 🇨🇳 台湾40220 4
+      - 🇨🇳 台湾40220 5
+      - 🇨🇳 台湾40220 6
+      - 🇨🇳 台湾40220 7
+      - 🇨🇳 台湾40220 8
+      - 🇨🇳 台湾40220 9
+      - 🇨🇳 台湾40220 10
+      - 🇨🇳 台湾40220 11
+      - 🇨🇳 台湾44236
+      - 🇨🇳 台湾44236 2
+      - 🇨🇳 台湾44820
+      - 🇨🇳 台湾44820 2
+      - 🇨🇳 台湾45329
+      - 🇨🇳 台湾45329 2
+      - 🇨🇳 台湾49339
+      - 🇨🇳 台湾49339 2
+      - 🇨🇳 台湾49396
+      - 🇨🇳 台湾49396 2
+  - name: 🎯直连
+    type: select
+    proxies:
+      - DIRECT
+      - 🔰模式
+  - name: 🔮均衡
+    type: load-balance
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - 🇨🇳 台湾131572
+      - 🇨🇳 台湾131764
+      - 🇨🇳 台湾131944
+      - 🇨🇳 台湾132558
+      - 🇨🇳 台湾132843
+      - 🇨🇳 台湾133148
+      - 🇨🇳 台湾133992
+      - 🇨🇳 台湾133998
+      - 🇨🇳 台湾134687
+      - 🇨🇳 台湾134815
+      - 🇨🇳 台湾135294
+      - 🇨🇳 台湾137473
+      - 🇨🇳 台湾137588
+      - 🇨🇳 台湾138033
+      - 🇨🇳 台湾138620
+      - 🇨🇳 台湾138742
+      - 🇨🇳 台湾138747
+      - 🇨🇳 台湾139772
+      - 🇨🇳 台湾140093
+      - 🇨🇳 台湾140220
+      - 🇨🇳 台湾144236
+      - 🇨🇳 台湾144820
+      - 🇨🇳 台湾145329
+      - 🇨🇳 台湾149339
+      - 🇨🇳 台湾149396
+      - 🇨🇳 台湾231572
+      - 🇨🇳 台湾231764
+      - 🇨🇳 台湾231944
+      - 🇨🇳 台湾232558
+      - 🇨🇳 台湾232843
+      - 🇨🇳 台湾233148
+      - 🇨🇳 台湾233992
+      - 🇨🇳 台湾233998
+      - 🇨🇳 台湾234687
+      - 🇨🇳 台湾234815
+      - 🇨🇳 台湾235294
+      - 🇨🇳 台湾237473
+      - 🇨🇳 台湾237588
+      - 🇨🇳 台湾238033
+      - 🇨🇳 台湾238620
+      - 🇨🇳 台湾238742
+      - 🇨🇳 台湾238747
+      - 🇨🇳 台湾239772
+      - 🇨🇳 台湾240093
+      - 🇨🇳 台湾240220
+      - 🇨🇳 台湾244236
+      - 🇨🇳 台湾244820
+      - 🇨🇳 台湾245329
+      - 🇨🇳 台湾249339
+      - 🇨🇳 台湾249396
+      - 🇨🇳 台湾31572
+      - 🇨🇳 台湾31572 2
+      - 🇨🇳 台湾31572 3
+      - 🇨🇳 台湾31572 4
+      - 🇨🇳 台湾31572 5
+      - 🇨🇳 台湾31572 6
+      - 🇨🇳 台湾31572 7
+      - 🇨🇳 台湾31572 8
+      - 🇨🇳 台湾31572 9
+      - 🇨🇳 台湾31572 10
+      - 🇨🇳 台湾31572 11
+      - 🇨🇳 台湾31572 12
+      - 🇨🇳 台湾31764
+      - 🇨🇳 台湾31764 2
+      - 🇨🇳 台湾31764 3
+      - 🇨🇳 台湾31764 4
+      - 🇨🇳 台湾31764 5
+      - 🇨🇳 台湾31764 6
+      - 🇨🇳 台湾31764 7
+      - 🇨🇳 台湾31764 8
+      - 🇨🇳 台湾31764 9
+      - 🇨🇳 台湾31764 10
+      - 🇨🇳 台湾31764 11
+      - 🇨🇳 台湾31764 12
+      - 🇨🇳 台湾31944
+      - 🇨🇳 台湾31944 2
+      - 🇨🇳 台湾31944 3
+      - 🇨🇳 台湾31944 4
+      - 🇨🇳 台湾31944 5
+      - 🇨🇳 台湾31944 6
+      - 🇨🇳 台湾31944 7
+      - 🇨🇳 台湾31944 8
+      - 🇨🇳 台湾31944 9
+      - 🇨🇳 台湾31944 10
+      - 🇨🇳 台湾31944 11
+      - 🇨🇳 台湾32558
+      - 🇨🇳 台湾32558 2
+      - 🇨🇳 台湾32843
+      - 🇨🇳 台湾32843 2
+      - 🇨🇳 台湾32843 3
+      - 🇨🇳 台湾32843 4
+      - 🇨🇳 台湾32843 5
+      - 🇨🇳 台湾32843 6
+      - 🇨🇳 台湾32843 7
+      - 🇨🇳 台湾32843 8
+      - 🇨🇳 台湾32843 9
+      - 🇨🇳 台湾32843 10
+      - 🇨🇳 台湾32843 11
+      - 🇨🇳 台湾33148
+      - 🇨🇳 台湾33148 2
+      - 🇨🇳 台湾33184
+      - 🇨🇳 台湾33184 2
+      - 🇨🇳 台湾33184 3
+      - 🇨🇳 台湾33184 4
+      - 🇨🇳 台湾33184 5
+      - 🇨🇳 台湾33184 6
+      - 🇨🇳 台湾33184 7
+      - 🇨🇳 台湾33184 8
+      - 🇨🇳 台湾33184 9
+      - 🇨🇳 台湾33184 10
+      - 🇨🇳 台湾33992
+      - 🇨🇳 台湾33992 2
+      - 🇨🇳 台湾33992 3
+      - 🇨🇳 台湾33992 4
+      - 🇨🇳 台湾33992 5
+      - 🇨🇳 台湾33992 6
+      - 🇨🇳 台湾33992 7
+      - 🇨🇳 台湾33992 8
+      - 🇨🇳 台湾33992 9
+      - 🇨🇳 台湾33992 10
+      - 🇨🇳 台湾33992 11
+      - 🇨🇳 台湾33992 12
+      - 🇨🇳 台湾33998
+      - 🇨🇳 台湾33998 2
+      - 🇨🇳 台湾33998 3
+      - 🇨🇳 台湾33998 4
+      - 🇨🇳 台湾33998 5
+      - 🇨🇳 台湾33998 6
+      - 🇨🇳 台湾33998 7
+      - 🇨🇳 台湾33998 8
+      - 🇨🇳 台湾33998 9
+      - 🇨🇳 台湾33998 10
+      - 🇨🇳 台湾33998 11
+      - 🇨🇳 台湾34687
+      - 🇨🇳 台湾34687 2
+      - 🇨🇳 台湾34815
+      - 🇨🇳 台湾34815 2
+      - 🇨🇳 台湾34815 3
+      - 🇨🇳 台湾34815 4
+      - 🇨🇳 台湾34815 5
+      - 🇨🇳 台湾34815 6
+      - 🇨🇳 台湾34815 7
+      - 🇨🇳 台湾34815 8
+      - 🇨🇳 台湾34815 9
+      - 🇨🇳 台湾34815 10
+      - 🇨🇳 台湾34815 11
+      - 🇨🇳 台湾35294
+      - 🇨🇳 台湾35294 2
+      - 🇨🇳 台湾35294 3
+      - 🇨🇳 台湾35294 4
+      - 🇨🇳 台湾35294 5
+      - 🇨🇳 台湾35294 6
+      - 🇨🇳 台湾35294 7
+      - 🇨🇳 台湾35294 8
+      - 🇨🇳 台湾35294 9
+      - 🇨🇳 台湾35294 10
+      - 🇨🇳 台湾35294 11
+      - 🇨🇳 台湾35294 12
+      - 🇨🇳 台湾37473
+      - 🇨🇳 台湾37473 2
+      - 🇨🇳 台湾37473 3
+      - 🇨🇳 台湾37473 4
+      - 🇨🇳 台湾37473 5
+      - 🇨🇳 台湾37473 6
+      - 🇨🇳 台湾37473 7
+      - 🇨🇳 台湾37473 8
+      - 🇨🇳 台湾37473 9
+      - 🇨🇳 台湾37473 10
+      - 🇨🇳 台湾37473 11
+      - 🇨🇳 台湾37473 12
+      - 🇨🇳 台湾37588
+      - 🇨🇳 台湾37588 2
+      - 🇨🇳 台湾37588 3
+      - 🇨🇳 台湾37588 4
+      - 🇨🇳 台湾37588 5
+      - 🇨🇳 台湾37588 6
+      - 🇨🇳 台湾37588 7
+      - 🇨🇳 台湾37588 8
+      - 🇨🇳 台湾37588 9
+      - 🇨🇳 台湾37588 10
+      - 🇨🇳 台湾37588 11
+      - 🇨🇳 台湾37588 12
+      - 🇨🇳 台湾38033
+      - 🇨🇳 台湾38033 2
+      - 🇨🇳 台湾38033 3
+      - 🇨🇳 台湾38033 4
+      - 🇨🇳 台湾38033 5
+      - 🇨🇳 台湾38033 6
+      - 🇨🇳 台湾38033 7
+      - 🇨🇳 台湾38033 8
+      - 🇨🇳 台湾38033 9
+      - 🇨🇳 台湾38033 10
+      - 🇨🇳 台湾38033 11
+      - 🇨🇳 台湾38033 12
+      - 🇨🇳 台湾38620
+      - 🇨🇳 台湾38620 2
+      - 🇨🇳 台湾38742
+      - 🇨🇳 台湾38742 2
+      - 🇨🇳 台湾38747
+      - 🇨🇳 台湾38747 2
+      - 🇨🇳 台湾38747 3
+      - 🇨🇳 台湾38747 4
+      - 🇨🇳 台湾38747 5
+      - 🇨🇳 台湾38747 6
+      - 🇨🇳 台湾38747 7
+      - 🇨🇳 台湾38747 8
+      - 🇨🇳 台湾38747 9
+      - 🇨🇳 台湾38747 10
+      - 🇨🇳 台湾38747 11
+      - 🇨🇳 台湾39772
+      - 🇨🇳 台湾39772 2
+      - 🇨🇳 台湾39772 3
+      - 🇨🇳 台湾39772 4
+      - 🇨🇳 台湾39772 5
+      - 🇨🇳 台湾39772 6
+      - 🇨🇳 台湾39772 7
+      - 🇨🇳 台湾39772 8
+      - 🇨🇳 台湾39772 9
+      - 🇨🇳 台湾39772 10
+      - 🇨🇳 台湾39772 11
+      - 🇨🇳 台湾39772 12
+      - 🇨🇳 台湾40093
+      - 🇨🇳 台湾40093 2
+      - 🇨🇳 台湾40093 3
+      - 🇨🇳 台湾40093 4
+      - 🇨🇳 台湾40093 5
+      - 🇨🇳 台湾40093 6
+      - 🇨🇳 台湾40093 7
+      - 🇨🇳 台湾40093 8
+      - 🇨🇳 台湾40093 9
+      - 🇨🇳 台湾40093 10
+      - 🇨🇳 台湾40093 11
+      - 🇨🇳 台湾40093 12
+      - 🇨🇳 台湾40220
+      - 🇨🇳 台湾40220 2
+      - 🇨🇳 台湾40220 3
+      - 🇨🇳 台湾40220 4
+      - 🇨🇳 台湾40220 5
+      - 🇨🇳 台湾40220 6
+      - 🇨🇳 台湾40220 7
+      - 🇨🇳 台湾40220 8
+      - 🇨🇳 台湾40220 9
+      - 🇨🇳 台湾40220 10
+      - 🇨🇳 台湾40220 11
+      - 🇨🇳 台湾44236
+      - 🇨🇳 台湾44236 2
+      - 🇨🇳 台湾44820
+      - 🇨🇳 台湾44820 2
+      - 🇨🇳 台湾45329
+      - 🇨🇳 台湾45329 2
+      - 🇨🇳 台湾49339
+      - 🇨🇳 台湾49339 2
+      - 🇨🇳 台湾49396
+      - 🇨🇳 台湾49396 2
+  - name: ♻️自动
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - 🇨🇳 台湾131572
+      - 🇨🇳 台湾131764
+      - 🇨🇳 台湾131944
+      - 🇨🇳 台湾132558
+      - 🇨🇳 台湾132843
+      - 🇨🇳 台湾133148
+      - 🇨🇳 台湾133992
+      - 🇨🇳 台湾133998
+      - 🇨🇳 台湾134687
+      - 🇨🇳 台湾134815
+      - 🇨🇳 台湾135294
+      - 🇨🇳 台湾137473
+      - 🇨🇳 台湾137588
+      - 🇨🇳 台湾138033
+      - 🇨🇳 台湾138620
+      - 🇨🇳 台湾138742
+      - 🇨🇳 台湾138747
+      - 🇨🇳 台湾139772
+      - 🇨🇳 台湾140093
+      - 🇨🇳 台湾140220
+      - 🇨🇳 台湾144236
+      - 🇨🇳 台湾144820
+      - 🇨🇳 台湾145329
+      - 🇨🇳 台湾149339
+      - 🇨🇳 台湾149396
+      - 🇨🇳 台湾231572
+      - 🇨🇳 台湾231764
+      - 🇨🇳 台湾231944
+      - 🇨🇳 台湾232558
+      - 🇨🇳 台湾232843
+      - 🇨🇳 台湾233148
+      - 🇨🇳 台湾233992
+      - 🇨🇳 台湾233998
+      - 🇨🇳 台湾234687
+      - 🇨🇳 台湾234815
+      - 🇨🇳 台湾235294
+      - 🇨🇳 台湾237473
+      - 🇨🇳 台湾237588
+      - 🇨🇳 台湾238033
+      - 🇨🇳 台湾238620
+      - 🇨🇳 台湾238742
+      - 🇨🇳 台湾238747
+      - 🇨🇳 台湾239772
+      - 🇨🇳 台湾240093
+      - 🇨🇳 台湾240220
+      - 🇨🇳 台湾244236
+      - 🇨🇳 台湾244820
+      - 🇨🇳 台湾245329
+      - 🇨🇳 台湾249339
+      - 🇨🇳 台湾249396
+      - 🇨🇳 台湾31572
+      - 🇨🇳 台湾31572 2
+      - 🇨🇳 台湾31572 3
+      - 🇨🇳 台湾31572 4
+      - 🇨🇳 台湾31572 5
+      - 🇨🇳 台湾31572 6
+      - 🇨🇳 台湾31572 7
+      - 🇨🇳 台湾31572 8
+      - 🇨🇳 台湾31572 9
+      - 🇨🇳 台湾31572 10
+      - 🇨🇳 台湾31572 11
+      - 🇨🇳 台湾31572 12
+      - 🇨🇳 台湾31764
+      - 🇨🇳 台湾31764 2
+      - 🇨🇳 台湾31764 3
+      - 🇨🇳 台湾31764 4
+      - 🇨🇳 台湾31764 5
+      - 🇨🇳 台湾31764 6
+      - 🇨🇳 台湾31764 7
+      - 🇨🇳 台湾31764 8
+      - 🇨🇳 台湾31764 9
+      - 🇨🇳 台湾31764 10
+      - 🇨🇳 台湾31764 11
+      - 🇨🇳 台湾31764 12
+      - 🇨🇳 台湾31944
+      - 🇨🇳 台湾31944 2
+      - 🇨🇳 台湾31944 3
+      - 🇨🇳 台湾31944 4
+      - 🇨🇳 台湾31944 5
+      - 🇨🇳 台湾31944 6
+      - 🇨🇳 台湾31944 7
+      - 🇨🇳 台湾31944 8
+      - 🇨🇳 台湾31944 9
+      - 🇨🇳 台湾31944 10
+      - 🇨🇳 台湾31944 11
+      - 🇨🇳 台湾32558
+      - 🇨🇳 台湾32558 2
+      - 🇨🇳 台湾32843
+      - 🇨🇳 台湾32843 2
+      - 🇨🇳 台湾32843 3
+      - 🇨🇳 台湾32843 4
+      - 🇨🇳 台湾32843 5
+      - 🇨🇳 台湾32843 6
+      - 🇨🇳 台湾32843 7
+      - 🇨🇳 台湾32843 8
+      - 🇨🇳 台湾32843 9
+      - 🇨🇳 台湾32843 10
+      - 🇨🇳 台湾32843 11
+      - 🇨🇳 台湾33148
+      - 🇨🇳 台湾33148 2
+      - 🇨🇳 台湾33184
+      - 🇨🇳 台湾33184 2
+      - 🇨🇳 台湾33184 3
+      - 🇨🇳 台湾33184 4
+      - 🇨🇳 台湾33184 5
+      - 🇨🇳 台湾33184 6
+      - 🇨🇳 台湾33184 7
+      - 🇨🇳 台湾33184 8
+      - 🇨🇳 台湾33184 9
+      - 🇨🇳 台湾33184 10
+      - 🇨🇳 台湾33992
+      - 🇨🇳 台湾33992 2
+      - 🇨🇳 台湾33992 3
+      - 🇨🇳 台湾33992 4
+      - 🇨🇳 台湾33992 5
+      - 🇨🇳 台湾33992 6
+      - 🇨🇳 台湾33992 7
+      - 🇨🇳 台湾33992 8
+      - 🇨🇳 台湾33992 9
+      - 🇨🇳 台湾33992 10
+      - 🇨🇳 台湾33992 11
+      - 🇨🇳 台湾33992 12
+      - 🇨🇳 台湾33998
+      - 🇨🇳 台湾33998 2
+      - 🇨🇳 台湾33998 3
+      - 🇨🇳 台湾33998 4
+      - 🇨🇳 台湾33998 5
+      - 🇨🇳 台湾33998 6
+      - 🇨🇳 台湾33998 7
+      - 🇨🇳 台湾33998 8
+      - 🇨🇳 台湾33998 9
+      - 🇨🇳 台湾33998 10
+      - 🇨🇳 台湾33998 11
+      - 🇨🇳 台湾34687
+      - 🇨🇳 台湾34687 2
+      - 🇨🇳 台湾34815
+      - 🇨🇳 台湾34815 2
+      - 🇨🇳 台湾34815 3
+      - 🇨🇳 台湾34815 4
+      - 🇨🇳 台湾34815 5
+      - 🇨🇳 台湾34815 6
+      - 🇨🇳 台湾34815 7
+      - 🇨🇳 台湾34815 8
+      - 🇨🇳 台湾34815 9
+      - 🇨🇳 台湾34815 10
+      - 🇨🇳 台湾34815 11
+      - 🇨🇳 台湾35294
+      - 🇨🇳 台湾35294 2
+      - 🇨🇳 台湾35294 3
+      - 🇨🇳 台湾35294 4
+      - 🇨🇳 台湾35294 5
+      - 🇨🇳 台湾35294 6
+      - 🇨🇳 台湾35294 7
+      - 🇨🇳 台湾35294 8
+      - 🇨🇳 台湾35294 9
+      - 🇨🇳 台湾35294 10
+      - 🇨🇳 台湾35294 11
+      - 🇨🇳 台湾35294 12
+      - 🇨🇳 台湾37473
+      - 🇨🇳 台湾37473 2
+      - 🇨🇳 台湾37473 3
+      - 🇨🇳 台湾37473 4
+      - 🇨🇳 台湾37473 5
+      - 🇨🇳 台湾37473 6
+      - 🇨🇳 台湾37473 7
+      - 🇨🇳 台湾37473 8
+      - 🇨🇳 台湾37473 9
+      - 🇨🇳 台湾37473 10
+      - 🇨🇳 台湾37473 11
+      - 🇨🇳 台湾37473 12
+      - 🇨🇳 台湾37588
+      - 🇨🇳 台湾37588 2
+      - 🇨🇳 台湾37588 3
+      - 🇨🇳 台湾37588 4
+      - 🇨🇳 台湾37588 5
+      - 🇨🇳 台湾37588 6
+      - 🇨🇳 台湾37588 7
+      - 🇨🇳 台湾37588 8
+      - 🇨🇳 台湾37588 9
+      - 🇨🇳 台湾37588 10
+      - 🇨🇳 台湾37588 11
+      - 🇨🇳 台湾37588 12
+      - 🇨🇳 台湾38033
+      - 🇨🇳 台湾38033 2
+      - 🇨🇳 台湾38033 3
+      - 🇨🇳 台湾38033 4
+      - 🇨🇳 台湾38033 5
+      - 🇨🇳 台湾38033 6
+      - 🇨🇳 台湾38033 7
+      - 🇨🇳 台湾38033 8
+      - 🇨🇳 台湾38033 9
+      - 🇨🇳 台湾38033 10
+      - 🇨🇳 台湾38033 11
+      - 🇨🇳 台湾38033 12
+      - 🇨🇳 台湾38620
+      - 🇨🇳 台湾38620 2
+      - 🇨🇳 台湾38742
+      - 🇨🇳 台湾38742 2
+      - 🇨🇳 台湾38747
+      - 🇨🇳 台湾38747 2
+      - 🇨🇳 台湾38747 3
+      - 🇨🇳 台湾38747 4
+      - 🇨🇳 台湾38747 5
+      - 🇨🇳 台湾38747 6
+      - 🇨🇳 台湾38747 7
+      - 🇨🇳 台湾38747 8
+      - 🇨🇳 台湾38747 9
+      - 🇨🇳 台湾38747 10
+      - 🇨🇳 台湾38747 11
+      - 🇨🇳 台湾39772
+      - 🇨🇳 台湾39772 2
+      - 🇨🇳 台湾39772 3
+      - 🇨🇳 台湾39772 4
+      - 🇨🇳 台湾39772 5
+      - 🇨🇳 台湾39772 6
+      - 🇨🇳 台湾39772 7
+      - 🇨🇳 台湾39772 8
+      - 🇨🇳 台湾39772 9
+      - 🇨🇳 台湾39772 10
+      - 🇨🇳 台湾39772 11
+      - 🇨🇳 台湾39772 12
+      - 🇨🇳 台湾40093
+      - 🇨🇳 台湾40093 2
+      - 🇨🇳 台湾40093 3
+      - 🇨🇳 台湾40093 4
+      - 🇨🇳 台湾40093 5
+      - 🇨🇳 台湾40093 6
+      - 🇨🇳 台湾40093 7
+      - 🇨🇳 台湾40093 8
+      - 🇨🇳 台湾40093 9
+      - 🇨🇳 台湾40093 10
+      - 🇨🇳 台湾40093 11
+      - 🇨🇳 台湾40093 12
+      - 🇨🇳 台湾40220
+      - 🇨🇳 台湾40220 2
+      - 🇨🇳 台湾40220 3
+      - 🇨🇳 台湾40220 4
+      - 🇨🇳 台湾40220 5
+      - 🇨🇳 台湾40220 6
+      - 🇨🇳 台湾40220 7
+      - 🇨🇳 台湾40220 8
+      - 🇨🇳 台湾40220 9
+      - 🇨🇳 台湾40220 10
+      - 🇨🇳 台湾40220 11
+      - 🇨🇳 台湾44236
+      - 🇨🇳 台湾44236 2
+      - 🇨🇳 台湾44820
+      - 🇨🇳 台湾44820 2
+      - 🇨🇳 台湾45329
+      - 🇨🇳 台湾45329 2
+      - 🇨🇳 台湾49339
+      - 🇨🇳 台湾49339 2
+      - 🇨🇳 台湾49396
+      - 🇨🇳 台湾49396 2
+rules:
+  - DOMAIN-SUFFIX,acl4.ssr,🎯直连
+  - DOMAIN-SUFFIX,ip6-localhost,🎯直连
+  - DOMAIN-SUFFIX,ip6-loopback,🎯直连
+  - DOMAIN-SUFFIX,local,🎯直连
+  - DOMAIN-SUFFIX,localhost,🎯直连
+  - IP-CIDR,10.0.0.0/8,🎯直连,no-resolve
+  - IP-CIDR,100.64.0.0/10,🎯直连,no-resolve
+  - IP-CIDR,127.0.0.0/8,🎯直连,no-resolve
+  - IP-CIDR,172.16.0.0/12,🎯直连,no-resolve
+  - IP-CIDR,192.168.0.0/16,🎯直连,no-resolve
+  - IP-CIDR,198.18.0.0/16,🎯直连,no-resolve
+  - IP-CIDR6,::1/128,🎯直连,no-resolve
+  - IP-CIDR6,fc00::/7,🎯直连,no-resolve
+  - IP-CIDR6,fe80::/10,🎯直连,no-resolve
+  - IP-CIDR6,fd00::/8,🎯直连,no-resolve
+  - DOMAIN,router.asus.com,🎯直连
+  - DOMAIN-SUFFIX,hiwifi.com,🎯直连
+  - DOMAIN-SUFFIX,leike.cc,🎯直连
+  - DOMAIN-SUFFIX,miwifi.com,🎯直连
+  - DOMAIN-SUFFIX,my.router,🎯直连
+  - DOMAIN-SUFFIX,p.to,🎯直连
+  - DOMAIN-SUFFIX,peiluyou.com,🎯直连
+  - DOMAIN-SUFFIX,phicomm.me,🎯直连
+  - DOMAIN-SUFFIX,routerlogin.com,🎯直连
+  - DOMAIN-SUFFIX,tendawifi.com,🎯直连
+  - DOMAIN-SUFFIX,zte.home,🎯直连
+  - DOMAIN-SUFFIX,ol.epicgames.com,🎯直连
+  - DOMAIN-SUFFIX,dizhensubao.getui.com,🎯直连
+  - DOMAIN,dl.google.com,🎯直连
+  - DOMAIN-SUFFIX,googletraveladservices.com,🎯直连
+  - DOMAIN-SUFFIX,tracking-protection.cdn.mozilla.net,🎯直连
+  - DOMAIN,origin-a.akamaihd.net,🎯直连
+  - DOMAIN,livew.l.qq.com,🎯直连
+  - DOMAIN,vd.l.qq.com,🎯直连
+  - DOMAIN,analytics.strava.com,🎯直连
+  - DOMAIN,msg.umeng.com,🎯直连
+  - DOMAIN,msg.umengcloud.com,🎯直连
+  - DOMAIN,tracking.miui.com,🎯直连
+  - DOMAIN,app.adjust.com,🎯直连
+  - DOMAIN,bdtj.tagtic.cn,🎯直连
+  - DOMAIN-SUFFIX,265.com,🎯直连
+  - DOMAIN-SUFFIX,2mdn.net,🎯直连
+  - DOMAIN-SUFFIX,alt1-mtalk.google.com,🎯直连
+  - DOMAIN-SUFFIX,alt2-mtalk.google.com,🎯直连
+  - DOMAIN-SUFFIX,alt3-mtalk.google.com,🎯直连
+  - DOMAIN-SUFFIX,alt4-mtalk.google.com,🎯直连
+  - DOMAIN-SUFFIX,alt5-mtalk.google.com,🎯直连
+  - DOMAIN-SUFFIX,alt6-mtalk.google.com,🎯直连
+  - DOMAIN-SUFFIX,alt7-mtalk.google.com,🎯直连
+  - DOMAIN-SUFFIX,alt8-mtalk.google.com,🎯直连
+  - DOMAIN-SUFFIX,app-measurement.com,🎯直连
+  - DOMAIN-SUFFIX,c.android.clients.google.com,🎯直连
+  - DOMAIN-SUFFIX,cache.pack.google.com,🎯直连
+  - DOMAIN-SUFFIX,clickserve.dartsearch.net,🎯直连
+  - DOMAIN-SUFFIX,clientservices.googleapis.com,🎯直连
+  - DOMAIN-SUFFIX,crl.pki.goog,🎯直连
+  - DOMAIN-SUFFIX,dl.google.com,🎯直连
+  - DOMAIN-SUFFIX,dl.l.google.com,🎯直连
+  - DOMAIN-SUFFIX,fonts.googleapis.com,🎯直连
+  - DOMAIN-SUFFIX,fonts.gstatic.com,🎯直连
+  - DOMAIN-SUFFIX,googletagmanager.com,🎯直连
+  - DOMAIN-SUFFIX,googletagservices.com,🎯直连
+  - DOMAIN-SUFFIX,gtm.oasisfeng.com,🎯直连
+  - DOMAIN-SUFFIX,imasdk.googleapis.com,🎯直连
+  - DOMAIN-SUFFIX,mtalk.google.com,🎯直连
+  - DOMAIN-SUFFIX,ocsp.pki.goog,🎯直连
+  - DOMAIN-SUFFIX,recaptcha.net,🎯直连
+  - DOMAIN-SUFFIX,redirector.gvt1.com,🎯直连
+  - DOMAIN-SUFFIX,safebrowsing-cache.google.com,🎯直连
+  - DOMAIN-SUFFIX,safebrowsing.googleapis.com,🎯直连
+  - DOMAIN-SUFFIX,settings.crashlytics.com,🎯直连
+  - DOMAIN-SUFFIX,ssl-google-analytics.l.google.com,🎯直连
+  - DOMAIN-SUFFIX,ssl.gstatic.com,🎯直连
+  - DOMAIN-SUFFIX,toolbarqueries.google.com,🎯直连
+  - DOMAIN-SUFFIX,tools.google.com,🎯直连
+  - DOMAIN-SUFFIX,tools.l.google.com,🎯直连
+  - DOMAIN-SUFFIX,update.googleapis.com,🎯直连
+  - DOMAIN-SUFFIX,www-googletagmanager.l.google.com,🎯直连
+  - DOMAIN-SUFFIX,www.gstatic.com,🎯直连
+  - DOMAIN-SUFFIX,423down.com,🎯直连
+  - DOMAIN-SUFFIX,bokecc.com,🎯直连
+  - DOMAIN-SUFFIX,chaipip.com,🎯直连
+  - DOMAIN-SUFFIX,chinaplay.store,🎯直连
+  - DOMAIN-SUFFIX,hrtsea.com,🎯直连
+  - DOMAIN-SUFFIX,kaikeba.com,🎯直连
+  - DOMAIN-SUFFIX,laomo.me,🎯直连
+  - DOMAIN-SUFFIX,mpyit.com,🎯直连
+  - DOMAIN-SUFFIX,cn,🎯直连
+  - DOMAIN-SUFFIX,中国,🎯直连
+  - DOMAIN-SUFFIX,公司,🎯直连
+  - DOMAIN-SUFFIX,网络,🎯直连
+  - DOMAIN-KEYWORD,-cn,🎯直连
+  - DOMAIN-KEYWORD,360buy,🎯直连
+  - DOMAIN-KEYWORD,alicdn,🎯直连
+  - DOMAIN-KEYWORD,alimama,🎯直连
+  - DOMAIN-KEYWORD,alipay,🎯直连
+  - DOMAIN-KEYWORD,appzapp,🎯直连
+  - DOMAIN-KEYWORD,baidupcs,🎯直连
+  - DOMAIN-KEYWORD,bilibili,🎯直连
+  - DOMAIN-KEYWORD,ccgslb,🎯直连
+  - DOMAIN-KEYWORD,chinacache,🎯直连
+  - DOMAIN-KEYWORD,duobao,🎯直连
+  - DOMAIN-KEYWORD,duolingo,🎯直连
+  - DOMAIN-KEYWORD,jdpay,🎯直连
+  - DOMAIN-KEYWORD,moke,🎯直连
+  - DOMAIN-KEYWORD,qhimg,🎯直连
+  - DOMAIN-KEYWORD,vpimg,🎯直连
+  - DOMAIN-KEYWORD,xiami,🎯直连
+  - DOMAIN-KEYWORD,xiaomi,🎯直连
+  - DOMAIN-SUFFIX,360.com,🎯直连
+  - DOMAIN-SUFFIX,360kuai.com,🎯直连
+  - DOMAIN-SUFFIX,360safe.com,🎯直连
+  - DOMAIN-SUFFIX,dhrest.com,🎯直连
+  - DOMAIN-SUFFIX,qhres.com,🎯直连
+  - DOMAIN-SUFFIX,qhstatic.com,🎯直连
+  - DOMAIN-SUFFIX,qhupdate.com,🎯直连
+  - DOMAIN-SUFFIX,so.com,🎯直连
+  - DOMAIN-SUFFIX,4399.com,🎯直连
+  - DOMAIN-SUFFIX,4399pk.com,🎯直连
+  - DOMAIN-SUFFIX,5054399.com,🎯直连
+  - DOMAIN-SUFFIX,img4399.com,🎯直连
+  - DOMAIN-SUFFIX,58.com,🎯直连
+  - DOMAIN-SUFFIX,1688.com,🎯直连
+  - DOMAIN-SUFFIX,aliapp.org,🎯直连
+  - DOMAIN-SUFFIX,alibaba.com,🎯直连
+  - DOMAIN-SUFFIX,alibabacloud.com,🎯直连
+  - DOMAIN-SUFFIX,alibabausercontent.com,🎯直连
+  - DOMAIN-SUFFIX,alicdn.com,🎯直连
+  - DOMAIN-SUFFIX,alicloudccp.com,🎯直连
+  - DOMAIN-SUFFIX,aliexpress.com,🎯直连
+  - DOMAIN-SUFFIX,aliimg.com,🎯直连
+  - DOMAIN-SUFFIX,alikunlun.com,🎯直连
+  - DOMAIN-SUFFIX,alipay.com,🎯直连
+  - DOMAIN-SUFFIX,alipayobjects.com,🎯直连
+  - DOMAIN-SUFFIX,alisoft.com,🎯直连
+  - DOMAIN-SUFFIX,aliyun.com,🎯直连
+  - DOMAIN-SUFFIX,aliyuncdn.com,🎯直连
+  - DOMAIN-SUFFIX,aliyuncs.com,🎯直连
+  - DOMAIN-SUFFIX,aliyundrive.com,🎯直连
+  - DOMAIN-SUFFIX,amap.com,🎯直连
+  - DOMAIN-SUFFIX,autonavi.com,🎯直连
+  - DOMAIN-SUFFIX,dingtalk.com,🎯直连
+  - DOMAIN-SUFFIX,ele.me,🎯直连
+  - DOMAIN-SUFFIX,hichina.com,🎯直连
+  - DOMAIN-SUFFIX,mmstat.com,🎯直连
+  - DOMAIN-SUFFIX,mxhichina.com,🎯直连
+  - DOMAIN-SUFFIX,soku.com,🎯直连
+  - DOMAIN-SUFFIX,taobao.com,🎯直连
+  - DOMAIN-SUFFIX,taobaocdn.com,🎯直连
+  - DOMAIN-SUFFIX,tbcache.com,🎯直连
+  - DOMAIN-SUFFIX,tbcdn.com,🎯直连
+  - DOMAIN-SUFFIX,tmall.com,🎯直连
+  - DOMAIN-SUFFIX,tmall.hk,🎯直连
+  - DOMAIN-SUFFIX,ucweb.com,🎯直连
+  - DOMAIN-SUFFIX,xiami.com,🎯直连
+  - DOMAIN-SUFFIX,xiami.net,🎯直连
+  - DOMAIN-SUFFIX,ykimg.com,🎯直连
+  - DOMAIN-SUFFIX,youku.com,🎯直连
+  - DOMAIN-SUFFIX,baidu.com,🎯直连
+  - DOMAIN-SUFFIX,baidubcr.com,🎯直连
+  - DOMAIN-SUFFIX,baidupcs.com,🎯直连
+  - DOMAIN-SUFFIX,baidustatic.com,🎯直连
+  - DOMAIN-SUFFIX,bcebos.com,🎯直连
+  - DOMAIN-SUFFIX,bdimg.com,🎯直连
+  - DOMAIN-SUFFIX,bdstatic.com,🎯直连
+  - DOMAIN-SUFFIX,bdurl.net,🎯直连
+  - DOMAIN-SUFFIX,hao123.com,🎯直连
+  - DOMAIN-SUFFIX,hao123img.com,🎯直连
+  - DOMAIN-SUFFIX,jomodns.com,🎯直连
+  - DOMAIN-SUFFIX,yunjiasu-cdn.net,🎯直连
+  - DOMAIN-SUFFIX,acg.tv,🎯直连
+  - DOMAIN-SUFFIX,acgvideo.com,🎯直连
+  - DOMAIN-SUFFIX,b23.tv,🎯直连
+  - DOMAIN-SUFFIX,bigfun.cn,🎯直连
+  - DOMAIN-SUFFIX,bigfunapp.cn,🎯直连
+  - DOMAIN-SUFFIX,biliapi.com,🎯直连
+  - DOMAIN-SUFFIX,biliapi.net,🎯直连
+  - DOMAIN-SUFFIX,bilibili.com,🎯直连
+  - DOMAIN-SUFFIX,bilibili.tv,🎯直连
+  - DOMAIN-SUFFIX,biligame.com,🎯直连
+  - DOMAIN-SUFFIX,biligame.net,🎯直连
+  - DOMAIN-SUFFIX,bilivideo.com,🎯直连
+  - DOMAIN-SUFFIX,bilivideo.cn,🎯直连
+  - DOMAIN-SUFFIX,hdslb.com,🎯直连
+  - DOMAIN-SUFFIX,im9.com,🎯直连
+  - DOMAIN-SUFFIX,smtcdns.net,🎯直连
+  - DOMAIN-SUFFIX,battle.net,🎯直连
+  - DOMAIN-SUFFIX,battlenet.com,🎯直连
+  - DOMAIN-SUFFIX,blizzard.com,🎯直连
+  - DOMAIN-SUFFIX,bytedance.com,🎯直连
+  - DOMAIN-SUFFIX,bytedance.net,🎯直连
+  - DOMAIN-SUFFIX,bytedns.net,🎯直连
+  - DOMAIN-SUFFIX,byteimg.com,🎯直连
+  - DOMAIN-SUFFIX,feiliao.com,🎯直连
+  - DOMAIN-SUFFIX,gifshow.com,🎯直连
+  - DOMAIN-SUFFIX,huoshan.com,🎯直连
+  - DOMAIN-SUFFIX,iesdouyin.com,🎯直连
+  - DOMAIN-SUFFIX,ixigua.com,🎯直连
+  - DOMAIN-SUFFIX,kspkg.com,🎯直连
+  - DOMAIN-SUFFIX,pstatp.com,🎯直连
+  - DOMAIN-SUFFIX,snssdk.com,🎯直连
+  - DOMAIN-SUFFIX,toutiao.com,🎯直连
+  - DOMAIN-SUFFIX,toutiao13.com,🎯直连
+  - DOMAIN-SUFFIX,toutiaocdn.com,🎯直连
+  - DOMAIN-SUFFIX,toutiaocdn.net,🎯直连
+  - DOMAIN-SUFFIX,toutiaocloud.com,🎯直连
+  - DOMAIN-SUFFIX,toutiaohao.com,🎯直连
+  - DOMAIN-SUFFIX,toutiaohao.net,🎯直连
+  - DOMAIN-SUFFIX,toutiaoimg.com,🎯直连
+  - DOMAIN-SUFFIX,toutiaopage.com,🎯直连
+  - DOMAIN-SUFFIX,wukong.com,🎯直连
+  - DOMAIN-SUFFIX,zijieimg.com,🎯直连
+  - DOMAIN-SUFFIX,zjbyte.com,🎯直连
+  - DOMAIN-SUFFIX,zjcdn.com,🎯直连
+  - DOMAIN-SUFFIX,cctv.com,🎯直连
+  - DOMAIN-SUFFIX,cctvpic.com,🎯直连
+  - DOMAIN-SUFFIX,livechina.com,🎯直连
+  - DOMAIN-SUFFIX,21cn.com,🎯直连
+  - DOMAIN-SUFFIX,didialift.com,🎯直连
+  - DOMAIN-SUFFIX,didiglobal.com,🎯直连
+  - DOMAIN-SUFFIX,udache.com,🎯直连
+  - DOMAIN-SUFFIX,douyu.com,🎯直连
+  - DOMAIN-SUFFIX,douyu.tv,🎯直连
+  - DOMAIN-SUFFIX,douyuscdn.com,🎯直连
+  - DOMAIN-SUFFIX,douyutv.com,🎯直连
+  - DOMAIN-SUFFIX,epicgames.com,🎯直连
+  - DOMAIN-SUFFIX,helpshift.com,🎯直连
+  - DOMAIN-SUFFIX,paragon.com,🎯直连
+  - DOMAIN-SUFFIX,unrealengine.com,🎯直连
+  - DOMAIN-SUFFIX,dbankcdn.com,🎯直连
+  - DOMAIN-SUFFIX,hc-cdn.com,🎯直连
+  - DOMAIN-SUFFIX,hicloud.com,🎯直连
+  - DOMAIN-SUFFIX,huawei.com,🎯直连
+  - DOMAIN-SUFFIX,huaweicloud.com,🎯直连
+  - DOMAIN-SUFFIX,huaweishop.net,🎯直连
+  - DOMAIN-SUFFIX,hwccpc.com,🎯直连
+  - DOMAIN-SUFFIX,vmall.com,🎯直连
+  - DOMAIN-SUFFIX,vmallres.com,🎯直连
+  - DOMAIN-SUFFIX,iflyink.com,🎯直连
+  - DOMAIN-SUFFIX,iflyrec.com,🎯直连
+  - DOMAIN-SUFFIX,iflytek.com,🎯直连
+  - DOMAIN-SUFFIX,71.am,🎯直连
+  - DOMAIN-SUFFIX,71edge.com,🎯直连
+  - DOMAIN-SUFFIX,iqiyi.com,🎯直连
+  - DOMAIN-SUFFIX,iqiyipic.com,🎯直连
+  - DOMAIN-SUFFIX,ppsimg.com,🎯直连
+  - DOMAIN-SUFFIX,qiyi.com,🎯直连
+  - DOMAIN-SUFFIX,qiyipic.com,🎯直连
+  - DOMAIN-SUFFIX,qy.net,🎯直连
+  - DOMAIN-SUFFIX,360buy.com,🎯直连
+  - DOMAIN-SUFFIX,360buyimg.com,🎯直连
+  - DOMAIN-SUFFIX,jcloudcs.com,🎯直连
+  - DOMAIN-SUFFIX,jd.com,🎯直连
+  - DOMAIN-SUFFIX,jd.hk,🎯直连
+  - DOMAIN-SUFFIX,jdcloud.com,🎯直连
+  - DOMAIN-SUFFIX,jdpay.com,🎯直连
+  - DOMAIN-SUFFIX,paipai.com,🎯直连
+  - DOMAIN-SUFFIX,iciba.com,🎯直连
+  - DOMAIN-SUFFIX,ksosoft.com,🎯直连
+  - DOMAIN-SUFFIX,ksyun.com,🎯直连
+  - DOMAIN-SUFFIX,kuaishou.com,🎯直连
+  - DOMAIN-SUFFIX,yximgs.com,🎯直连
+  - DOMAIN-SUFFIX,meitu.com,🎯直连
+  - DOMAIN-SUFFIX,meitudata.com,🎯直连
+  - DOMAIN-SUFFIX,meitustat.com,🎯直连
+  - DOMAIN-SUFFIX,meipai.com,🎯直连
+  - DOMAIN-SUFFIX,le.com,🎯直连
+  - DOMAIN-SUFFIX,lecloud.com,🎯直连
+  - DOMAIN-SUFFIX,letv.com,🎯直连
+  - DOMAIN-SUFFIX,letvcloud.com,🎯直连
+  - DOMAIN-SUFFIX,letvimg.com,🎯直连
+  - DOMAIN-SUFFIX,letvlive.com,🎯直连
+  - DOMAIN-SUFFIX,letvstore.com,🎯直连
+  - DOMAIN-SUFFIX,hitv.com,🎯直连
+  - DOMAIN-SUFFIX,hunantv.com,🎯直连
+  - DOMAIN-SUFFIX,mgtv.com,🎯直连
+  - DOMAIN-SUFFIX,duokan.com,🎯直连
+  - DOMAIN-SUFFIX,mi-img.com,🎯直连
+  - DOMAIN-SUFFIX,mi.com,🎯直连
+  - DOMAIN-SUFFIX,miui.com,🎯直连
+  - DOMAIN-SUFFIX,xiaomi.com,🎯直连
+  - DOMAIN-SUFFIX,xiaomi.net,🎯直连
+  - DOMAIN-SUFFIX,xiaomicp.com,🎯直连
+  - DOMAIN-SUFFIX,126.com,🎯直连
+  - DOMAIN-SUFFIX,126.net,🎯直连
+  - DOMAIN-SUFFIX,127.net,🎯直连
+  - DOMAIN-SUFFIX,163.com,🎯直连
+  - DOMAIN-SUFFIX,163yun.com,🎯直连
+  - DOMAIN-SUFFIX,lofter.com,🎯直连
+  - DOMAIN-SUFFIX,netease.com,🎯直连
+  - DOMAIN-SUFFIX,ydstatic.com,🎯直连
+  - DOMAIN-SUFFIX,youdao.com,🎯直连
+  - DOMAIN-SUFFIX,pplive.com,🎯直连
+  - DOMAIN-SUFFIX,pptv.com,🎯直连
+  - DOMAIN-SUFFIX,pinduoduo.com,🎯直连
+  - DOMAIN-SUFFIX,yangkeduo.com,🎯直连
+  - DOMAIN-SUFFIX,leju.com,🎯直连
+  - DOMAIN-SUFFIX,miaopai.com,🎯直连
+  - DOMAIN-SUFFIX,sina.com,🎯直连
+  - DOMAIN-SUFFIX,sinaapp.com,🎯直连
+  - DOMAIN-SUFFIX,sinaimg.com,🎯直连
+  - DOMAIN-SUFFIX,weibo.com,🎯直连
+  - DOMAIN-SUFFIX,weibocdn.com,🎯直连
+  - DOMAIN-SUFFIX,xiaoka.tv,🎯直连
+  - DOMAIN-SUFFIX,go2map.com,🎯直连
+  - DOMAIN-SUFFIX,sogo.com,🎯直连
+  - DOMAIN-SUFFIX,sogou.com,🎯直连
+  - DOMAIN-SUFFIX,sogoucdn.com,🎯直连
+  - DOMAIN-SUFFIX,sohu-inc.com,🎯直连
+  - DOMAIN-SUFFIX,sohu.com,🎯直连
+  - DOMAIN-SUFFIX,sohucs.com,🎯直连
+  - DOMAIN-SUFFIX,sohuno.com,🎯直连
+  - DOMAIN-SUFFIX,sohurdc.com,🎯直连
+  - DOMAIN-SUFFIX,v-56.com,🎯直连
+  - DOMAIN-SUFFIX,playstation.com,🎯直连
+  - DOMAIN-SUFFIX,playstation.net,🎯直连
+  - DOMAIN-SUFFIX,playstationnetwork.com,🎯直连
+  - DOMAIN-SUFFIX,sony.com,🎯直连
+  - DOMAIN-SUFFIX,sonyentertainmentnetwork.com,🎯直连
+  - DOMAIN-SUFFIX,csgo.wmsj.cn,🎯直连
+  - DOMAIN-SUFFIX,dl.steam.ksyna.com,🎯直连
+  - DOMAIN-SUFFIX,dota2.wmsj.cn,🎯直连
+  - DOMAIN-SUFFIX,st.dl.bscstorage.net,🎯直连
+  - DOMAIN-SUFFIX,st.dl.eccdnx.com,🎯直连
+  - DOMAIN-SUFFIX,st.dl.pinyuncloud.com,🎯直连
+  - DOMAIN-SUFFIX,steamcommunity-a.akamaihd.net,🎯直连
+  - DOMAIN-SUFFIX,steamcontent.com,🎯直连
+  - DOMAIN-SUFFIX,steamgames.com,🎯直连
+  - DOMAIN-SUFFIX,steampowered.com.8686c.com,🎯直连
+  - DOMAIN-SUFFIX,steamstat.us,🎯直连
+  - DOMAIN-SUFFIX,steamstatic.com,🎯直连
+  - DOMAIN-SUFFIX,steamusercontent.com,🎯直连
+  - DOMAIN-SUFFIX,steamuserimages-a.akamaihd.net,🎯直连
+  - DOMAIN-SUFFIX,foxmail.com,🎯直连
+  - DOMAIN-SUFFIX,gtimg.com,🎯直连
+  - DOMAIN-SUFFIX,idqqimg.com,🎯直连
+  - DOMAIN-SUFFIX,igamecj.com,🎯直连
+  - DOMAIN-SUFFIX,myapp.com,🎯直连
+  - DOMAIN-SUFFIX,myqcloud.com,🎯直连
+  - DOMAIN-SUFFIX,qq.com,🎯直连
+  - DOMAIN-SUFFIX,qqmail.com,🎯直连
+  - DOMAIN-SUFFIX,qqurl.com,🎯直连
+  - DOMAIN-SUFFIX,smtcdns.com,🎯直连
+  - DOMAIN-SUFFIX,smtcdns.net,🎯直连
+  - DOMAIN-SUFFIX,soso.com,🎯直连
+  - DOMAIN-SUFFIX,tencent-cloud.net,🎯直连
+  - DOMAIN-SUFFIX,tencent.com,🎯直连
+  - DOMAIN-SUFFIX,tencentmind.com,🎯直连
+  - DOMAIN-SUFFIX,tenpay.com,🎯直连
+  - DOMAIN-SUFFIX,wechat.com,🎯直连
+  - DOMAIN-SUFFIX,weixin.com,🎯直连
+  - DOMAIN-SUFFIX,weiyun.com,🎯直连
+  - DOMAIN-SUFFIX,appsimg.com,🎯直连
+  - DOMAIN-SUFFIX,appvipshop.com,🎯直连
+  - DOMAIN-SUFFIX,vip.com,🎯直连
+  - DOMAIN-SUFFIX,vipstatic.com,🎯直连
+  - DOMAIN-SUFFIX,ximalaya.com,🎯直连
+  - DOMAIN-SUFFIX,xmcdn.com,🎯直连
+  - DOMAIN-SUFFIX,00cdn.com,🎯直连
+  - DOMAIN-SUFFIX,88cdn.com,🎯直连
+  - DOMAIN-SUFFIX,kanimg.com,🎯直连
+  - DOMAIN-SUFFIX,kankan.com,🎯直连
+  - DOMAIN-SUFFIX,p2cdn.com,🎯直连
+  - DOMAIN-SUFFIX,sandai.net,🎯直连
+  - DOMAIN-SUFFIX,thundercdn.com,🎯直连
+  - DOMAIN-SUFFIX,xunlei.com,🎯直连
+  - DOMAIN-SUFFIX,got001.com,🎯直连
+  - DOMAIN-SUFFIX,p4pfile.com,🎯直连
+  - DOMAIN-SUFFIX,rrys.tv,🎯直连
+  - DOMAIN-SUFFIX,rrys2020.com,🎯直连
+  - DOMAIN-SUFFIX,yyets.com,🎯直连
+  - DOMAIN-SUFFIX,zimuzu.io,🎯直连
+  - DOMAIN-SUFFIX,zimuzu.tv,🎯直连
+  - DOMAIN-SUFFIX,zmz001.com,🎯直连
+  - DOMAIN-SUFFIX,zmz002.com,🎯直连
+  - DOMAIN-SUFFIX,zmz003.com,🎯直连
+  - DOMAIN-SUFFIX,zmz004.com,🎯直连
+  - DOMAIN-SUFFIX,zmz2019.com,🎯直连
+  - DOMAIN-SUFFIX,zmzapi.com,🎯直连
+  - DOMAIN-SUFFIX,zmzapi.net,🎯直连
+  - DOMAIN-SUFFIX,zmzfile.com,🎯直连
+  - DOMAIN-KEYWORD,announce,🎯直连
+  - DOMAIN-KEYWORD,torrent,🎯直连
+  - DOMAIN-KEYWORD,tracker,🎯直连
+  - DOMAIN-SUFFIX,animebytes.tv,🎯直连
+  - DOMAIN-SUFFIX,animetorrents.me,🎯直连
+  - DOMAIN-SUFFIX,awesome-hd.me,🎯直连
+  - DOMAIN-SUFFIX,beitai.pt,🎯直连
+  - DOMAIN-SUFFIX,bittorrent.com,🎯直连
+  - DOMAIN-SUFFIX,broadcasthe.net,🎯直连
+  - DOMAIN-SUFFIX,chdbits.co,🎯直连
+  - DOMAIN-SUFFIX,classix-unlimited.co.uk,🎯直连
+  - DOMAIN-SUFFIX,empornium.me,🎯直连
+  - DOMAIN-SUFFIX,gazellegames.net,🎯直连
+  - DOMAIN-SUFFIX,hd4fans.org,🎯直连
+  - DOMAIN-SUFFIX,hdchina.org,🎯直连
+  - DOMAIN-SUFFIX,hdhome.org,🎯直连
+  - DOMAIN-SUFFIX,hdsky.me,🎯直连
+  - DOMAIN-SUFFIX,hdtime.org,🎯直连
+  - DOMAIN-SUFFIX,hdzone.me,🎯直连
+  - DOMAIN-SUFFIX,icetorrent.org,🎯直连
+  - DOMAIN-SUFFIX,jpopsuki.eu,🎯直连
+  - DOMAIN-SUFFIX,keepfrds.com,🎯直连
+  - DOMAIN-SUFFIX,leaguehd.com,🎯直连
+  - DOMAIN-SUFFIX,m-team.cc,🎯直连
+  - DOMAIN-SUFFIX,madsrevolution.net,🎯直连
+  - DOMAIN-SUFFIX,msg.vg,🎯直连
+  - DOMAIN-SUFFIX,nanyangpt.com,🎯直连
+  - DOMAIN-SUFFIX,ncore.cc,🎯直连
+  - DOMAIN-SUFFIX,open.cd,🎯直连
+  - DOMAIN-SUFFIX,ourbits.club,🎯直连
+  - DOMAIN-SUFFIX,passthepopcorn.me,🎯直连
+  - DOMAIN-SUFFIX,privatehd.to,🎯直连
+  - DOMAIN-SUFFIX,pthome.net,🎯直连
+  - DOMAIN-SUFFIX,redacted.ch,🎯直连
+  - DOMAIN-SUFFIX,springsunday.net,🎯直连
+  - DOMAIN-SUFFIX,tjupt.org,🎯直连
+  - DOMAIN-SUFFIX,totheglory.im,🎯直连
+  - DOMAIN-SUFFIX,trontv.com,🎯直连
+  - DOMAIN-SUFFIX,teamviewer.com,🎯直连
+  - IP-CIDR,109.239.140.0/24,🎯直连,no-resolve
+  - IP-CIDR,139.220.243.27/32,🎯直连,no-resolve
+  - IP-CIDR,172.16.102.56/32,🎯直连,no-resolve
+  - IP-CIDR,185.188.32.1/28,🎯直连,no-resolve
+  - IP-CIDR,221.226.128.146/32,🎯直连,no-resolve
+  - IP-CIDR6,2a0b:b580::/48,🎯直连,no-resolve
+  - IP-CIDR6,2a0b:b581::/48,🎯直连,no-resolve
+  - IP-CIDR6,2a0b:b582::/48,🎯直连,no-resolve
+  - IP-CIDR6,2a0b:b583::/48,🎯直连,no-resolve
+  - DOMAIN-SUFFIX,baomitu.com,🎯直连
+  - DOMAIN-SUFFIX,bootcss.com,🎯直连
+  - DOMAIN-SUFFIX,jiasule.com,🎯直连
+  - DOMAIN-SUFFIX,jsdelivr.net,🎯直连
+  - DOMAIN-SUFFIX,staticfile.org,🎯直连
+  - DOMAIN-SUFFIX,upaiyun.com,🎯直连
+  - DOMAIN-SUFFIX,10010.com,🎯直连
+  - DOMAIN-SUFFIX,115.com,🎯直连
+  - DOMAIN-SUFFIX,12306.com,🎯直连
+  - DOMAIN-SUFFIX,17173.com,🎯直连
+  - DOMAIN-SUFFIX,178.com,🎯直连
+  - DOMAIN-SUFFIX,17k.com,🎯直连
+  - DOMAIN-SUFFIX,360doc.com,🎯直连
+  - DOMAIN-SUFFIX,36kr.com,🎯直连
+  - DOMAIN-SUFFIX,3dmgame.com,🎯直连
+  - DOMAIN-SUFFIX,51cto.com,🎯直连
+  - DOMAIN-SUFFIX,51job.com,🎯直连
+  - DOMAIN-SUFFIX,51jobcdn.com,🎯直连
+  - DOMAIN-SUFFIX,56.com,🎯直连
+  - DOMAIN-SUFFIX,8686c.com,🎯直连
+  - DOMAIN-SUFFIX,abchina.com,🎯直连
+  - DOMAIN-SUFFIX,abercrombie.com,🎯直连
+  - DOMAIN-SUFFIX,acfun.tv,🎯直连
+  - DOMAIN-SUFFIX,air-matters.com,🎯直连
+  - DOMAIN-SUFFIX,air-matters.io,🎯直连
+  - DOMAIN-SUFFIX,aixifan.com,🎯直连
+  - DOMAIN-SUFFIX,algocasts.io,🎯直连
+  - DOMAIN-SUFFIX,babytree.com,🎯直连
+  - DOMAIN-SUFFIX,babytreeimg.com,🎯直连
+  - DOMAIN-SUFFIX,baicizhan.com,🎯直连
+  - DOMAIN-SUFFIX,baidupan.com,🎯直连
+  - DOMAIN-SUFFIX,baike.com,🎯直连
+  - DOMAIN-SUFFIX,biqudu.com,🎯直连
+  - DOMAIN-SUFFIX,biquge.com,🎯直连
+  - DOMAIN-SUFFIX,bitauto.com,🎯直连
+  - DOMAIN-SUFFIX,c-ctrip.com,🎯直连
+  - DOMAIN-SUFFIX,camera360.com,🎯直连
+  - DOMAIN-SUFFIX,cdnmama.com,🎯直连
+  - DOMAIN-SUFFIX,chaoxing.com,🎯直连
+  - DOMAIN-SUFFIX,che168.com,🎯直连
+  - DOMAIN-SUFFIX,chinacache.net,🎯直连
+  - DOMAIN-SUFFIX,chinaso.com,🎯直连
+  - DOMAIN-SUFFIX,chinaz.com,🎯直连
+  - DOMAIN-SUFFIX,chinaz.net,🎯直连
+  - DOMAIN-SUFFIX,chuimg.com,🎯直连
+  - DOMAIN-SUFFIX,cibntv.net,🎯直连
+  - DOMAIN-SUFFIX,clouddn.com,🎯直连
+  - DOMAIN-SUFFIX,cloudxns.net,🎯直连
+  - DOMAIN-SUFFIX,cn163.net,🎯直连
+  - DOMAIN-SUFFIX,cnbeta.com,🎯直连
+  - DOMAIN-SUFFIX,cnbetacdn.com,🎯直连
+  - DOMAIN-SUFFIX,cnblogs.com,🎯直连
+  - DOMAIN-SUFFIX,cnki.net,🎯直连
+  - DOMAIN-SUFFIX,cnmstl.net,🎯直连
+  - DOMAIN-SUFFIX,coolapk.com,🎯直连
+  - DOMAIN-SUFFIX,coolapkmarket.com,🎯直连
+  - DOMAIN-SUFFIX,csdn.net,🎯直连
+  - DOMAIN-SUFFIX,ctrip.com,🎯直连
+  - DOMAIN-SUFFIX,dangdang.com,🎯直连
+  - DOMAIN-SUFFIX,dfcfw.com,🎯直连
+  - DOMAIN-SUFFIX,dianping.com,🎯直连
+  - DOMAIN-SUFFIX,dilidili.wang,🎯直连
+  - DOMAIN-SUFFIX,douban.com,🎯直连
+  - DOMAIN-SUFFIX,doubanio.com,🎯直连
+  - DOMAIN-SUFFIX,dpfile.com,🎯直连
+  - DOMAIN-SUFFIX,duowan.com,🎯直连
+  - DOMAIN-SUFFIX,dxycdn.com,🎯直连
+  - DOMAIN-SUFFIX,dytt8.net,🎯直连
+  - DOMAIN-SUFFIX,easou.com,🎯直连
+  - DOMAIN-SUFFIX,eastday.com,🎯直连
+  - DOMAIN-SUFFIX,eastmoney.com,🎯直连
+  - DOMAIN-SUFFIX,ecitic.com,🎯直连
+  - DOMAIN-SUFFIX,ewqcxz.com,🎯直连
+  - DOMAIN-SUFFIX,fang.com,🎯直连
+  - DOMAIN-SUFFIX,fantasy.tv,🎯直连
+  - DOMAIN-SUFFIX,feng.com,🎯直连
+  - DOMAIN-SUFFIX,fengkongcloud.com,🎯直连
+  - DOMAIN-SUFFIX,fir.im,🎯直连
+  - DOMAIN-SUFFIX,frdic.com,🎯直连
+  - DOMAIN-SUFFIX,fresh-ideas.cc,🎯直连
+  - DOMAIN-SUFFIX,ganji.com,🎯直连
+  - DOMAIN-SUFFIX,ganjistatic1.com,🎯直连
+  - DOMAIN-SUFFIX,geetest.com,🎯直连
+  - DOMAIN-SUFFIX,geilicdn.com,🎯直连
+  - DOMAIN-SUFFIX,ghpym.com,🎯直连
+  - DOMAIN-SUFFIX,godic.net,🎯直连
+  - DOMAIN-SUFFIX,guazi.com,🎯直连
+  - DOMAIN-SUFFIX,gwdang.com,🎯直连
+  - DOMAIN-SUFFIX,gzlzfm.com,🎯直连
+  - DOMAIN-SUFFIX,haibian.com,🎯直连
+  - DOMAIN-SUFFIX,haosou.com,🎯直连
+  - DOMAIN-SUFFIX,hollisterco.com,🎯直连
+  - DOMAIN-SUFFIX,hongxiu.com,🎯直连
+  - DOMAIN-SUFFIX,huajiao.com,🎯直连
+  - DOMAIN-SUFFIX,hupu.com,🎯直连
+  - DOMAIN-SUFFIX,huxiucdn.com,🎯直连
+  - DOMAIN-SUFFIX,huya.com,🎯直连
+  - DOMAIN-SUFFIX,ifeng.com,🎯直连
+  - DOMAIN-SUFFIX,ifengimg.com,🎯直连
+  - DOMAIN-SUFFIX,images-amazon.com,🎯直连
+  - DOMAIN-SUFFIX,infzm.com,🎯直连
+  - DOMAIN-SUFFIX,ipip.net,🎯直连
+  - DOMAIN-SUFFIX,it168.com,🎯直连
+  - DOMAIN-SUFFIX,ithome.com,🎯直连
+  - DOMAIN-SUFFIX,ixdzs.com,🎯直连
+  - DOMAIN-SUFFIX,jianguoyun.com,🎯直连
+  - DOMAIN-SUFFIX,jianshu.com,🎯直连
+  - DOMAIN-SUFFIX,jianshu.io,🎯直连
+  - DOMAIN-SUFFIX,jianshuapi.com,🎯直连
+  - DOMAIN-SUFFIX,jiathis.com,🎯直连
+  - DOMAIN-SUFFIX,jmstatic.com,🎯直连
+  - DOMAIN-SUFFIX,jumei.com,🎯直连
+  - DOMAIN-SUFFIX,kaola.com,🎯直连
+  - DOMAIN-SUFFIX,knewone.com,🎯直连
+  - DOMAIN-SUFFIX,koowo.com,🎯直连
+  - DOMAIN-SUFFIX,ksyungslb.com,🎯直连
+  - DOMAIN-SUFFIX,kuaidi100.com,🎯直连
+  - DOMAIN-SUFFIX,kugou.com,🎯直连
+  - DOMAIN-SUFFIX,lancdns.com,🎯直连
+  - DOMAIN-SUFFIX,landiannews.com,🎯直连
+  - DOMAIN-SUFFIX,lanzou.com,🎯直连
+  - DOMAIN-SUFFIX,lemicp.com,🎯直连
+  - DOMAIN-SUFFIX,letitfly.me,🎯直连
+  - DOMAIN-SUFFIX,linkedin.com,🎯直连
+  - DOMAIN-SUFFIX,lizhi.fm,🎯直连
+  - DOMAIN-SUFFIX,lizhi.io,🎯直连
+  - DOMAIN-SUFFIX,lizhifm.com,🎯直连
+  - DOMAIN-SUFFIX,loli.net,🎯直连
+  - DOMAIN-SUFFIX,luoo.net,🎯直连
+  - DOMAIN-SUFFIX,lvmama.com,🎯直连
+  - DOMAIN-SUFFIX,lxdns.com,🎯直连
+  - DOMAIN-SUFFIX,maoyan.com,🎯直连
+  - DOMAIN-SUFFIX,meilishuo.com,🎯直连
+  - DOMAIN-SUFFIX,meituan.com,🎯直连
+  - DOMAIN-SUFFIX,meituan.net,🎯直连
+  - DOMAIN-SUFFIX,meizu.com,🎯直连
+  - DOMAIN-SUFFIX,migucloud.com,🎯直连
+  - DOMAIN-SUFFIX,miguvideo.com,🎯直连
+  - DOMAIN-SUFFIX,mobike.com,🎯直连
+  - DOMAIN-SUFFIX,mogu.com,🎯直连
+  - DOMAIN-SUFFIX,mogucdn.com,🎯直连
+  - DOMAIN-SUFFIX,mogujie.com,🎯直连
+  - DOMAIN-SUFFIX,moji.com,🎯直连
+  - DOMAIN-SUFFIX,moke.com,🎯直连
+  - DOMAIN-SUFFIX,msstatic.com,🎯直连
+  - DOMAIN-SUFFIX,mubu.com,🎯直连
+  - DOMAIN-SUFFIX,myunlu.com,🎯直连
+  - DOMAIN-SUFFIX,nruan.com,🎯直连
+  - DOMAIN-SUFFIX,nuomi.com,🎯直连
+  - DOMAIN-SUFFIX,onedns.net,🎯直连
+  - DOMAIN-SUFFIX,onlinedown.net,🎯直连
+  - DOMAIN-SUFFIX,oracle.com,🎯直连
+  - DOMAIN-SUFFIX,oschina.net,🎯直连
+  - DOMAIN-SUFFIX,ourdvs.com,🎯直连
+  - DOMAIN-SUFFIX,overcast.fm,🎯直连
+  - DOMAIN-SUFFIX,paypal.com,🎯直连
+  - DOMAIN-SUFFIX,polyv.net,🎯直连
+  - DOMAIN-SUFFIX,qbox.me,🎯直连
+  - DOMAIN-SUFFIX,qcloud.com,🎯直连
+  - DOMAIN-SUFFIX,qcloudcdn.com,🎯直连
+  - DOMAIN-SUFFIX,qdaily.com,🎯直连
+  - DOMAIN-SUFFIX,qdmm.com,🎯直连
+  - DOMAIN-SUFFIX,qhimg.com,🎯直连
+  - DOMAIN-SUFFIX,qianqian.com,🎯直连
+  - DOMAIN-SUFFIX,qidian.com,🎯直连
+  - DOMAIN-SUFFIX,qihucdn.com,🎯直连
+  - DOMAIN-SUFFIX,qin.io,🎯直连
+  - DOMAIN-SUFFIX,qiniu.com,🎯直连
+  - DOMAIN-SUFFIX,qiniucdn.com,🎯直连
+  - DOMAIN-SUFFIX,qiniudn.com,🎯直连
+  - DOMAIN-SUFFIX,qiushibaike.com,🎯直连
+  - DOMAIN-SUFFIX,quanmin.tv,🎯直连
+  - DOMAIN-SUFFIX,qunar.com,🎯直连
+  - DOMAIN-SUFFIX,qunarzz.com,🎯直连
+  - DOMAIN-SUFFIX,rarbg.to,🎯直连
+  - DOMAIN-SUFFIX,repaik.com,🎯直连
+  - DOMAIN-SUFFIX,rrmj.tv,🎯直连
+  - DOMAIN-SUFFIX,ruguoapp.com,🎯直连
+  - DOMAIN-SUFFIX,runoob.com,🎯直连
+  - DOMAIN-SUFFIX,sankuai.com,🎯直连
+  - DOMAIN-SUFFIX,segmentfault.com,🎯直连
+  - DOMAIN-SUFFIX,sf-express.com,🎯直连
+  - DOMAIN-SUFFIX,shumilou.net,🎯直连
+  - DOMAIN-SUFFIX,simplecd.me,🎯直连
+  - DOMAIN-SUFFIX,sm.ms,🎯直连
+  - DOMAIN-SUFFIX,smzdm.com,🎯直连
+  - DOMAIN-SUFFIX,snwx.com,🎯直连
+  - DOMAIN-SUFFIX,soufunimg.com,🎯直连
+  - DOMAIN-SUFFIX,sspai.com,🎯直连
+  - DOMAIN-SUFFIX,startssl.com,🎯直连
+  - DOMAIN-SUFFIX,suning.com,🎯直连
+  - DOMAIN-SUFFIX,taihe.com,🎯直连
+  - DOMAIN-SUFFIX,th-sjy.com,🎯直连
+  - DOMAIN-SUFFIX,tianqi.com,🎯直连
+  - DOMAIN-SUFFIX,tianqistatic.com,🎯直连
+  - DOMAIN-SUFFIX,tianyancha.com,🎯直连
+  - DOMAIN-SUFFIX,tianyaui.com,🎯直连
+  - DOMAIN-SUFFIX,tietuku.com,🎯直连
+  - DOMAIN-SUFFIX,tiexue.net,🎯直连
+  - DOMAIN-SUFFIX,tmiaoo.com,🎯直连
+  - DOMAIN-SUFFIX,trip.com,🎯直连
+  - DOMAIN-SUFFIX,ttmeiju.com,🎯直连
+  - DOMAIN-SUFFIX,tudou.com,🎯直连
+  - DOMAIN-SUFFIX,tuniu.com,🎯直连
+  - DOMAIN-SUFFIX,tuniucdn.com,🎯直连
+  - DOMAIN-SUFFIX,umengcloud.com,🎯直连
+  - DOMAIN-SUFFIX,upyun.com,🎯直连
+  - DOMAIN-SUFFIX,uxengine.net,🎯直连
+  - DOMAIN-SUFFIX,videocc.net,🎯直连
+  - DOMAIN-SUFFIX,wandoujia.com,🎯直连
+  - DOMAIN-SUFFIX,weather.com,🎯直连
+  - DOMAIN-SUFFIX,weico.cc,🎯直连
+  - DOMAIN-SUFFIX,weidian.com,🎯直连
+  - DOMAIN-SUFFIX,weiphone.com,🎯直连
+  - DOMAIN-SUFFIX,weiphone.net,🎯直连
+  - DOMAIN-SUFFIX,womai.com,🎯直连
+  - DOMAIN-SUFFIX,wscdns.com,🎯直连
+  - DOMAIN-SUFFIX,xdrig.com,🎯直连
+  - DOMAIN-SUFFIX,xhscdn.com,🎯直连
+  - DOMAIN-SUFFIX,xiachufang.com,🎯直连
+  - DOMAIN-SUFFIX,xiaohongshu.com,🎯直连
+  - DOMAIN-SUFFIX,xiaojukeji.com,🎯直连
+  - DOMAIN-SUFFIX,xinhuanet.com,🎯直连
+  - DOMAIN-SUFFIX,xip.io,🎯直连
+  - DOMAIN-SUFFIX,xitek.com,🎯直连
+  - DOMAIN-SUFFIX,xiumi.us,🎯直连
+  - DOMAIN-SUFFIX,xslb.net,🎯直连
+  - DOMAIN-SUFFIX,xueqiu.com,🎯直连
+  - DOMAIN-SUFFIX,yach.me,🎯直连
+  - DOMAIN-SUFFIX,yeepay.com,🎯直连
+  - DOMAIN-SUFFIX,yhd.com,🎯直连
+  - DOMAIN-SUFFIX,yihaodianimg.com,🎯直连
+  - DOMAIN-SUFFIX,yinxiang.com,🎯直连
+  - DOMAIN-SUFFIX,yinyuetai.com,🎯直连
+  - DOMAIN-SUFFIX,yixia.com,🎯直连
+  - DOMAIN-SUFFIX,ys168.com,🎯直连
+  - DOMAIN-SUFFIX,yuewen.com,🎯直连
+  - DOMAIN-SUFFIX,yy.com,🎯直连
+  - DOMAIN-SUFFIX,yystatic.com,🎯直连
+  - DOMAIN-SUFFIX,zealer.com,🎯直连
+  - DOMAIN-SUFFIX,zhangzishi.cc,🎯直连
+  - DOMAIN-SUFFIX,zhanqi.tv,🎯直连
+  - DOMAIN-SUFFIX,zhaopin.com,🎯直连
+  - DOMAIN-SUFFIX,zhihu.com,🎯直连
+  - DOMAIN-SUFFIX,zhimg.com,🎯直连
+  - DOMAIN-SUFFIX,zhongsou.com,🎯直连
+  - DOMAIN-SUFFIX,zhuihd.com,🎯直连
+  - IP-CIDR,8.128.0.0/10,🎯直连,no-resolve
+  - IP-CIDR,8.208.0.0/12,🎯直连,no-resolve
+  - IP-CIDR,14.1.112.0/22,🎯直连,no-resolve
+  - IP-CIDR,41.222.240.0/22,🎯直连,no-resolve
+  - IP-CIDR,41.223.119.0/24,🎯直连,no-resolve
+  - IP-CIDR,43.242.168.0/22,🎯直连,no-resolve
+  - IP-CIDR,45.112.212.0/22,🎯直连,no-resolve
+  - IP-CIDR,47.52.0.0/16,🎯直连,no-resolve
+  - IP-CIDR,47.56.0.0/15,🎯直连,no-resolve
+  - IP-CIDR,47.74.0.0/15,🎯直连,no-resolve
+  - IP-CIDR,47.76.0.0/14,🎯直连,no-resolve
+  - IP-CIDR,47.80.0.0/12,🎯直连,no-resolve
+  - IP-CIDR,47.235.0.0/16,🎯直连,no-resolve
+  - IP-CIDR,47.236.0.0/14,🎯直连,no-resolve
+  - IP-CIDR,47.240.0.0/14,🎯直连,no-resolve
+  - IP-CIDR,47.244.0.0/15,🎯直连,no-resolve
+  - IP-CIDR,47.246.0.0/16,🎯直连,no-resolve
+  - IP-CIDR,47.250.0.0/15,🎯直连,no-resolve
+  - IP-CIDR,47.252.0.0/15,🎯直连,no-resolve
+  - IP-CIDR,47.254.0.0/16,🎯直连,no-resolve
+  - IP-CIDR,59.82.0.0/20,🎯直连,no-resolve
+  - IP-CIDR,59.82.240.0/21,🎯直连,no-resolve
+  - IP-CIDR,59.82.248.0/22,🎯直连,no-resolve
+  - IP-CIDR,72.254.0.0/16,🎯直连,no-resolve
+  - IP-CIDR,103.38.56.0/22,🎯直连,no-resolve
+  - IP-CIDR,103.52.76.0/22,🎯直连,no-resolve
+  - IP-CIDR,103.206.40.0/22,🎯直连,no-resolve
+  - IP-CIDR,110.76.21.0/24,🎯直连,no-resolve
+  - IP-CIDR,110.76.23.0/24,🎯直连,no-resolve
+  - IP-CIDR,112.125.0.0/17,🎯直连,no-resolve
+  - IP-CIDR,116.251.64.0/18,🎯直连,no-resolve
+  - IP-CIDR,119.38.208.0/20,🎯直连,no-resolve
+  - IP-CIDR,119.38.224.0/20,🎯直连,no-resolve
+  - IP-CIDR,119.42.224.0/20,🎯直连,no-resolve
+  - IP-CIDR,139.95.0.0/16,🎯直连,no-resolve
+  - IP-CIDR,140.205.1.0/24,🎯直连,no-resolve
+  - IP-CIDR,140.205.122.0/24,🎯直连,no-resolve
+  - IP-CIDR,147.139.0.0/16,🎯直连,no-resolve
+  - IP-CIDR,149.129.0.0/16,🎯直连,no-resolve
+  - IP-CIDR,155.102.0.0/16,🎯直连,no-resolve
+  - IP-CIDR,161.117.0.0/16,🎯直连,no-resolve
+  - IP-CIDR,163.181.0.0/16,🎯直连,no-resolve
+  - IP-CIDR,170.33.0.0/16,🎯直连,no-resolve
+  - IP-CIDR,198.11.128.0/18,🎯直连,no-resolve
+  - IP-CIDR,205.204.96.0/19,🎯直连,no-resolve
+  - IP-CIDR,19.28.0.0/23,🎯直连,no-resolve
+  - IP-CIDR,45.40.192.0/19,🎯直连,no-resolve
+  - IP-CIDR,49.51.0.0/16,🎯直连,no-resolve
+  - IP-CIDR,62.234.0.0/16,🎯直连,no-resolve
+  - IP-CIDR,94.191.0.0/17,🎯直连,no-resolve
+  - IP-CIDR,103.7.28.0/22,🎯直连,no-resolve
+  - IP-CIDR,103.116.50.0/23,🎯直连,no-resolve
+  - IP-CIDR,103.231.60.0/24,🎯直连,no-resolve
+  - IP-CIDR,109.244.0.0/16,🎯直连,no-resolve
+  - IP-CIDR,111.30.128.0/21,🎯直连,no-resolve
+  - IP-CIDR,111.30.136.0/24,🎯直连,no-resolve
+  - IP-CIDR,111.30.139.0/24,🎯直连,no-resolve
+  - IP-CIDR,111.30.140.0/23,🎯直连,no-resolve
+  - IP-CIDR,115.159.0.0/16,🎯直连,no-resolve
+  - IP-CIDR,119.28.0.0/15,🎯直连,no-resolve
+  - IP-CIDR,120.88.56.0/23,🎯直连,no-resolve
+  - IP-CIDR,121.51.0.0/16,🎯直连,no-resolve
+  - IP-CIDR,129.28.0.0/16,🎯直连,no-resolve
+  - IP-CIDR,129.204.0.0/16,🎯直连,no-resolve
+  - IP-CIDR,129.211.0.0/16,🎯直连,no-resolve
+  - IP-CIDR,132.232.0.0/16,🎯直连,no-resolve
+  - IP-CIDR,134.175.0.0/16,🎯直连,no-resolve
+  - IP-CIDR,146.56.192.0/18,🎯直连,no-resolve
+  - IP-CIDR,148.70.0.0/16,🎯直连,no-resolve
+  - IP-CIDR,150.109.0.0/16,🎯直连,no-resolve
+  - IP-CIDR,152.136.0.0/16,🎯直连,no-resolve
+  - IP-CIDR,162.14.0.0/16,🎯直连,no-resolve
+  - IP-CIDR,162.62.0.0/16,🎯直连,no-resolve
+  - IP-CIDR,170.106.130.0/24,🎯直连,no-resolve
+  - IP-CIDR,182.254.0.0/16,🎯直连,no-resolve
+  - IP-CIDR,188.131.128.0/17,🎯直连,no-resolve
+  - IP-CIDR,203.195.128.0/17,🎯直连,no-resolve
+  - IP-CIDR,203.205.128.0/17,🎯直连,no-resolve
+  - IP-CIDR,210.4.138.0/24,🎯直连,no-resolve
+  - IP-CIDR,211.152.128.0/23,🎯直连,no-resolve
+  - IP-CIDR,211.152.132.0/23,🎯直连,no-resolve
+  - IP-CIDR,211.152.148.0/23,🎯直连,no-resolve
+  - IP-CIDR,212.64.0.0/17,🎯直连,no-resolve
+  - IP-CIDR,212.129.128.0/17,🎯直连,no-resolve
+  - IP-CIDR,45.113.192.0/22,🎯直连,no-resolve
+  - IP-CIDR,63.217.23.0/24,🎯直连,no-resolve
+  - IP-CIDR,63.243.252.0/24,🎯直连,no-resolve
+  - IP-CIDR,103.235.44.0/22,🎯直连,no-resolve
+  - IP-CIDR,104.193.88.0/22,🎯直连,no-resolve
+  - IP-CIDR,106.12.0.0/15,🎯直连,no-resolve
+  - IP-CIDR,114.28.224.0/20,🎯直连,no-resolve
+  - IP-CIDR,119.63.192.0/21,🎯直连,no-resolve
+  - IP-CIDR,180.76.0.0/24,🎯直连,no-resolve
+  - IP-CIDR,180.76.0.0/16,🎯直连,no-resolve
+  - IP-CIDR,182.61.0.0/16,🎯直连,no-resolve
+  - IP-CIDR,185.10.104.0/22,🎯直连,no-resolve
+  - IP-CIDR,202.46.48.0/20,🎯直连,no-resolve
+  - IP-CIDR,203.90.238.0/24,🎯直连,no-resolve
+  - IP-CIDR,43.254.0.0/22,🎯直连,no-resolve
+  - IP-CIDR,45.249.212.0/22,🎯直连,no-resolve
+  - IP-CIDR,49.4.0.0/17,🎯直连,no-resolve
+  - IP-CIDR,78.101.192.0/19,🎯直连,no-resolve
+  - IP-CIDR,78.101.224.0/20,🎯直连,no-resolve
+  - IP-CIDR,81.52.161.0/24,🎯直连,no-resolve
+  - IP-CIDR,85.97.220.0/22,🎯直连,no-resolve
+  - IP-CIDR,103.31.200.0/22,🎯直连,no-resolve
+  - IP-CIDR,103.69.140.0/23,🎯直连,no-resolve
+  - IP-CIDR,103.218.216.0/22,🎯直连,no-resolve
+  - IP-CIDR,114.115.128.0/17,🎯直连,no-resolve
+  - IP-CIDR,114.116.0.0/16,🎯直连,no-resolve
+  - IP-CIDR,116.63.128.0/18,🎯直连,no-resolve
+  - IP-CIDR,116.66.184.0/22,🎯直连,no-resolve
+  - IP-CIDR,116.71.96.0/20,🎯直连,no-resolve
+  - IP-CIDR,116.71.128.0/21,🎯直连,no-resolve
+  - IP-CIDR,116.71.136.0/22,🎯直连,no-resolve
+  - IP-CIDR,116.71.141.0/24,🎯直连,no-resolve
+  - IP-CIDR,116.71.142.0/24,🎯直连,no-resolve
+  - IP-CIDR,116.71.243.0/24,🎯直连,no-resolve
+  - IP-CIDR,116.71.244.0/24,🎯直连,no-resolve
+  - IP-CIDR,116.71.251.0/24,🎯直连,no-resolve
+  - IP-CIDR,117.78.0.0/18,🎯直连,no-resolve
+  - IP-CIDR,119.3.0.0/16,🎯直连,no-resolve
+  - IP-CIDR,119.8.0.0/21,🎯直连,no-resolve
+  - IP-CIDR,119.8.32.0/19,🎯直连,no-resolve
+  - IP-CIDR,121.36.0.0/17,🎯直连,no-resolve
+  - IP-CIDR,121.36.128.0/18,🎯直连,no-resolve
+  - IP-CIDR,121.37.0.0/17,🎯直连,no-resolve
+  - IP-CIDR,122.112.128.0/17,🎯直连,no-resolve
+  - IP-CIDR,139.9.0.0/18,🎯直连,no-resolve
+  - IP-CIDR,139.9.64.0/19,🎯直连,no-resolve
+  - IP-CIDR,139.9.100.0/22,🎯直连,no-resolve
+  - IP-CIDR,139.9.104.0/21,🎯直连,no-resolve
+  - IP-CIDR,139.9.112.0/20,🎯直连,no-resolve
+  - IP-CIDR,139.9.128.0/18,🎯直连,no-resolve
+  - IP-CIDR,139.9.192.0/19,🎯直连,no-resolve
+  - IP-CIDR,139.9.224.0/20,🎯直连,no-resolve
+  - IP-CIDR,139.9.240.0/21,🎯直连,no-resolve
+  - IP-CIDR,139.9.248.0/22,🎯直连,no-resolve
+  - IP-CIDR,139.159.128.0/19,🎯直连,no-resolve
+  - IP-CIDR,139.159.160.0/22,🎯直连,no-resolve
+  - IP-CIDR,139.159.164.0/23,🎯直连,no-resolve
+  - IP-CIDR,139.159.168.0/21,🎯直连,no-resolve
+  - IP-CIDR,139.159.176.0/20,🎯直连,no-resolve
+  - IP-CIDR,139.159.192.0/18,🎯直连,no-resolve
+  - IP-CIDR,159.138.0.0/18,🎯直连,no-resolve
+  - IP-CIDR,159.138.64.0/21,🎯直连,no-resolve
+  - IP-CIDR,159.138.79.0/24,🎯直连,no-resolve
+  - IP-CIDR,159.138.80.0/20,🎯直连,no-resolve
+  - IP-CIDR,159.138.96.0/20,🎯直连,no-resolve
+  - IP-CIDR,159.138.112.0/21,🎯直连,no-resolve
+  - IP-CIDR,159.138.125.0/24,🎯直连,no-resolve
+  - IP-CIDR,159.138.128.0/18,🎯直连,no-resolve
+  - IP-CIDR,159.138.192.0/20,🎯直连,no-resolve
+  - IP-CIDR,159.138.223.0/24,🎯直连,no-resolve
+  - IP-CIDR,159.138.224.0/19,🎯直连,no-resolve
+  - IP-CIDR,168.195.92.0/22,🎯直连,no-resolve
+  - IP-CIDR,185.176.76.0/22,🎯直连,no-resolve
+  - IP-CIDR,197.199.0.0/18,🎯直连,no-resolve
+  - IP-CIDR,197.210.163.0/24,🎯直连,no-resolve
+  - IP-CIDR,197.252.1.0/24,🎯直连,no-resolve
+  - IP-CIDR,197.252.2.0/23,🎯直连,no-resolve
+  - IP-CIDR,197.252.4.0/22,🎯直连,no-resolve
+  - IP-CIDR,197.252.8.0/21,🎯直连,no-resolve
+  - IP-CIDR,200.32.52.0/24,🎯直连,no-resolve
+  - IP-CIDR,200.32.54.0/24,🎯直连,no-resolve
+  - IP-CIDR,200.32.57.0/24,🎯直连,no-resolve
+  - IP-CIDR,203.135.0.0/22,🎯直连,no-resolve
+  - IP-CIDR,203.135.4.0/23,🎯直连,no-resolve
+  - IP-CIDR,203.135.8.0/23,🎯直连,no-resolve
+  - IP-CIDR,203.135.11.0/24,🎯直连,no-resolve
+  - IP-CIDR,203.135.13.0/24,🎯直连,no-resolve
+  - IP-CIDR,203.135.20.0/24,🎯直连,no-resolve
+  - IP-CIDR,203.135.22.0/23,🎯直连,no-resolve
+  - IP-CIDR,203.135.24.0/23,🎯直连,no-resolve
+  - IP-CIDR,203.135.26.0/24,🎯直连,no-resolve
+  - IP-CIDR,203.135.29.0/24,🎯直连,no-resolve
+  - IP-CIDR,203.135.33.0/24,🎯直连,no-resolve
+  - IP-CIDR,203.135.38.0/23,🎯直连,no-resolve
+  - IP-CIDR,203.135.40.0/24,🎯直连,no-resolve
+  - IP-CIDR,203.135.43.0/24,🎯直连,no-resolve
+  - IP-CIDR,203.135.48.0/24,🎯直连,no-resolve
+  - IP-CIDR,203.135.50.0/24,🎯直连,no-resolve
+  - IP-CIDR,42.186.0.0/16,🎯直连,no-resolve
+  - IP-CIDR,45.127.128.0/22,🎯直连,no-resolve
+  - IP-CIDR,45.195.24.0/24,🎯直连,no-resolve
+  - IP-CIDR,45.253.132.0/22,🎯直连,no-resolve
+  - IP-CIDR,45.253.240.0/22,🎯直连,no-resolve
+  - IP-CIDR,45.254.48.0/23,🎯直连,no-resolve
+  - IP-CIDR,59.111.0.0/20,🎯直连,no-resolve
+  - IP-CIDR,59.111.128.0/17,🎯直连,no-resolve
+  - IP-CIDR,103.71.120.0/21,🎯直连,no-resolve
+  - IP-CIDR,103.71.128.0/22,🎯直连,no-resolve
+  - IP-CIDR,103.71.196.0/22,🎯直连,no-resolve
+  - IP-CIDR,103.71.200.0/22,🎯直连,no-resolve
+  - IP-CIDR,103.72.12.0/22,🎯直连,no-resolve
+  - IP-CIDR,103.72.18.0/23,🎯直连,no-resolve
+  - IP-CIDR,103.72.24.0/22,🎯直连,no-resolve
+  - IP-CIDR,103.72.28.0/23,🎯直连,no-resolve
+  - IP-CIDR,103.72.38.0/23,🎯直连,no-resolve
+  - IP-CIDR,103.72.40.0/23,🎯直连,no-resolve
+  - IP-CIDR,103.72.44.0/22,🎯直连,no-resolve
+  - IP-CIDR,103.72.48.0/21,🎯直连,no-resolve
+  - IP-CIDR,103.72.128.0/21,🎯直连,no-resolve
+  - IP-CIDR,103.74.24.0/21,🎯直连,no-resolve
+  - IP-CIDR,103.74.48.0/22,🎯直连,no-resolve
+  - IP-CIDR,103.126.92.0/22,🎯直连,no-resolve
+  - IP-CIDR,103.129.252.0/22,🎯直连,no-resolve
+  - IP-CIDR,103.131.252.0/22,🎯直连,no-resolve
+  - IP-CIDR,103.135.240.0/22,🎯直连,no-resolve
+  - IP-CIDR,103.196.64.0/22,🎯直连,no-resolve
+  - IP-CIDR,106.2.32.0/19,🎯直连,no-resolve
+  - IP-CIDR,106.2.64.0/18,🎯直连,no-resolve
+  - IP-CIDR,114.113.196.0/22,🎯直连,no-resolve
+  - IP-CIDR,114.113.200.0/22,🎯直连,no-resolve
+  - IP-CIDR,115.236.112.0/20,🎯直连,no-resolve
+  - IP-CIDR,115.238.76.0/22,🎯直连,no-resolve
+  - IP-CIDR,123.58.160.0/19,🎯直连,no-resolve
+  - IP-CIDR,223.252.192.0/19,🎯直连,no-resolve
+  - IP-CIDR,101.198.128.0/18,🎯直连,no-resolve
+  - IP-CIDR,101.198.192.0/19,🎯直连,no-resolve
+  - IP-CIDR,101.199.196.0/22,🎯直连,no-resolve
+  - GEOIP,CN,🎯直连
+  - MATCH,🔰模式
+
+port: 3333
+socks-port: 23456
+redir-port: 23457
+tproxy-port: 23458
+allow-lan: true
+tproxy: true
+mode: Rule
+log-level: error
+external-controller: 192.168.50.1:9990
+experimental:
+  ignore-resolve-fail: true
+external-ui: dashboard
+secret: "clash"
+profile:
+  store-selected: true
+
+hosts:
+  router.asus.com: 192.168.50.1
+  services.googleapis.cn: 74.125.193.94
+
+dns:
+  enable: true
+  ipv6: false
+  listen: :23453
+  enhanced-mode: redir-host 
+  nameserver:
+    - https://223.5.5.5/dns-query
+    - tls://101.101.101.101:853
+    - https://doh.pub/dns-query
+  fallback:
+    - https://doh.dns.sb/dns-query
+    - tcp://208.67.222.222:443
+    - tls://dns.google
+  fallback-filter:
+    geoip: true
+    ipcidr:
+      - 240.0.0.0/4
+    domain:
+      #amazon
+      - '+.amazonaws.com'
+      - '+.amazon'
+      #astrill
+      - '+.astrill.com'
+      - '+.asn247.net'
+      - '+.astrill.org'
+      #fb
+      - '+.facebook.com'
+      - '+.cdninstagram.com'
+      - '+.fb.com'
+      - '+.fb.me'
+      - '+.fbaddins.com'
+      - '+.fbcdn.net'
+      - '+.fbsbx.com'
+      - '+.fbworkmail.com'
+      - '+.instagram.com'
+      - '+.m.me'
+      - '+.messenger.com'
+      - '+.oculus.com'
+      - '+.oculuscdn.com'
+      - '+.rocksdb.org'
+      - '+.whatsapp.com'
+      - '+.whatsapp.net'
+      #github
+      - '+.gitbook.io'
+      - '+.gitbook.com'
+      - '+.github.io'
+      - '+.github.com'
+      - '+.githubusercontent.com'
+      - '+.githubassets.com'
+      - '+.githubapp.com'
+    #google
+      - '+.ampproject.org'
+      - '+.appspot.com'
+      - '+.blogger.com'
+      - '+.google.com'
+      - '+.google.cn'
+      - '+.googleusercontent.com'
+      - '+.googleapis.com'
+      - '+.googleapis.cn'
+      - '+.gstatic.com'
+      - '+.ggpht.com'
+      - '+.gmail.com'
+      - '+.gvt1.com'
+      - '+.gvt2.com'
+      - '+.youtu.be'
+      - '+.yt.be'
+      - '+.ytimg.com'
+      - '+.googlevideo.com'
+      - '+.youtube.com'
+      #mega
+      - '+.mega.co.nz'
+      - '+.mega.nz'
+      #protonmail
+      - '+.protonmail.ch'
+      - '+.protonmail.com'
+      - '+.protonstatus.com'
+      - '+.recruitee.com'
+      - '+.w.org'
+      #rfa
+      - '+.rfa.org'
+      #twitter
+      - '+.twitter.com'
+      - '+.pscp.tv'
+      - '+.periscope.tv'
+      - '+.t.co'
+      - '+.twimg.co'
+      - '+.twimg.com'
+      - '+.twitpic.com'
+      - '+.vine.co'
+      #whoer
+      - '+.whoer.net'
+      - '+.whrq.net'
+      #wiki
+      - '+.wikimapia.org'
+      - '+.wikimedia.org'
+      - '+.wikipedia.org'
+      - '+.wikiquote.org'
+      - '+.wikiwand.com'
+ipv6: false
