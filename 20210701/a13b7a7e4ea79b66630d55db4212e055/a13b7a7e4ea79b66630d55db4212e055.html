@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
+<meta name="format-detection" content="telephone=no" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>“奋进出海”套餐包</title>
+    <!-- <link href = "css/stylesIOS.css" type="text/css" rel="stylesheet" id="CSSlink" />  -->
+    <!-- <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>  -->
+</head>
+
+<body style="font-size: 18px; margin: 0 auto;width: 720px;height: 100%;line-height: 40px;text-align: justify;word-wrap: break-word;-webkit-font-smoothing: antialiased;    background-color:#fff;color:#5f5a5a;  ">
+<div class="container" id="container" style="background-color:#FBE5D5;">
+    <!-- <div class="homePage" id="homePage"> <img class="rspimg1" src="img/1.jpg" /> </div>  -->
+        <div class="aui-nav-content-box" id="aui-nav-content-box" style="width: 100%; position: relative;margin:0px auto;">
+            <div class="aui-nav-list-tab">
+                <div class="aui-nav-list-item" style="display:block；z-index: 110;width: 720px;display: block;background: #f3f3f3;border-bottom:1px solid #CCC; overflow: hidden;">
+                    <div class="study"><img class="rspimg1" src="img/title.png" /></div>
+                        <div class="txt_content" style="font-size: 18px;">
+                                <div class="oneC" style="background-color: #FFF; margin: 6%; padding: 8%; padding-top:0%; box-shadow: 1px 1px 5px #FCF8F8;position:relative;">
+                                <div class="oneTop" style="margin: 0;  padding: 0;  padding-top:5%;"><img class="rspimg1" src="img/one0.png"  style="width:100%;height:auto;" /></div>
+                                <p class="" style="font-weight: bold;color: #000080;text-align: center; font-size: 24px;"> 扫码立即报名（限量30份）</p>
+                                <p class=""><img class="rspimg1" src="img/1.png"  style="width:100%;height:auto;" /></p>
+                                    
+                                    <br>
+                                    <p class="textIndent rbottom" style="text-align: right;    background-color: #FBE5D5;    padding-right: 10px;    margin: 5% 0;">律回网——涉外法律服务平台</p>
+                                </div>
+                            </div>
+                            <div class="bottomC" style="position: absolute;    bottom: -0.05%;    line-height: 0px;"><img class="rspimg1" src="img/bottom.png" style="width:100%;height:auto;" /></div>
+                       </div>
+                 </div>
+                </div>
+            </div>
+    </div>
+</div>
+</body>
+
+<script>
+$(document).ready(function(){
+    initCourse();
+})
+//是否为iphone
+function isIPhone()
+{
+    var result = false;
+     var user_agent = navigator.userAgent.toString();
+    // alert("user_agent = " + user_agent)
+     if(user_agent.indexOf("iPhone") >= 0)
+     {
+         result = true;
+     }
+     return result;
+}
+
+//是否为ipad
+function isIPad()
+{
+    var result = false;
+     var user_agent = navigator.userAgent.toString();
+     // alert("user_agent = " + user_agent)
+     if(user_agent.indexOf("iPad") >= 0)
+     {
+         result = true;
+     }
+     return result;
+}
+
+
+//加载课程
+function initCourse()
+{
+    //在苹果设备上调整视频大小
+    if(isIPhone() || isIPad())
+    {
+        var newVideoH = document.body.clientWidth * 720/1280;
+        // document.getElementById("vId0").setAttribute("height", newVideoH);
+    }
+    //初始化scorm
+    loadPage();
+    
+    setStatus();
+    
+}
+var audios = document.getElementsByTagName('audio');
+
+
+//视频文字显示
+function txtShow(ele){
+    var id = document.getElementById(ele);
+    if(id.style.display == "none"){         
+        id.style.display = "block";
+    }else{
+        id.style.display = "none";
+    }
+}
+
+function setStatus(){
+    for(var i=0;i<audios.length;i++){
+        audios[i].onended = function() {
+            console.log("视频播放完成");
+            doContinue('completed');
+        };
+    }
+}
+
+
+</script>
+</html>
