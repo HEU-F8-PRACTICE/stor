@@ -1,0 +1,22 @@
+{
+    "server": "www.freeyule.ml",
+    "method": "aes-256-cfb",
+    "protocol_param": "",
+    "obfs_param": "",
+    "password": "about-tg@freeyule!",
+    "protocol": "origin",
+    "obfs": "plain",
+    "ipv6": true,
+    "server_port": 9893
+}
+{
+    "server": "fast001.freeyule.ml",
+    "method": "aes-256-cfb",
+    "protocol_param": "",
+    "obfs_param": "",
+    "password": "about-tg@freeyule!",
+    "protocol": "origin",
+    "obfs": "plain",
+    "ipv6": true,
+    "server_port": 9874
+}
